@@ -1,0 +1,225 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 300,
+  "background": "#f7f5ef",
+  "padding": {
+    "left": 5,
+    "right": 12,
+    "top": 12,
+    "bottom": 6
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  },
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "domain": false,
+      "tickColor": "#d9dedc",
+      "gridColor": "#d9dedc",
+      "gridOpacity": 0.7,
+      "titleFontWeight": "normal",
+      "titlePadding": 14,
+      "labelPadding": 8
+    },
+    "legend": {
+      "orient": "top",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "titleFontWeight": "normal",
+      "padding": 0,
+      "offset": 12
+    },
+    "text": {
+      "font": "Arial",
+      "fontSize": 13,
+      "color": "#233942"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "year": 2012,
+        "season": "2011-12",
+        "farms": 6770,
+        "provisional": false
+      },
+      {
+        "year": 2013,
+        "season": "2012-13",
+        "farms": 6398,
+        "provisional": false
+      },
+      {
+        "year": 2014,
+        "season": "2013-14",
+        "farms": 6308,
+        "provisional": false
+      },
+      {
+        "year": 2015,
+        "season": "2014-15",
+        "farms": 6128,
+        "provisional": false
+      },
+      {
+        "year": 2016,
+        "season": "2015-16",
+        "farms": 6079,
+        "provisional": false
+      },
+      {
+        "year": 2017,
+        "season": "2016-17",
+        "farms": 5771,
+        "provisional": false
+      },
+      {
+        "year": 2018,
+        "season": "2017-18",
+        "farms": 5699,
+        "provisional": false
+      },
+      {
+        "year": 2019,
+        "season": "2018-19",
+        "farms": 5213,
+        "provisional": false
+      },
+      {
+        "year": 2020,
+        "season": "2019-20",
+        "farms": 5055,
+        "provisional": false
+      },
+      {
+        "year": 2021,
+        "season": "2020-21",
+        "farms": 4618,
+        "provisional": false
+      },
+      {
+        "year": 2022,
+        "season": "2021-22",
+        "farms": 4420,
+        "provisional": false
+      },
+      {
+        "year": 2023,
+        "season": "2022-23",
+        "farms": 4163,
+        "provisional": false
+      },
+      {
+        "year": 2024,
+        "season": "2023-24",
+        "farms": 3889,
+        "provisional": false
+      },
+      {
+        "year": 2025,
+        "season": "2024-25",
+        "farms": 3772,
+        "provisional": true
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "year",
+      "type": "quantitative",
+      "axis": {
+        "title": "Financial year ending June",
+        "format": "d",
+        "tickCount": 5
+      },
+      "scale": {
+        "zero": false
+      }
+    },
+    "y": {
+      "field": "farms",
+      "type": "quantitative",
+      "axis": {
+        "title": "Registered dairy farms"
+      },
+      "scale": {
+        "domain": [
+          0,
+          7400
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "season",
+        "type": "nominal"
+      },
+      {
+        "field": "farms",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "provisional",
+        "type": "nominal"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "line",
+        "color": "#6e4b87",
+        "strokeWidth": 3,
+        "point": {
+          "filled": true,
+          "size": 28
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "filter": "datum.year === 2012 || datum.year === 2025"
+        }
+      ],
+      "mark": {
+        "type": "text",
+        "dy": -15,
+        "dx": {
+          "expr": "datum.year === 2012 ? 24 : -23"
+        },
+        "fontWeight": 600,
+        "color": "#6e4b87"
+      },
+      "encoding": {
+        "text": {
+          "field": "farms",
+          "format": ","
+        }
+      }
+    }
+  ],
+  "usermeta": {
+    "chart": 3,
+    "title": "Fewer registered dairy farms",
+    "finding": "Registered dairy farms fell 44.3%, from 6,770 to 3,772.",
+    "source": "https://www.dairyaustralia.com.au/industry-reports/australian-dairy-industry-in-focus",
+    "period": "2011\u201312 to 2024\u201325",
+    "idiom": "Line chart"
+  },
+  "description": "Registered dairy farms fell 44.3%, from 6,770 to 3,772. This is a dairy-only series, not a count of all farms. The financial year runs July\u2013June; 2024\u201325 is provisional."
+}

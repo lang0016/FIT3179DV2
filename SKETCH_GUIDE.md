@@ -47,7 +47,8 @@ to all farming sectors or add a causal explanation that has not been verified.
   shrunk. Dairy NT/ACT are “not reported”, never invented zeroes.
 - Legends above charts, direct names where possible, and source notes below.
 - Serif headings, sans-serif body/labels, equal columns, generous spacing.
-- A consistent sector-colour key. No red/green comparisons or rainbow quantities.
+- The shared colour meanings: blue for agriculture, violet for dairy.
+  Use direct sector names; no red/green comparisons or rainbow quantities.
 - Explanations for mirrored age bars, the box plot's middle half, turnover, and
   non-employing businesses, written for a general Malaysian reader.
 - Labels and annotations outside data marks; tooltips as optional detail.

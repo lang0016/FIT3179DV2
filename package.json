@@ -1,0 +1,9 @@
+{
+  "name": "australian-farmers-fit3179",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Australian Farmers: a static Vega/Vega-Lite presentation by Ang Lin Shan",
+  "scripts": {"test": "node scripts/check_site.mjs"},
+  "devDependencies": {"playwright": "1.58.2"},
+  "engines": {"node": ">=20"}
+}

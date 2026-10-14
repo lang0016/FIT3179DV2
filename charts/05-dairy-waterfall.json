@@ -1,0 +1,202 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 310,
+  "background": "#f7f5ef",
+  "padding": {
+    "left": 5,
+    "right": 12,
+    "top": 12,
+    "bottom": 6
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  },
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "domain": false,
+      "tickColor": "#d9dedc",
+      "gridColor": "#d9dedc",
+      "gridOpacity": 0.7,
+      "titleFontWeight": "normal",
+      "titlePadding": 14,
+      "labelPadding": 8
+    },
+    "legend": {
+      "orient": "top",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "titleFontWeight": "normal",
+      "padding": 0,
+      "offset": 12
+    },
+    "text": {
+      "font": "Arial",
+      "fontSize": 13,
+      "color": "#233942"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "label": "2021\u201322",
+        "bottom": 0,
+        "top": 4420,
+        "value": 4420,
+        "kind": "Total",
+        "display": "4,420"
+      },
+      {
+        "label": "VIC",
+        "bottom": 3912,
+        "top": 4420,
+        "value": -508,
+        "kind": "Change",
+        "display": "-508"
+      },
+      {
+        "label": "NSW",
+        "bottom": 3861,
+        "top": 3912,
+        "value": -51,
+        "kind": "Change",
+        "display": "-51"
+      },
+      {
+        "label": "TAS",
+        "bottom": 3831,
+        "top": 3861,
+        "value": -30,
+        "kind": "Change",
+        "display": "-30"
+      },
+      {
+        "label": "QLD",
+        "bottom": 3804,
+        "top": 3831,
+        "value": -27,
+        "kind": "Change",
+        "display": "-27"
+      },
+      {
+        "label": "WA",
+        "bottom": 3787,
+        "top": 3804,
+        "value": -17,
+        "kind": "Change",
+        "display": "-17"
+      },
+      {
+        "label": "SA",
+        "bottom": 3772,
+        "top": 3787,
+        "value": -15,
+        "kind": "Change",
+        "display": "-15"
+      },
+      {
+        "label": "2024\u201325",
+        "bottom": 0,
+        "top": 3772,
+        "value": 3772,
+        "kind": "Total",
+        "display": "3,772"
+      }
+    ]
+  },
+  "encoding": {
+    "x": {
+      "field": "label",
+      "type": "nominal",
+      "sort": [
+        "2021\u201322",
+        "VIC",
+        "NSW",
+        "TAS",
+        "QLD",
+        "WA",
+        "SA",
+        "2024\u201325"
+      ],
+      "axis": {
+        "title": null,
+        "labelAngle": 0
+      }
+    },
+    "y": {
+      "field": "top",
+      "type": "quantitative",
+      "axis": {
+        "title": "Registered dairy farms"
+      },
+      "scale": {
+        "domain": [
+          0,
+          4900
+        ]
+      }
+    },
+    "tooltip": [
+      {
+        "field": "label",
+        "type": "nominal"
+      },
+      {
+        "field": "value",
+        "type": "quantitative",
+        "format": "+,.0f"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "size": {
+          "expr": "max(12, width / 14)"
+        }
+      },
+      "encoding": {
+        "y2": {
+          "field": "bottom"
+        },
+        "color": {
+          "value": "#6e4b87"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "dy": -12,
+        "fontWeight": 600
+      },
+      "encoding": {
+        "text": {
+          "field": "display"
+        }
+      }
+    }
+  ],
+  "usermeta": {
+    "chart": 5,
+    "title": "Victoria accounts for most of the decline",
+    "finding": "Victoria accounts for 508 of the 648 fewer registered dairy farms.",
+    "source": "https://www.dairyaustralia.com.au/industry-reports/australian-dairy-industry-in-focus",
+    "period": "2021\u201322 \u2192 2024\u201325",
+    "idiom": "Waterfall chart"
+  },
+  "description": "Victoria accounts for 508 of the 648 fewer registered dairy farms. Floating bars subtract each state\u2019s contribution. This is an accounting comparison, not an explanation of why farms left. End year provisional."
+}

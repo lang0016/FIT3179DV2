@@ -1,0 +1,807 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 310,
+  "background": "#f7f5ef",
+  "padding": {
+    "left": 5,
+    "right": 12,
+    "top": 12,
+    "bottom": 6
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  },
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "domain": false,
+      "tickColor": "#d9dedc",
+      "gridColor": "#d9dedc",
+      "gridOpacity": 0.7,
+      "titleFontWeight": "normal",
+      "titlePadding": 14,
+      "labelPadding": 8
+    },
+    "legend": {
+      "orient": "top",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "titleFontWeight": "normal",
+      "padding": 0,
+      "offset": 12
+    },
+    "text": {
+      "font": "Arial",
+      "fontSize": 13,
+      "color": "#233942"
+    }
+  },
+  "layer": [
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2000-02-01",
+            "workers": 384.8871667,
+            "year": 2000
+          },
+          {
+            "date": "2000-05-01",
+            "workers": 378.0381934,
+            "year": 2000
+          },
+          {
+            "date": "2000-08-01",
+            "workers": 371.6817611,
+            "year": 2000
+          },
+          {
+            "date": "2000-11-01",
+            "workers": 364.3230593,
+            "year": 2000
+          },
+          {
+            "date": "2001-02-01",
+            "workers": 357.414465,
+            "year": 2001
+          },
+          {
+            "date": "2001-05-01",
+            "workers": 364.4656175,
+            "year": 2001
+          },
+          {
+            "date": "2001-08-01",
+            "workers": 384.0283825,
+            "year": 2001
+          },
+          {
+            "date": "2001-11-01",
+            "workers": 385.7218079,
+            "year": 2001
+          },
+          {
+            "date": "2002-02-01",
+            "workers": 377.5804878,
+            "year": 2002
+          },
+          {
+            "date": "2002-05-01",
+            "workers": 372.1017732,
+            "year": 2002
+          },
+          {
+            "date": "2002-08-01",
+            "workers": 341.2069931,
+            "year": 2002
+          },
+          {
+            "date": "2002-11-01",
+            "workers": 314.3541907,
+            "year": 2002
+          },
+          {
+            "date": "2003-02-01",
+            "workers": 305.6737114,
+            "year": 2003
+          },
+          {
+            "date": "2003-05-01",
+            "workers": 324.7046492,
+            "year": 2003
+          },
+          {
+            "date": "2003-08-01",
+            "workers": 318.2681554,
+            "year": 2003
+          },
+          {
+            "date": "2003-11-01",
+            "workers": 322.4402632,
+            "year": 2003
+          },
+          {
+            "date": "2004-02-01",
+            "workers": 315.5084334,
+            "year": 2004
+          },
+          {
+            "date": "2004-05-01",
+            "workers": 309.3571851,
+            "year": 2004
+          },
+          {
+            "date": "2004-08-01",
+            "workers": 303.3006489,
+            "year": 2004
+          },
+          {
+            "date": "2004-11-01",
+            "workers": 306.1197064,
+            "year": 2004
+          },
+          {
+            "date": "2005-02-01",
+            "workers": 312.1440315,
+            "year": 2005
+          },
+          {
+            "date": "2005-05-01",
+            "workers": 298.960487,
+            "year": 2005
+          },
+          {
+            "date": "2005-08-01",
+            "workers": 303.8461444,
+            "year": 2005
+          },
+          {
+            "date": "2005-11-01",
+            "workers": 294.5691369,
+            "year": 2005
+          },
+          {
+            "date": "2006-02-01",
+            "workers": 306.1300646,
+            "year": 2006
+          },
+          {
+            "date": "2006-05-01",
+            "workers": 287.8912601,
+            "year": 2006
+          },
+          {
+            "date": "2006-08-01",
+            "workers": 302.04328,
+            "year": 2006
+          },
+          {
+            "date": "2006-11-01",
+            "workers": 300.7404453,
+            "year": 2006
+          },
+          {
+            "date": "2007-02-01",
+            "workers": 304.2788039,
+            "year": 2007
+          },
+          {
+            "date": "2007-05-01",
+            "workers": 293.7304849,
+            "year": 2007
+          },
+          {
+            "date": "2007-08-01",
+            "workers": 307.6516474,
+            "year": 2007
+          },
+          {
+            "date": "2007-11-01",
+            "workers": 296.0694623,
+            "year": 2007
+          },
+          {
+            "date": "2008-02-01",
+            "workers": 269.4013529,
+            "year": 2008
+          },
+          {
+            "date": "2008-05-01",
+            "workers": 298.0208887,
+            "year": 2008
+          },
+          {
+            "date": "2008-08-01",
+            "workers": 308.5622297,
+            "year": 2008
+          },
+          {
+            "date": "2008-11-01",
+            "workers": 313.4674632,
+            "year": 2008
+          },
+          {
+            "date": "2009-02-01",
+            "workers": 320.9010506,
+            "year": 2009
+          },
+          {
+            "date": "2009-05-01",
+            "workers": 299.6241358,
+            "year": 2009
+          },
+          {
+            "date": "2009-08-01",
+            "workers": 302.9053301,
+            "year": 2009
+          },
+          {
+            "date": "2009-11-01",
+            "workers": 307.4795699,
+            "year": 2009
+          },
+          {
+            "date": "2010-02-01",
+            "workers": 305.5499311,
+            "year": 2010
+          },
+          {
+            "date": "2010-05-01",
+            "workers": 314.839365,
+            "year": 2010
+          },
+          {
+            "date": "2010-08-01",
+            "workers": 311.9801195,
+            "year": 2010
+          },
+          {
+            "date": "2010-11-01",
+            "workers": 309.1284885,
+            "year": 2010
+          },
+          {
+            "date": "2011-02-01",
+            "workers": 276.1369649,
+            "year": 2011
+          },
+          {
+            "date": "2011-05-01",
+            "workers": 279.8687667,
+            "year": 2011
+          },
+          {
+            "date": "2011-08-01",
+            "workers": 257.4733716,
+            "year": 2011
+          },
+          {
+            "date": "2011-11-01",
+            "workers": 278.5775471,
+            "year": 2011
+          },
+          {
+            "date": "2012-02-01",
+            "workers": 277.2277808,
+            "year": 2012
+          },
+          {
+            "date": "2012-05-01",
+            "workers": 295.2743253,
+            "year": 2012
+          },
+          {
+            "date": "2012-08-01",
+            "workers": 274.229265,
+            "year": 2012
+          },
+          {
+            "date": "2012-11-01",
+            "workers": 258.4833501,
+            "year": 2012
+          },
+          {
+            "date": "2013-02-01",
+            "workers": 256.3010116,
+            "year": 2013
+          },
+          {
+            "date": "2013-05-01",
+            "workers": 255.061896,
+            "year": 2013
+          },
+          {
+            "date": "2013-08-01",
+            "workers": 244.0607581,
+            "year": 2013
+          },
+          {
+            "date": "2013-11-01",
+            "workers": 281.6072455,
+            "year": 2013
+          },
+          {
+            "date": "2014-02-01",
+            "workers": 273.0606217,
+            "year": 2014
+          },
+          {
+            "date": "2014-05-01",
+            "workers": 282.7779301,
+            "year": 2014
+          },
+          {
+            "date": "2014-08-01",
+            "workers": 283.5815673,
+            "year": 2014
+          },
+          {
+            "date": "2014-11-01",
+            "workers": 280.382545,
+            "year": 2014
+          },
+          {
+            "date": "2015-02-01",
+            "workers": 279.4940133,
+            "year": 2015
+          },
+          {
+            "date": "2015-05-01",
+            "workers": 253.9382349,
+            "year": 2015
+          },
+          {
+            "date": "2015-08-01",
+            "workers": 271.9717551,
+            "year": 2015
+          },
+          {
+            "date": "2015-11-01",
+            "workers": 279.3641322,
+            "year": 2015
+          },
+          {
+            "date": "2016-02-01",
+            "workers": 286.8039383,
+            "year": 2016
+          },
+          {
+            "date": "2016-05-01",
+            "workers": 288.6204234,
+            "year": 2016
+          },
+          {
+            "date": "2016-08-01",
+            "workers": 252.8558613,
+            "year": 2016
+          },
+          {
+            "date": "2016-11-01",
+            "workers": 240.8278537,
+            "year": 2016
+          },
+          {
+            "date": "2017-02-01",
+            "workers": 262.7057579,
+            "year": 2017
+          },
+          {
+            "date": "2017-05-01",
+            "workers": 259.0941986,
+            "year": 2017
+          },
+          {
+            "date": "2017-08-01",
+            "workers": 277.0066431,
+            "year": 2017
+          },
+          {
+            "date": "2017-11-01",
+            "workers": 278.7709516,
+            "year": 2017
+          },
+          {
+            "date": "2018-02-01",
+            "workers": 290.7337696,
+            "year": 2018
+          },
+          {
+            "date": "2018-05-01",
+            "workers": 289.1344625,
+            "year": 2018
+          },
+          {
+            "date": "2018-08-01",
+            "workers": 284.8124406,
+            "year": 2018
+          },
+          {
+            "date": "2018-11-01",
+            "workers": 289.412006,
+            "year": 2018
+          },
+          {
+            "date": "2019-02-01",
+            "workers": 301.5359173,
+            "year": 2019
+          },
+          {
+            "date": "2019-05-01",
+            "workers": 279.9422099,
+            "year": 2019
+          },
+          {
+            "date": "2019-08-01",
+            "workers": 272.2995305,
+            "year": 2019
+          },
+          {
+            "date": "2019-11-01",
+            "workers": 272.5028449,
+            "year": 2019
+          },
+          {
+            "date": "2020-02-01",
+            "workers": 287.1869383,
+            "year": 2020
+          },
+          {
+            "date": "2020-05-01",
+            "workers": 308.2694004,
+            "year": 2020
+          },
+          {
+            "date": "2020-08-01",
+            "workers": 317.4616379,
+            "year": 2020
+          },
+          {
+            "date": "2020-11-01",
+            "workers": 303.4411691,
+            "year": 2020
+          },
+          {
+            "date": "2021-02-01",
+            "workers": 297.3560705,
+            "year": 2021
+          },
+          {
+            "date": "2021-05-01",
+            "workers": 274.1889992,
+            "year": 2021
+          },
+          {
+            "date": "2021-08-01",
+            "workers": 270.9436357,
+            "year": 2021
+          },
+          {
+            "date": "2021-11-01",
+            "workers": 284.5290116,
+            "year": 2021
+          },
+          {
+            "date": "2022-02-01",
+            "workers": 262.7602045,
+            "year": 2022
+          },
+          {
+            "date": "2022-05-01",
+            "workers": 251.5635648,
+            "year": 2022
+          },
+          {
+            "date": "2022-08-01",
+            "workers": 253.8557758,
+            "year": 2022
+          },
+          {
+            "date": "2022-11-01",
+            "workers": 255.6184036,
+            "year": 2022
+          },
+          {
+            "date": "2023-02-01",
+            "workers": 265.3060641,
+            "year": 2023
+          },
+          {
+            "date": "2023-05-01",
+            "workers": 248.2017474,
+            "year": 2023
+          },
+          {
+            "date": "2023-08-01",
+            "workers": 254.8493327,
+            "year": 2023
+          },
+          {
+            "date": "2023-11-01",
+            "workers": 262.5703076,
+            "year": 2023
+          },
+          {
+            "date": "2024-02-01",
+            "workers": 268.2999802,
+            "year": 2024
+          },
+          {
+            "date": "2024-05-01",
+            "workers": 291.6738717,
+            "year": 2024
+          },
+          {
+            "date": "2024-08-01",
+            "workers": 285.670602,
+            "year": 2024
+          },
+          {
+            "date": "2024-11-01",
+            "workers": 255.4476647,
+            "year": 2024
+          },
+          {
+            "date": "2025-02-01",
+            "workers": 246.3359937,
+            "year": 2025
+          },
+          {
+            "date": "2025-05-01",
+            "workers": 259.3035191,
+            "year": 2025
+          },
+          {
+            "date": "2025-08-01",
+            "workers": 255.1076516,
+            "year": 2025
+          },
+          {
+            "date": "2025-11-01",
+            "workers": 226.2711609,
+            "year": 2025
+          },
+          {
+            "date": "2026-02-01",
+            "workers": 245.8796288,
+            "year": 2026
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "color": "#53656e",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal",
+          "axis": {
+            "title": null,
+            "format": "%Y",
+            "tickCount": 5
+          }
+        },
+        "y": {
+          "field": "workers",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              430
+            ]
+          },
+          "axis": {
+            "title": "Estimated agricultural workers (thousands)"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "nominal"
+          },
+          {
+            "field": "workers",
+            "type": "quantitative",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2000-07-01",
+            "workers": 374.732545125
+          },
+          {
+            "date": "2001-07-01",
+            "workers": 372.907568225
+          },
+          {
+            "date": "2002-07-01",
+            "workers": 351.3108612
+          },
+          {
+            "date": "2003-07-01",
+            "workers": 317.7716948
+          },
+          {
+            "date": "2004-07-01",
+            "workers": 308.57149345
+          },
+          {
+            "date": "2005-07-01",
+            "workers": 302.37994994999997
+          },
+          {
+            "date": "2006-07-01",
+            "workers": 299.2012625
+          },
+          {
+            "date": "2007-07-01",
+            "workers": 300.432599625
+          },
+          {
+            "date": "2008-07-01",
+            "workers": 297.36298362499997
+          },
+          {
+            "date": "2009-07-01",
+            "workers": 307.7275216
+          },
+          {
+            "date": "2010-07-01",
+            "workers": 310.374476025
+          },
+          {
+            "date": "2011-07-01",
+            "workers": 273.014162575
+          },
+          {
+            "date": "2012-07-01",
+            "workers": 276.3036803
+          },
+          {
+            "date": "2013-07-01",
+            "workers": 259.2577278
+          },
+          {
+            "date": "2014-07-01",
+            "workers": 279.95066602500003
+          },
+          {
+            "date": "2015-07-01",
+            "workers": 271.192033875
+          },
+          {
+            "date": "2016-07-01",
+            "workers": 267.277019175
+          },
+          {
+            "date": "2017-07-01",
+            "workers": 269.3943878
+          },
+          {
+            "date": "2018-07-01",
+            "workers": 288.523169675
+          },
+          {
+            "date": "2019-07-01",
+            "workers": 281.57012565
+          },
+          {
+            "date": "2020-07-01",
+            "workers": 304.089786425
+          },
+          {
+            "date": "2021-07-01",
+            "workers": 281.75442925
+          },
+          {
+            "date": "2022-07-01",
+            "workers": 255.949487175
+          },
+          {
+            "date": "2023-07-01",
+            "workers": 257.73186295
+          },
+          {
+            "date": "2024-07-01",
+            "workers": 275.27302965
+          },
+          {
+            "date": "2025-07-01",
+            "workers": 246.754581325
+          }
+        ]
+      },
+      "mark": {
+        "type": "line",
+        "color": "#174a67",
+        "strokeWidth": 3
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "workers",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "nominal"
+          },
+          {
+            "field": "workers",
+            "type": "quantitative",
+            "format": ".1f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "date": "2026-02-01",
+            "workers": 245.8796288,
+            "year": 2026
+          }
+        ]
+      },
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "color": "#174a67",
+        "size": 65
+      },
+      "encoding": {
+        "x": {
+          "field": "date",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "workers",
+          "type": "quantitative"
+        },
+        "tooltip": [
+          {
+            "field": "date",
+            "type": "nominal"
+          },
+          {
+            "field": "workers",
+            "type": "quantitative",
+            "format": ".1f"
+          }
+        ]
+      }
+    }
+  ],
+  "usermeta": {
+    "chart": 12,
+    "title": "Agriculture\u2019s workforce has become smaller",
+    "finding": "The annual average fell from 375,000 in 2000 to 247,000 in 2025.",
+    "source": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026",
+    "period": "2000 \u2192 February 2026",
+    "idiom": "Time-series line chart"
+  },
+  "description": "The annual average fell from 375,000 in 2000 to 247,000 in 2025. Thin line: original quarterly estimates. Thick line: complete-year averages. Latest quarter: about 245,900 in February 2026. This counts the agriculture industry, not just the farmer occupation."
+}

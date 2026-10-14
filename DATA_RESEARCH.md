@@ -138,9 +138,9 @@ Hashes identify the downloaded bytes; they are not official signatures.
   state geography** deliberately; the page explicitly says this is not the latest
   ASGS edition. Do not call it the current edition.
 - Rights: ABS CC BY 4.0 subject to source exceptions and derivative attribution.
-- Status: landing page and download listing verified; geometry has **not** yet
-  been downloaded, simplified, projected, or joined. Those are implementation
-  tasks. Preserve state codes and topology; report dropped islands/territories.
+- Status: official geometry downloaded, checksum recorded, simplified and joined
+  to all eight state/territory codes. See `data/map_sources.json` and
+  `scripts/prepare_maps.py`. The implemented preparation preserves state codes and topology and records exclusions.
 - Charts: 1, 2, 10; Albers equal-area for ordinary maps, then explicit area
   transformation for the cartogram.
 
@@ -215,8 +215,7 @@ The prepared CSVs and findings JSON total approximately **292 KB**. The original
 files remain outside the checkout. This is an extract-size measurement, not a
 claim about a finished website's network download size.
 
-Remaining before building/publishing: final sketch and tutor feedback; boundary
-preparation/joins; final wording for chart-specific changes; latest-release
-recheck; palette/contrast/colour-vision checks; chart rendering and accessibility;
-HTTP/browser checks at the brief's four laptop widths; total delivered data size.
-No website, sketch PDF, browser validation, or GitHub Pages deployment is claimed.
+The website and map preparation are now implemented. Executed browser checks,
+contrast measurements and download size are recorded in [VALIDATION.md](VALIDATION.md).
+The student still supplies the hand-drawn sketch, personal AI acknowledgement,
+Moodle submission and interview. No sketch PDF is claimed.

@@ -3,11 +3,11 @@
 Research-backed plan for **Ang Lin Shan**, FIT3179, Malaysian campus.
 Updated **15 October 2026 (Malaysia)** · `lang0016/FIT3179DV2`.
 
-**Stage: data research and planning, before the hand-drawn sketch and website.**
-Official data has now been downloaded and checked. This replaces the earlier
-blocked, provisional plan. Source details and remaining implementation checks
-are in [DATA_RESEARCH.md](DATA_RESEARCH.md). Reproducible extracts are in
-[data/research](data/research), not invented example data.
+**Stage: implemented website.** All twelve Vega/Vega-Lite charts, source links,
+accessible labels and data tables are built. See [VALIDATION.md](VALIDATION.md)
+for executed checks and [submission](submission) for the Moodle description and
+student checklist. The hand-drawn sketch and personal AI acknowledgement remain
+student tasks. Reproducible research extracts are in [data/research](data/research).
 
 ## Story
 
@@ -48,7 +48,7 @@ or policy. Additional causal annotations require separate verified evidence.
 | --- | --- |
 | What | Geographic states; agricultural business classes and sector groups; dates; business and farm counts; workforce survey estimates; ordered age, employment-size, and turnover classes. |
 | Why | Locate farming businesses; distinguish concentration from local importance; follow change; compare sectors; understand who works as a farmer. |
-| How | Five scrolling sections; 12 complementary Vega/Vega-Lite charts; consistent sector colours, direct findings, small data inputs, and restrained interaction. |
+| How | Five scrolling sections; 12 complementary Vega/Vega-Lite charts; consistent colour meanings, direct findings, small data inputs, and restrained interaction. |
 
 ## Revised chart sequence
 
@@ -105,28 +105,13 @@ than relabelling forestry/fishing workers as farmers.
 - Labour Force values are survey estimates, in thousands. Display sensible rounded
   figures and use “estimated/about”; retain unrounded source values in data.
 
-## Colour meanings, before implementation
+## Implemented colour meanings
 
-| Meaning | Proposed colour / rule |
-| --- | --- |
-| Agriculture overall | Deep blue `#174A67`; sequential blue lightness for quantities. Final map bins must pass contrast testing. |
-| Geographic context | Light neutral grey; no-data uses hatching and a label. |
-| Earlier / later time | Charcoal / deep blue, always date-labelled. |
-| Dairy | Violet `#6E4B87` everywhere a sector identity is encoded. |
-| Nursery/floriculture | `#795548` |
-| Mushrooms/vegetables | `#496B83` |
-| Fruit/tree nuts | `#9A651D` |
-| Sheep/beef/grain | `#174A67` (agriculture focus; avoid using this alongside an ambiguous aggregate category). |
-| Other crops | `#666A35` |
-| Poultry | `#8B4975` |
-| Deer | `#4C6271` |
-| Other livestock | `#694B3E` |
-| Employment/turnover size | Ordered single-hue lightness, explicitly labelled; do not reuse sector hues to mean size. |
-
-These are proposed semantic assignments, not a claim that a palette already
-passes all visual tests. Colour alone must never identify a sector. Nine sectors
-are difficult to distinguish by hue: use direct names, legends and sector
-highlighting rather than requiring a reader to memorise a nine-colour key.
+The definitive colour-meaning table is in [README.md](README.md). Deep blue
+represents overall agriculture; violet consistently identifies the registered
+dairy-farm case study. Ordered blue lightness represents quantity or size class.
+Slate is labelled temporal context. Direct sector names replace a nine-hue key.
+The sector control adds an ink outline and preserves all values and their contrast.
 
 ## Layout, interaction, and future validation
 
@@ -146,12 +131,13 @@ simplification and geometry join checks belong to implementation; choose the
 calling it the latest geography. Keep total delivered chart data/geometry below
 2 MB and verify the actual requests later.
 
-Before publication: build only after the student has drawn the agreed A4 sketch;
-render every Vega/Vega-Lite specification over HTTP; test widths 1180, 1280, 1366,
-and 1440; check overflow, requests/console, labels/annotations, contrast,
-accessibility, line lengths, data totals and source citations. These browser
-checks have **not** run because the website has not been built.
+Implemented checks and their results are recorded in [VALIDATION.md](VALIDATION.md).
+The page has been rendered over HTTP at 1180, 1280, 1366 and 1440 px; the test
+suite is committed in `scripts/check_site.mjs`. The implemented box plot uses
+horizontal sector rows for label legibility. Cartogram silhouettes are resized
+from equal-area geometry and relocated without overlap; a common area-per-farm
+factor is retained. Ordinary state maps use simplified official 2021 boundaries.
 
-Next student milestone: follow [SKETCH_GUIDE.md](SKETCH_GUIDE.md), obtain tutor
-feedback on the map idioms and box plot, and supply any revisions. The AI
-acknowledgement remains the student's own writing; no sketch PDF has been generated.
+The student must now draw a hand-made A4 sketch matching the final page, review
+tutor feedback, and add their personal AI acknowledgement before submission.
+See [SKETCH_GUIDE.md](SKETCH_GUIDE.md). No digital sketch PDF has been substituted.

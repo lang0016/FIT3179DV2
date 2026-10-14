@@ -1,0 +1,405 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 365,
+  "background": "#f7f5ef",
+  "padding": {
+    "left": 5,
+    "right": 12,
+    "top": 12,
+    "bottom": 6
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  },
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "domain": false,
+      "tickColor": "#d9dedc",
+      "gridColor": "#d9dedc",
+      "gridOpacity": 0.7,
+      "titleFontWeight": "normal",
+      "titlePadding": 14,
+      "labelPadding": 8
+    },
+    "legend": {
+      "orient": "top",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "titleFontWeight": "normal",
+      "padding": 0,
+      "offset": 12
+    },
+    "text": {
+      "font": "Arial",
+      "fontSize": 13,
+      "color": "#233942"
+    }
+  },
+  "projection": {
+    "type": "albers",
+    "rotate": [
+      -132,
+      0,
+      0
+    ],
+    "parallels": [
+      -18,
+      -36
+    ],
+    "center": [
+      0,
+      -27
+    ]
+  },
+  "data": {
+    "url": "data/states.geojson",
+    "format": {
+      "type": "json",
+      "property": "features"
+    }
+  },
+  "transform": [
+    {
+      "lookup": "properties.code",
+      "from": {
+        "data": {
+          "values": [
+            {
+              "code": "1",
+              "state": "New South Wales",
+              "abbr": "NSW",
+              "businesses": 45163,
+              "all_businesses": 916603,
+              "share": 4.927214944747071,
+              "previous": 45643,
+              "lon": 147,
+              "lat": -32,
+              "label_lon": 153,
+              "label_lat": -29.5,
+              "label": "NSW \u00b7 45,163"
+            },
+            {
+              "code": "2",
+              "state": "Victoria",
+              "abbr": "VIC",
+              "businesses": 32754,
+              "all_businesses": 754400,
+              "share": 4.341728525980912,
+              "previous": 33255,
+              "lon": 144.5,
+              "lat": -37,
+              "label_lon": 140,
+              "label_lat": -38.8,
+              "label": "VIC \u00b7 32,754"
+            },
+            {
+              "code": "3",
+              "state": "Queensland",
+              "abbr": "QLD",
+              "businesses": 35460,
+              "all_businesses": 524024,
+              "share": 6.766865639741691,
+              "previous": 35512,
+              "lon": 144,
+              "lat": -22,
+              "label_lon": 148,
+              "label_lat": -18.5,
+              "label": "QLD \u00b7 35,460"
+            },
+            {
+              "code": "4",
+              "state": "South Australia",
+              "abbr": "SA",
+              "businesses": 13831,
+              "all_businesses": 168699,
+              "share": 8.198625955103468,
+              "previous": 14152,
+              "lon": 134,
+              "lat": -30,
+              "label_lon": 129,
+              "label_lat": -33.8,
+              "label": "SA \u00b7 13,831"
+            },
+            {
+              "code": "5",
+              "state": "Western Australia",
+              "abbr": "WA",
+              "businesses": 12523,
+              "all_businesses": 266273,
+              "share": 4.70306790399327,
+              "previous": 12728,
+              "lon": 121,
+              "lat": -25,
+              "label_lon": 115,
+              "label_lat": -23,
+              "label": "WA \u00b7 12,523"
+            },
+            {
+              "code": "6",
+              "state": "Tasmania",
+              "abbr": "TAS",
+              "businesses": 4015,
+              "all_businesses": 44244,
+              "share": 9.074676792333424,
+              "previous": 4087,
+              "lon": 147,
+              "lat": -42,
+              "label_lon": 150,
+              "label_lat": -44,
+              "label": "TAS \u00b7 4,015"
+            },
+            {
+              "code": "7",
+              "state": "Northern Territory",
+              "abbr": "NT",
+              "businesses": 633,
+              "all_businesses": 16796,
+              "share": 3.7687544653488927,
+              "previous": 637,
+              "lon": 133,
+              "lat": -19,
+              "label_lon": 133,
+              "label_lat": -15,
+              "label": "NT \u00b7 633"
+            },
+            {
+              "code": "8",
+              "state": "Australian Capital Territory",
+              "abbr": "ACT",
+              "businesses": 260,
+              "all_businesses": 36996,
+              "share": 0.7027786787760839,
+              "previous": 268,
+              "lon": 149.1,
+              "lat": -35.5,
+              "label_lon": 155,
+              "label_lat": -35.5,
+              "label": "ACT \u00b7 260"
+            }
+          ]
+        },
+        "key": "code",
+        "fields": [
+          "state",
+          "abbr",
+          "businesses",
+          "all_businesses",
+          "share"
+        ]
+      }
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#f7f5ef",
+        "strokeWidth": 1.5
+      },
+      "encoding": {
+        "color": {
+          "field": "share",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              10
+            ],
+            "range": [
+              "#4c7189",
+              "#426780",
+              "#355b75",
+              "#294f6a",
+              "#1c425f",
+              "#113650"
+            ]
+          },
+          "legend": {
+            "title": "Agriculture / all businesses (%)",
+            "gradientLength": 190,
+            "format": ".0f"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "state",
+            "type": "nominal"
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "format": ".1f"
+          },
+          {
+            "field": "businesses",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "all_businesses",
+            "type": "quantitative",
+            "format": ",.0f"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "code": "1",
+            "state": "New South Wales",
+            "abbr": "NSW",
+            "businesses": 45163,
+            "all_businesses": 916603,
+            "share": 4.927214944747071,
+            "previous": 45643,
+            "lon": 147,
+            "lat": -32,
+            "label_lon": 153,
+            "label_lat": -29.5,
+            "label": "NSW \u00b7 45,163"
+          },
+          {
+            "code": "2",
+            "state": "Victoria",
+            "abbr": "VIC",
+            "businesses": 32754,
+            "all_businesses": 754400,
+            "share": 4.341728525980912,
+            "previous": 33255,
+            "lon": 144.5,
+            "lat": -37,
+            "label_lon": 140,
+            "label_lat": -38.8,
+            "label": "VIC \u00b7 32,754"
+          },
+          {
+            "code": "3",
+            "state": "Queensland",
+            "abbr": "QLD",
+            "businesses": 35460,
+            "all_businesses": 524024,
+            "share": 6.766865639741691,
+            "previous": 35512,
+            "lon": 144,
+            "lat": -22,
+            "label_lon": 148,
+            "label_lat": -18.5,
+            "label": "QLD \u00b7 35,460"
+          },
+          {
+            "code": "4",
+            "state": "South Australia",
+            "abbr": "SA",
+            "businesses": 13831,
+            "all_businesses": 168699,
+            "share": 8.198625955103468,
+            "previous": 14152,
+            "lon": 134,
+            "lat": -30,
+            "label_lon": 129,
+            "label_lat": -33.8,
+            "label": "SA \u00b7 13,831"
+          },
+          {
+            "code": "5",
+            "state": "Western Australia",
+            "abbr": "WA",
+            "businesses": 12523,
+            "all_businesses": 266273,
+            "share": 4.70306790399327,
+            "previous": 12728,
+            "lon": 121,
+            "lat": -25,
+            "label_lon": 115,
+            "label_lat": -23,
+            "label": "WA \u00b7 12,523"
+          },
+          {
+            "code": "7",
+            "state": "Northern Territory",
+            "abbr": "NT",
+            "businesses": 633,
+            "all_businesses": 16796,
+            "share": 3.7687544653488927,
+            "previous": 637,
+            "lon": 133,
+            "lat": -19,
+            "label_lon": 133,
+            "label_lat": -15,
+            "label": "NT \u00b7 633"
+          }
+        ]
+      },
+      "transform": [],
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "color": "#f7f5ef"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon"
+        },
+        "latitude": {
+          "field": "lat"
+        },
+        "text": {
+          "field": "abbr"
+        }
+      }
+    },
+    {
+      "data": {
+        "values": [
+          {
+            "lon": 150,
+            "lat": -43.2
+          }
+        ]
+      },
+      "transform": [],
+      "mark": {
+        "type": "text",
+        "fontSize": 12,
+        "fontWeight": 600,
+        "color": "#233942"
+      },
+      "encoding": {
+        "longitude": {
+          "field": "lon"
+        },
+        "latitude": {
+          "field": "lat"
+        },
+        "text": {
+          "value": "TAS"
+        }
+      }
+    }
+  ],
+  "usermeta": {
+    "chart": 1,
+    "title": "Small state, strong farming presence",
+    "finding": "Agriculture makes up 9.1% of Tasmania\u2019s businesses, versus 4.9% in NSW.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2025",
+    "idiom": "Choropleth map"
+  },
+  "description": "Agriculture makes up 9.1% of Tasmania\u2019s businesses, versus 4.9% in NSW. Colour shows a share of actively trading businesses, not land area or employment. Main-state allocation; class-cell sums are approximate."
+}

@@ -1,0 +1,235 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 300,
+  "background": "#f7f5ef",
+  "padding": {
+    "left": 5,
+    "right": 12,
+    "top": 12,
+    "bottom": 6
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  },
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "domain": false,
+      "tickColor": "#d9dedc",
+      "gridColor": "#d9dedc",
+      "gridOpacity": 0.7,
+      "titleFontWeight": "normal",
+      "titlePadding": 14,
+      "labelPadding": 8
+    },
+    "legend": {
+      "orient": "top",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "titleFontWeight": "normal",
+      "padding": 0,
+      "offset": 12
+    },
+    "text": {
+      "font": "Arial",
+      "fontSize": 13,
+      "color": "#233942"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "earlier": 45643,
+        "later": 45163,
+        "change": -480
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "earlier": 33255,
+        "later": 32754,
+        "change": -501
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "earlier": 35512,
+        "later": 35460,
+        "change": -52
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "earlier": 14152,
+        "later": 13831,
+        "change": -321
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "earlier": 12728,
+        "later": 12523,
+        "change": -205
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "earlier": 4087,
+        "later": 4015,
+        "change": -72
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "earlier": 637,
+        "later": 633,
+        "change": -4
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "earlier": 268,
+        "later": 260,
+        "change": -8
+      }
+    ]
+  },
+  "encoding": {
+    "y": {
+      "field": "abbr",
+      "type": "nominal",
+      "sort": [
+        "NSW",
+        "QLD",
+        "VIC",
+        "SA",
+        "WA",
+        "TAS",
+        "NT",
+        "ACT"
+      ],
+      "axis": {
+        "title": null
+      }
+    },
+    "tooltip": [
+      {
+        "field": "state",
+        "type": "nominal"
+      },
+      {
+        "field": "earlier",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "later",
+        "type": "quantitative",
+        "format": ",.0f"
+      },
+      {
+        "field": "change",
+        "type": "quantitative",
+        "format": "+,.0f"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "mark": {
+        "type": "rule",
+        "color": "#53656e",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "x": {
+          "field": "earlier",
+          "type": "quantitative",
+          "axis": {
+            "title": "Agriculture businesses",
+            "format": "~s"
+          },
+          "scale": {
+            "zero": true
+          }
+        },
+        "x2": {
+          "field": "later"
+        }
+      }
+    },
+    {
+      "transform": [
+        {
+          "fold": [
+            "earlier",
+            "later"
+          ],
+          "as": [
+            "date",
+            "count"
+          ]
+        }
+      ],
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 75
+      },
+      "encoding": {
+        "x": {
+          "field": "count",
+          "type": "quantitative"
+        },
+        "shape": {
+          "field": "date",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "earlier",
+              "later"
+            ],
+            "range": [
+              "circle",
+              "diamond"
+            ]
+          },
+          "legend": {
+            "title": null,
+            "labelExpr": "datum.label === 'earlier' ? 'June 2024' : 'June 2025'"
+          }
+        },
+        "color": {
+          "condition": {
+            "test": "datum.date === 'later'",
+            "value": "#174a67"
+          },
+          "value": "#53656e"
+        }
+      }
+    }
+  ],
+  "usermeta": {
+    "chart": 4,
+    "title": "A year of business change",
+    "finding": "VIC records the largest fall: 501 fewer agriculture businesses.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2024 \u2192 June 2025",
+    "idiom": "Dumbbell chart"
+  },
+  "description": "VIC records the largest fall: 501 fewer agriculture businesses. Endpoints compare the same agriculture classes. Small changes may reflect confidentiality adjustments, not real entries or exits."
+}

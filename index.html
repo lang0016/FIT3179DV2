@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Who farms Australia? Explore verified data on agricultural businesses, farmers, dairy farms and a changing workforce. By Ang Lin Shan, Monash Malaysia.">
+  <meta name="theme-color" content="#174a67">
+  <title>Who farms Australia? · Ang Lin Shan</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/vendor/vega.min.js"></script>
+  <script defer src="assets/vendor/vega-lite.min.js"></script>
+  <script defer src="assets/vendor/vega-embed.min.js"></script>
+  <script defer src="assets/app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to the visualisation</a>
+<header class="masthead page-width">
+  <span class="brand"><svg aria-hidden="true" viewBox="0 0 34 34"><path d="M3 27h28M3 20h28M3 13h28M3 6h28"/></svg>FIELD NOTES <span>AUSTRALIA</span></span>
+  <span class="edition">A farming story in twelve views</span>
+</header>
+<main id="main" class="page-width">
+  <section class="hero" aria-labelledby="page-title">
+    <div class="hero-grid">
+      <div><span class="eyebrow">AUSTRALIAN FARMERS</span><h1 id="page-title">Who farms<br><em>Australia?</em></h1></div>
+      <div class="hero-copy"><span class="intro-rule"></span><p>Behind Australian farming are people, businesses and places.</p><p>Look closer: their stories change across sectors and generations.</p><p>This is a story about who farms, where businesses operate, and what has changed.</p></div>
+    </div>
+    <div class="byline">By <strong>Ang Lin Shan</strong><span>Monash University · Malaysian campus</span><time datetime="2026-10-15">15 October 2026</time></div>
+    <div class="hero-stats">
+      <div><span class="stat-value">59<span>%</span></span><p>of Farmers and Farm Managers are aged 55+.</p><span class="stat-source">Estimated · February 2026 · <a href="#source-workforce">ABS</a></span></div>
+      <div><span class="stat-value purple">44.3<span>%</span></span><p>fewer registered dairy farms over thirteen years.</p><span class="stat-source">2011–12 → 2024–25 · <a href="#source-dairy">Dairy Australia</a></span></div>
+      <div><span class="stat-value">70.4<span>%</span></span><p>of agriculture businesses are in sheep, beef and grain.</p><span class="stat-source">Derived class totals · June 2025 · <a href="#source-business">ABS</a></span></div>
+    </div>
+    <aside class="reading-key"><span class="key-label">BEFORE WE BEGIN</span><div><p>A business is not necessarily one farm.</p><p>A farmer is an occupation. Agricultural workers include other jobs.</p></div><div><p>Registered dairy farms are a separate measure.</p><p>Each chart names its unit and period.</p></div></aside>
+  </section>
+  <noscript><p>This visualisation needs JavaScript. The <a href="DATA_RESEARCH.md">research register</a> and <a href="data/research/findings.json">calculated findings</a> remain available.</p></noscript>
+  <section class="story-section" aria-labelledby="section-1">
+    <div class="section-heading"><span class="section-number">01</span><div><span class="eyebrow">PLACE</span><h2 id="section-1">A different farming footprint</h2></div></div>
+    <div class="section-intro"><p>The largest business count does not mean the highest local share.</p><p>Read these two maps together. One shows composition; the other shows totals.</p></div>
+    <div class="card-grid" data-charts="1,2"></div>
+    <dl class="state-key" aria-label="Australian state abbreviations"><div><dt>NSW</dt><dd>New South Wales</dd></div><div><dt>VIC</dt><dd>Victoria</dd></div><div><dt>QLD</dt><dd>Queensland</dd></div><div><dt>SA</dt><dd>South Australia</dd></div><div><dt>WA</dt><dd>Western Australia</dd></div><div><dt>TAS</dt><dd>Tasmania</dd></div><div><dt>NT</dt><dd>Northern Territory</dd></div><div><dt>ACT</dt><dd>Australian Capital Territory</dd></div></dl>
+  </section>
+  <section class="story-section" aria-labelledby="section-2">
+    <div class="section-heading"><span class="section-number">02</span><div><span class="eyebrow">CHANGE</span><h2 id="section-2">Fewer farms, different measures</h2></div></div>
+    <div class="section-intro"><p>Dairy offers a clear long-term farm-count record.</p><p>Business records tell another story. Their definition is broader than registered dairy farms.</p></div>
+    <div class="card-grid" data-charts="3,4"></div>
+    <div class="card-grid single" data-charts="5"></div>
+  </section>
+  <section class="story-section" aria-labelledby="section-3">
+    <div class="section-heading"><span class="section-number">03</span><div><span class="eyebrow">PEOPLE</span><h2 id="section-3">The people behind the numbers</h2></div></div>
+    <div class="section-intro"><p>Farming has a distinctly older occupational workforce.</p><p>Business staffing varies, too. “Non-employing” can still include working owners and family.</p></div>
+    <div class="card-grid" data-charts="6,7"></div>
+  </section>
+  <section class="story-section" aria-labelledby="section-4">
+    <div class="section-heading"><span class="section-number">04</span><div><span class="eyebrow">SECTORS</span><h2 id="section-4">There is no typical farm business</h2></div></div>
+    <div class="section-intro"><p>Agriculture includes very different businesses, from nurseries to cattle farms.</p><p>Compare their business mix and annual sales. Neither measure tells us profit.</p></div>
+    <div class="sector-control"><label for="sector-focus">Highlight a sector</label><select id="sector-focus"><option>All sectors</option></select><span>Highlights charts 7–9; every sector stays visible.</span></div>
+    <div class="card-grid" data-charts="8,9"></div>
+  </section>
+  <section class="story-section" aria-labelledby="section-5">
+    <div class="section-heading"><span class="section-number">05</span><div><span class="eyebrow">PERSPECTIVE</span><h2 id="section-5">Look beyond the size of the land</h2></div></div>
+    <div class="section-intro"><p>Land area can hide where businesses are concentrated.</p><p>Changing the map reveals dairy’s Victorian centre. Staffing and workforce trends add another perspective.</p></div>
+    <div class="card-grid single" data-charts="10"></div>
+    <div class="card-grid" data-charts="11,12"></div>
+  </section>
+  <section class="closing" aria-labelledby="conclusion-title"><span class="eyebrow">WHAT TO TAKE AWAY</span><h2 id="conclusion-title">One industry.<br>Many different stories.</h2><div class="closing-copy"><p>Australian farming is not one uniform workforce or business model.</p><p>Dairy’s registered farm count has fallen. Farmers skew older, and business structures differ between sectors.</p><p>Keep the definitions in view. They change what a number can tell us.</p></div></section>
+  <section class="sources" aria-labelledby="sources-title"><div class="section-heading"><span class="section-number">↳</span><div><span class="eyebrow">SOURCES & METHODS</span><h2 id="sources-title">Where the numbers come from</h2></div></div>
+    <div class="source-grid">
+      <article id="source-business"><h3>Business records</h3><p>Australian Bureau of Statistics: <a href="https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025">Counts of Australian Businesses, July 2021–June 2025</a>.</p><p>Cubes 1–3. Agriculture classes only; forestry, fishing and support services excluded.</p><p>Detailed cells are adjusted for confidentiality. Their sums can differ slightly from published totals.</p><p>Main-state allocation is not a map of farm locations.</p></article>
+      <article id="source-workforce"><h3>Workers and occupations</h3><p>Australian Bureau of Statistics: <a href="https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026">Labour Force, Australia, Detailed, March 2026</a>.</p><p>EQ07a: Farmers and Farm Managers by age and sex.</p><p>Table 06: agriculture industry employment. Both extracts end in February 2026.</p><p>These are survey estimates. Occupation and industry totals measure different populations.</p></article>
+      <article id="source-dairy"><h3>Registered dairy farms</h3><p>Dairy Australia: <a href="https://www.dairyaustralia.com.au/industry-reports/australian-dairy-industry-in-focus">Australian Dairy Industry In Focus 2025</a>, Table 2, printed page 8.</p><p>Sources: state milk authorities and Dairy Australia.</p><p>Registered farms, not ABS business units. The 2024–25 season is provisional.</p><p>NT and ACT are not reported in this table.</p></article>
+      <article><h3>Geography and preparation</h3><p>Based on <a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files">ABS 2021 state boundaries</a>, simplified for display.</p><p>Australian Albers equal-area projection. Remote islands outside the displayed extent are omitted.</p><p>The cartogram resizes and relocates state shapes. Its area represents registered dairy farms.</p><p>See the <a href="DATA_RESEARCH.md">research register</a>, <a href="data/README.md">data guide</a> and <a href="https://github.com/lang0016/FIT3179DV2">repository</a> for preparation details.</p></article>
+    </div>
+    <div class="attribution"><p>Based on Australian Bureau of Statistics data. ABS material: <a href="https://www.abs.gov.au/website-privacy-copyright-and-disclaimer#copyright-and-creative-commons">CC BY 4.0, with stated exceptions</a>.</p><p>Dairy Australia: attributed factual table extract; report artwork and text are not reproduced.</p><p>Sources accessed 15 October 2026. Figures are rounded for reading.</p></div>
+    <aside class="acknowledgement"><span class="eyebrow">STUDENT AI ACKNOWLEDGEMENT</span><p><strong>Ang Lin Shan: add your own acknowledgement here before submission.</strong></p><p>Document your use of generative AI in your own words.</p></aside>
+  </section>
+</main>
+<footer class="page-width footer"><span>ANG LIN SHAN · FIT3179 DV2</span><span>Monash University · Malaysian campus</span><a href="https://github.com/lang0016/FIT3179DV2">View the project ↗</a></footer>
+</body>
+</html>

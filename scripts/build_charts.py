@@ -1,0 +1,151 @@
+#!/usr/bin/env python3
+"""Generate readable Vega/Vega-Lite specifications from verified research extracts."""
+import csv,json,math,statistics
+from collections import defaultdict
+from pathlib import Path
+from shapely.geometry import shape,Polygon,MultiPolygon
+from shapely.ops import transform
+from shapely.affinity import scale,translate
+from pyproj import Transformer
+ROOT=Path(__file__).resolve().parents[1]
+DATA=ROOT/'data/research';CHARTS=ROOT/'charts';CHARTS.mkdir(exist_ok=True)
+BG='#f7f5ef';INK='#233942';BLUE='#174a67';VIOLET='#6e4b87';MUTED='#53656e';GRID='#d9dedc';CONTEXT='#e4e7e2'
+SEQ=['#4c7189','#426780','#355b75','#294f6a','#1c425f','#113650']
+SECTORS=['Sheep, beef cattle and grain','Fruit and tree nuts','Dairy cattle','Other livestock','Other crops','Mushrooms and vegetables','Nursery and floriculture','Poultry','Deer']
+SHORT={'Sheep, beef cattle and grain':'Sheep, beef & grain','Fruit and tree nuts':'Fruit & tree nuts','Dairy cattle':'Dairy cattle','Other livestock':'Other livestock','Other crops':'Other crops','Mushrooms and vegetables':'Mushrooms & vegetables','Nursery and floriculture':'Nurseries & flowers','Poultry':'Poultry','Deer':'Deer'}
+STATE_NAMES=['New South Wales','Victoria','Queensland','South Australia','Western Australia','Tasmania','Northern Territory','Australian Capital Territory']
+ABBR=dict(zip(STATE_NAMES,['NSW','VIC','QLD','SA','WA','TAS','NT','ACT']))
+POS={'New South Wales':[147,-32,153,-29.5],'Victoria':[144.5,-37,140,-38.8],'Queensland':[144,-22,148,-18.5],'South Australia':[134,-30,129,-33.8],'Western Australia':[121,-25,115,-23],'Tasmania':[147,-42,150,-44],'Northern Territory':[133,-19,133,-15],'Australian Capital Territory':[149.1,-35.5,155,-35.5]}
+PROJ={'type':'albers','rotate':[-132,0,0],'parallels':[-18,-36],'center':[0,-27]}
+BIZ='https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025'
+DA='https://www.dairyaustralia.com.au/industry-reports/australian-dairy-industry-in-focus'
+LF='https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026'
+META=[]
+def rows(n):return list(csv.DictReader((DATA/n).open()))
+def save(n,title,kicker,finding,note,source,period,spec,table,columns,idiom):
+ slug=f'{n:02d}-'+['business-share','business-count','dairy-trend','state-change','dairy-waterfall','farmer-pyramid','state-boxplot','sector-heatmap','turnover-composition','dairy-cartogram','employment-treemap','workforce-trend'][n-1]
+ spec['usermeta']={'chart':n,'title':title,'finding':finding,'source':source,'period':period,'idiom':idiom}
+ spec['description']=finding+' '+note
+ (CHARTS/(slug+'.json')).write_text(json.dumps(spec,indent=2)+'\n')
+ META.append(dict(n=n,id='chart-'+str(n),file='charts/'+slug+'.json',title=title,kicker=kicker,finding=finding,note=note,source=source,period=period,idiom=idiom,table=table,columns=columns))
+def vl(height=320):return {'$schema':'https://vega.github.io/schema/vega-lite/v5.json','width':'container','height':height,'background':BG,'padding':{'left':5,'right':12,'top':12,'bottom':6},'autosize':{'type':'fit','contains':'padding','resize':True},'config':{'font':'Arial','view':{'stroke':None},'axis':{'labelFontSize':13,'titleFontSize':13,'labelColor':INK,'titleColor':INK,'domain':False,'tickColor':GRID,'gridColor':GRID,'gridOpacity':0.7,'titleFontWeight':'normal','titlePadding':14,'labelPadding':8},'legend':{'orient':'top','labelFontSize':12,'titleFontSize':12,'labelColor':INK,'titleColor':INK,'titleFontWeight':'normal','padding':0,'offset':12},'text':{'font':'Arial','fontSize':13,'color':INK}}}
+def tooltip(fields):return [{'field':f,'type':'quantitative' if t else 'nominal',**({'format':t} if t else {})} for f,t in fields]
+def sector_params(s):s['params']=[{'name':'sectorFocus','value':'All sectors'}];return s
+def opacity():return {'value':1}
+def main():
+ g=rows('business_groups_employment.csv');dairy=rows('dairy_registered_farms.csv');states=[]
+ totals={r['state']:int(r['businesses']) for r in rows('all_businesses_by_state.csv')}
+ sums=defaultdict(int);by=defaultdict(int)
+ for r in g:
+  sums[(r['year'],r['state'])]+=int(r['total'])
+  by[(r['year'],r['state'],r['sector'])]+=int(r['total'])
+ for i,name in enumerate(STATE_NAMES,1):
+  count=sums[('2025',name)];lon,lat,llon,llat=POS[name]
+  states.append(dict(code=str(i),state=name,abbr=ABBR[name],businesses=count,all_businesses=totals[name],share=count/totals[name]*100,previous=sums[('2024',name)],lon=lon,lat=lat,label_lon=llon,label_lat=llat,label=f'{ABBR[name]} · {count:,}'))
+ # 1: normalised map.
+ s=vl(365);s['projection']=PROJ;s['data']={'url':'data/states.geojson','format':{'type':'json','property':'features'}}
+ s['transform']=[{'lookup':'properties.code','from':{'data':{'values':states},'key':'code','fields':['state','abbr','businesses','all_businesses','share']}}]
+ s['mark']={'type':'geoshape','stroke':BG,'strokeWidth':1.5}
+ s['encoding']={'color':{'field':'share','type':'quantitative','scale':{'domain':[0,10],'range':SEQ},'legend':{'title':'Agriculture / all businesses (%)','gradientLength':190,'format':'.0f'}},'tooltip':tooltip([('state',None),('share','.1f'),('businesses',',.0f'),('all_businesses',',.0f')])}
+ s['layer']=[{'mark':s.pop('mark'),'encoding':s.pop('encoding')},{'data':{'values':[r for r in states if r['abbr'] not in ['ACT','TAS']]},'transform':[],'mark':{'type':'text','fontSize':12,'fontWeight':600,'color':BG},'encoding':{'longitude':{'field':'lon'},'latitude':{'field':'lat'},'text':{'field':'abbr'}}}]
+ s['layer'].append({'data':{'values':[{'lon':150,'lat':-43.2}]},'transform':[],'mark':{'type':'text','fontSize':12,'fontWeight':600,'color':INK},'encoding':{'longitude':{'field':'lon'},'latitude':{'field':'lat'},'text':{'value':'TAS'}}})
+ save(1,'Small state, strong farming presence','THE BUSINESS LANDSCAPE','Agriculture makes up 9.1% of Tasmania’s businesses, versus 4.9% in NSW.','Colour shows a share of actively trading businesses, not land area or employment. Main-state allocation; class-cell sums are approximate.',BIZ,'June 2025',s,states,[['state','State'],['share','Agriculture share (%)'],['businesses','Agriculture businesses'],['all_businesses','All businesses']],'Choropleth map')
+ # 2: proportional symbols with leaders.
+ s=vl(365);s['projection']=PROJ
+ links=[]
+ for r in states:
+  for order,(lon,lat) in enumerate([(r['lon'],r['lat']),(r['label_lon'],r['label_lat'])]):links.append(dict(state=r['state'],lon=lon,lat=lat,order=order))
+ s['layer']=[{'data':{'url':'data/states.geojson','format':{'type':'json','property':'features'}},'mark':{'type':'geoshape','fill':CONTEXT,'stroke':BG,'strokeWidth':1.3}}, {'data':{'values':links},'mark':{'type':'line','color':MUTED,'strokeWidth':0.7},'encoding':{'longitude':{'field':'lon'},'latitude':{'field':'lat'},'detail':{'field':'state'},'order':{'field':'order'}}},{'data':{'values':states},'mark':{'type':'circle','color':BLUE,'opacity':1,'stroke':BG,'strokeWidth':1.5},'encoding':{'longitude':{'field':'lon'},'latitude':{'field':'lat'},'size':{'field':'businesses','type':'quantitative','scale':{'domain':[0,50000],'range':[0,6500]},'legend':None},'tooltip':tooltip([('state',None),('businesses',',.0f')])}},{'data':{'values':states},'mark':{'type':'text','fontSize':12,'fontWeight':600,'stroke':BG,'strokeWidth':3,'strokeJoin':'round'},'encoding':{'longitude':{'field':'label_lon'},'latitude':{'field':'label_lat'},'text':{'field':'label'}}},{'data':{'values':states},'mark':{'type':'text','fontSize':12,'fontWeight':600,'fill':INK},'encoding':{'longitude':{'field':'label_lon'},'latitude':{'field':'label_lat'},'text':{'field':'label'}}}]
+ save(2,'NSW has the largest business count','COUNT, NOT COVERAGE','NSW has 45,163 agriculture businesses; Tasmania has 4,015.','Circle area is proportional to business count. Points represent state totals, not farm locations. Unknown/other geography is excluded from maps.',BIZ,'June 2025',s,states,[['state','State'],['businesses','Agriculture businesses']],'Proportional-symbol map')
+ # 3: dairy time series.
+ dt=[dict(year=int(r['financial_year'][:4])+1,season=r['financial_year'],farms=int(r['registered_farms']),provisional=r['provisional']=='True') for r in dairy if r['state']=='Australia']
+ s=vl(300);s['data']={'values':dt};s['encoding']={'x':{'field':'year','type':'quantitative','axis':{'title':'Financial year ending June','format':'d','tickCount':5},'scale':{'zero':False}},'y':{'field':'farms','type':'quantitative','axis':{'title':'Registered dairy farms'},'scale':{'domain':[0,7400]}},'tooltip':tooltip([('season',None),('farms',',.0f'),('provisional',None)])}
+ s['layer']=[{'mark':{'type':'line','color':VIOLET,'strokeWidth':3,'point':{'filled':True,'size':28}}},{'transform':[{'filter':'datum.year === 2012 || datum.year === 2025'}],'mark':{'type':'text','dy':-15,'dx':{'expr':"datum.year === 2012 ? 24 : -23"},'fontWeight':600,'color':VIOLET},'encoding':{'text':{'field':'farms','format':','}}}]
+ save(3,'Fewer registered dairy farms','THIRTEEN YEARS OF CHANGE','Registered dairy farms fell 44.3%, from 6,770 to 3,772.','This is a dairy-only series, not a count of all farms. The financial year runs July–June; 2024–25 is provisional.',DA,'2011–12 to 2024–25',s,dt,[['season','Financial year'],['farms','Registered farms'],['provisional','Provisional']],'Line chart')
+ # 4: state dumbbell; select six main states, tiny territories table retained.
+ change=[dict(state=r['state'],abbr=r['abbr'],earlier=r['previous'],later=r['businesses'],change=r['businesses']-r['previous']) for r in states]
+ s=vl(300);s['data']={'values':change};s['encoding']={'y':{'field':'abbr','type':'nominal','sort':[ABBR[x] for x in sorted(STATE_NAMES,key=lambda n:sums[('2025',n)],reverse=True)],'axis':{'title':None}},'tooltip':tooltip([('state',None),('earlier',',.0f'),('later',',.0f'),('change','+,.0f')])}
+ s['layer']=[{'mark':{'type':'rule','color':MUTED,'strokeWidth':2},'encoding':{'x':{'field':'earlier','type':'quantitative','axis':{'title':'Agriculture businesses','format':'~s'},'scale':{'zero':True}},'x2':{'field':'later'}}},{'transform':[{'fold':['earlier','later'],'as':['date','count']}],'mark':{'type':'point','filled':True,'size':75},'encoding':{'x':{'field':'count','type':'quantitative'},'shape':{'field':'date','type':'nominal','scale':{'domain':['earlier','later'],'range':['circle','diamond']},'legend':{'title':None,'labelExpr':"datum.label === 'earlier' ? 'June 2024' : 'June 2025'"}},'color':{'condition':{'test':"datum.date === 'later'",'value':BLUE},'value':MUTED}}}]
+ largest=min(change,key=lambda r:r['change'])
+ save(4,'A year of business change','SAME DEFINITION, TWO DATES',f"{largest['abbr']} records the largest fall: {abs(largest['change']):,} fewer agriculture businesses.",'Endpoints compare the same agriculture classes. Small changes may reflect confidentiality adjustments, not real entries or exits.',BIZ,'June 2024 → June 2025',s,change,[['state','State'],['earlier','June 2024'],['later','June 2025'],['change','Change']],'Dumbbell chart')
+ # 5: exact state contributions to dairy decline.
+ dlookup={(r['financial_year'],r['state']):int(r['registered_farms']) for r in dairy};start=dlookup[('2021-22','Australia')];end=dlookup[('2024-25','Australia')];running=start;wf=[dict(label='2021–22',bottom=0,top=start,value=start,kind='Total',display=f'{start:,}')]
+ for state in ['Victoria','New South Wales','Tasmania','Queensland','Western Australia','South Australia']:
+  delta=dlookup[('2024-25',state)]-dlookup[('2021-22',state)];nxt=running+delta;wf.append(dict(label=ABBR[state],bottom=min(running,nxt),top=max(running,nxt),value=delta,kind='Change',display=f'{delta:+,}'));running=nxt
+ assert running==end
+ wf.append(dict(label='2024–25',bottom=0,top=end,value=end,kind='Total',display=f'{end:,}'))
+ s=vl(310);s['data']={'values':wf};s['encoding']={'x':{'field':'label','type':'nominal','sort':[x['label'] for x in wf],'axis':{'title':None,'labelAngle':0}},'y':{'field':'top','type':'quantitative','axis':{'title':'Registered dairy farms'},'scale':{'domain':[0,4900]}},'tooltip':tooltip([('label',None),('value','+,.0f')])};s['layer']=[{'mark':{'type':'bar','size':{'expr':'max(12, width / 14)'}},'encoding':{'y2':{'field':'bottom'},'color':{'value':VIOLET}}},{'mark':{'type':'text','dy':-12,'fontWeight':600},'encoding':{'text':{'field':'display'}}}]
+ save(5,'Victoria accounts for most of the decline','ONE NATIONAL CHANGE, SIX CONTRIBUTIONS','Victoria accounts for 508 of the 648 fewer registered dairy farms.','Floating bars subtract each state’s contribution. This is an accounting comparison, not an explanation of why farms left. End year provisional.',DA,'2021–22 → 2024–25',s,wf,[['label','State / total'],['value','Contribution or total']],'Waterfall chart')
+ # 6: occupation pyramid.
+ age=rows('farmers_age_sex_latest.csv');ages=['65 years and over','55-64 years','45-54 years','35-44 years','25-34 years','15-24 years'];ar=[]
+ for r in age:ar.append(dict(age=r['age_band'],sex=r['sex'],workers=float(r['total_thousands']),signed=float(r['total_thousands'])*(-1 if r['sex']=='Males' else 1)))
+ s=vl(320);s['data']={'values':ar};s['mark']={'type':'bar','cornerRadiusEnd':2};s['encoding']={'y':{'field':'age','type':'ordinal','sort':ages,'axis':{'title':None,'labelExpr':"replace(replace(datum.label, ' years and over', '+'), ' years', '')"}},'x':{'field':'signed','type':'quantitative','scale':{'domain':[-36,36]},'axis':{'title':'Workers (thousands)','labelExpr':'abs(datum.value)','values':[-30,-15,0,15,30]}},'color':{'value':BLUE},'tooltip':tooltip([('age',None),('sex',None),('workers','.1f')])}
+ save(6,'Farmers are concentrated in older age groups','THE PEOPLE BEHIND THE FARMS','An estimated 59% of Farmers and Farm Managers are aged 55+.','Same colour, labelled sides. Values are survey estimates in thousands. “Farmer” is an occupation, not everyone working in agriculture. Source sex categories are retained.',LF,'February 2026',s,ar,[['age','Age band'],['sex','Source sex category'],['workers','Estimated workers (thousands)']],'Population pyramid')
+ # 7: state distributions of non-employing business share.
+ obs=[];counts=defaultdict(int)
+ for r in g:
+  if r['year']=='2025' and r['state'] in STATE_NAMES and int(r['total'])>=100:counts[r['sector']]+=1
+ for r in g:
+  if r['year']=='2025' and r['state'] in STATE_NAMES and int(r['total'])>=100 and counts[r['sector']]>=5:
+   obs.append(dict(state=r['state'],sector=r['sector'],short=SHORT[r['sector']],share=int(r['non_employing'])/int(r['total'])*100,n=counts[r['sector']]))
+ s=sector_params(vl(340));s['data']={'values':obs};s['encoding']={'y':{'field':'short','type':'nominal','sort':[SHORT[x] for x in SECTORS if counts[x]>=5],'axis':{'title':None,'labelLimit':190}},'x':{'field':'share','type':'quantitative','scale':{'domain':[40,90]},'axis':{'title':'Non-employing (%)','tickCount':6}}};s['layer']=[{'mark':{'type':'boxplot','extent':'min-max','size':14,'color':BLUE,'median':{'color':BG},'outliers':False},'encoding':{}},{'mark':{'type':'point','filled':True,'size':24,'color':BLUE,'stroke':BG,'strokeWidth':0.5},'encoding':{'opacity':opacity(),'stroke':{'condition':{'test':"sectorFocus !== 'All sectors' && datum.sector === sectorFocus",'value':INK},'value':BG},'strokeWidth':{'condition':{'test':"sectorFocus !== 'All sectors' && datum.sector === sectorFocus",'value':3},'value':1},'tooltip':tooltip([('state',None),('sector',None),('share','.1f'),('n',',.0f')])}}]
+ save(7,'Business staffing differs between states','EACH DOT IS A STATE','Dairy’s non-employing share spans about 48–78% across eligible states.','The box holds the middle half of state shares; its line is the median. Each state counts equally. Include ≥100 businesses and ≥5 eligible states per sector. Owners and family may still work.',BIZ,'June 2025',s,obs,[['state','State'],['sector','Sector'],['share','Non-employing (%)'],['n','Eligible states']],'Box plot')
+ # 8: composition heatmap.
+ heat=[]
+ for name in STATE_NAMES:
+  for sector in SECTORS:heat.append(dict(state=name,abbr=ABBR[name],sector=sector,short=SHORT[sector],businesses=by[('2025',name,sector)],share=by[('2025',name,sector)]/sums[('2025',name)]*100))
+ s=sector_params(vl(350));s['data']={'values':heat};s['mark']={'type':'rect','stroke':BG,'strokeWidth':2};s['encoding']={'x':{'field':'abbr','type':'nominal','sort':[ABBR[x] for x in STATE_NAMES],'axis':{'title':None,'labelAngle':0,'orient':'top'}},'y':{'field':'short','type':'nominal','sort':[SHORT[x] for x in SECTORS],'axis':{'title':None,'labelLimit':190}},'color':{'field':'share','type':'quantitative','scale':{'domain':[0,100],'range':SEQ},'legend':{'title':'Share within each state (%)','gradientLength':160}},'opacity':opacity(),'stroke':{'condition':{'test':"sectorFocus !== 'All sectors' && datum.sector === sectorFocus",'value':INK},'value':BG},'strokeWidth':{'condition':{'test':"sectorFocus !== 'All sectors' && datum.sector === sectorFocus",'value':3},'value':1},'tooltip':tooltip([('state',None),('sector',None),('businesses',',.0f'),('share','.1f')])}
+ save(8,'Sheep, beef and grain dominate business numbers','A DIFFERENT MIX IN EVERY STATE','Sheep, beef cattle and grain account for 70.4% of national agriculture-business class totals.','Darker means a larger share, not more workers or revenue. Each state column adds to 100% using the displayed agriculture groups.',BIZ,'June 2025',s,heat,[['state','State'],['sector','Sector'],['businesses','Businesses'],['share','Within-state share (%)']],'Heatmap')
+ # 9: turnover compositions.
+ turns=rows('business_turnover.csv');ta=defaultdict(int);labels=[]
+ for r in turns:
+  if r['year']=='2025':
+   ta[(r['sector'],r['turnover_class'])]+=int(r['businesses'])
+   if r['turnover_class'] not in labels:labels.append(r['turnover_class'])
+ tr=[]
+ short_labels=['< $50k','$50–200k','$200k–2m','$2–5m','$5–10m','$10m+']
+ for sector in SECTORS:
+  denom=sum(ta[(sector,x)] for x in labels)
+  for i,label in enumerate(labels):tr.append(dict(sector=sector,short=SHORT[sector],turnover=short_labels[i],rank=i,businesses=ta[(sector,label)],share=ta[(sector,label)]/denom*100))
+ s=sector_params(vl(350));s['data']={'values':tr};s['mark']={'type':'bar','stroke':BG,'strokeWidth':1};s['encoding']={'y':{'field':'short','type':'nominal','sort':[SHORT[x] for x in SECTORS],'axis':{'title':None,'labelLimit':190}},'x':{'field':'share','type':'quantitative','stack':'zero','scale':{'domain':[0,100]},'axis':{'title':'Share of businesses (%)','tickCount':5}},'order':{'field':'rank'},'color':{'field':'turnover','type':'ordinal','sort':short_labels,'scale':{'domain':short_labels,'range':SEQ},'legend':{'title':'Annual turnover (AUD)','columns':3,'symbolType':'square','labelLimit':95}},'opacity':opacity(),'stroke':{'condition':{'test':"sectorFocus !== 'All sectors' && datum.sector === sectorFocus",'value':INK},'value':BG},'strokeWidth':{'condition':{'test':"sectorFocus !== 'All sectors' && datum.sector === sectorFocus",'value':3},'value':1},'tooltip':tooltip([('sector',None),('turnover',None),('businesses',',.0f'),('share','.1f')])}
+ poultry_high=sum(x['share'] for x in tr if x['sector']=='Poultry' and x['rank']>=2)
+ save(9,'Business size depends on the sector','SALES BEFORE EXPENSES',f'About {poultry_high:.0f}% of poultry businesses report annual turnover of at least AUD 200,000.','Turnover is sales before expenses, not profit. Percentages use displayed size-bin sums; confidentiality adjustments can make these differ from published totals.',BIZ,'June 2025',s,tr,[['sector','Sector'],['turnover','Annual turnover (AUD)'],['businesses','Businesses'],['share','Share (%)']],'100% stacked bars')
+ # 10: non-contiguous cartogram, projected state silhouettes with exact count-proportional areas.
+ features=json.loads((ROOT/'data/states.geojson').read_text())['features'];project=Transformer.from_crs('EPSG:7844','EPSG:3577',always_xy=True).transform
+ targets={'Western Australia':(95,180),'Northern Territory':(310,80),'South Australia':(245,130),'Queensland':(570,95),'New South Wales':(610,240),'Victoria':(365,310),'Tasmania':(620,385),'Australian Capital Territory':(700,330)}
+ cart=[];cart_geometries=[]
+ def path_for(geo):
+  parts=[]
+  for p in ([geo] if isinstance(geo,Polygon) else geo.geoms):
+   for ring in [p.exterior,*p.interiors]:parts.append('M'+'L'.join(f'{x:.2f},{y:.2f}' for x,y in ring.coords)+'Z')
+  return ''.join(parts)
+ for f in features:
+  name=f['properties']['name'];geo=transform(project,shape(f['geometry']));value=dlookup.get(('2024-25',name));x,y=targets[name]
+  factor=math.sqrt((value*10 if value is not None else 650)/geo.area)
+  resized=scale(geo,xfact=factor,yfact=-factor,origin=geo.centroid);resized=translate(resized,xoff=x-resized.centroid.x,yoff=y-resized.centroid.y)
+  # Keep labels outside each silhouette; charts use original state shape and a common area-per-farm.
+  ymin,ymax=resized.bounds[1],resized.bounds[3]
+  assert all(resized.intersection(other).area < 0.01 for other in cart_geometries), 'Cartogram states overlap'
+  cart_geometries.append(resized)
+  cart.append(dict(state=name,abbr=ABBR[name],farms=value,path=path_for(resized),x=x,y=y,label_y=(ymin-12 if name=='South Australia' else ymax+20),label=f'{ABBR[name]} · {value:,}' if value is not None else ABBR[name]+' · not reported',fill=VIOLET if value is not None else CONTEXT))
+ s={'$schema':'https://vega.github.io/schema/vega/v5.json','width':760,'height':470,'padding':0,'background':BG,'autosize':{'type':'fit','contains':'padding','resize':True},'signals':[{'name':'factor','update':'width / 760'}], 'data':[{'name':'states','values':cart}],'marks':[{'type':'path','from':{'data':'states'},'encode':{'update':{'path':{'field':'path'},'scaleX':{'signal':'factor'},'scaleY':{'signal':'factor'},'fill':{'field':'fill'},'stroke':{'value':BG},'strokeWidth':{'value':1},'tooltip':{'signal':"datum.state + ': ' + (isValid(datum.farms) ? format(datum.farms, ',') + ' registered farms' : 'not reported')"}}}},{'type':'text','from':{'data':'states'},'encode':{'update':{'x':{'signal':'datum.x * factor'},'y':{'signal':'datum.label_y * factor'},'text':{'field':'label'},'align':{'signal':"datum.abbr === 'ACT' && width < 500 ? 'right' : 'center'"},'fill':{'value':INK},'fontSize':{'value':13},'fontWeight':{'value':600}}}}]}
+ save(10,'Victoria reshapes the dairy map','AREA NOW MEANS REGISTERED FARMS','Victoria holds 65.6% of Australia’s registered dairy farms.','State silhouettes are resized so area shows registered farms, not land. Equal-area source shapes are repositioned for legibility. Grey NT/ACT shapes mean not reported and are not count-scaled.',DA,'2024–25 · provisional',s,[{'state':r['state'],'farms':r['farms']} for r in cart],[['state','State'],['farms','Registered farms']],'Non-contiguous cartogram')
+ # 11: true Vega treemap, one hue, direct key below the figure.
+ national=[r for r in g if r['year']=='2025' and r['state']=='Australia (published class total)'];fields=['non_employing','employees_1_4','employees_5_19','employees_20_199','employees_200_plus'];emp_labels=['No employees','1–4 employees','5–19 employees','20–199 employees','200+ employees'];emp=[{'id':'root','parent':None,'label':'Agriculture','value':0}]
+ for i,(field,label) in enumerate(zip(fields,emp_labels)):emp.append({'id':str(i),'parent':'root','label':label,'value':sum(int(r[field]) for r in national)})
+ totalbins=sum(r['value'] for r in emp);published=sum(int(r['total']) for r in national)
+ s={'$schema':'https://vega.github.io/schema/vega/v5.json','width':500,'height':310,'padding':0,'background':BG,'autosize':{'type':'fit','contains':'padding','resize':True},'data':[{'name':'tree','values':emp,'transform':[{'type':'stratify','key':'id','parentKey':'parent'},{'type':'treemap','field':'value','sort':{'field':'value','order':'descending'},'method':'squarify','size':[{'signal':'width'},{'signal':'height'}],'paddingInner':3,'round':True}]},{'name':'leaves','source':'tree','transform':[{'type':'filter','expr':'!datum.children'}]}],'marks':[{'type':'rect','from':{'data':'leaves'},'encode':{'update':{'x':{'field':'x0'},'y':{'field':'y0'},'x2':{'field':'x1'},'y2':{'field':'y1'},'fill':{'value':BLUE},'tooltip':{'signal':"datum.label + ': ' + format(datum.value, ',') + ' businesses'"}}}},{'type':'text','from':{'data':'leaves'},'encode':{'update':{'x':{'signal':'(datum.x0+datum.x1)/2'},'y':{'signal':'(datum.y0+datum.y1)/2 - 9'},'text':{'signal':"datum.x1-datum.x0 > 115 && datum.y1-datum.y0 > 55 ? datum.label : ''"},'align':{'value':'center'},'fill':{'value':BG},'fontSize':{'value':14}}}},{'type':'text','from':{'data':'leaves'},'encode':{'update':{'x':{'signal':'(datum.x0+datum.x1)/2'},'y':{'signal':'(datum.y0+datum.y1)/2 + 15'},'text':{'signal':"datum.x1-datum.x0 > 75 && datum.y1-datum.y0 > 55 ? format(datum.value, ',') : ''"},'align':{'value':'center'},'fill':{'value':BG},'fontSize':{'value':16},'fontWeight':{'value':600}}}}]}
+ save(11,'Most businesses have no employees','SMALL TEAMS, MANY OWNERS',f'About {emp[1]["value"]/published*100:.1f}% of the derived agriculture-business total is non-employing.','Owners and family may still work. Rectangle area shows size-bin counts. Tiny groups are named in the data table. Bin sum '+f'{totalbins:,}'+', versus published-class total sum '+f'{published:,}'+': the difference reflects confidentiality adjustments.',BIZ,'June 2025',s,emp[1:],[['label','Employment-size class'],['value','Businesses']],'Treemap')
+ # 12: original quarterly employment with a separate annual-average line.
+ er=[]
+ for r in rows('agriculture_employment.csv'):
+  desc=r['description'].replace('>','').strip()
+  if desc=='Agriculture ;  Employed total ;  Persons ;':er.append(dict(date=r['date'],workers=float(r['workers_thousands']),year=int(r['date'][:4])))
+ annual=defaultdict(list)
+ for r in er:annual[r['year']].append(r['workers'])
+ av=[dict(year=y,workers=statistics.mean(v)) for y,v in sorted(annual.items()) if len(v)==4];latest=er[-1]
+ s=vl(310);s['layer']=[{'data':{'values':er},'mark':{'type':'line','color':MUTED,'strokeWidth':1},'encoding':{'x':{'field':'date','type':'temporal','axis':{'title':None,'format':'%Y','tickCount':5}},'y':{'field':'workers','type':'quantitative','scale':{'domain':[0,430]},'axis':{'title':'Estimated agricultural workers (thousands)'}},'tooltip':tooltip([('date',None),('workers','.1f')])}},{'data':{'values':[dict(date=f'{r["year"]}-07-01',workers=r['workers']) for r in av]},'mark':{'type':'line','color':BLUE,'strokeWidth':3},'encoding':{'x':{'field':'date','type':'temporal'},'y':{'field':'workers','type':'quantitative'},'tooltip':tooltip([('date',None),('workers','.1f')])}},{'data':{'values':[latest]},'mark':{'type':'point','filled':True,'color':BLUE,'size':65},'encoding':{'x':{'field':'date','type':'temporal'},'y':{'field':'workers','type':'quantitative'},'tooltip':tooltip([('date',None),('workers','.1f')])}}]
+ save(12,'Agriculture’s workforce has become smaller','THE LONG VIEW',f'The annual average fell from {av[0]["workers"]:.0f},000 in {av[0]["year"]} to {av[-1]["workers"]:.0f},000 in {av[-1]["year"]}.','Thin line: original quarterly estimates. Thick line: complete-year averages. Latest quarter: about 245,900 in February 2026. This counts the agriculture industry, not just the farmer occupation.',LF,'2000 → February 2026',s,[dict(year=r['year'],workers=r['workers']) for r in av],[['year','Complete year'],['workers','Annual average workers (thousands)']],'Time-series line chart')
+ (ROOT/'assets/charts.json').write_text(json.dumps(META,indent=2)+'\n')
+ print('Generated 12 specifications, metadata and accessible data tables.')
+if __name__=='__main__':main()

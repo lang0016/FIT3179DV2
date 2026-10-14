@@ -1,0 +1,189 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "width": 500,
+  "height": 310,
+  "padding": 0,
+  "background": "#f7f5ef",
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  },
+  "data": [
+    {
+      "name": "tree",
+      "values": [
+        {
+          "id": "root",
+          "parent": null,
+          "label": "Agriculture",
+          "value": 0
+        },
+        {
+          "id": "0",
+          "parent": "root",
+          "label": "No employees",
+          "value": 109401
+        },
+        {
+          "id": "1",
+          "parent": "root",
+          "label": "1\u20134 employees",
+          "value": 26014
+        },
+        {
+          "id": "2",
+          "parent": "root",
+          "label": "5\u201319 employees",
+          "value": 7789
+        },
+        {
+          "id": "3",
+          "parent": "root",
+          "label": "20\u2013199 employees",
+          "value": 1419
+        },
+        {
+          "id": "4",
+          "parent": "root",
+          "label": "200+ employees",
+          "value": 55
+        }
+      ],
+      "transform": [
+        {
+          "type": "stratify",
+          "key": "id",
+          "parentKey": "parent"
+        },
+        {
+          "type": "treemap",
+          "field": "value",
+          "sort": {
+            "field": "value",
+            "order": "descending"
+          },
+          "method": "squarify",
+          "size": [
+            {
+              "signal": "width"
+            },
+            {
+              "signal": "height"
+            }
+          ],
+          "paddingInner": 3,
+          "round": true
+        }
+      ]
+    },
+    {
+      "name": "leaves",
+      "source": "tree",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "!datum.children"
+        }
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x0"
+          },
+          "y": {
+            "field": "y0"
+          },
+          "x2": {
+            "field": "x1"
+          },
+          "y2": {
+            "field": "y1"
+          },
+          "fill": {
+            "value": "#174a67"
+          },
+          "tooltip": {
+            "signal": "datum.label + ': ' + format(datum.value, ',') + ' businesses'"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "(datum.x0+datum.x1)/2"
+          },
+          "y": {
+            "signal": "(datum.y0+datum.y1)/2 - 9"
+          },
+          "text": {
+            "signal": "datum.x1-datum.x0 > 115 && datum.y1-datum.y0 > 55 ? datum.label : ''"
+          },
+          "align": {
+            "value": "center"
+          },
+          "fill": {
+            "value": "#f7f5ef"
+          },
+          "fontSize": {
+            "value": 14
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "(datum.x0+datum.x1)/2"
+          },
+          "y": {
+            "signal": "(datum.y0+datum.y1)/2 + 15"
+          },
+          "text": {
+            "signal": "datum.x1-datum.x0 > 75 && datum.y1-datum.y0 > 55 ? format(datum.value, ',') : ''"
+          },
+          "align": {
+            "value": "center"
+          },
+          "fill": {
+            "value": "#f7f5ef"
+          },
+          "fontSize": {
+            "value": 16
+          },
+          "fontWeight": {
+            "value": 600
+          }
+        }
+      }
+    }
+  ],
+  "usermeta": {
+    "chart": 11,
+    "title": "Most businesses have no employees",
+    "finding": "About 75.6% of the derived agriculture-business total is non-employing.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2025",
+    "idiom": "Treemap"
+  },
+  "description": "About 75.6% of the derived agriculture-business total is non-employing. Owners and family may still work. Rectangle area shows size-bin counts. Tiny groups are named in the data table. Bin sum 144,678, versus published-class total sum 144,681: the difference reflects confidentiality adjustments."
+}

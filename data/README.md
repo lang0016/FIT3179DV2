@@ -1,7 +1,8 @@
 # Research data and provenance
 
 These are **real, filtered source extracts** for research and chart planning.
-There is no website yet. See [the research register](../DATA_RESEARCH.md) for
+The website uses generated readable chart specifications and simplified state
+boundaries. See [the research register](../DATA_RESEARCH.md) for
 source URLs, rights, reference periods, methods, and limitations.
 
 | File in `research/` | Meaning / unit |
@@ -41,3 +42,8 @@ Table 2, printed p.8, credited to state milk authorities and Dairy Australia.
 No open-data licence was identified for that report; the original PDF, text,
 photos and charts are not redistributed here. No blanket software licence
 should be interpreted as relicensing source material.
+
+`states.geojson` contains simplified official ABS state geometry; `map_sources.json`
+records its source, checksum, clipping extent and exclusions. It is prepared by
+`scripts/prepare_maps.py`. Chart JSON and accessible table metadata are generated
+by `scripts/build_charts.py`; no browser-side calculation invents source records.

@@ -1,0 +1,2355 @@
+[
+  {
+    "n": 1,
+    "id": "chart-1",
+    "file": "charts/01-business-share.json",
+    "title": "Small state, strong farming presence",
+    "kicker": "THE BUSINESS LANDSCAPE",
+    "finding": "Agriculture makes up 9.1% of Tasmania\u2019s businesses, versus 4.9% in NSW.",
+    "note": "Colour shows a share of actively trading businesses, not land area or employment. Main-state allocation; class-cell sums are approximate.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2025",
+    "idiom": "Choropleth map",
+    "table": [
+      {
+        "code": "1",
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "businesses": 45163,
+        "all_businesses": 916603,
+        "share": 4.927214944747071,
+        "previous": 45643,
+        "lon": 147,
+        "lat": -32,
+        "label_lon": 153,
+        "label_lat": -29.5,
+        "label": "NSW \u00b7 45,163"
+      },
+      {
+        "code": "2",
+        "state": "Victoria",
+        "abbr": "VIC",
+        "businesses": 32754,
+        "all_businesses": 754400,
+        "share": 4.341728525980912,
+        "previous": 33255,
+        "lon": 144.5,
+        "lat": -37,
+        "label_lon": 140,
+        "label_lat": -38.8,
+        "label": "VIC \u00b7 32,754"
+      },
+      {
+        "code": "3",
+        "state": "Queensland",
+        "abbr": "QLD",
+        "businesses": 35460,
+        "all_businesses": 524024,
+        "share": 6.766865639741691,
+        "previous": 35512,
+        "lon": 144,
+        "lat": -22,
+        "label_lon": 148,
+        "label_lat": -18.5,
+        "label": "QLD \u00b7 35,460"
+      },
+      {
+        "code": "4",
+        "state": "South Australia",
+        "abbr": "SA",
+        "businesses": 13831,
+        "all_businesses": 168699,
+        "share": 8.198625955103468,
+        "previous": 14152,
+        "lon": 134,
+        "lat": -30,
+        "label_lon": 129,
+        "label_lat": -33.8,
+        "label": "SA \u00b7 13,831"
+      },
+      {
+        "code": "5",
+        "state": "Western Australia",
+        "abbr": "WA",
+        "businesses": 12523,
+        "all_businesses": 266273,
+        "share": 4.70306790399327,
+        "previous": 12728,
+        "lon": 121,
+        "lat": -25,
+        "label_lon": 115,
+        "label_lat": -23,
+        "label": "WA \u00b7 12,523"
+      },
+      {
+        "code": "6",
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "businesses": 4015,
+        "all_businesses": 44244,
+        "share": 9.074676792333424,
+        "previous": 4087,
+        "lon": 147,
+        "lat": -42,
+        "label_lon": 150,
+        "label_lat": -44,
+        "label": "TAS \u00b7 4,015"
+      },
+      {
+        "code": "7",
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "businesses": 633,
+        "all_businesses": 16796,
+        "share": 3.7687544653488927,
+        "previous": 637,
+        "lon": 133,
+        "lat": -19,
+        "label_lon": 133,
+        "label_lat": -15,
+        "label": "NT \u00b7 633"
+      },
+      {
+        "code": "8",
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "businesses": 260,
+        "all_businesses": 36996,
+        "share": 0.7027786787760839,
+        "previous": 268,
+        "lon": 149.1,
+        "lat": -35.5,
+        "label_lon": 155,
+        "label_lat": -35.5,
+        "label": "ACT \u00b7 260"
+      }
+    ],
+    "columns": [
+      [
+        "state",
+        "State"
+      ],
+      [
+        "share",
+        "Agriculture share (%)"
+      ],
+      [
+        "businesses",
+        "Agriculture businesses"
+      ],
+      [
+        "all_businesses",
+        "All businesses"
+      ]
+    ]
+  },
+  {
+    "n": 2,
+    "id": "chart-2",
+    "file": "charts/02-business-count.json",
+    "title": "NSW has the largest business count",
+    "kicker": "COUNT, NOT COVERAGE",
+    "finding": "NSW has 45,163 agriculture businesses; Tasmania has 4,015.",
+    "note": "Circle area is proportional to business count. Points represent state totals, not farm locations. Unknown/other geography is excluded from maps.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2025",
+    "idiom": "Proportional-symbol map",
+    "table": [
+      {
+        "code": "1",
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "businesses": 45163,
+        "all_businesses": 916603,
+        "share": 4.927214944747071,
+        "previous": 45643,
+        "lon": 147,
+        "lat": -32,
+        "label_lon": 153,
+        "label_lat": -29.5,
+        "label": "NSW \u00b7 45,163"
+      },
+      {
+        "code": "2",
+        "state": "Victoria",
+        "abbr": "VIC",
+        "businesses": 32754,
+        "all_businesses": 754400,
+        "share": 4.341728525980912,
+        "previous": 33255,
+        "lon": 144.5,
+        "lat": -37,
+        "label_lon": 140,
+        "label_lat": -38.8,
+        "label": "VIC \u00b7 32,754"
+      },
+      {
+        "code": "3",
+        "state": "Queensland",
+        "abbr": "QLD",
+        "businesses": 35460,
+        "all_businesses": 524024,
+        "share": 6.766865639741691,
+        "previous": 35512,
+        "lon": 144,
+        "lat": -22,
+        "label_lon": 148,
+        "label_lat": -18.5,
+        "label": "QLD \u00b7 35,460"
+      },
+      {
+        "code": "4",
+        "state": "South Australia",
+        "abbr": "SA",
+        "businesses": 13831,
+        "all_businesses": 168699,
+        "share": 8.198625955103468,
+        "previous": 14152,
+        "lon": 134,
+        "lat": -30,
+        "label_lon": 129,
+        "label_lat": -33.8,
+        "label": "SA \u00b7 13,831"
+      },
+      {
+        "code": "5",
+        "state": "Western Australia",
+        "abbr": "WA",
+        "businesses": 12523,
+        "all_businesses": 266273,
+        "share": 4.70306790399327,
+        "previous": 12728,
+        "lon": 121,
+        "lat": -25,
+        "label_lon": 115,
+        "label_lat": -23,
+        "label": "WA \u00b7 12,523"
+      },
+      {
+        "code": "6",
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "businesses": 4015,
+        "all_businesses": 44244,
+        "share": 9.074676792333424,
+        "previous": 4087,
+        "lon": 147,
+        "lat": -42,
+        "label_lon": 150,
+        "label_lat": -44,
+        "label": "TAS \u00b7 4,015"
+      },
+      {
+        "code": "7",
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "businesses": 633,
+        "all_businesses": 16796,
+        "share": 3.7687544653488927,
+        "previous": 637,
+        "lon": 133,
+        "lat": -19,
+        "label_lon": 133,
+        "label_lat": -15,
+        "label": "NT \u00b7 633"
+      },
+      {
+        "code": "8",
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "businesses": 260,
+        "all_businesses": 36996,
+        "share": 0.7027786787760839,
+        "previous": 268,
+        "lon": 149.1,
+        "lat": -35.5,
+        "label_lon": 155,
+        "label_lat": -35.5,
+        "label": "ACT \u00b7 260"
+      }
+    ],
+    "columns": [
+      [
+        "state",
+        "State"
+      ],
+      [
+        "businesses",
+        "Agriculture businesses"
+      ]
+    ]
+  },
+  {
+    "n": 3,
+    "id": "chart-3",
+    "file": "charts/03-dairy-trend.json",
+    "title": "Fewer registered dairy farms",
+    "kicker": "THIRTEEN YEARS OF CHANGE",
+    "finding": "Registered dairy farms fell 44.3%, from 6,770 to 3,772.",
+    "note": "This is a dairy-only series, not a count of all farms. The financial year runs July\u2013June; 2024\u201325 is provisional.",
+    "source": "https://www.dairyaustralia.com.au/industry-reports/australian-dairy-industry-in-focus",
+    "period": "2011\u201312 to 2024\u201325",
+    "idiom": "Line chart",
+    "table": [
+      {
+        "year": 2012,
+        "season": "2011-12",
+        "farms": 6770,
+        "provisional": false
+      },
+      {
+        "year": 2013,
+        "season": "2012-13",
+        "farms": 6398,
+        "provisional": false
+      },
+      {
+        "year": 2014,
+        "season": "2013-14",
+        "farms": 6308,
+        "provisional": false
+      },
+      {
+        "year": 2015,
+        "season": "2014-15",
+        "farms": 6128,
+        "provisional": false
+      },
+      {
+        "year": 2016,
+        "season": "2015-16",
+        "farms": 6079,
+        "provisional": false
+      },
+      {
+        "year": 2017,
+        "season": "2016-17",
+        "farms": 5771,
+        "provisional": false
+      },
+      {
+        "year": 2018,
+        "season": "2017-18",
+        "farms": 5699,
+        "provisional": false
+      },
+      {
+        "year": 2019,
+        "season": "2018-19",
+        "farms": 5213,
+        "provisional": false
+      },
+      {
+        "year": 2020,
+        "season": "2019-20",
+        "farms": 5055,
+        "provisional": false
+      },
+      {
+        "year": 2021,
+        "season": "2020-21",
+        "farms": 4618,
+        "provisional": false
+      },
+      {
+        "year": 2022,
+        "season": "2021-22",
+        "farms": 4420,
+        "provisional": false
+      },
+      {
+        "year": 2023,
+        "season": "2022-23",
+        "farms": 4163,
+        "provisional": false
+      },
+      {
+        "year": 2024,
+        "season": "2023-24",
+        "farms": 3889,
+        "provisional": false
+      },
+      {
+        "year": 2025,
+        "season": "2024-25",
+        "farms": 3772,
+        "provisional": true
+      }
+    ],
+    "columns": [
+      [
+        "season",
+        "Financial year"
+      ],
+      [
+        "farms",
+        "Registered farms"
+      ],
+      [
+        "provisional",
+        "Provisional"
+      ]
+    ]
+  },
+  {
+    "n": 4,
+    "id": "chart-4",
+    "file": "charts/04-state-change.json",
+    "title": "A year of business change",
+    "kicker": "SAME DEFINITION, TWO DATES",
+    "finding": "VIC records the largest fall: 501 fewer agriculture businesses.",
+    "note": "Endpoints compare the same agriculture classes. Small changes may reflect confidentiality adjustments, not real entries or exits.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2024 \u2192 June 2025",
+    "idiom": "Dumbbell chart",
+    "table": [
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "earlier": 45643,
+        "later": 45163,
+        "change": -480
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "earlier": 33255,
+        "later": 32754,
+        "change": -501
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "earlier": 35512,
+        "later": 35460,
+        "change": -52
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "earlier": 14152,
+        "later": 13831,
+        "change": -321
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "earlier": 12728,
+        "later": 12523,
+        "change": -205
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "earlier": 4087,
+        "later": 4015,
+        "change": -72
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "earlier": 637,
+        "later": 633,
+        "change": -4
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "earlier": 268,
+        "later": 260,
+        "change": -8
+      }
+    ],
+    "columns": [
+      [
+        "state",
+        "State"
+      ],
+      [
+        "earlier",
+        "June 2024"
+      ],
+      [
+        "later",
+        "June 2025"
+      ],
+      [
+        "change",
+        "Change"
+      ]
+    ]
+  },
+  {
+    "n": 5,
+    "id": "chart-5",
+    "file": "charts/05-dairy-waterfall.json",
+    "title": "Victoria accounts for most of the decline",
+    "kicker": "ONE NATIONAL CHANGE, SIX CONTRIBUTIONS",
+    "finding": "Victoria accounts for 508 of the 648 fewer registered dairy farms.",
+    "note": "Floating bars subtract each state\u2019s contribution. This is an accounting comparison, not an explanation of why farms left. End year provisional.",
+    "source": "https://www.dairyaustralia.com.au/industry-reports/australian-dairy-industry-in-focus",
+    "period": "2021\u201322 \u2192 2024\u201325",
+    "idiom": "Waterfall chart",
+    "table": [
+      {
+        "label": "2021\u201322",
+        "bottom": 0,
+        "top": 4420,
+        "value": 4420,
+        "kind": "Total",
+        "display": "4,420"
+      },
+      {
+        "label": "VIC",
+        "bottom": 3912,
+        "top": 4420,
+        "value": -508,
+        "kind": "Change",
+        "display": "-508"
+      },
+      {
+        "label": "NSW",
+        "bottom": 3861,
+        "top": 3912,
+        "value": -51,
+        "kind": "Change",
+        "display": "-51"
+      },
+      {
+        "label": "TAS",
+        "bottom": 3831,
+        "top": 3861,
+        "value": -30,
+        "kind": "Change",
+        "display": "-30"
+      },
+      {
+        "label": "QLD",
+        "bottom": 3804,
+        "top": 3831,
+        "value": -27,
+        "kind": "Change",
+        "display": "-27"
+      },
+      {
+        "label": "WA",
+        "bottom": 3787,
+        "top": 3804,
+        "value": -17,
+        "kind": "Change",
+        "display": "-17"
+      },
+      {
+        "label": "SA",
+        "bottom": 3772,
+        "top": 3787,
+        "value": -15,
+        "kind": "Change",
+        "display": "-15"
+      },
+      {
+        "label": "2024\u201325",
+        "bottom": 0,
+        "top": 3772,
+        "value": 3772,
+        "kind": "Total",
+        "display": "3,772"
+      }
+    ],
+    "columns": [
+      [
+        "label",
+        "State / total"
+      ],
+      [
+        "value",
+        "Contribution or total"
+      ]
+    ]
+  },
+  {
+    "n": 6,
+    "id": "chart-6",
+    "file": "charts/06-farmer-pyramid.json",
+    "title": "Farmers are concentrated in older age groups",
+    "kicker": "THE PEOPLE BEHIND THE FARMS",
+    "finding": "An estimated 59% of Farmers and Farm Managers are aged 55+.",
+    "note": "Same colour, labelled sides. Values are survey estimates in thousands. \u201cFarmer\u201d is an occupation, not everyone working in agriculture. Source sex categories are retained.",
+    "source": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026",
+    "period": "February 2026",
+    "idiom": "Population pyramid",
+    "table": [
+      {
+        "age": "15-24 years",
+        "sex": "Males",
+        "workers": 1.74279619,
+        "signed": -1.74279619
+      },
+      {
+        "age": "25-34 years",
+        "sex": "Males",
+        "workers": 8.33311045,
+        "signed": -8.33311045
+      },
+      {
+        "age": "35-44 years",
+        "sex": "Males",
+        "workers": 14.61123553,
+        "signed": -14.61123553
+      },
+      {
+        "age": "45-54 years",
+        "sex": "Males",
+        "workers": 18.542877139999998,
+        "signed": -18.542877139999998
+      },
+      {
+        "age": "55-64 years",
+        "sex": "Males",
+        "workers": 30.35098085,
+        "signed": -30.35098085
+      },
+      {
+        "age": "65 years and over",
+        "sex": "Males",
+        "workers": 32.24941807,
+        "signed": -32.24941807
+      },
+      {
+        "age": "15-24 years",
+        "sex": "Females",
+        "workers": 1.83748219,
+        "signed": 1.83748219
+      },
+      {
+        "age": "25-34 years",
+        "sex": "Females",
+        "workers": 3.0011662699999997,
+        "signed": 3.0011662699999997
+      },
+      {
+        "age": "35-44 years",
+        "sex": "Females",
+        "workers": 2.96853666,
+        "signed": 2.96853666
+      },
+      {
+        "age": "45-54 years",
+        "sex": "Females",
+        "workers": 10.70515662,
+        "signed": 10.70515662
+      },
+      {
+        "age": "55-64 years",
+        "sex": "Females",
+        "workers": 9.7994282,
+        "signed": 9.7994282
+      },
+      {
+        "age": "65 years and over",
+        "sex": "Females",
+        "workers": 16.15035512,
+        "signed": 16.15035512
+      }
+    ],
+    "columns": [
+      [
+        "age",
+        "Age band"
+      ],
+      [
+        "sex",
+        "Source sex category"
+      ],
+      [
+        "workers",
+        "Estimated workers (thousands)"
+      ]
+    ]
+  },
+  {
+    "n": 7,
+    "id": "chart-7",
+    "file": "charts/07-state-boxplot.json",
+    "title": "Business staffing differs between states",
+    "kicker": "EACH DOT IS A STATE",
+    "finding": "Dairy\u2019s non-employing share spans about 48\u201378% across eligible states.",
+    "note": "The box holds the middle half of state shares; its line is the median. Each state counts equally. Include \u2265100 businesses and \u22655 eligible states per sector. Owners and family may still work.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2025",
+    "idiom": "Box plot",
+    "table": [
+      {
+        "state": "Australian Capital Territory",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "share": 83.97790055248619,
+        "n": 8
+      },
+      {
+        "state": "New South Wales",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "share": 68.50594227504244,
+        "n": 6
+      },
+      {
+        "state": "New South Wales",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "share": 73.16814159292035,
+        "n": 7
+      },
+      {
+        "state": "New South Wales",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "share": 72.46175243393603,
+        "n": 7
+      },
+      {
+        "state": "New South Wales",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "share": 56.45645645645646,
+        "n": 5
+      },
+      {
+        "state": "New South Wales",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "share": 75.28,
+        "n": 5
+      },
+      {
+        "state": "New South Wales",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "share": 78.54574510587295,
+        "n": 6
+      },
+      {
+        "state": "New South Wales",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "share": 61.601642710472284,
+        "n": 5
+      },
+      {
+        "state": "New South Wales",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "share": 78.77115843319827,
+        "n": 8
+      },
+      {
+        "state": "Northern Territory",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "share": 69.82758620689656,
+        "n": 7
+      },
+      {
+        "state": "Northern Territory",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "share": 70.0,
+        "n": 7
+      },
+      {
+        "state": "Northern Territory",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "share": 64.11764705882354,
+        "n": 8
+      },
+      {
+        "state": "Queensland",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "share": 77.45803357314148,
+        "n": 6
+      },
+      {
+        "state": "Queensland",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "share": 61.90944881889764,
+        "n": 7
+      },
+      {
+        "state": "Queensland",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "share": 64.44636678200692,
+        "n": 7
+      },
+      {
+        "state": "Queensland",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "share": 57.2202166064982,
+        "n": 5
+      },
+      {
+        "state": "Queensland",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "share": 74.80692965977876,
+        "n": 5
+      },
+      {
+        "state": "Queensland",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "share": 81.375,
+        "n": 6
+      },
+      {
+        "state": "Queensland",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "share": 53.30578512396694,
+        "n": 5
+      },
+      {
+        "state": "Queensland",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "share": 84.65093249711173,
+        "n": 8
+      },
+      {
+        "state": "South Australia",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "share": 67.1875,
+        "n": 6
+      },
+      {
+        "state": "South Australia",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "share": 74.49097195543604,
+        "n": 7
+      },
+      {
+        "state": "South Australia",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "share": 75.63676633444075,
+        "n": 7
+      },
+      {
+        "state": "South Australia",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "share": 60.75949367088608,
+        "n": 5
+      },
+      {
+        "state": "South Australia",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "share": 75.0,
+        "n": 5
+      },
+      {
+        "state": "South Australia",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "share": 75.177304964539,
+        "n": 6
+      },
+      {
+        "state": "South Australia",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "share": 54.961832061068705,
+        "n": 5
+      },
+      {
+        "state": "South Australia",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "share": 67.06054467702003,
+        "n": 8
+      },
+      {
+        "state": "Tasmania",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "share": 48.44357976653696,
+        "n": 6
+      },
+      {
+        "state": "Tasmania",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "share": 55.240793201133144,
+        "n": 7
+      },
+      {
+        "state": "Tasmania",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "share": 63.005780346820806,
+        "n": 7
+      },
+      {
+        "state": "Tasmania",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "share": 66.18705035971223,
+        "n": 6
+      },
+      {
+        "state": "Tasmania",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "share": 75.56360708534622,
+        "n": 8
+      },
+      {
+        "state": "Victoria",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "share": 67.06986444212721,
+        "n": 6
+      },
+      {
+        "state": "Victoria",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "share": 68.21983273596177,
+        "n": 7
+      },
+      {
+        "state": "Victoria",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "share": 60.99221789883269,
+        "n": 7
+      },
+      {
+        "state": "Victoria",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "share": 53.97727272727273,
+        "n": 5
+      },
+      {
+        "state": "Victoria",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "share": 79.21760391198043,
+        "n": 5
+      },
+      {
+        "state": "Victoria",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "share": 77.67295597484278,
+        "n": 6
+      },
+      {
+        "state": "Victoria",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "share": 51.187335092348285,
+        "n": 5
+      },
+      {
+        "state": "Victoria",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "share": 79.5661887916589,
+        "n": 8
+      },
+      {
+        "state": "Western Australia",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "share": 59.32835820895522,
+        "n": 6
+      },
+      {
+        "state": "Western Australia",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "share": 67.0598146588037,
+        "n": 7
+      },
+      {
+        "state": "Western Australia",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "share": 64.25269645608628,
+        "n": 7
+      },
+      {
+        "state": "Western Australia",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "share": 51.20772946859904,
+        "n": 5
+      },
+      {
+        "state": "Western Australia",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "share": 71.7948717948718,
+        "n": 5
+      },
+      {
+        "state": "Western Australia",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "share": 76.42276422764228,
+        "n": 6
+      },
+      {
+        "state": "Western Australia",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "share": 46.0,
+        "n": 5
+      },
+      {
+        "state": "Western Australia",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "share": 66.0870492852571,
+        "n": 8
+      }
+    ],
+    "columns": [
+      [
+        "state",
+        "State"
+      ],
+      [
+        "sector",
+        "Sector"
+      ],
+      [
+        "share",
+        "Non-employing (%)"
+      ],
+      [
+        "n",
+        "Eligible states"
+      ]
+    ]
+  },
+  {
+    "n": 8,
+    "id": "chart-8",
+    "file": "charts/08-sector-heatmap.json",
+    "title": "Sheep, beef and grain dominate business numbers",
+    "kicker": "A DIFFERENT MIX IN EVERY STATE",
+    "finding": "Sheep, beef cattle and grain account for 70.4% of national agriculture-business class totals.",
+    "note": "Darker means a larger share, not more workers or revenue. Each state column adds to 100% using the displayed agriculture groups.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2025",
+    "idiom": "Heatmap",
+    "table": [
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "businesses": 34797,
+        "share": 77.04758319863605
+      },
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "businesses": 2825,
+        "share": 6.255120341872772
+      },
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "businesses": 1178,
+        "share": 2.6083298275136726
+      },
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "businesses": 2503,
+        "share": 5.542147332993822
+      },
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "businesses": 1250,
+        "share": 2.7677523636605184
+      },
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "businesses": 1438,
+        "share": 3.1840223191550603
+      },
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "businesses": 666,
+        "share": 1.4746584593583243
+      },
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "businesses": 487,
+        "share": 1.078316320882138
+      },
+      {
+        "state": "New South Wales",
+        "abbr": "NSW",
+        "sector": "Deer",
+        "short": "Deer",
+        "businesses": 19,
+        "share": 0.04206983592763988
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "businesses": 21484,
+        "share": 65.59198876473103
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "businesses": 2511,
+        "share": 7.66623923795567
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "businesses": 4795,
+        "share": 14.639433351651707
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "businesses": 1590,
+        "share": 4.854368932038835
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "businesses": 409,
+        "share": 1.2487024485559015
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "businesses": 1028,
+        "share": 3.1385479636074987
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "businesses": 528,
+        "share": 1.6120168529034622
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "businesses": 379,
+        "share": 1.1571105819136593
+      },
+      {
+        "state": "Victoria",
+        "abbr": "VIC",
+        "sector": "Deer",
+        "short": "Deer",
+        "businesses": 30,
+        "share": 0.09159186664224217
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "businesses": 24236,
+        "share": 68.3474337281444
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "businesses": 2032,
+        "share": 5.730400451212634
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "businesses": 834,
+        "share": 2.3519458544839256
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "businesses": 1600,
+        "share": 4.512126339537507
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "businesses": 4791,
+        "share": 13.510998307952624
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "businesses": 1156,
+        "share": 3.260011280315849
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "businesses": 554,
+        "share": 1.562323745064862
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "businesses": 242,
+        "share": 0.6824591088550479
+      },
+      {
+        "state": "Queensland",
+        "abbr": "QLD",
+        "sector": "Deer",
+        "short": "Deer",
+        "businesses": 15,
+        "share": 0.04230118443316413
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "businesses": 8886,
+        "share": 64.24698141855252
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "businesses": 2603,
+        "share": 18.82004193478418
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "businesses": 448,
+        "share": 3.239100571180681
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "businesses": 564,
+        "share": 4.077796254789964
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "businesses": 128,
+        "share": 0.9254573060516231
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "businesses": 903,
+        "share": 6.528812088786061
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "businesses": 158,
+        "share": 1.1423613621574724
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "businesses": 131,
+        "share": 0.9471477116622081
+      },
+      {
+        "state": "South Australia",
+        "abbr": "SA",
+        "sector": "Deer",
+        "short": "Deer",
+        "businesses": 10,
+        "share": 0.07230135203528305
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "businesses": 9374,
+        "share": 74.85426814661024
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "businesses": 1187,
+        "share": 9.478559450610877
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "businesses": 268,
+        "share": 2.1400622853948734
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "businesses": 615,
+        "share": 4.910963826559131
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "businesses": 117,
+        "share": 0.9342809231014931
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "businesses": 649,
+        "share": 5.182464265751018
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "businesses": 207,
+        "share": 1.652958556256488
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "businesses": 100,
+        "share": 0.7985307035055498
+      },
+      {
+        "state": "Western Australia",
+        "abbr": "WA",
+        "sector": "Deer",
+        "short": "Deer",
+        "businesses": 6,
+        "share": 0.04791184221033299
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "businesses": 2484,
+        "share": 61.867995018679956
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "businesses": 353,
+        "share": 8.792029887920298
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "businesses": 514,
+        "share": 12.801992528019927
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "businesses": 139,
+        "share": 3.4620174346201744
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "businesses": 49,
+        "share": 1.2204234122042341
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "businesses": 346,
+        "share": 8.617683686176838
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "businesses": 91,
+        "share": 2.266500622665006
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "businesses": 36,
+        "share": 0.8966376089663761
+      },
+      {
+        "state": "Tasmania",
+        "abbr": "TAS",
+        "sector": "Deer",
+        "short": "Deer",
+        "businesses": 3,
+        "share": 0.07471980074719801
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "businesses": 340,
+        "share": 53.712480252764614
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "businesses": 116,
+        "share": 18.325434439178515
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "businesses": 3,
+        "share": 0.47393364928909953
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "businesses": 31,
+        "share": 4.897314375987362
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "businesses": 12,
+        "share": 1.8957345971563981
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "businesses": 110,
+        "share": 17.377567140600316
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "businesses": 18,
+        "share": 2.843601895734597
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "businesses": 3,
+        "share": 0.47393364928909953
+      },
+      {
+        "state": "Northern Territory",
+        "abbr": "NT",
+        "sector": "Deer",
+        "short": "Deer",
+        "businesses": 0,
+        "share": 0.0
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "businesses": 181,
+        "share": 69.61538461538461
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "businesses": 23,
+        "share": 8.846153846153847
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "businesses": 5,
+        "share": 1.9230769230769231
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "businesses": 22,
+        "share": 8.461538461538462
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Other crops",
+        "short": "Other crops",
+        "businesses": 0,
+        "share": 0.0
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "businesses": 14,
+        "share": 5.384615384615385
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "businesses": 10,
+        "share": 3.8461538461538463
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Poultry",
+        "short": "Poultry",
+        "businesses": 5,
+        "share": 1.9230769230769231
+      },
+      {
+        "state": "Australian Capital Territory",
+        "abbr": "ACT",
+        "sector": "Deer",
+        "short": "Deer",
+        "businesses": 0,
+        "share": 0.0
+      }
+    ],
+    "columns": [
+      [
+        "state",
+        "State"
+      ],
+      [
+        "sector",
+        "Sector"
+      ],
+      [
+        "businesses",
+        "Businesses"
+      ],
+      [
+        "share",
+        "Within-state share (%)"
+      ]
+    ]
+  },
+  {
+    "n": 9,
+    "id": "chart-9",
+    "file": "charts/09-turnover-composition.json",
+    "title": "Business size depends on the sector",
+    "kicker": "SALES BEFORE EXPENSES",
+    "finding": "About 60% of poultry businesses report annual turnover of at least AUD 200,000.",
+    "note": "Turnover is sales before expenses, not profit. Percentages use displayed size-bin sums; confidentiality adjustments can make these differ from published totals.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2025",
+    "idiom": "100% stacked bars",
+    "table": [
+      {
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 30943,
+        "share": 30.399756353954828
+      },
+      {
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 29574,
+        "share": 29.054790886851954
+      },
+      {
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 33612,
+        "share": 33.02189867075363
+      },
+      {
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 5441,
+        "share": 5.34547633784275
+      },
+      {
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 1543,
+        "share": 1.5159106762160197
+      },
+      {
+        "sector": "Sheep, beef cattle and grain",
+        "short": "Sheep, beef & grain",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 674,
+        "share": 0.6621670743808148
+      },
+      {
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 4077,
+        "share": 34.98669870419634
+      },
+      {
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 3116,
+        "share": 26.739895305929807
+      },
+      {
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 3502,
+        "share": 30.052347035098258
+      },
+      {
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 568,
+        "share": 4.8742813009525445
+      },
+      {
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 206,
+        "share": 1.7677851197116623
+      },
+      {
+        "sector": "Fruit and tree nuts",
+        "short": "Fruit & tree nuts",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 184,
+        "share": 1.5789925341113877
+      },
+      {
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 1325,
+        "share": 16.471904525111885
+      },
+      {
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 1919,
+        "share": 23.856290402784687
+      },
+      {
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 3723,
+        "share": 46.282943809050224
+      },
+      {
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 801,
+        "share": 9.95773247140726
+      },
+      {
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 206,
+        "share": 2.560914967677772
+      },
+      {
+        "sector": "Dairy cattle",
+        "short": "Dairy cattle",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 70,
+        "share": 0.870213823968175
+      },
+      {
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 2700,
+        "share": 38.028169014084504
+      },
+      {
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 2128,
+        "share": 29.971830985915492
+      },
+      {
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 1884,
+        "share": 26.535211267605636
+      },
+      {
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 226,
+        "share": 3.183098591549296
+      },
+      {
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 83,
+        "share": 1.1690140845070423
+      },
+      {
+        "sector": "Other livestock",
+        "short": "Other livestock",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 79,
+        "share": 1.112676056338028
+      },
+      {
+        "sector": "Other crops",
+        "short": "Other crops",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 1475,
+        "share": 21.81629936399941
+      },
+      {
+        "sector": "Other crops",
+        "short": "Other crops",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 1691,
+        "share": 25.011093033574916
+      },
+      {
+        "sector": "Other crops",
+        "short": "Other crops",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 3027,
+        "share": 44.77148350835675
+      },
+      {
+        "sector": "Other crops",
+        "short": "Other crops",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 379,
+        "share": 5.6056796331903564
+      },
+      {
+        "sector": "Other crops",
+        "short": "Other crops",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 110,
+        "share": 1.6269782576541931
+      },
+      {
+        "sector": "Other crops",
+        "short": "Other crops",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 79,
+        "share": 1.168466203224375
+      },
+      {
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 1392,
+        "share": 24.667729930887823
+      },
+      {
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 1688,
+        "share": 29.91316675527202
+      },
+      {
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 1956,
+        "share": 34.662413609782035
+      },
+      {
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 333,
+        "share": 5.901116427432217
+      },
+      {
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 132,
+        "share": 2.3391812865497075
+      },
+      {
+        "sector": "Mushrooms and vegetables",
+        "short": "Mushrooms & vegetables",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 142,
+        "share": 2.5163919900762006
+      },
+      {
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 592,
+        "share": 26.547085201793724
+      },
+      {
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 629,
+        "share": 28.206278026905828
+      },
+      {
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 777,
+        "share": 34.84304932735426
+      },
+      {
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 139,
+        "share": 6.233183856502242
+      },
+      {
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 64,
+        "share": 2.8699551569506725
+      },
+      {
+        "sector": "Nursery and floriculture",
+        "short": "Nurseries & flowers",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 29,
+        "share": 1.3004484304932735
+      },
+      {
+        "sector": "Poultry",
+        "short": "Poultry",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 261,
+        "share": 18.89934829833454
+      },
+      {
+        "sector": "Poultry",
+        "short": "Poultry",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 294,
+        "share": 21.288921071687184
+      },
+      {
+        "sector": "Poultry",
+        "short": "Poultry",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 613,
+        "share": 44.3881245474294
+      },
+      {
+        "sector": "Poultry",
+        "short": "Poultry",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 111,
+        "share": 8.037653874004343
+      },
+      {
+        "sector": "Poultry",
+        "short": "Poultry",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 53,
+        "share": 3.837798696596669
+      },
+      {
+        "sector": "Poultry",
+        "short": "Poultry",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 49,
+        "share": 3.5481535119478638
+      },
+      {
+        "sector": "Deer",
+        "short": "Deer",
+        "turnover": "< $50k",
+        "rank": 0,
+        "businesses": 37,
+        "share": 45.67901234567901
+      },
+      {
+        "sector": "Deer",
+        "short": "Deer",
+        "turnover": "$50\u2013200k",
+        "rank": 1,
+        "businesses": 32,
+        "share": 39.50617283950617
+      },
+      {
+        "sector": "Deer",
+        "short": "Deer",
+        "turnover": "$200k\u20132m",
+        "rank": 2,
+        "businesses": 12,
+        "share": 14.814814814814813
+      },
+      {
+        "sector": "Deer",
+        "short": "Deer",
+        "turnover": "$2\u20135m",
+        "rank": 3,
+        "businesses": 0,
+        "share": 0.0
+      },
+      {
+        "sector": "Deer",
+        "short": "Deer",
+        "turnover": "$5\u201310m",
+        "rank": 4,
+        "businesses": 0,
+        "share": 0.0
+      },
+      {
+        "sector": "Deer",
+        "short": "Deer",
+        "turnover": "$10m+",
+        "rank": 5,
+        "businesses": 0,
+        "share": 0.0
+      }
+    ],
+    "columns": [
+      [
+        "sector",
+        "Sector"
+      ],
+      [
+        "turnover",
+        "Annual turnover (AUD)"
+      ],
+      [
+        "businesses",
+        "Businesses"
+      ],
+      [
+        "share",
+        "Share (%)"
+      ]
+    ]
+  },
+  {
+    "n": 10,
+    "id": "chart-10",
+    "file": "charts/10-dairy-cartogram.json",
+    "title": "Victoria reshapes the dairy map",
+    "kicker": "AREA NOW MEANS REGISTERED FARMS",
+    "finding": "Victoria holds 65.6% of Australia\u2019s registered dairy farms.",
+    "note": "State silhouettes are resized so area shows registered farms, not land. Equal-area source shapes are repositioned for legibility. Grey NT/ACT shapes mean not reported and are not count-scaled.",
+    "source": "https://www.dairyaustralia.com.au/industry-reports/australian-dairy-industry-in-focus",
+    "period": "2024\u201325 \u00b7 provisional",
+    "idiom": "Non-contiguous cartogram",
+    "table": [
+      {
+        "state": "New South Wales",
+        "farms": 443
+      },
+      {
+        "state": "Victoria",
+        "farms": 2476
+      },
+      {
+        "state": "Queensland",
+        "farms": 253
+      },
+      {
+        "state": "South Australia",
+        "farms": 166
+      },
+      {
+        "state": "Western Australia",
+        "farms": 99
+      },
+      {
+        "state": "Tasmania",
+        "farms": 335
+      },
+      {
+        "state": "Northern Territory",
+        "farms": null
+      },
+      {
+        "state": "Australian Capital Territory",
+        "farms": null
+      }
+    ],
+    "columns": [
+      [
+        "state",
+        "State"
+      ],
+      [
+        "farms",
+        "Registered farms"
+      ]
+    ]
+  },
+  {
+    "n": 11,
+    "id": "chart-11",
+    "file": "charts/11-employment-treemap.json",
+    "title": "Most businesses have no employees",
+    "kicker": "SMALL TEAMS, MANY OWNERS",
+    "finding": "About 75.6% of the derived agriculture-business total is non-employing.",
+    "note": "Owners and family may still work. Rectangle area shows size-bin counts. Tiny groups are named in the data table. Bin sum 144,678, versus published-class total sum 144,681: the difference reflects confidentiality adjustments.",
+    "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
+    "period": "June 2025",
+    "idiom": "Treemap",
+    "table": [
+      {
+        "id": "0",
+        "parent": "root",
+        "label": "No employees",
+        "value": 109401
+      },
+      {
+        "id": "1",
+        "parent": "root",
+        "label": "1\u20134 employees",
+        "value": 26014
+      },
+      {
+        "id": "2",
+        "parent": "root",
+        "label": "5\u201319 employees",
+        "value": 7789
+      },
+      {
+        "id": "3",
+        "parent": "root",
+        "label": "20\u2013199 employees",
+        "value": 1419
+      },
+      {
+        "id": "4",
+        "parent": "root",
+        "label": "200+ employees",
+        "value": 55
+      }
+    ],
+    "columns": [
+      [
+        "label",
+        "Employment-size class"
+      ],
+      [
+        "value",
+        "Businesses"
+      ]
+    ]
+  },
+  {
+    "n": 12,
+    "id": "chart-12",
+    "file": "charts/12-workforce-trend.json",
+    "title": "Agriculture\u2019s workforce has become smaller",
+    "kicker": "THE LONG VIEW",
+    "finding": "The annual average fell from 375,000 in 2000 to 247,000 in 2025.",
+    "note": "Thin line: original quarterly estimates. Thick line: complete-year averages. Latest quarter: about 245,900 in February 2026. This counts the agriculture industry, not just the farmer occupation.",
+    "source": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026",
+    "period": "2000 \u2192 February 2026",
+    "idiom": "Time-series line chart",
+    "table": [
+      {
+        "year": 2000,
+        "workers": 374.732545125
+      },
+      {
+        "year": 2001,
+        "workers": 372.907568225
+      },
+      {
+        "year": 2002,
+        "workers": 351.3108612
+      },
+      {
+        "year": 2003,
+        "workers": 317.7716948
+      },
+      {
+        "year": 2004,
+        "workers": 308.57149345
+      },
+      {
+        "year": 2005,
+        "workers": 302.37994994999997
+      },
+      {
+        "year": 2006,
+        "workers": 299.2012625
+      },
+      {
+        "year": 2007,
+        "workers": 300.432599625
+      },
+      {
+        "year": 2008,
+        "workers": 297.36298362499997
+      },
+      {
+        "year": 2009,
+        "workers": 307.7275216
+      },
+      {
+        "year": 2010,
+        "workers": 310.374476025
+      },
+      {
+        "year": 2011,
+        "workers": 273.014162575
+      },
+      {
+        "year": 2012,
+        "workers": 276.3036803
+      },
+      {
+        "year": 2013,
+        "workers": 259.2577278
+      },
+      {
+        "year": 2014,
+        "workers": 279.95066602500003
+      },
+      {
+        "year": 2015,
+        "workers": 271.192033875
+      },
+      {
+        "year": 2016,
+        "workers": 267.277019175
+      },
+      {
+        "year": 2017,
+        "workers": 269.3943878
+      },
+      {
+        "year": 2018,
+        "workers": 288.523169675
+      },
+      {
+        "year": 2019,
+        "workers": 281.57012565
+      },
+      {
+        "year": 2020,
+        "workers": 304.089786425
+      },
+      {
+        "year": 2021,
+        "workers": 281.75442925
+      },
+      {
+        "year": 2022,
+        "workers": 255.949487175
+      },
+      {
+        "year": 2023,
+        "workers": 257.73186295
+      },
+      {
+        "year": 2024,
+        "workers": 275.27302965
+      },
+      {
+        "year": 2025,
+        "workers": 246.754581325
+      }
+    ],
+    "columns": [
+      [
+        "year",
+        "Complete year"
+      ],
+      [
+        "workers",
+        "Annual average workers (thousands)"
+      ]
+    ]
+  }
+]

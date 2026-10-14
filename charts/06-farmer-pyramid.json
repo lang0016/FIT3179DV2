@@ -1,0 +1,197 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 320,
+  "background": "#f7f5ef",
+  "padding": {
+    "left": 5,
+    "right": 12,
+    "top": 12,
+    "bottom": 6
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding",
+    "resize": true
+  },
+  "config": {
+    "font": "Arial",
+    "view": {
+      "stroke": null
+    },
+    "axis": {
+      "labelFontSize": 13,
+      "titleFontSize": 13,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "domain": false,
+      "tickColor": "#d9dedc",
+      "gridColor": "#d9dedc",
+      "gridOpacity": 0.7,
+      "titleFontWeight": "normal",
+      "titlePadding": 14,
+      "labelPadding": 8
+    },
+    "legend": {
+      "orient": "top",
+      "labelFontSize": 12,
+      "titleFontSize": 12,
+      "labelColor": "#233942",
+      "titleColor": "#233942",
+      "titleFontWeight": "normal",
+      "padding": 0,
+      "offset": 12
+    },
+    "text": {
+      "font": "Arial",
+      "fontSize": 13,
+      "color": "#233942"
+    }
+  },
+  "data": {
+    "values": [
+      {
+        "age": "15-24 years",
+        "sex": "Males",
+        "workers": 1.74279619,
+        "signed": -1.74279619
+      },
+      {
+        "age": "25-34 years",
+        "sex": "Males",
+        "workers": 8.33311045,
+        "signed": -8.33311045
+      },
+      {
+        "age": "35-44 years",
+        "sex": "Males",
+        "workers": 14.61123553,
+        "signed": -14.61123553
+      },
+      {
+        "age": "45-54 years",
+        "sex": "Males",
+        "workers": 18.542877139999998,
+        "signed": -18.542877139999998
+      },
+      {
+        "age": "55-64 years",
+        "sex": "Males",
+        "workers": 30.35098085,
+        "signed": -30.35098085
+      },
+      {
+        "age": "65 years and over",
+        "sex": "Males",
+        "workers": 32.24941807,
+        "signed": -32.24941807
+      },
+      {
+        "age": "15-24 years",
+        "sex": "Females",
+        "workers": 1.83748219,
+        "signed": 1.83748219
+      },
+      {
+        "age": "25-34 years",
+        "sex": "Females",
+        "workers": 3.0011662699999997,
+        "signed": 3.0011662699999997
+      },
+      {
+        "age": "35-44 years",
+        "sex": "Females",
+        "workers": 2.96853666,
+        "signed": 2.96853666
+      },
+      {
+        "age": "45-54 years",
+        "sex": "Females",
+        "workers": 10.70515662,
+        "signed": 10.70515662
+      },
+      {
+        "age": "55-64 years",
+        "sex": "Females",
+        "workers": 9.7994282,
+        "signed": 9.7994282
+      },
+      {
+        "age": "65 years and over",
+        "sex": "Females",
+        "workers": 16.15035512,
+        "signed": 16.15035512
+      }
+    ]
+  },
+  "mark": {
+    "type": "bar",
+    "cornerRadiusEnd": 2
+  },
+  "encoding": {
+    "y": {
+      "field": "age",
+      "type": "ordinal",
+      "sort": [
+        "65 years and over",
+        "55-64 years",
+        "45-54 years",
+        "35-44 years",
+        "25-34 years",
+        "15-24 years"
+      ],
+      "axis": {
+        "title": null,
+        "labelExpr": "replace(replace(datum.label, ' years and over', '+'), ' years', '')"
+      }
+    },
+    "x": {
+      "field": "signed",
+      "type": "quantitative",
+      "scale": {
+        "domain": [
+          -36,
+          36
+        ]
+      },
+      "axis": {
+        "title": "Workers (thousands)",
+        "labelExpr": "abs(datum.value)",
+        "values": [
+          -30,
+          -15,
+          0,
+          15,
+          30
+        ]
+      }
+    },
+    "color": {
+      "value": "#174a67"
+    },
+    "tooltip": [
+      {
+        "field": "age",
+        "type": "nominal"
+      },
+      {
+        "field": "sex",
+        "type": "nominal"
+      },
+      {
+        "field": "workers",
+        "type": "quantitative",
+        "format": ".1f"
+      }
+    ]
+  },
+  "usermeta": {
+    "chart": 6,
+    "title": "Farmers are concentrated in older age groups",
+    "finding": "An estimated 59% of Farmers and Farm Managers are aged 55+.",
+    "source": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026",
+    "period": "February 2026",
+    "idiom": "Population pyramid"
+  },
+  "description": "An estimated 59% of Farmers and Farm Managers are aged 55+. Same colour, labelled sides. Values are survey estimates in thousands. \u201cFarmer\u201d is an occupation, not everyone working in agriculture. Source sex categories are retained."
+}
