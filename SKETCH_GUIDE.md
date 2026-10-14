@@ -20,8 +20,8 @@ finding. Leave room for headings, narrative, and consistent whitespace.
 | Header | “Who farms Australia—and how is farming changing?”, short introduction, author name. | Introduce the question and explain that businesses, farmers, and dairy farms are different measures. |
 | 1. Where farming businesses are | Chart 1, full-width choropleth of agriculture-business share; chart 2, proportional symbols for state business totals, with explanatory text beside it. | Business concentration is different from a state's business composition. Label Australia’s states. |
 | 2. How farming is changing | Charts 3 and 4 side by side: registered dairy-farm trend and state agriculture-business percentage-change dumbbell. Chart 5, full-width waterfall of state contributions to the dairy-farm decline. | Show change over time without mixing counting units or claiming causes. |
-| 3. People and business | Charts 6 and 7 side by side: farmer age/sex pyramid and state variation in non-employing business shares. | Introduce older farmers and explain why “non-employing” does not mean nobody works there. |
-| 4. Different sectors, different businesses | Charts 8 and 9 in separate full-width rows: state × sector heatmap and turnover-size composition bars. | Compare sector composition and business scale. |
+| 3. People and business | Chart 6, full-width farmer age/sex pyramid. | Introduce older farmers and explain why “non-employing” does not mean nobody works there. |
+| 4. Different sectors, different businesses | Charts 8, 9 and 7 in separate full-width rows: regional specialisation heatmap, three-band sales composition, and state staffing box plots. | Compare regional specialisation, sales scale and staffing variation. |
 | 5. The changing shape of farming | Chart 10, full-width dairy-farm cartogram; charts 11 and 12 side by side: employment-size treemap and annual-average agriculture workforce timeline. | Close with geographic concentration, business staffing, and the wider workforce. |
 | Footer | Short conclusion, full source URLs, author/date, and marked space for the student's own AI acknowledgement. | Complete attribution and submission metadata. |
 

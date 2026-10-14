@@ -112,3 +112,9 @@ Chart readability revisions: chart 04 compares percentage changes against a shar
 2024 baseline; section 04 uses full-width, directly labelled sector charts. The
 workforce chart shows complete-year averages with labelled endpoints, while the
 latest quarterly estimate remains separately identified in its note.
+
+Section 04 now groups all three sector comparisons: relative regional
+concentration (1× = eight-state reference mix), three-band turnover composition
+ranked by the high-sales share, and state-level staffing distributions. The
+heatmap uses ochre for below-reference ratios and blue for above-reference
+ratios; exact shares, counts and ratios remain in the accessible table.

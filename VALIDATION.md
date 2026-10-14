@@ -23,7 +23,7 @@ all three chart signals and draws a visible outline, data tables expand, and
 the selector can receive keyboard focus and keyboard input. All values remain
 visible during highlighting; data marks are not faded below their contrast.
 
-Measured chart-data/specification responses: **1,254,336 bytes** (about 1.25 MB),
+Measured chart-data/specification responses: **1,260,150 bytes** (about 1.25 MB),
 including official geometry, readable specs and accessible-table metadata.
 Geometry is fetched once and reused by both ordinary maps. This excludes chart
 library JavaScript; it is a data/specification budget, not the whole page's byte
@@ -110,3 +110,18 @@ remains separately identified. Source extracts were unchanged.
 The revised charts passed all four required laptop widths, sector interaction
 and accessible-table checks. Additional checks at 375 and 768 px confirmed
 all twelve charts loaded without overflow, errors or clipped SVG text.
+
+## Sector comparison redesign
+
+Section 04 groups the regional specialisation heatmap, three-band turnover
+composition and state staffing box plots in full-width rows. The heatmap uses
+within-state sector share divided by the sector share across the same eight
+states; 1× is the reference. This is a concentration ratio, not productivity.
+All 72 ratios were checked against their component shares. Three sales bands
+combine the six source bins; all nine sector compositions still sum to 100%.
+State staffing points are enlarged; the box plot retains its original scope.
+
+All four laptop checks passed again, including sector highlighting, keyboard
+input and accessible tables. Additional 375/768 px checks found no overflow,
+clipped SVG labels or page errors. New ochre/slate/blue fills all exceed 4.5:1
+contrast against the page background. Source extracts remain unchanged.

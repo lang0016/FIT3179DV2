@@ -453,7 +453,7 @@
       "mark": {
         "type": "point",
         "filled": true,
-        "size": 24,
+        "size": 48,
         "color": "#174a67",
         "stroke": "#f7f5ef",
         "strokeWidth": 0.5

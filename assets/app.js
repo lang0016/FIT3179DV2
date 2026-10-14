@@ -60,7 +60,7 @@
         replaceGeometry(spec);
       }
       const width=Math.floor(el.clientWidth);const height=plotHeight(meta,width);
-      if (meta.n === 8 && width < 480) spec.layer[0].encoding.color.legend.columns=2;
+      if (meta.n === 8 && width < 480) {spec.layer[0].encoding.color.legend.columns=1;spec.layer[0].encoding.color.legend.title='Relative mix (×)';}
       if (meta.n === 9 && width < 480) {spec.layer[0].encoding.color.legend.columns=1;spec.layer[0].encoding.color.legend.title='Turnover (AUD)';}
       if (spec.params) spec.params.forEach(p=>{if(p.name==='sectorFocus')p.value=document.getElementById('sector-focus').value;});
       el.style.height=(height+18)+'px';el.replaceChildren();
