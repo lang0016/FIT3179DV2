@@ -1,0 +1,409 @@
+year,industry_class,sector,turnover_class,businesses,published_class_total,source_table,source_row
+2025,0111,Nursery and floriculture,"Under AUD 50,000",89,331,Table 1,17
+2025,0111,Nursery and floriculture,"AUD 50,000 to under 200,000",104,331,Table 1,17
+2025,0111,Nursery and floriculture,"AUD 200,000 to under 2 million",101,331,Table 1,17
+2025,0111,Nursery and floriculture,AUD 2 million to under 5 million,23,331,Table 1,17
+2025,0111,Nursery and floriculture,AUD 5 million to under 10 million,9,331,Table 1,17
+2025,0111,Nursery and floriculture,AUD 10 million or more,5,331,Table 1,17
+2025,0112,Nursery and floriculture,"Under AUD 50,000",217,809,Table 1,27
+2025,0112,Nursery and floriculture,"AUD 50,000 to under 200,000",228,809,Table 1,27
+2025,0112,Nursery and floriculture,"AUD 200,000 to under 2 million",290,809,Table 1,27
+2025,0112,Nursery and floriculture,AUD 2 million to under 5 million,45,809,Table 1,27
+2025,0112,Nursery and floriculture,AUD 5 million to under 10 million,19,809,Table 1,27
+2025,0112,Nursery and floriculture,AUD 10 million or more,10,809,Table 1,27
+2025,0113,Nursery and floriculture,"Under AUD 50,000",87,442,Table 1,37
+2025,0113,Nursery and floriculture,"AUD 50,000 to under 200,000",106,442,Table 1,37
+2025,0113,Nursery and floriculture,"AUD 200,000 to under 2 million",177,442,Table 1,37
+2025,0113,Nursery and floriculture,AUD 2 million to under 5 million,47,442,Table 1,37
+2025,0113,Nursery and floriculture,AUD 5 million to under 10 million,14,442,Table 1,37
+2025,0113,Nursery and floriculture,AUD 10 million or more,11,442,Table 1,37
+2025,0114,Nursery and floriculture,"Under AUD 50,000",24,117,Table 1,47
+2025,0114,Nursery and floriculture,"AUD 50,000 to under 200,000",40,117,Table 1,47
+2025,0114,Nursery and floriculture,"AUD 200,000 to under 2 million",40,117,Table 1,47
+2025,0114,Nursery and floriculture,AUD 2 million to under 5 million,4,117,Table 1,47
+2025,0114,Nursery and floriculture,AUD 5 million to under 10 million,8,117,Table 1,47
+2025,0114,Nursery and floriculture,AUD 10 million or more,0,117,Table 1,47
+2025,0115,Nursery and floriculture,"Under AUD 50,000",175,532,Table 1,57
+2025,0115,Nursery and floriculture,"AUD 50,000 to under 200,000",151,532,Table 1,57
+2025,0115,Nursery and floriculture,"AUD 200,000 to under 2 million",169,532,Table 1,57
+2025,0115,Nursery and floriculture,AUD 2 million to under 5 million,20,532,Table 1,57
+2025,0115,Nursery and floriculture,AUD 5 million to under 10 million,14,532,Table 1,57
+2025,0115,Nursery and floriculture,AUD 10 million or more,3,532,Table 1,57
+2025,0121,Mushrooms and vegetables,"Under AUD 50,000",77,237,Table 1,67
+2025,0121,Mushrooms and vegetables,"AUD 50,000 to under 200,000",62,237,Table 1,67
+2025,0121,Mushrooms and vegetables,"AUD 200,000 to under 2 million",64,237,Table 1,67
+2025,0121,Mushrooms and vegetables,AUD 2 million to under 5 million,14,237,Table 1,67
+2025,0121,Mushrooms and vegetables,AUD 5 million to under 10 million,7,237,Table 1,67
+2025,0121,Mushrooms and vegetables,AUD 10 million or more,13,237,Table 1,67
+2025,0122,Mushrooms and vegetables,"Under AUD 50,000",213,931,Table 1,77
+2025,0122,Mushrooms and vegetables,"AUD 50,000 to under 200,000",335,931,Table 1,77
+2025,0122,Mushrooms and vegetables,"AUD 200,000 to under 2 million",319,931,Table 1,77
+2025,0122,Mushrooms and vegetables,AUD 2 million to under 5 million,40,931,Table 1,77
+2025,0122,Mushrooms and vegetables,AUD 5 million to under 10 million,11,931,Table 1,77
+2025,0122,Mushrooms and vegetables,AUD 10 million or more,13,931,Table 1,77
+2025,0123,Mushrooms and vegetables,"Under AUD 50,000",1102,4475,Table 1,87
+2025,0123,Mushrooms and vegetables,"AUD 50,000 to under 200,000",1291,4475,Table 1,87
+2025,0123,Mushrooms and vegetables,"AUD 200,000 to under 2 million",1573,4475,Table 1,87
+2025,0123,Mushrooms and vegetables,AUD 2 million to under 5 million,279,4475,Table 1,87
+2025,0123,Mushrooms and vegetables,AUD 5 million to under 10 million,114,4475,Table 1,87
+2025,0123,Mushrooms and vegetables,AUD 10 million or more,116,4475,Table 1,87
+2025,0131,Fruit and tree nuts,"Under AUD 50,000",1688,4894,Table 1,97
+2025,0131,Fruit and tree nuts,"AUD 50,000 to under 200,000",1419,4894,Table 1,97
+2025,0131,Fruit and tree nuts,"AUD 200,000 to under 2 million",1493,4894,Table 1,97
+2025,0131,Fruit and tree nuts,AUD 2 million to under 5 million,183,4894,Table 1,97
+2025,0131,Fruit and tree nuts,AUD 5 million to under 10 million,60,4894,Table 1,97
+2025,0131,Fruit and tree nuts,AUD 10 million or more,51,4894,Table 1,97
+2025,0132,Fruit and tree nuts,"Under AUD 50,000",12,37,Table 1,107
+2025,0132,Fruit and tree nuts,"AUD 50,000 to under 200,000",9,37,Table 1,107
+2025,0132,Fruit and tree nuts,"AUD 200,000 to under 2 million",10,37,Table 1,107
+2025,0132,Fruit and tree nuts,AUD 2 million to under 5 million,3,37,Table 1,107
+2025,0132,Fruit and tree nuts,AUD 5 million to under 10 million,0,37,Table 1,107
+2025,0132,Fruit and tree nuts,AUD 10 million or more,3,37,Table 1,107
+2025,0133,Fruit and tree nuts,"Under AUD 50,000",168,595,Table 1,117
+2025,0133,Fruit and tree nuts,"AUD 50,000 to under 200,000",121,595,Table 1,117
+2025,0133,Fruit and tree nuts,"AUD 200,000 to under 2 million",182,595,Table 1,117
+2025,0133,Fruit and tree nuts,AUD 2 million to under 5 million,64,595,Table 1,117
+2025,0133,Fruit and tree nuts,AUD 5 million to under 10 million,27,595,Table 1,117
+2025,0133,Fruit and tree nuts,AUD 10 million or more,33,595,Table 1,117
+2025,0134,Fruit and tree nuts,"Under AUD 50,000",152,574,Table 1,127
+2025,0134,Fruit and tree nuts,"AUD 50,000 to under 200,000",137,574,Table 1,127
+2025,0134,Fruit and tree nuts,"AUD 200,000 to under 2 million",201,574,Table 1,127
+2025,0134,Fruit and tree nuts,AUD 2 million to under 5 million,56,574,Table 1,127
+2025,0134,Fruit and tree nuts,AUD 5 million to under 10 million,18,574,Table 1,127
+2025,0134,Fruit and tree nuts,AUD 10 million or more,10,574,Table 1,127
+2025,0135,Fruit and tree nuts,"Under AUD 50,000",232,688,Table 1,137
+2025,0135,Fruit and tree nuts,"AUD 50,000 to under 200,000",168,688,Table 1,137
+2025,0135,Fruit and tree nuts,"AUD 200,000 to under 2 million",236,688,Table 1,137
+2025,0135,Fruit and tree nuts,AUD 2 million to under 5 million,31,688,Table 1,137
+2025,0135,Fruit and tree nuts,AUD 5 million to under 10 million,12,688,Table 1,137
+2025,0135,Fruit and tree nuts,AUD 10 million or more,9,688,Table 1,137
+2025,0136,Fruit and tree nuts,"Under AUD 50,000",278,925,Table 1,147
+2025,0136,Fruit and tree nuts,"AUD 50,000 to under 200,000",247,925,Table 1,147
+2025,0136,Fruit and tree nuts,"AUD 200,000 to under 2 million",309,925,Table 1,147
+2025,0136,Fruit and tree nuts,AUD 2 million to under 5 million,55,925,Table 1,147
+2025,0136,Fruit and tree nuts,AUD 5 million to under 10 million,22,925,Table 1,147
+2025,0136,Fruit and tree nuts,AUD 10 million or more,14,925,Table 1,147
+2025,0137,Fruit and tree nuts,"Under AUD 50,000",190,328,Table 1,157
+2025,0137,Fruit and tree nuts,"AUD 50,000 to under 200,000",75,328,Table 1,157
+2025,0137,Fruit and tree nuts,"AUD 200,000 to under 2 million",54,328,Table 1,157
+2025,0137,Fruit and tree nuts,AUD 2 million to under 5 million,6,328,Table 1,157
+2025,0137,Fruit and tree nuts,AUD 5 million to under 10 million,0,328,Table 1,157
+2025,0137,Fruit and tree nuts,AUD 10 million or more,3,328,Table 1,157
+2025,0139,Fruit and tree nuts,"Under AUD 50,000",1357,3612,Table 1,167
+2025,0139,Fruit and tree nuts,"AUD 50,000 to under 200,000",940,3612,Table 1,167
+2025,0139,Fruit and tree nuts,"AUD 200,000 to under 2 million",1017,3612,Table 1,167
+2025,0139,Fruit and tree nuts,AUD 2 million to under 5 million,170,3612,Table 1,167
+2025,0139,Fruit and tree nuts,AUD 5 million to under 10 million,67,3612,Table 1,167
+2025,0139,Fruit and tree nuts,AUD 10 million or more,61,3612,Table 1,167
+2025,0141,"Sheep, beef cattle and grain","Under AUD 50,000",2141,8045,Table 1,177
+2025,0141,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",2518,8045,Table 1,177
+2025,0141,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",3044,8045,Table 1,177
+2025,0141,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,267,8045,Table 1,177
+2025,0141,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,54,8045,Table 1,177
+2025,0141,"Sheep, beef cattle and grain",AUD 10 million or more,21,8045,Table 1,177
+2025,0142,"Sheep, beef cattle and grain","Under AUD 50,000",16583,42599,Table 1,187
+2025,0142,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",13917,42599,Table 1,187
+2025,0142,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",10607,42599,Table 1,187
+2025,0142,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,1020,42599,Table 1,187
+2025,0142,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,274,42599,Table 1,187
+2025,0142,"Sheep, beef cattle and grain",AUD 10 million or more,198,42599,Table 1,187
+2025,0143,"Sheep, beef cattle and grain","Under AUD 50,000",33,157,Table 1,197
+2025,0143,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",21,157,Table 1,197
+2025,0143,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",40,157,Table 1,197
+2025,0143,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,16,157,Table 1,197
+2025,0143,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,11,157,Table 1,197
+2025,0143,"Sheep, beef cattle and grain",AUD 10 million or more,36,157,Table 1,197
+2025,0144,"Sheep, beef cattle and grain","Under AUD 50,000",4824,15882,Table 1,207
+2025,0144,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",4823,15882,Table 1,207
+2025,0144,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",5496,15882,Table 1,207
+2025,0144,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,560,15882,Table 1,207
+2025,0144,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,122,15882,Table 1,207
+2025,0144,"Sheep, beef cattle and grain",AUD 10 million or more,57,15882,Table 1,207
+2025,0145,"Sheep, beef cattle and grain","Under AUD 50,000",5663,24641,Table 1,217
+2025,0145,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",6166,24641,Table 1,217
+2025,0145,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",9866,24641,Table 1,217
+2025,0145,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,2165,24641,Table 1,217
+2025,0145,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,584,24641,Table 1,217
+2025,0145,"Sheep, beef cattle and grain",AUD 10 million or more,197,24641,Table 1,217
+2025,0146,"Sheep, beef cattle and grain","Under AUD 50,000",26,179,Table 1,227
+2025,0146,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",28,179,Table 1,227
+2025,0146,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",93,179,Table 1,227
+2025,0146,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,20,179,Table 1,227
+2025,0146,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,11,179,Table 1,227
+2025,0146,"Sheep, beef cattle and grain",AUD 10 million or more,0,179,Table 1,227
+2025,0149,"Sheep, beef cattle and grain","Under AUD 50,000",1673,10285,Table 1,237
+2025,0149,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",2101,10285,Table 1,237
+2025,0149,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",4466,10285,Table 1,237
+2025,0149,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,1393,10285,Table 1,237
+2025,0149,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,487,10285,Table 1,237
+2025,0149,"Sheep, beef cattle and grain",AUD 10 million or more,165,10285,Table 1,237
+2025,0151,Other crops,"Under AUD 50,000",685,3973,Table 1,247
+2025,0151,Other crops,"AUD 50,000 to under 200,000",1013,3973,Table 1,247
+2025,0151,Other crops,"AUD 200,000 to under 2 million",2088,3973,Table 1,247
+2025,0151,Other crops,AUD 2 million to under 5 million,145,3973,Table 1,247
+2025,0151,Other crops,AUD 5 million to under 10 million,29,3973,Table 1,247
+2025,0151,Other crops,AUD 10 million or more,13,3973,Table 1,247
+2025,0152,Other crops,"Under AUD 50,000",122,840,Table 1,257
+2025,0152,Other crops,"AUD 50,000 to under 200,000",96,840,Table 1,257
+2025,0152,Other crops,"AUD 200,000 to under 2 million",349,840,Table 1,257
+2025,0152,Other crops,AUD 2 million to under 5 million,159,840,Table 1,257
+2025,0152,Other crops,AUD 5 million to under 10 million,63,840,Table 1,257
+2025,0152,Other crops,AUD 10 million or more,51,840,Table 1,257
+2025,0159,Other crops,"Under AUD 50,000",668,1948,Table 1,267
+2025,0159,Other crops,"AUD 50,000 to under 200,000",582,1948,Table 1,267
+2025,0159,Other crops,"AUD 200,000 to under 2 million",590,1948,Table 1,267
+2025,0159,Other crops,AUD 2 million to under 5 million,75,1948,Table 1,267
+2025,0159,Other crops,AUD 5 million to under 10 million,18,1948,Table 1,267
+2025,0159,Other crops,AUD 10 million or more,15,1948,Table 1,267
+2025,0160,Dairy cattle,"Under AUD 50,000",1325,8044,Table 1,277
+2025,0160,Dairy cattle,"AUD 50,000 to under 200,000",1919,8044,Table 1,277
+2025,0160,Dairy cattle,"AUD 200,000 to under 2 million",3723,8044,Table 1,277
+2025,0160,Dairy cattle,AUD 2 million to under 5 million,801,8044,Table 1,277
+2025,0160,Dairy cattle,AUD 5 million to under 10 million,206,8044,Table 1,277
+2025,0160,Dairy cattle,AUD 10 million or more,70,8044,Table 1,277
+2025,0171,Poultry,"Under AUD 50,000",136,849,Table 1,287
+2025,0171,Poultry,"AUD 50,000 to under 200,000",162,849,Table 1,287
+2025,0171,Poultry,"AUD 200,000 to under 2 million",431,849,Table 1,287
+2025,0171,Poultry,AUD 2 million to under 5 million,68,849,Table 1,287
+2025,0171,Poultry,AUD 5 million to under 10 million,30,849,Table 1,287
+2025,0171,Poultry,AUD 10 million or more,22,849,Table 1,287
+2025,0172,Poultry,"Under AUD 50,000",125,532,Table 1,297
+2025,0172,Poultry,"AUD 50,000 to under 200,000",132,532,Table 1,297
+2025,0172,Poultry,"AUD 200,000 to under 2 million",182,532,Table 1,297
+2025,0172,Poultry,AUD 2 million to under 5 million,43,532,Table 1,297
+2025,0172,Poultry,AUD 5 million to under 10 million,23,532,Table 1,297
+2025,0172,Poultry,AUD 10 million or more,27,532,Table 1,297
+2025,0180,Deer,"Under AUD 50,000",37,82,Table 1,307
+2025,0180,Deer,"AUD 50,000 to under 200,000",32,82,Table 1,307
+2025,0180,Deer,"AUD 200,000 to under 2 million",12,82,Table 1,307
+2025,0180,Deer,AUD 2 million to under 5 million,0,82,Table 1,307
+2025,0180,Deer,AUD 5 million to under 10 million,0,82,Table 1,307
+2025,0180,Deer,AUD 10 million or more,0,82,Table 1,307
+2025,0191,Other livestock,"Under AUD 50,000",1226,3313,Table 1,317
+2025,0191,Other livestock,"AUD 50,000 to under 200,000",1003,3313,Table 1,317
+2025,0191,Other livestock,"AUD 200,000 to under 2 million",894,3313,Table 1,317
+2025,0191,Other livestock,AUD 2 million to under 5 million,119,3313,Table 1,317
+2025,0191,Other livestock,AUD 5 million to under 10 million,43,3313,Table 1,317
+2025,0191,Other livestock,AUD 10 million or more,28,3313,Table 1,317
+2025,0192,Other livestock,"Under AUD 50,000",148,668,Table 1,327
+2025,0192,Other livestock,"AUD 50,000 to under 200,000",158,668,Table 1,327
+2025,0192,Other livestock,"AUD 200,000 to under 2 million",240,668,Table 1,327
+2025,0192,Other livestock,AUD 2 million to under 5 million,53,668,Table 1,327
+2025,0192,Other livestock,AUD 5 million to under 10 million,27,668,Table 1,327
+2025,0192,Other livestock,AUD 10 million or more,42,668,Table 1,327
+2025,0193,Other livestock,"Under AUD 50,000",494,1228,Table 1,337
+2025,0193,Other livestock,"AUD 50,000 to under 200,000",392,1228,Table 1,337
+2025,0193,Other livestock,"AUD 200,000 to under 2 million",315,1228,Table 1,337
+2025,0193,Other livestock,AUD 2 million to under 5 million,21,1228,Table 1,337
+2025,0193,Other livestock,AUD 5 million to under 10 million,5,1228,Table 1,337
+2025,0193,Other livestock,AUD 10 million or more,3,1228,Table 1,337
+2025,0199,Other livestock,"Under AUD 50,000",832,1889,Table 1,347
+2025,0199,Other livestock,"AUD 50,000 to under 200,000",575,1889,Table 1,347
+2025,0199,Other livestock,"AUD 200,000 to under 2 million",435,1889,Table 1,347
+2025,0199,Other livestock,AUD 2 million to under 5 million,33,1889,Table 1,347
+2025,0199,Other livestock,AUD 5 million to under 10 million,8,1889,Table 1,347
+2025,0199,Other livestock,AUD 10 million or more,6,1889,Table 1,347
+2024,0111,Nursery and floriculture,"Under AUD 50,000",103,348,Table 2,17
+2024,0111,Nursery and floriculture,"AUD 50,000 to under 200,000",108,348,Table 2,17
+2024,0111,Nursery and floriculture,"AUD 200,000 to under 2 million",104,348,Table 2,17
+2024,0111,Nursery and floriculture,AUD 2 million to under 5 million,20,348,Table 2,17
+2024,0111,Nursery and floriculture,AUD 5 million to under 10 million,9,348,Table 2,17
+2024,0111,Nursery and floriculture,AUD 10 million or more,4,348,Table 2,17
+2024,0112,Nursery and floriculture,"Under AUD 50,000",212,825,Table 2,27
+2024,0112,Nursery and floriculture,"AUD 50,000 to under 200,000",240,825,Table 2,27
+2024,0112,Nursery and floriculture,"AUD 200,000 to under 2 million",303,825,Table 2,27
+2024,0112,Nursery and floriculture,AUD 2 million to under 5 million,45,825,Table 2,27
+2024,0112,Nursery and floriculture,AUD 5 million to under 10 million,15,825,Table 2,27
+2024,0112,Nursery and floriculture,AUD 10 million or more,10,825,Table 2,27
+2024,0113,Nursery and floriculture,"Under AUD 50,000",98,449,Table 2,37
+2024,0113,Nursery and floriculture,"AUD 50,000 to under 200,000",100,449,Table 2,37
+2024,0113,Nursery and floriculture,"AUD 200,000 to under 2 million",174,449,Table 2,37
+2024,0113,Nursery and floriculture,AUD 2 million to under 5 million,53,449,Table 2,37
+2024,0113,Nursery and floriculture,AUD 5 million to under 10 million,14,449,Table 2,37
+2024,0113,Nursery and floriculture,AUD 10 million or more,10,449,Table 2,37
+2024,0114,Nursery and floriculture,"Under AUD 50,000",24,127,Table 2,47
+2024,0114,Nursery and floriculture,"AUD 50,000 to under 200,000",41,127,Table 2,47
+2024,0114,Nursery and floriculture,"AUD 200,000 to under 2 million",49,127,Table 2,47
+2024,0114,Nursery and floriculture,AUD 2 million to under 5 million,5,127,Table 2,47
+2024,0114,Nursery and floriculture,AUD 5 million to under 10 million,7,127,Table 2,47
+2024,0114,Nursery and floriculture,AUD 10 million or more,0,127,Table 2,47
+2024,0115,Nursery and floriculture,"Under AUD 50,000",174,534,Table 2,57
+2024,0115,Nursery and floriculture,"AUD 50,000 to under 200,000",146,534,Table 2,57
+2024,0115,Nursery and floriculture,"AUD 200,000 to under 2 million",178,534,Table 2,57
+2024,0115,Nursery and floriculture,AUD 2 million to under 5 million,18,534,Table 2,57
+2024,0115,Nursery and floriculture,AUD 5 million to under 10 million,15,534,Table 2,57
+2024,0115,Nursery and floriculture,AUD 10 million or more,3,534,Table 2,57
+2024,0121,Mushrooms and vegetables,"Under AUD 50,000",73,239,Table 2,67
+2024,0121,Mushrooms and vegetables,"AUD 50,000 to under 200,000",71,239,Table 2,67
+2024,0121,Mushrooms and vegetables,"AUD 200,000 to under 2 million",64,239,Table 2,67
+2024,0121,Mushrooms and vegetables,AUD 2 million to under 5 million,11,239,Table 2,67
+2024,0121,Mushrooms and vegetables,AUD 5 million to under 10 million,10,239,Table 2,67
+2024,0121,Mushrooms and vegetables,AUD 10 million or more,10,239,Table 2,67
+2024,0122,Mushrooms and vegetables,"Under AUD 50,000",212,960,Table 2,77
+2024,0122,Mushrooms and vegetables,"AUD 50,000 to under 200,000",380,960,Table 2,77
+2024,0122,Mushrooms and vegetables,"AUD 200,000 to under 2 million",314,960,Table 2,77
+2024,0122,Mushrooms and vegetables,AUD 2 million to under 5 million,31,960,Table 2,77
+2024,0122,Mushrooms and vegetables,AUD 5 million to under 10 million,13,960,Table 2,77
+2024,0122,Mushrooms and vegetables,AUD 10 million or more,10,960,Table 2,77
+2024,0123,Mushrooms and vegetables,"Under AUD 50,000",1133,4532,Table 2,87
+2024,0123,Mushrooms and vegetables,"AUD 50,000 to under 200,000",1367,4532,Table 2,87
+2024,0123,Mushrooms and vegetables,"AUD 200,000 to under 2 million",1556,4532,Table 2,87
+2024,0123,Mushrooms and vegetables,AUD 2 million to under 5 million,271,4532,Table 2,87
+2024,0123,Mushrooms and vegetables,AUD 5 million to under 10 million,104,4532,Table 2,87
+2024,0123,Mushrooms and vegetables,AUD 10 million or more,101,4532,Table 2,87
+2024,0131,Fruit and tree nuts,"Under AUD 50,000",1748,5104,Table 2,97
+2024,0131,Fruit and tree nuts,"AUD 50,000 to under 200,000",1508,5104,Table 2,97
+2024,0131,Fruit and tree nuts,"AUD 200,000 to under 2 million",1550,5104,Table 2,97
+2024,0131,Fruit and tree nuts,AUD 2 million to under 5 million,190,5104,Table 2,97
+2024,0131,Fruit and tree nuts,AUD 5 million to under 10 million,59,5104,Table 2,97
+2024,0131,Fruit and tree nuts,AUD 10 million or more,49,5104,Table 2,97
+2024,0132,Fruit and tree nuts,"Under AUD 50,000",13,40,Table 2,107
+2024,0132,Fruit and tree nuts,"AUD 50,000 to under 200,000",10,40,Table 2,107
+2024,0132,Fruit and tree nuts,"AUD 200,000 to under 2 million",13,40,Table 2,107
+2024,0132,Fruit and tree nuts,AUD 2 million to under 5 million,0,40,Table 2,107
+2024,0132,Fruit and tree nuts,AUD 5 million to under 10 million,3,40,Table 2,107
+2024,0132,Fruit and tree nuts,AUD 10 million or more,3,40,Table 2,107
+2024,0133,Fruit and tree nuts,"Under AUD 50,000",162,591,Table 2,117
+2024,0133,Fruit and tree nuts,"AUD 50,000 to under 200,000",126,591,Table 2,117
+2024,0133,Fruit and tree nuts,"AUD 200,000 to under 2 million",195,591,Table 2,117
+2024,0133,Fruit and tree nuts,AUD 2 million to under 5 million,50,591,Table 2,117
+2024,0133,Fruit and tree nuts,AUD 5 million to under 10 million,30,591,Table 2,117
+2024,0133,Fruit and tree nuts,AUD 10 million or more,28,591,Table 2,117
+2024,0134,Fruit and tree nuts,"Under AUD 50,000",168,613,Table 2,127
+2024,0134,Fruit and tree nuts,"AUD 50,000 to under 200,000",148,613,Table 2,127
+2024,0134,Fruit and tree nuts,"AUD 200,000 to under 2 million",221,613,Table 2,127
+2024,0134,Fruit and tree nuts,AUD 2 million to under 5 million,47,613,Table 2,127
+2024,0134,Fruit and tree nuts,AUD 5 million to under 10 million,16,613,Table 2,127
+2024,0134,Fruit and tree nuts,AUD 10 million or more,13,613,Table 2,127
+2024,0135,Fruit and tree nuts,"Under AUD 50,000",251,712,Table 2,137
+2024,0135,Fruit and tree nuts,"AUD 50,000 to under 200,000",164,712,Table 2,137
+2024,0135,Fruit and tree nuts,"AUD 200,000 to under 2 million",244,712,Table 2,137
+2024,0135,Fruit and tree nuts,AUD 2 million to under 5 million,32,712,Table 2,137
+2024,0135,Fruit and tree nuts,AUD 5 million to under 10 million,11,712,Table 2,137
+2024,0135,Fruit and tree nuts,AUD 10 million or more,10,712,Table 2,137
+2024,0136,Fruit and tree nuts,"Under AUD 50,000",319,933,Table 2,147
+2024,0136,Fruit and tree nuts,"AUD 50,000 to under 200,000",237,933,Table 2,147
+2024,0136,Fruit and tree nuts,"AUD 200,000 to under 2 million",296,933,Table 2,147
+2024,0136,Fruit and tree nuts,AUD 2 million to under 5 million,45,933,Table 2,147
+2024,0136,Fruit and tree nuts,AUD 5 million to under 10 million,21,933,Table 2,147
+2024,0136,Fruit and tree nuts,AUD 10 million or more,15,933,Table 2,147
+2024,0137,Fruit and tree nuts,"Under AUD 50,000",211,349,Table 2,157
+2024,0137,Fruit and tree nuts,"AUD 50,000 to under 200,000",83,349,Table 2,157
+2024,0137,Fruit and tree nuts,"AUD 200,000 to under 2 million",45,349,Table 2,157
+2024,0137,Fruit and tree nuts,AUD 2 million to under 5 million,7,349,Table 2,157
+2024,0137,Fruit and tree nuts,AUD 5 million to under 10 million,0,349,Table 2,157
+2024,0137,Fruit and tree nuts,AUD 10 million or more,3,349,Table 2,157
+2024,0139,Fruit and tree nuts,"Under AUD 50,000",1543,3722,Table 2,167
+2024,0139,Fruit and tree nuts,"AUD 50,000 to under 200,000",944,3722,Table 2,167
+2024,0139,Fruit and tree nuts,"AUD 200,000 to under 2 million",952,3722,Table 2,167
+2024,0139,Fruit and tree nuts,AUD 2 million to under 5 million,170,3722,Table 2,167
+2024,0139,Fruit and tree nuts,AUD 5 million to under 10 million,60,3722,Table 2,167
+2024,0139,Fruit and tree nuts,AUD 10 million or more,53,3722,Table 2,167
+2024,0141,"Sheep, beef cattle and grain","Under AUD 50,000",2304,8382,Table 2,177
+2024,0141,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",2652,8382,Table 2,177
+2024,0141,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",3079,8382,Table 2,177
+2024,0141,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,263,8382,Table 2,177
+2024,0141,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,62,8382,Table 2,177
+2024,0141,"Sheep, beef cattle and grain",AUD 10 million or more,22,8382,Table 2,177
+2024,0142,"Sheep, beef cattle and grain","Under AUD 50,000",17451,42905,Table 2,187
+2024,0142,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",13769,42905,Table 2,187
+2024,0142,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",10307,42905,Table 2,187
+2024,0142,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,927,42905,Table 2,187
+2024,0142,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,263,42905,Table 2,187
+2024,0142,"Sheep, beef cattle and grain",AUD 10 million or more,188,42905,Table 2,187
+2024,0143,"Sheep, beef cattle and grain","Under AUD 50,000",31,153,Table 2,197
+2024,0143,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",27,153,Table 2,197
+2024,0143,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",36,153,Table 2,197
+2024,0143,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,12,153,Table 2,197
+2024,0143,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,15,153,Table 2,197
+2024,0143,"Sheep, beef cattle and grain",AUD 10 million or more,32,153,Table 2,197
+2024,0144,"Sheep, beef cattle and grain","Under AUD 50,000",4981,15813,Table 2,207
+2024,0144,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",4807,15813,Table 2,207
+2024,0144,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",5341,15813,Table 2,207
+2024,0144,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,503,15813,Table 2,207
+2024,0144,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,123,15813,Table 2,207
+2024,0144,"Sheep, beef cattle and grain",AUD 10 million or more,58,15813,Table 2,207
+2024,0145,"Sheep, beef cattle and grain","Under AUD 50,000",5625,24562,Table 2,217
+2024,0145,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",6039,24562,Table 2,217
+2024,0145,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",9614,24562,Table 2,217
+2024,0145,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,2353,24562,Table 2,217
+2024,0145,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,687,24562,Table 2,217
+2024,0145,"Sheep, beef cattle and grain",AUD 10 million or more,244,24562,Table 2,217
+2024,0146,"Sheep, beef cattle and grain","Under AUD 50,000",25,178,Table 2,227
+2024,0146,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",34,178,Table 2,227
+2024,0146,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",94,178,Table 2,227
+2024,0146,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,17,178,Table 2,227
+2024,0146,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,6,178,Table 2,227
+2024,0146,"Sheep, beef cattle and grain",AUD 10 million or more,0,178,Table 2,227
+2024,0149,"Sheep, beef cattle and grain","Under AUD 50,000",1591,10399,Table 2,237
+2024,0149,"Sheep, beef cattle and grain","AUD 50,000 to under 200,000",2099,10399,Table 2,237
+2024,0149,"Sheep, beef cattle and grain","AUD 200,000 to under 2 million",4268,10399,Table 2,237
+2024,0149,"Sheep, beef cattle and grain",AUD 2 million to under 5 million,1633,10399,Table 2,237
+2024,0149,"Sheep, beef cattle and grain",AUD 5 million to under 10 million,594,10399,Table 2,237
+2024,0149,"Sheep, beef cattle and grain",AUD 10 million or more,214,10399,Table 2,237
+2024,0151,Other crops,"Under AUD 50,000",678,4035,Table 2,247
+2024,0151,Other crops,"AUD 50,000 to under 200,000",953,4035,Table 2,247
+2024,0151,Other crops,"AUD 200,000 to under 2 million",2197,4035,Table 2,247
+2024,0151,Other crops,AUD 2 million to under 5 million,165,4035,Table 2,247
+2024,0151,Other crops,AUD 5 million to under 10 million,24,4035,Table 2,247
+2024,0151,Other crops,AUD 10 million or more,18,4035,Table 2,247
+2024,0152,Other crops,"Under AUD 50,000",134,860,Table 2,257
+2024,0152,Other crops,"AUD 50,000 to under 200,000",101,860,Table 2,257
+2024,0152,Other crops,"AUD 200,000 to under 2 million",338,860,Table 2,257
+2024,0152,Other crops,AUD 2 million to under 5 million,155,860,Table 2,257
+2024,0152,Other crops,AUD 5 million to under 10 million,73,860,Table 2,257
+2024,0152,Other crops,AUD 10 million or more,59,860,Table 2,257
+2024,0159,Other crops,"Under AUD 50,000",670,1981,Table 2,267
+2024,0159,Other crops,"AUD 50,000 to under 200,000",587,1981,Table 2,267
+2024,0159,Other crops,"AUD 200,000 to under 2 million",601,1981,Table 2,267
+2024,0159,Other crops,AUD 2 million to under 5 million,85,1981,Table 2,267
+2024,0159,Other crops,AUD 5 million to under 10 million,21,1981,Table 2,267
+2024,0159,Other crops,AUD 10 million or more,17,1981,Table 2,267
+2024,0160,Dairy cattle,"Under AUD 50,000",1481,8275,Table 2,277
+2024,0160,Dairy cattle,"AUD 50,000 to under 200,000",1954,8275,Table 2,277
+2024,0160,Dairy cattle,"AUD 200,000 to under 2 million",3732,8275,Table 2,277
+2024,0160,Dairy cattle,AUD 2 million to under 5 million,855,8275,Table 2,277
+2024,0160,Dairy cattle,AUD 5 million to under 10 million,194,8275,Table 2,277
+2024,0160,Dairy cattle,AUD 10 million or more,59,8275,Table 2,277
+2024,0171,Poultry,"Under AUD 50,000",131,867,Table 2,287
+2024,0171,Poultry,"AUD 50,000 to under 200,000",174,867,Table 2,287
+2024,0171,Poultry,"AUD 200,000 to under 2 million",446,867,Table 2,287
+2024,0171,Poultry,AUD 2 million to under 5 million,69,867,Table 2,287
+2024,0171,Poultry,AUD 5 million to under 10 million,26,867,Table 2,287
+2024,0171,Poultry,AUD 10 million or more,21,867,Table 2,287
+2024,0172,Poultry,"Under AUD 50,000",137,523,Table 2,297
+2024,0172,Poultry,"AUD 50,000 to under 200,000",124,523,Table 2,297
+2024,0172,Poultry,"AUD 200,000 to under 2 million",181,523,Table 2,297
+2024,0172,Poultry,AUD 2 million to under 5 million,37,523,Table 2,297
+2024,0172,Poultry,AUD 5 million to under 10 million,19,523,Table 2,297
+2024,0172,Poultry,AUD 10 million or more,25,523,Table 2,297
+2024,0180,Deer,"Under AUD 50,000",39,90,Table 2,307
+2024,0180,Deer,"AUD 50,000 to under 200,000",34,90,Table 2,307
+2024,0180,Deer,"AUD 200,000 to under 2 million",15,90,Table 2,307
+2024,0180,Deer,AUD 2 million to under 5 million,0,90,Table 2,307
+2024,0180,Deer,AUD 5 million to under 10 million,0,90,Table 2,307
+2024,0180,Deer,AUD 10 million or more,0,90,Table 2,307
+2024,0191,Other livestock,"Under AUD 50,000",1215,3316,Table 2,317
+2024,0191,Other livestock,"AUD 50,000 to under 200,000",1022,3316,Table 2,317
+2024,0191,Other livestock,"AUD 200,000 to under 2 million",878,3316,Table 2,317
+2024,0191,Other livestock,AUD 2 million to under 5 million,132,3316,Table 2,317
+2024,0191,Other livestock,AUD 5 million to under 10 million,41,3316,Table 2,317
+2024,0191,Other livestock,AUD 10 million or more,28,3316,Table 2,317
+2024,0192,Other livestock,"Under AUD 50,000",149,691,Table 2,327
+2024,0192,Other livestock,"AUD 50,000 to under 200,000",169,691,Table 2,327
+2024,0192,Other livestock,"AUD 200,000 to under 2 million",244,691,Table 2,327
+2024,0192,Other livestock,AUD 2 million to under 5 million,67,691,Table 2,327
+2024,0192,Other livestock,AUD 5 million to under 10 million,24,691,Table 2,327
+2024,0192,Other livestock,AUD 10 million or more,38,691,Table 2,327
+2024,0193,Other livestock,"Under AUD 50,000",470,1263,Table 2,337
+2024,0193,Other livestock,"AUD 50,000 to under 200,000",416,1263,Table 2,337
+2024,0193,Other livestock,"AUD 200,000 to under 2 million",344,1263,Table 2,337
+2024,0193,Other livestock,AUD 2 million to under 5 million,27,1263,Table 2,337
+2024,0193,Other livestock,AUD 5 million to under 10 million,3,1263,Table 2,337
+2024,0193,Other livestock,AUD 10 million or more,3,1263,Table 2,337
+2024,0199,Other livestock,"Under AUD 50,000",903,1946,Table 2,347
+2024,0199,Other livestock,"AUD 50,000 to under 200,000",571,1946,Table 2,347
+2024,0199,Other livestock,"AUD 200,000 to under 2 million",417,1946,Table 2,347
+2024,0199,Other livestock,AUD 2 million to under 5 million,42,1946,Table 2,347
+2024,0199,Other livestock,AUD 5 million to under 10 million,8,1946,Table 2,347
+2024,0199,Other livestock,AUD 10 million or more,5,1946,Table 2,347

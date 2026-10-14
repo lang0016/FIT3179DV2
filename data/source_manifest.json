@@ -1,0 +1,54 @@
+{
+  "retrieved_date_malaysia": "2026-10-15",
+  "files": [
+    {
+      "file": "business_2025_dc01.xlsx",
+      "url": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025/8165DC01.xlsx",
+      "bytes": 224850,
+      "sha256": "eb18f5df2f1df390122db9921df7e3c4a6098d29fec40529cd164537b3ab1746"
+    },
+    {
+      "file": "business_2025_dc02.xlsx",
+      "url": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025/8165DC02.xlsx",
+      "bytes": 2149586,
+      "sha256": "b39b17a401b9428959b7e7fe0d2a97e0582da46d821de1ed0e219485978efb04"
+    },
+    {
+      "file": "business_2025_dc03.xlsx",
+      "url": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025/8165DC03.xlsx",
+      "bytes": 2553229,
+      "sha256": "43434ed75fbb743cd128803bc9aa0e2f4af61592ff63bea5255a5acb0124b768"
+    },
+    {
+      "file": "business_2026_dc01.xlsx",
+      "url": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2022-jun2026/8165DC01.xlsx",
+      "bytes": 133694,
+      "sha256": "477690c133eaf70e5671643be4e255ac22bca46b7db6d236f91744b3a40d2d79"
+    },
+    {
+      "file": "lf_feb2026_EQ07a.xlsx",
+      "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026/EQ07a.xlsx",
+      "bytes": 10298906,
+      "sha256": "27171efd8eeb2c28cb5d27ad64f1e80ecca05971c6cc90bcef7ca02d8b8c320f"
+    },
+    {
+      "file": "lf_feb2026_table06.xlsx",
+      "url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026/6291006.xlsx",
+      "bytes": 1988728,
+      "sha256": "17630d5c2546c13d32f9abcb47eb2ca7a75ef12f5602e8b3b9adcb6ce7c663d8"
+    },
+    {
+      "file": "agricultural_commodities_2021_22.xlsx",
+      "url": "https://www.abs.gov.au/statistics/industry/agriculture/agricultural-commodities-australia/2021-22/AGCDCNAT_STATE202122.xlsx",
+      "bytes": 46085,
+      "sha256": "f4da88e46584788dcc3af46f62b37d922e25307ea01068c983824e217286afb6"
+    },
+    {
+      "file": "dairy_in_focus_2025.pdf",
+      "url": "https://assets.dairyaustralia.com.au/api/public/content/In-Focus-2025?v=42fe4d04",
+      "bytes": 2025718,
+      "sha256": "b7420ce1b9be4ce9cf1134bf3b922023bc260d0fc423958d7680f7cb012dc488"
+    }
+  ],
+  "note": "Original files remain outside the checkout. Downloaded raw bytes are recorded for provenance, not an official signature. Verify exact expected SHA-256 before processing; investigate changed downloads rather than replacing checksums blindly."
+}

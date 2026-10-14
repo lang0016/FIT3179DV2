@@ -1,118 +1,222 @@
-# Data research register
+# Australian Farmers: verified data research
 
-Project: Australian Farmers · Ang Lin Shan · Malaysian campus.
-Prepared: 15 October 2026 (Malaysia).
+Prepared for **Ang Lin Shan**, Malaysian campus · **15 October 2026 (Malaysia)**.
 
-## Evidence status
+## Result and access status
 
-**Research is blocked before dataset verification.** Requests to the official
-ABS and ABARES domains failed at the network proxy with `Tunnel connection
-failed: 403 Forbidden`. This is evidence of denied access, not missing data,
-an invalid dataset, or an authentication requirement.
+Official ABS access now works. The environment configuration read reports
+unrestricted networking; the earlier domain-allowlist blocker is resolved.
+ABARES and Jobs and Skills Australia still return HTTP 503 with an upstream
+connection reset. This is not evidence that their datasets are missing or that
+credentials are needed. No additional credential or network setting is requested.
 
-The environment configuration draft now includes `www.abs.gov.au` and
-`www.agriculture.gov.au` in its custom domain allowlist. Existing package-manager
-presets were preserved. The save returned `status: saved` and
-`requires_publish: true`. A retry after saving still failed. Draft persistence
-does not apply the policy to the running machine or publish the environment.
-Review and save the changes in environment settings, then publish the
-environment; recheck the official requests when the changed policy is active.
+The research now uses two publishers: **ABS** and **Dairy Australia**, with
+independent statistical collections. Dairy Australia's registered-farm series
+credits state milk authorities and Dairy Australia. Do not count a second ABS
+publication or an NFF page quoting ABS as an independent publisher.
 
-No data has been downloaded. No numerical finding, latest-edition claim,
-licence, or table availability is verified. Links below are **candidate entry
-points**, not citations to successfully accessed releases. Some URLs may redirect
-or require correction after network access is available.
+The original 12-chart plan was revised to fit data actually inspected. It no
+longer assumes that free Census tables provide agriculture-only sector/age
+cross-tabulations. See [PROJECT_PLAN.md](PROJECT_PLAN.md).
 
-## Candidate source register
+## Verified source register
 
-| ID | Publisher / candidate dataset family | Candidate official entry point | Intended use | Checks still required |
-| --- | --- | --- | --- | --- |
-| C1 | Australian Bureau of Statistics (ABS), Census of Population and Housing, industry of employment and worker characteristics | https://www.abs.gov.au/census | Agricultural employment, age/sex, sector comparisons, state and regional rates, historical Census comparisons. | Most recent published detailed edition; access method (download/DataPacks/TableBuilder); exact tables and variables; industry codes; reference population; confidentiality; geography; reuse terms. |
-| C2 | ABS, Agricultural Commodities, Australia | https://www.abs.gov.au/statistics/industry/agriculture/agricultural-commodities-australia/latest-release | Historical farm/agricultural-business counts if available and comparable. | Whether discontinued or superseded; latest relevant release; published counts and tables; minimum business/value thresholds; collection changes; breaks in series; licence. Do not extend a discontinued series using incompatible newer collections. |
-| C3 | ABS, newer agriculture releases | https://www.abs.gov.au/statistics/industry/agriculture | Locate replacement/current publications and assess whether farm counts are actually included. | Current release names, years and scope. Commodity production data alone does not establish workforce or farm numbers. |
-| C4 | ABS, Counts of Australian Businesses, including Entries and Exits | https://www.abs.gov.au/statistics/industry/industry-overview/counts-australian-businesses-including-entries-and-exits/latest-release | Agriculture business counts by state, industry, and employment-size class; consistent historical counts where available. | Latest edition; whether required cross-tabulations are published; active-business definition; industry detail; non-employing definition; size bins; series comparability; reuse terms. These are businesses, not physical farms. |
-| C5 | ABARES (Australian Bureau of Agricultural and Resource Economics and Sciences), agricultural workforce research | https://www.agriculture.gov.au/abares/research-topics/agricultural-workforce | Independent farm-survey evidence on family/hired labour and sector differences. | Latest relevant report and download; whether comparable labour-composition tables exist; sectors covered; survey year; units (persons/hours/FTE); survey estimates and uncertainty; methods; reuse licence. |
-| C6 | ABARES, farm survey research | https://www.agriculture.gov.au/abares/research-topics/surveys | Alternative directly supported sector workforce or business-size comparison if C5 cannot support chart 9. | Exact report/dataset; downloadable aggregate tables; survey representativeness; whether employment or business-size measures match the story; terms. No individual-farm microdata access is assumed. |
-| C7 | ABS, Australian Statistical Geography Standard (ASGS) | https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3 | State and suitable regional boundaries for the three maps and regional comparisons. | Appropriate edition for each Census period; download URLs; code fields; treatment of offshore/external territories; licence; simplified topology. Check for a newer edition before calling this current. |
+All sources below were retrieved on 15 October 2026 (Malaysia). The exact raw
+file URLs, sizes, and SHA-256 hashes are in [data/source_manifest.json](data/source_manifest.json).
+Hashes identify the downloaded bytes; they are not official signatures.
 
-The intended two independent publishers are **ABS and ABARES**. Using two ABS
-publications alone does not meet that planning target. Treat additional articles
-as context, not substitutes for a second numerical dataset.
+### S1. ABS Counts of Australian Businesses, including Entries and Exits (CABEE)
 
-## Research questions to test, not findings
+- **Latest general release:** [July 2022–June 2026](https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2022-jun2026), released 18 August 2026.
+- **Latest detailed class/state breakdown verified:** [July 2021–June 2025](https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025), detailed cubes added 16 December 2025.
+- The latest release explicitly schedules detailed cubes 2–11 for December.
+  June 2025 therefore remains the latest verified detailed edition for this plan;
+  do not replace agriculture-only figures with 2026 Agriculture, Forestry and
+  Fishing division totals just to use a newer date.
+- Downloaded **8165DC01.xlsx**, Table 4 (all-business state denominators),
+  **8165DC02.xlsx**, Tables 1–2 (industry class × main state × employment size,
+  June 2025 and June 2024), and **8165DC03.xlsx**, Tables 1–2 (turnover size).
+  Downloaded 2026 cube 1 for release/scope comparison; it is not used to extend
+  the detailed agriculture class series.
+- Authors/publisher: Australian Bureau of Statistics. Underlying collection:
+  ABS Business Register, using ABR/ATO administrative records and ABS profiling.
+- [2025 methodology](https://www.abs.gov.au/methodologies/counts-australian-businesses-including-entries-and-exits-methodology/jul2021-jun2025).
+- Scope: actively trading market-sector business units, not all ABNs, farms, land
+  holdings, or individual workers. A business has one main industry and main
+  state; multiple operating sites are not individually counted here.
+- Detailed cells are perturbed for confidentiality. Component sums can differ
+  from published totals, including across states and size bins. The script
+  preserves original class cells and their totals; it never inserts balancing
+  values or forces them to agree.
+- Preparation: retain the **34 four-digit classes from 0111 through 0199** actually
+  present in the workbook; group by the first three digits (011–019). Exclude
+  aquaculture, forestry, fishing, and support services. Preserve unknown/other
+  main-state rows separately. Aggregate published national class rows separately
+  from state rows to avoid double counting.
+- Rights: ABS CC BY 4.0, subject to the website's exclusions. Attribute derived
+  calculations as **“Based on Australian Bureau of Statistics data”**, with title,
+  reference period, access date and source link.
+- Charts: 1, 2, 4, 7, 8, 9, 11.
 
-1. Is there a reliable, comparable change in the number of farms/businesses?
-2. Where is agricultural work important relative to all local employment?
-3. Which sectors employ the most workers, and how has that changed?
-4. How does the age/sex profile vary across agriculture and regions?
-5. What proportion of businesses have no employees or only a small staff?
-6. What independent survey evidence explains differences in how farms use labour?
+### S2. ABS Labour Force, Australia, Detailed: EQ07a
 
-Do not publish statements such as “fewer farms, more output” or “farmers are
-getting older” until the relevant comparisons are computed from verified data.
-Business consolidation cannot be inferred merely from declining business counts.
+- [March 2026 publication](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026), page dated 23 April 2026. Workbook contents record 26 March 2026 for EQ07a.
+- Exact table: **EQ07a — Employed persons by Age, Occupation sub-major group of
+  main job (ANZSCO) and Sex, August 1986 onwards**, sheet **Data 1**.
+- Latest actual observation in the downloaded data: **February 2026**. This was
+  checked from the records, not inferred from the publication month or pivot
+  table's saved column order.
+- Select **Farmers and Farm Managers**, six age groups, Males/Females, full-time
+  and part-time. Source units are **thousands of employed persons**. The derived
+  total is the sum of full-time and part-time estimates, not an exact headcount.
+- Data creation: ABS Labour Force Survey, weighted employment estimates. The
+  occupation concerns a person's main job, not every role on a farm. It is
+  distinct from employment in the agriculture industry.
+- Preparation: preserve full precision, dates, source row numbers, sex/age labels,
+  and units. Retain history from 2000 in a compact CSV; use the latest 12 cells
+  for the pyramid. Calculate the 55+ share from the 55–64 and 65+ groups.
+- The publication has ceased under this title. [Current Labour Force publication](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release)
+  was August 2026 when checked; it includes newer headline labour statistics,
+  which are not substitutes for this occupation/age cross-tabulation. February
+  2026 is the latest detailed occupation period verified here; recheck detailed
+  replacement tables when building, and never label these figures October 2026.
+- Rights: ABS CC BY 4.0 and derivative attribution as above.
+- Chart: 6.
 
-## File-level record to complete after access
+### S3. ABS Labour Force, Australia, Detailed: Table 06
 
-For every actual source file, record:
+- Same [March 2026 publication](https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia-detailed/mar-2026).
+- Exact file **6291006.xlsx**, sheet **Data1**: **Employed persons by Industry
+  sub-division of main job (ANZSIC) and Sex**. Latest observation February 2026.
+- Retain only the **Agriculture** subdivision's nine series (total/full-time/
+  part-time × persons/males/females). Exclude the broader division that includes
+  forestry/fishing and the other subdivision series. Series IDs are retained.
+- Original quarterly survey estimates, in thousands, from 1984 onwards. The
+  research extract starts in 2000. Seasonal variation and sampling variation
+  make isolated quarter-to-quarter movements unsuitable for strong trend claims.
+- Calculate a full-year average only from all four quarters; February 2026 alone
+  is not the 2026 annual average. Do not splice this survey to Census counts.
+- Rights: ABS CC BY 4.0 and derivative attribution.
+- Chart: 12.
 
-- Exact title, publisher, landing URL, direct download URL, table/sheet identifier.
-- Release date, reference period, retrieval date, and evidence of latest edition.
-- Licence/terms URL, third-party restrictions, and required attribution.
-- Unit of observation, industry codes, population, units, geography and boundary edition.
-- Survey coverage, thresholds, suppression, missing codes, and uncertainty notes.
-- Original file checksum, filtered columns/rows, aggregation formula, joins, and output file.
-- Charts using the extract; computed findings and independent spot checks.
+### S4. Dairy Australia, Australian Dairy Industry In Focus 2025
 
-Keep original source files outside the public page's download path. Put small
-derived chart inputs in `data/` later, with a source manifest and reproducible
-preparation script. Publication rights must be checked before redistributing files.
+- [Official current-report landing page](https://www.dairyaustralia.com.au/industry-reports/australian-dairy-industry-in-focus).
+  The current-report download is labelled **2025**; the archive includes 2024 and
+  earlier reports. No newer In Focus edition was listed when checked.
+- [Exact PDF](https://assets.dairyaustralia.com.au/api/public/content/In-Focus-2025?v=42fe4d04), 2,025,718 bytes; report mainly describes the **2024–25 season**.
+  The landing page did not expose a precise publication date; do not invent one.
+- Primary table: **Table 2, Number of registered dairy farms**, printed page **8**,
+  PDF page **10**, 2011–12 through 2024–25. Publisher: Dairy Australia. Table source:
+  **State milk authorities and Dairy Australia**. Latest season marked **(p)**,
+  meaning provisional.
+- Preparation: extract the numeric table, retain NSW/Vic/Qld/SA/WA/Tas and the
+  national total, retain provisional status. All 14 rows' state totals were
+  checked against the national column. Exact formulas support percent decline,
+  Victoria's share, and state contributions to change.
+- NT/ACT have no rows in the table. Missing coverage must not become invented
+  zeroes on a map.
+- Units are registered dairy farms, **not CABEE dairy-cattle businesses**. For
+  example, CABEE's 2025 dairy-business class total is 8,044, while this table has
+  3,772 registered dairy farms. These are not interchangeable and their difference
+  is not a count of closures, inactive farms, or errors.
+- Context only: printed page 4 identifies Malaysia among the top five dairy export
+  destinations by value; printed page 5 explains that the reported dairy workforce
+  also includes processing companies. Do not call its 30,400 industry workforce
+  figure an on-farm-only count.
+- Rights/terms checked: [Dairy Australia disclaimer](https://www.dairyaustralia.com.au/disclaimer)
+  and the report. Copyright Dairy Australia; **no open-data licence was identified**.
+  The research uses a small factual numeric table extract with attribution; do
+  not redistribute the PDF, copy its charts/photos/text, or describe it as CC BY.
+  Confirm any additional reuse terms before reproducing substantial report material.
+- Charts: 3, 5, 10.
 
-## Proposed derived schemas
+### S5. ABS geographic boundaries
 
-These are target schemas, not downloaded or fabricated data files.
+- [ASGS Edition 3 digital boundaries](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs/edition-3-july-2021-june-2026/access-and-downloads/digital-boundary-files).
+- State/territory shapefile GDA2020 is listed as a **20.56 MB ZIP**. Use the **2021
+  state geography** deliberately; the page explicitly says this is not the latest
+  ASGS edition. Do not call it the current edition.
+- Rights: ABS CC BY 4.0 subject to source exceptions and derivative attribution.
+- Status: landing page and download listing verified; geometry has **not** yet
+  been downloaded, simplified, projected, or joined. Those are implementation
+  tasks. Preserve state codes and topology; report dropped islands/territories.
+- Charts: 1, 2, 10; Albers equal-area for ordinary maps, then explicit area
+  transformation for the cartogram.
 
-| Extract | Fields |
-| --- | --- |
-| Workforce by region | `year, region_code, region_name, geography_level, agriculture_workers, all_employed, agriculture_share_pct, status` |
-| Sector workforce | `year, state_code, sector_code, sector_name, workers, coverage_note` |
-| Workforce age/sex | `year, sector_code, age_band, sex_category, workers, status` |
-| Regional older-worker share | `year, region_code, sector_code, workers_55_plus, workers_total, share_55_plus_pct, included, exclusion_reason` |
-| Business counts | `reference_date, state_code, industry_code, employment_size_class, businesses, scope_note` |
-| Farm-count trend | `year, geographic_code, farm_or_business_count, measure_name, collection_scope, comparable_segment` |
-| ABARES labour | `survey_year, farm_sector, labour_category, value, unit, estimate_status, source_table` |
-| Geography | Official geographic code plus simplified geometry, reference edition and attribution. |
+### S6. ABS older agricultural-business survey (context only)
 
-## Validation before narrative writing
+- [Agricultural Commodities, Australia, 2021–22](https://www.abs.gov.au/statistics/industry/agriculture/agricultural-commodities-australia/2021-22)
+  is the **final issue**, originally released 17 January 2023, with historical
+  additions and later page updates.
+- Downloaded **AGCDCNAT_STATE202122.xlsx**, Table 1. Its all-agriculture row has
+  an estimated **87,786.57 businesses**, reported as about 87,800 on the page.
+- [Methodology](https://www.abs.gov.au/methodologies/agricultural-commodities-australia-methodology/2021-22)
+  requires agricultural activity and an estimated value of agricultural operations
+  of at least **AUD 40,000**. It used the Rural Environment and Agricultural
+  Commodity Survey; the response rate was 68% from a sample of 24,871 businesses.
+- This is not the same scope as CABEE. No trend splicing is allowed.
+- Newer commodity-specific releases exist; the [agriculture index](https://www.abs.gov.au/statistics/industry/agriculture)
+  lists livestock, horticulture and broadacre releases for 2024–25. Their crop or
+  animal totals are not a current all-farm-count series.
+- Rights: ABS CC BY 4.0. No core chart depends on the discontinued survey.
 
-- Check unique keys, numeric types, nonnegative counts, and percentage ranges.
-- Reconcile totals against official tables, allowing only documented rounding or
-  confidentiality effects. Avoid false precision in small-region percentages.
-- Match numerator and denominator population/year/geography for every rate.
-- Keep missing/suppressed cells separate from zero and exclude unknown geography
-  transparently from maps.
-- Check industry concordances before combining Census years; use only harmonised
-  categories, and document sectors aggregated or excluded.
-- Compare only common business definitions and reference dates in trend charts.
-- Verify every boundary join and inspect small territories and detached islands.
-- Check the box plot's sample size per sector and disclose regional weighting.
-- Verify that the ABARES comparison uses published survey estimates, not invented
-  national estimates from a subset of farms.
-- Calculate chart findings in the preparation step and trace each displayed value
-  to a source table. No causal annotation without a separately verified citation.
+## Sources investigated but not selected
 
-## Download and page-size target
+- **Census 2021:** DataPacks downloaded and metadata inspected, including G54,
+  T34, and working-population profiles. G54 combines **Agriculture, Forestry and
+  Fishing**, not agriculture alone. This contradicts the first plan's assumed
+  fine-grained sector availability. Census extracts are not used in the revised
+  core plan; do not relabel those broad tables as farming-only data.
+- **ABARES:** HTTP 503 on workforce and main pages, upstream connection reset.
+  Replaced by accessible ABS workforce tables and Dairy Australia farm data;
+  the current plan does not depend on waiting for that site.
+- **Jobs and Skills Australia:** same HTTP 503 when tested; no dataset claimed.
+- **NFF Farm Facts:** accessible at its [new location](https://nff.org.au/initiatives/resources/farm-facts/),
+  but mostly quotes ABS/ABARES and mixes reference periods. Useful source-finding
+  context; it does not supply an independent numerical series for our charts.
+- Earlier candidate URLs for CABEE under `/industry/industry-overview/` were
+  incorrect. The verified location is `/economy/business-indicators/` above.
 
-Aim for **under 2 MB of total downloadable chart data and geography**, excluding
-library code, as a concrete interpretation of the brief's “few megabytes”.
-Use compact filtered tables and simplify boundaries while retaining valid shapes.
-Shared extracts should be reused by several specs; formatted chart JSON should
-remain readable. This target has not yet been measured because no data is downloaded.
+## Prepared files and reproduction
 
-## Next action
+- [Source manifest](data/source_manifest.json): eight originals, exact download
+  URLs, byte counts, retrieval date, SHA-256 hashes.
+- [Preparation script](scripts/prepare_research_data.py): frozen-source validation,
+  class filtering/grouping, workforce extraction, Dairy Australia table extraction,
+  source-row references, and computed findings.
+- [Dependencies](scripts/requirements-research.txt): pinned spreadsheet/PDF parsers.
+- [Derived extract guide](data/README.md): field meanings and scope.
+- [Calculated findings](data/research/findings.json): precise values underlying
+  rounded narrative claims.
 
-Activate the saved domain additions in environment settings and publish the
-environment. Then retry the source requests, verify current releases and
-download tables, and revise [PROJECT_PLAN.md](PROJECT_PLAN.md) using actual
-evidence before committing to the sketch or building the page. Add additional
-official download hostnames only if redirects reveal they are needed.
+From the repository root, create a virtual environment outside the checkout,
+install `scripts/requirements-research.txt`, then run:
+
+```sh
+python scripts/prepare_research_data.py --source-dir /path/to/originals --download
+```
+
+`--download` retrieves missing original files with normal HTTPS verification.
+An integrity mismatch stops processing; investigate a revised source, rather
+than blindly replacing a checksum. Without that flag the script reads existing
+original files. It does not commit originals or publish anything.
+
+## Validation completed and remaining
+
+Completed: exact input hashes and sizes; agriculture class scope; 34 national
+class records per year; nonnegative retained business/worker cells; all eight
+state denominators; latest actual workforce month; 12 unique farmer age/sex
+cells; all 14 dairy state sums; selected source-row/series-ID spot checks; numerical
+headline calculations. The box plot has 5–8 eligible states for each retained
+sector; deer has none at the threshold and is excluded.
+
+The prepared CSVs and findings JSON total approximately **292 KB**. The original
+files remain outside the checkout. This is an extract-size measurement, not a
+claim about a finished website's network download size.
+
+Remaining before building/publishing: final sketch and tutor feedback; boundary
+preparation/joins; final wording for chart-specific changes; latest-release
+recheck; palette/contrast/colour-vision checks; chart rendering and accessibility;
+HTTP/browser checks at the brief's four laptop widths; total delivered data size.
+No website, sketch PDF, browser validation, or GitHub Pages deployment is claimed.

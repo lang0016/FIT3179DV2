@@ -1,0 +1,12 @@
+{
+  "farmers_reference_date": "2026-02-01",
+  "farmers_and_farm_managers_thousands": 150.29254329,
+  "farmers_age_55_plus_pct": 58.91854665679336,
+  "farmers_female_pct": 29.583719914970906,
+  "dairy_farms_2011_12": 6770,
+  "dairy_farms_2024_25_provisional": 3772,
+  "dairy_farms_change_2011_12_to_2024_25_pct": -44.283604135893654,
+  "agriculture_businesses_2025_sum_of_34_published_class_totals": 144681,
+  "agriculture_businesses_2025_non_employing_sum_of_class_cells": 109401,
+  "note": "Survey workforce estimates are in thousands, not exact person counts. CABEE class cells are perturbed; class component sums need not equal totals. Registered dairy farms and CABEE businesses are different measures."
+}

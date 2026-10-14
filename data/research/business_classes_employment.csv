@@ -1,0 +1,681 @@
+year,state,industry_class,sector,class_label,total,non_employing,employees_1_4,employees_5_19,employees_20_199,employees_200_plus,source_table,source_row
+2025,New South Wales,0111,Nursery and floriculture,Nursery Production (Under Cover),90,55,20,8,7,0,Table 1,8
+2025,Victoria,0111,Nursery and floriculture,Nursery Production (Under Cover),85,55,18,9,3,0,Table 1,9
+2025,Queensland,0111,Nursery and floriculture,Nursery Production (Under Cover),86,53,18,11,4,0,Table 1,10
+2025,South Australia,0111,Nursery and floriculture,Nursery Production (Under Cover),17,12,4,3,0,0,Table 1,11
+2025,Western Australia,0111,Nursery and floriculture,Nursery Production (Under Cover),34,21,6,5,3,0,Table 1,12
+2025,Tasmania,0111,Nursery and floriculture,Nursery Production (Under Cover),13,7,3,0,3,0,Table 1,13
+2025,Northern Territory,0111,Nursery and floriculture,Nursery Production (Under Cover),5,3,0,0,0,0,Table 1,14
+2025,Australian Capital Territory,0111,Nursery and floriculture,Nursery Production (Under Cover),0,0,0,0,0,0,Table 1,15
+2025,Other Territories/Currently Unknown,0111,Nursery and floriculture,Nursery Production (Under Cover),0,0,0,0,0,0,Table 1,16
+2025,Australia (published class total),0111,Nursery and floriculture,Total Nursery Production (Under Cover),331,207,69,35,20,0,Table 1,17
+2025,New South Wales,0112,Nursery and floriculture,Nursery Production (Outdoors),237,137,55,36,9,0,Table 1,18
+2025,Victoria,0112,Nursery and floriculture,Nursery Production (Outdoors),200,98,58,31,13,0,Table 1,19
+2025,Queensland,0112,Nursery and floriculture,Nursery Production (Outdoors),183,98,45,33,7,0,Table 1,20
+2025,South Australia,0112,Nursery and floriculture,Nursery Production (Outdoors),65,44,13,5,3,0,Table 1,21
+2025,Western Australia,0112,Nursery and floriculture,Nursery Production (Outdoors),79,34,20,21,4,0,Table 1,22
+2025,Tasmania,0112,Nursery and floriculture,Nursery Production (Outdoors),34,17,3,11,3,0,Table 1,23
+2025,Northern Territory,0112,Nursery and floriculture,Nursery Production (Outdoors),7,6,0,0,0,0,Table 1,24
+2025,Australian Capital Territory,0112,Nursery and floriculture,Nursery Production (Outdoors),4,3,0,0,0,0,Table 1,25
+2025,Other Territories/Currently Unknown,0112,Nursery and floriculture,Nursery Production (Outdoors),0,0,0,0,0,0,Table 1,26
+2025,Australia (published class total),0112,Nursery and floriculture,Total Nursery Production (Outdoors),809,436,194,140,39,0,Table 1,27
+2025,New South Wales,0113,Nursery and floriculture,Turf Growing,170,80,57,32,0,0,Table 1,28
+2025,Victoria,0113,Nursery and floriculture,Turf Growing,52,24,13,12,3,0,Table 1,29
+2025,Queensland,0113,Nursery and floriculture,Turf Growing,155,87,36,26,6,0,Table 1,30
+2025,South Australia,0113,Nursery and floriculture,Turf Growing,15,4,5,5,3,0,Table 1,31
+2025,Western Australia,0113,Nursery and floriculture,Turf Growing,40,18,13,7,0,0,Table 1,32
+2025,Tasmania,0113,Nursery and floriculture,Turf Growing,5,3,3,0,0,0,Table 1,33
+2025,Northern Territory,0113,Nursery and floriculture,Turf Growing,3,3,0,0,0,0,Table 1,34
+2025,Australian Capital Territory,0113,Nursery and floriculture,Turf Growing,3,0,0,3,0,0,Table 1,35
+2025,Other Territories/Currently Unknown,0113,Nursery and floriculture,Turf Growing,0,0,0,0,0,0,Table 1,36
+2025,Australia (published class total),0113,Nursery and floriculture,Total Turf Growing,442,217,126,86,13,0,Table 1,37
+2025,New South Wales,0114,Nursery and floriculture,Floriculture Production (Under Cover),30,16,8,6,0,0,Table 1,38
+2025,Victoria,0114,Nursery and floriculture,Floriculture Production (Under Cover),43,24,11,6,3,0,Table 1,39
+2025,Queensland,0114,Nursery and floriculture,Floriculture Production (Under Cover),22,17,0,3,3,0,Table 1,40
+2025,South Australia,0114,Nursery and floriculture,Floriculture Production (Under Cover),11,6,0,3,3,0,Table 1,41
+2025,Western Australia,0114,Nursery and floriculture,Floriculture Production (Under Cover),7,5,3,0,0,0,Table 1,42
+2025,Tasmania,0114,Nursery and floriculture,Floriculture Production (Under Cover),4,3,0,3,0,0,Table 1,43
+2025,Northern Territory,0114,Nursery and floriculture,Floriculture Production (Under Cover),0,0,0,0,0,0,Table 1,44
+2025,Australian Capital Territory,0114,Nursery and floriculture,Floriculture Production (Under Cover),0,0,0,0,0,0,Table 1,45
+2025,Other Territories/Currently Unknown,0114,Nursery and floriculture,Floriculture Production (Under Cover),0,0,0,0,0,0,Table 1,46
+2025,Australia (published class total),0114,Nursery and floriculture,Total Floriculture Production (Under Cover),117,70,24,17,6,0,Table 1,47
+2025,New South Wales,0115,Nursery and floriculture,Floriculture Production (Outdoors),139,88,37,12,3,0,Table 1,48
+2025,Victoria,0115,Nursery and floriculture,Floriculture Production (Outdoors),148,84,39,17,7,0,Table 1,49
+2025,Queensland,0115,Nursery and floriculture,Floriculture Production (Outdoors),108,62,25,11,10,0,Table 1,50
+2025,South Australia,0115,Nursery and floriculture,Floriculture Production (Outdoors),50,30,16,3,3,0,Table 1,51
+2025,Western Australia,0115,Nursery and floriculture,Floriculture Production (Outdoors),47,28,10,5,4,0,Table 1,52
+2025,Tasmania,0115,Nursery and floriculture,Floriculture Production (Outdoors),35,20,5,6,4,0,Table 1,53
+2025,Northern Territory,0115,Nursery and floriculture,Floriculture Production (Outdoors),3,3,0,0,0,0,Table 1,54
+2025,Australian Capital Territory,0115,Nursery and floriculture,Floriculture Production (Outdoors),3,3,0,0,0,0,Table 1,55
+2025,Other Territories/Currently Unknown,0115,Nursery and floriculture,Floriculture Production (Outdoors),0,0,0,0,0,0,Table 1,56
+2025,Australia (published class total),0115,Nursery and floriculture,Total Floriculture Production (Outdoors),532,316,133,54,28,0,Table 1,57
+2025,New South Wales,0121,Mushrooms and vegetables,Mushroom Growing,83,43,15,10,15,0,Table 1,58
+2025,Victoria,0121,Mushrooms and vegetables,Mushroom Growing,58,32,17,6,3,0,Table 1,59
+2025,Queensland,0121,Mushrooms and vegetables,Mushroom Growing,54,33,12,6,3,0,Table 1,60
+2025,South Australia,0121,Mushrooms and vegetables,Mushroom Growing,11,6,3,0,3,0,Table 1,61
+2025,Western Australia,0121,Mushrooms and vegetables,Mushroom Growing,16,10,4,0,0,0,Table 1,62
+2025,Tasmania,0121,Mushrooms and vegetables,Mushroom Growing,11,8,3,3,0,0,Table 1,63
+2025,Northern Territory,0121,Mushrooms and vegetables,Mushroom Growing,3,3,0,0,0,0,Table 1,64
+2025,Australian Capital Territory,0121,Mushrooms and vegetables,Mushroom Growing,3,3,0,0,0,0,Table 1,65
+2025,Other Territories/Currently Unknown,0121,Mushrooms and vegetables,Mushroom Growing,0,0,0,0,0,0,Table 1,66
+2025,Australia (published class total),0121,Mushrooms and vegetables,Total Mushroom Growing,237,135,53,25,23,3,Table 1,67
+2025,New South Wales,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),255,192,43,13,6,0,Table 1,68
+2025,Victoria,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),97,59,25,8,4,0,Table 1,69
+2025,Queensland,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),157,104,31,16,6,0,Table 1,70
+2025,South Australia,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),333,261,54,13,5,0,Table 1,71
+2025,Western Australia,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),56,35,13,6,3,0,Table 1,72
+2025,Tasmania,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),18,10,4,3,0,0,Table 1,73
+2025,Northern Territory,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),10,6,4,0,0,0,Table 1,74
+2025,Australian Capital Territory,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),5,0,3,0,0,0,Table 1,75
+2025,Other Territories/Currently Unknown,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),0,0,0,0,0,0,Table 1,76
+2025,Australia (published class total),0122,Mushrooms and vegetables,Total Vegetable Growing (Under Cover),931,669,177,58,25,0,Table 1,77
+2025,New South Wales,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),1100,807,231,48,12,3,Table 1,78
+2025,Victoria,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),873,536,192,105,36,4,Table 1,79
+2025,Queensland,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),945,608,170,108,55,4,Table 1,80
+2025,South Australia,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),559,416,91,39,12,0,Table 1,81
+2025,Western Australia,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),577,372,102,70,32,0,Table 1,82
+2025,Tasmania,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),317,200,62,40,15,0,Table 1,83
+2025,Northern Territory,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),97,68,22,4,3,0,Table 1,84
+2025,Australian Capital Territory,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),6,5,3,0,0,0,Table 1,85
+2025,Other Territories/Currently Unknown,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),0,0,0,0,0,0,Table 1,86
+2025,Australia (published class total),0123,Mushrooms and vegetables,Total Vegetable Growing (Outdoors),4475,3013,871,414,165,12,Table 1,87
+2025,New South Wales,0131,Fruit and tree nuts,Grape Growing,815,594,152,54,15,0,Table 1,88
+2025,Victoria,0131,Fruit and tree nuts,Grape Growing,1329,938,263,91,37,0,Table 1,89
+2025,Queensland,0131,Fruit and tree nuts,Grape Growing,122,80,22,14,6,0,Table 1,90
+2025,South Australia,0131,Fruit and tree nuts,Grape Growing,1983,1514,322,115,31,3,Table 1,91
+2025,Western Australia,0131,Fruit and tree nuts,Grape Growing,485,343,90,38,14,0,Table 1,92
+2025,Tasmania,0131,Fruit and tree nuts,Grape Growing,142,83,23,24,12,0,Table 1,93
+2025,Northern Territory,0131,Fruit and tree nuts,Grape Growing,5,3,3,0,0,0,Table 1,94
+2025,Australian Capital Territory,0131,Fruit and tree nuts,Grape Growing,13,7,3,0,3,0,Table 1,95
+2025,Other Territories/Currently Unknown,0131,Fruit and tree nuts,Grape Growing,0,0,0,0,0,0,Table 1,96
+2025,Australia (published class total),0131,Fruit and tree nuts,Total Grape Growing,4894,3562,877,337,117,0,Table 1,97
+2025,New South Wales,0132,Fruit and tree nuts,Kiwifruit Growing,7,5,3,0,0,0,Table 1,98
+2025,Victoria,0132,Fruit and tree nuts,Kiwifruit Growing,12,6,3,0,0,0,Table 1,99
+2025,Queensland,0132,Fruit and tree nuts,Kiwifruit Growing,10,8,0,0,0,0,Table 1,100
+2025,South Australia,0132,Fruit and tree nuts,Kiwifruit Growing,0,3,0,0,0,0,Table 1,101
+2025,Western Australia,0132,Fruit and tree nuts,Kiwifruit Growing,6,4,0,3,3,0,Table 1,102
+2025,Tasmania,0132,Fruit and tree nuts,Kiwifruit Growing,0,0,0,0,0,0,Table 1,103
+2025,Northern Territory,0132,Fruit and tree nuts,Kiwifruit Growing,0,0,0,0,0,0,Table 1,104
+2025,Australian Capital Territory,0132,Fruit and tree nuts,Kiwifruit Growing,0,0,0,0,0,0,Table 1,105
+2025,Other Territories/Currently Unknown,0132,Fruit and tree nuts,Kiwifruit Growing,0,0,0,0,0,0,Table 1,106
+2025,Australia (published class total),0132,Fruit and tree nuts,Total Kiwifruit Growing,37,25,5,4,3,0,Table 1,107
+2025,New South Wales,0133,Fruit and tree nuts,Berry Fruit Growing,189,98,69,15,5,0,Table 1,108
+2025,Victoria,0133,Fruit and tree nuts,Berry Fruit Growing,146,73,49,18,6,0,Table 1,109
+2025,Queensland,0133,Fruit and tree nuts,Berry Fruit Growing,117,62,18,13,22,0,Table 1,110
+2025,South Australia,0133,Fruit and tree nuts,Berry Fruit Growing,23,15,5,0,3,0,Table 1,111
+2025,Western Australia,0133,Fruit and tree nuts,Berry Fruit Growing,55,32,8,7,8,0,Table 1,112
+2025,Tasmania,0133,Fruit and tree nuts,Berry Fruit Growing,64,34,13,6,10,0,Table 1,113
+2025,Northern Territory,0133,Fruit and tree nuts,Berry Fruit Growing,0,0,0,0,0,0,Table 1,114
+2025,Australian Capital Territory,0133,Fruit and tree nuts,Berry Fruit Growing,0,0,0,0,0,0,Table 1,115
+2025,Other Territories/Currently Unknown,0133,Fruit and tree nuts,Berry Fruit Growing,0,0,0,0,0,0,Table 1,116
+2025,Australia (published class total),0133,Fruit and tree nuts,Total Berry Fruit Growing,595,315,162,60,53,5,Table 1,117
+2025,New South Wales,0134,Fruit and tree nuts,Apple and Pear Growing,91,66,12,5,8,0,Table 1,118
+2025,Victoria,0134,Fruit and tree nuts,Apple and Pear Growing,202,119,46,23,13,0,Table 1,119
+2025,Queensland,0134,Fruit and tree nuts,Apple and Pear Growing,45,31,6,6,3,0,Table 1,120
+2025,South Australia,0134,Fruit and tree nuts,Apple and Pear Growing,66,38,15,8,5,0,Table 1,121
+2025,Western Australia,0134,Fruit and tree nuts,Apple and Pear Growing,110,54,19,22,15,0,Table 1,122
+2025,Tasmania,0134,Fruit and tree nuts,Apple and Pear Growing,57,29,6,9,12,3,Table 1,123
+2025,Northern Territory,0134,Fruit and tree nuts,Apple and Pear Growing,0,0,0,0,0,0,Table 1,124
+2025,Australian Capital Territory,0134,Fruit and tree nuts,Apple and Pear Growing,3,0,3,0,0,0,Table 1,125
+2025,Other Territories/Currently Unknown,0134,Fruit and tree nuts,Apple and Pear Growing,0,0,0,0,0,0,Table 1,126
+2025,Australia (published class total),0134,Fruit and tree nuts,Total Apple and Pear Growing,574,338,106,73,55,3,Table 1,127
+2025,New South Wales,0135,Fruit and tree nuts,Stone Fruit Growing,168,124,31,10,3,0,Table 1,128
+2025,Victoria,0135,Fruit and tree nuts,Stone Fruit Growing,211,125,55,23,7,0,Table 1,129
+2025,Queensland,0135,Fruit and tree nuts,Stone Fruit Growing,106,58,20,18,10,0,Table 1,130
+2025,South Australia,0135,Fruit and tree nuts,Stone Fruit Growing,98,63,20,10,5,0,Table 1,131
+2025,Western Australia,0135,Fruit and tree nuts,Stone Fruit Growing,60,29,17,14,0,0,Table 1,132
+2025,Tasmania,0135,Fruit and tree nuts,Stone Fruit Growing,42,17,12,7,4,3,Table 1,133
+2025,Northern Territory,0135,Fruit and tree nuts,Stone Fruit Growing,3,3,0,0,0,0,Table 1,134
+2025,Australian Capital Territory,0135,Fruit and tree nuts,Stone Fruit Growing,0,0,0,0,0,0,Table 1,135
+2025,Other Territories/Currently Unknown,0135,Fruit and tree nuts,Stone Fruit Growing,0,0,0,0,0,0,Table 1,136
+2025,Australia (published class total),0135,Fruit and tree nuts,Total Stone Fruit Growing,688,419,155,82,29,3,Table 1,137
+2025,New South Wales,0136,Fruit and tree nuts,Citrus Fruit Growing,353,265,71,15,3,0,Table 1,138
+2025,Victoria,0136,Fruit and tree nuts,Citrus Fruit Growing,125,96,14,6,8,0,Table 1,139
+2025,Queensland,0136,Fruit and tree nuts,Citrus Fruit Growing,233,141,38,32,22,0,Table 1,140
+2025,South Australia,0136,Fruit and tree nuts,Citrus Fruit Growing,142,97,29,12,3,0,Table 1,141
+2025,Western Australia,0136,Fruit and tree nuts,Citrus Fruit Growing,67,47,7,11,3,0,Table 1,142
+2025,Tasmania,0136,Fruit and tree nuts,Citrus Fruit Growing,4,0,0,3,0,0,Table 1,143
+2025,Northern Territory,0136,Fruit and tree nuts,Citrus Fruit Growing,0,0,0,0,0,0,Table 1,144
+2025,Australian Capital Territory,0136,Fruit and tree nuts,Citrus Fruit Growing,0,0,0,0,0,0,Table 1,145
+2025,Other Territories/Currently Unknown,0136,Fruit and tree nuts,Citrus Fruit Growing,0,0,0,0,0,0,Table 1,146
+2025,Australia (published class total),0136,Fruit and tree nuts,Total Citrus Fruit Growing,925,649,159,77,37,3,Table 1,147
+2025,New South Wales,0137,Fruit and tree nuts,Olive Growing,87,76,9,0,0,0,Table 1,148
+2025,Victoria,0137,Fruit and tree nuts,Olive Growing,101,81,11,8,0,0,Table 1,149
+2025,Queensland,0137,Fruit and tree nuts,Olive Growing,21,19,3,0,0,0,Table 1,150
+2025,South Australia,0137,Fruit and tree nuts,Olive Growing,55,47,5,3,0,0,Table 1,151
+2025,Western Australia,0137,Fruit and tree nuts,Olive Growing,55,41,10,3,3,0,Table 1,152
+2025,Tasmania,0137,Fruit and tree nuts,Olive Growing,7,7,0,0,0,0,Table 1,153
+2025,Northern Territory,0137,Fruit and tree nuts,Olive Growing,0,0,0,0,0,0,Table 1,154
+2025,Australian Capital Territory,0137,Fruit and tree nuts,Olive Growing,3,0,3,0,0,0,Table 1,155
+2025,Other Territories/Currently Unknown,0137,Fruit and tree nuts,Olive Growing,0,0,0,0,0,0,Table 1,156
+2025,Australia (published class total),0137,Fruit and tree nuts,Total Olive Growing,328,271,38,15,4,0,Table 1,157
+2025,New South Wales,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,1115,839,209,52,15,0,Table 1,158
+2025,Victoria,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,385,275,63,31,15,0,Table 1,159
+2025,Queensland,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,1378,859,247,164,104,4,Table 1,160
+2025,South Australia,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,236,162,42,26,6,0,Table 1,161
+2025,Western Australia,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,349,246,44,49,10,0,Table 1,162
+2025,Tasmania,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,37,25,7,0,4,0,Table 1,163
+2025,Northern Territory,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,108,75,17,13,3,0,Table 1,164
+2025,Australian Capital Territory,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,4,4,0,0,0,0,Table 1,165
+2025,Other Territories/Currently Unknown,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,0,0,0,0,0,0,Table 1,166
+2025,Australia (published class total),0139,Fruit and tree nuts,Total Other Fruit and Tree Nut Growing,3612,2485,629,336,157,5,Table 1,167
+2025,New South Wales,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),2911,2048,693,159,11,0,Table 1,168
+2025,Victoria,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),2529,1800,560,163,6,0,Table 1,169
+2025,Queensland,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),313,241,59,13,0,0,Table 1,170
+2025,South Australia,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),987,673,231,76,7,0,Table 1,171
+2025,Western Australia,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),947,704,191,47,5,0,Table 1,172
+2025,Tasmania,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),326,215,57,49,5,0,Table 1,173
+2025,Northern Territory,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),3,3,0,0,0,0,Table 1,174
+2025,Australian Capital Territory,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),29,20,7,3,0,0,Table 1,175
+2025,Other Territories/Currently Unknown,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),0,0,0,0,0,0,Table 1,176
+2025,Australia (published class total),0141,"Sheep, beef cattle and grain",Total Sheep Farming (Specialised),8045,5704,1798,509,34,0,Table 1,177
+2025,New South Wales,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),13581,12042,1327,191,21,0,Table 1,178
+2025,Victoria,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),7604,6878,629,84,13,0,Table 1,179
+2025,Queensland,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),16911,14571,1928,359,51,3,Table 1,180
+2025,South Australia,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),1217,1042,138,31,6,0,Table 1,181
+2025,Western Australia,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),1944,1615,230,81,18,0,Table 1,182
+2025,Tasmania,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),1017,869,118,25,5,0,Table 1,183
+2025,Northern Territory,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),254,152,45,41,15,0,Table 1,184
+2025,Australian Capital Territory,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),70,63,7,0,0,0,Table 1,185
+2025,Other Territories/Currently Unknown,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),3,3,0,0,0,0,Table 1,186
+2025,Australia (published class total),0142,"Sheep, beef cattle and grain",Total Beef Cattle Farming (Specialised),42599,37233,4422,812,129,3,Table 1,187
+2025,New South Wales,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),38,23,6,5,3,0,Table 1,188
+2025,Victoria,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),21,15,3,0,3,0,Table 1,189
+2025,Queensland,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),66,40,13,9,4,0,Table 1,190
+2025,South Australia,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),13,8,3,3,0,0,Table 1,191
+2025,Western Australia,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),16,7,3,4,3,0,Table 1,192
+2025,Tasmania,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),0,0,0,0,0,0,Table 1,193
+2025,Northern Territory,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),0,0,0,0,0,0,Table 1,194
+2025,Australian Capital Territory,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),0,0,0,0,0,0,Table 1,195
+2025,Other Territories/Currently Unknown,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),0,0,0,0,0,0,Table 1,196
+2025,Australia (published class total),0143,"Sheep, beef cattle and grain",Total Beef Cattle Feedlots (Specialised),157,95,27,23,11,0,Table 1,197
+2025,New South Wales,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,7180,5509,1342,315,13,0,Table 1,198
+2025,Victoria,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,3924,3117,649,147,11,0,Table 1,199
+2025,Queensland,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,1806,1486,260,52,8,0,Table 1,200
+2025,South Australia,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,1384,977,287,110,10,0,Table 1,201
+2025,Western Australia,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,903,709,148,39,7,0,Table 1,202
+2025,Tasmania,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,618,436,105,72,5,0,Table 1,203
+2025,Northern Territory,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,27,19,4,4,0,0,Table 1,204
+2025,Australian Capital Territory,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,39,33,6,0,0,0,Table 1,205
+2025,Other Territories/Currently Unknown,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,3,0,0,0,0,0,Table 1,206
+2025,Australia (published class total),0144,"Sheep, beef cattle and grain",Total Sheep-Beef Cattle Farming,15882,12287,2801,739,54,0,Table 1,207
+2025,New South Wales,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,8130,5790,1878,440,22,0,Table 1,208
+2025,Victoria,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,5070,3667,1087,304,12,0,Table 1,209
+2025,Queensland,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,3734,3098,525,101,10,0,Table 1,210
+2025,South Australia,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,3410,2068,977,352,13,0,Table 1,211
+2025,Western Australia,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,3731,2153,1251,311,16,0,Table 1,212
+2025,Tasmania,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,486,332,101,44,9,0,Table 1,213
+2025,Northern Territory,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,46,35,5,4,3,0,Table 1,214
+2025,Australian Capital Territory,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,34,29,3,0,0,0,Table 1,215
+2025,Other Territories/Currently Unknown,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,0,0,0,0,0,0,Table 1,216
+2025,Australia (published class total),0145,"Sheep, beef cattle and grain",Total Grain-Sheep or Grain-Beef Cattle Farming,24641,17172,5827,1558,84,0,Table 1,217
+2025,New South Wales,0146,"Sheep, beef cattle and grain",Rice Growing,169,117,44,8,0,0,Table 1,218
+2025,Victoria,0146,"Sheep, beef cattle and grain",Rice Growing,9,5,3,3,0,0,Table 1,219
+2025,Queensland,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,3,0,0,0,Table 1,220
+2025,South Australia,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 1,221
+2025,Western Australia,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 1,222
+2025,Tasmania,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 1,223
+2025,Northern Territory,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 1,224
+2025,Australian Capital Territory,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 1,225
+2025,Other Territories/Currently Unknown,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 1,226
+2025,Australia (published class total),0146,"Sheep, beef cattle and grain",Total Rice Growing,179,122,48,9,0,0,Table 1,227
+2025,New South Wales,0149,"Sheep, beef cattle and grain",Other Grain Growing,2788,1881,692,195,15,5,Table 1,228
+2025,Victoria,0149,"Sheep, beef cattle and grain",Other Grain Growing,2327,1612,574,134,6,0,Table 1,229
+2025,Queensland,0149,"Sheep, beef cattle and grain",Other Grain Growing,1406,1080,260,53,13,0,Table 1,230
+2025,South Australia,0149,"Sheep, beef cattle and grain",Other Grain Growing,1875,1191,547,136,3,0,Table 1,231
+2025,Western Australia,0149,"Sheep, beef cattle and grain",Other Grain Growing,1833,1007,631,184,11,0,Table 1,232
+2025,Tasmania,0149,"Sheep, beef cattle and grain",Other Grain Growing,37,25,9,3,0,0,Table 1,233
+2025,Northern Territory,0149,"Sheep, beef cattle and grain",Other Grain Growing,10,9,0,3,0,0,Table 1,234
+2025,Australian Capital Territory,0149,"Sheep, beef cattle and grain",Other Grain Growing,9,7,3,0,0,0,Table 1,235
+2025,Other Territories/Currently Unknown,0149,"Sheep, beef cattle and grain",Other Grain Growing,0,0,0,0,0,0,Table 1,236
+2025,Australia (published class total),0149,"Sheep, beef cattle and grain",Total Other Grain Growing,10285,6812,2715,705,47,6,Table 1,237
+2025,New South Wales,0151,Other crops,Sugar Cane Growing,340,298,39,3,0,0,Table 1,238
+2025,Victoria,0151,Other crops,Sugar Cane Growing,4,4,0,0,0,0,Table 1,239
+2025,Queensland,0151,Other crops,Sugar Cane Growing,3621,2742,712,142,25,0,Table 1,240
+2025,South Australia,0151,Other crops,Sugar Cane Growing,3,3,0,0,0,0,Table 1,241
+2025,Western Australia,0151,Other crops,Sugar Cane Growing,6,0,0,3,0,0,Table 1,242
+2025,Tasmania,0151,Other crops,Sugar Cane Growing,0,0,0,0,0,0,Table 1,243
+2025,Northern Territory,0151,Other crops,Sugar Cane Growing,0,0,0,0,0,0,Table 1,244
+2025,Australian Capital Territory,0151,Other crops,Sugar Cane Growing,0,0,0,0,0,0,Table 1,245
+2025,Other Territories/Currently Unknown,0151,Other crops,Sugar Cane Growing,0,0,0,0,0,0,Table 1,246
+2025,Australia (published class total),0151,Other crops,Total Sugar Cane Growing,3973,3048,752,146,27,0,Table 1,247
+2025,New South Wales,0152,Other crops,Cotton Growing,425,243,113,60,9,0,Table 1,248
+2025,Victoria,0152,Other crops,Cotton Growing,7,7,0,0,0,0,Table 1,249
+2025,Queensland,0152,Other crops,Cotton Growing,405,253,89,54,9,0,Table 1,250
+2025,South Australia,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 1,251
+2025,Western Australia,0152,Other crops,Cotton Growing,0,3,0,0,0,0,Table 1,252
+2025,Tasmania,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 1,253
+2025,Northern Territory,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 1,254
+2025,Australian Capital Territory,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 1,255
+2025,Other Territories/Currently Unknown,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 1,256
+2025,Australia (published class total),0152,Other crops,Total Cotton Growing,840,505,203,114,18,0,Table 1,257
+2025,New South Wales,0159,Other crops,Other Crop Growing n.e.c.,485,400,67,17,3,0,Table 1,258
+2025,Victoria,0159,Other crops,Other Crop Growing n.e.c.,398,313,64,18,3,0,Table 1,259
+2025,Queensland,0159,Other crops,Other Crop Growing n.e.c.,765,589,115,47,14,0,Table 1,260
+2025,South Australia,0159,Other crops,Other Crop Growing n.e.c.,125,93,23,7,0,0,Table 1,261
+2025,Western Australia,0159,Other crops,Other Crop Growing n.e.c.,111,81,21,6,3,0,Table 1,262
+2025,Tasmania,0159,Other crops,Other Crop Growing n.e.c.,49,34,7,0,5,0,Table 1,263
+2025,Northern Territory,0159,Other crops,Other Crop Growing n.e.c.,12,7,5,0,0,0,Table 1,264
+2025,Australian Capital Territory,0159,Other crops,Other Crop Growing n.e.c.,0,3,0,0,0,0,Table 1,265
+2025,Other Territories/Currently Unknown,0159,Other crops,Other Crop Growing n.e.c.,3,0,0,0,0,0,Table 1,266
+2025,Australia (published class total),0159,Other crops,Total Other Crop Growing n.e.c.,1948,1520,302,97,27,0,Table 1,267
+2025,New South Wales,0160,Dairy cattle,Dairy Cattle Farming,1178,807,245,112,14,0,Table 1,268
+2025,Victoria,0160,Dairy cattle,Dairy Cattle Farming,4795,3216,1172,373,33,3,Table 1,269
+2025,Queensland,0160,Dairy cattle,Dairy Cattle Farming,834,646,126,52,10,0,Table 1,270
+2025,South Australia,0160,Dairy cattle,Dairy Cattle Farming,448,301,100,39,8,0,Table 1,271
+2025,Western Australia,0160,Dairy cattle,Dairy Cattle Farming,268,159,64,40,5,0,Table 1,272
+2025,Tasmania,0160,Dairy cattle,Dairy Cattle Farming,514,249,140,115,10,0,Table 1,273
+2025,Northern Territory,0160,Dairy cattle,Dairy Cattle Farming,3,0,0,0,0,0,Table 1,274
+2025,Australian Capital Territory,0160,Dairy cattle,Dairy Cattle Farming,5,5,0,0,0,0,Table 1,275
+2025,Other Territories/Currently Unknown,0160,Dairy cattle,Dairy Cattle Farming,0,0,0,0,0,0,Table 1,276
+2025,Australia (published class total),0160,Dairy cattle,Total Dairy Cattle Farming,8044,5385,1847,731,80,3,Table 1,277
+2025,New South Wales,0171,Poultry,Poultry Farming (Meat),322,206,87,19,10,0,Table 1,278
+2025,Victoria,0171,Poultry,Poultry Farming (Meat),222,108,87,20,6,3,Table 1,279
+2025,Queensland,0171,Poultry,Poultry Farming (Meat),161,77,56,21,7,0,Table 1,280
+2025,South Australia,0171,Poultry,Poultry Farming (Meat),79,39,17,19,4,0,Table 1,281
+2025,Western Australia,0171,Poultry,Poultry Farming (Meat),48,20,18,7,3,0,Table 1,282
+2025,Tasmania,0171,Poultry,Poultry Farming (Meat),17,6,6,4,0,3,Table 1,283
+2025,Northern Territory,0171,Poultry,Poultry Farming (Meat),0,0,0,0,0,0,Table 1,284
+2025,Australian Capital Territory,0171,Poultry,Poultry Farming (Meat),0,0,0,0,0,0,Table 1,285
+2025,Other Territories/Currently Unknown,0171,Poultry,Poultry Farming (Meat),0,0,0,0,0,0,Table 1,286
+2025,Australia (published class total),0171,Poultry,Total Poultry Farming (Meat),849,456,271,90,30,0,Table 1,287
+2025,New South Wales,0172,Poultry,Poultry Farming (Eggs),165,94,40,20,10,0,Table 1,288
+2025,Victoria,0172,Poultry,Poultry Farming (Eggs),157,86,34,26,10,0,Table 1,289
+2025,Queensland,0172,Poultry,Poultry Farming (Eggs),81,52,19,8,3,0,Table 1,290
+2025,South Australia,0172,Poultry,Poultry Farming (Eggs),52,33,8,10,0,0,Table 1,291
+2025,Western Australia,0172,Poultry,Poultry Farming (Eggs),52,26,20,3,3,0,Table 1,292
+2025,Tasmania,0172,Poultry,Poultry Farming (Eggs),19,12,4,0,3,0,Table 1,293
+2025,Northern Territory,0172,Poultry,Poultry Farming (Eggs),3,0,0,0,0,0,Table 1,294
+2025,Australian Capital Territory,0172,Poultry,Poultry Farming (Eggs),5,3,4,0,0,0,Table 1,295
+2025,Other Territories/Currently Unknown,0172,Poultry,Poultry Farming (Eggs),0,0,0,0,0,0,Table 1,296
+2025,Australia (published class total),0172,Poultry,Total Poultry Farming (Eggs),532,305,129,69,27,3,Table 1,297
+2025,New South Wales,0180,Deer,Deer Farming,19,18,3,0,0,0,Table 1,298
+2025,Victoria,0180,Deer,Deer Farming,30,28,0,0,0,0,Table 1,299
+2025,Queensland,0180,Deer,Deer Farming,15,15,0,0,0,0,Table 1,300
+2025,South Australia,0180,Deer,Deer Farming,10,6,4,0,0,0,Table 1,301
+2025,Western Australia,0180,Deer,Deer Farming,6,3,0,0,0,0,Table 1,302
+2025,Tasmania,0180,Deer,Deer Farming,3,0,0,0,0,0,Table 1,303
+2025,Northern Territory,0180,Deer,Deer Farming,0,0,0,0,0,0,Table 1,304
+2025,Australian Capital Territory,0180,Deer,Deer Farming,0,0,0,0,0,0,Table 1,305
+2025,Other Territories/Currently Unknown,0180,Deer,Deer Farming,0,0,0,0,0,0,Table 1,306
+2025,Australia (published class total),0180,Deer,Total Deer Farming,82,72,9,0,0,0,Table 1,307
+2025,New South Wales,0191,Other livestock,Horse Farming,1214,966,160,59,28,0,Table 1,308
+2025,Victoria,0191,Other livestock,Horse Farming,854,669,137,41,6,0,Table 1,309
+2025,Queensland,0191,Other livestock,Horse Farming,737,631,77,23,6,0,Table 1,310
+2025,South Australia,0191,Other livestock,Horse Farming,140,118,12,9,0,0,Table 1,311
+2025,Western Australia,0191,Other livestock,Horse Farming,266,211,34,20,0,0,Table 1,312
+2025,Tasmania,0191,Other livestock,Horse Farming,48,36,7,5,0,0,Table 1,313
+2025,Northern Territory,0191,Other livestock,Horse Farming,7,5,3,0,0,0,Table 1,314
+2025,Australian Capital Territory,0191,Other livestock,Horse Farming,14,11,3,0,0,0,Table 1,315
+2025,Other Territories/Currently Unknown,0191,Other livestock,Horse Farming,33,33,0,0,0,0,Table 1,316
+2025,Australia (published class total),0191,Other livestock,Total Horse Farming,3313,2680,432,157,42,3,Table 1,317
+2025,New South Wales,0192,Other livestock,Pig Farming,168,118,31,17,0,0,Table 1,318
+2025,Victoria,0192,Other livestock,Pig Farming,125,79,24,17,5,0,Table 1,319
+2025,Queensland,0192,Other livestock,Pig Farming,169,118,28,15,8,0,Table 1,320
+2025,South Australia,0192,Other livestock,Pig Farming,134,82,27,20,4,3,Table 1,321
+2025,Western Australia,0192,Other livestock,Pig Farming,53,34,12,4,3,0,Table 1,322
+2025,Tasmania,0192,Other livestock,Pig Farming,19,8,9,0,3,0,Table 1,323
+2025,Northern Territory,0192,Other livestock,Pig Farming,0,0,0,0,0,0,Table 1,324
+2025,Australian Capital Territory,0192,Other livestock,Pig Farming,0,0,0,0,0,0,Table 1,325
+2025,Other Territories/Currently Unknown,0192,Other livestock,Pig Farming,0,0,0,0,0,0,Table 1,326
+2025,Australia (published class total),0192,Other livestock,Total Pig Farming,668,439,131,74,22,3,Table 1,327
+2025,New South Wales,0193,Other livestock,Beekeeping,458,336,96,25,0,0,Table 1,328
+2025,Victoria,0193,Other livestock,Beekeeping,194,145,41,8,0,0,Table 1,329
+2025,Queensland,0193,Other livestock,Beekeeping,257,200,47,10,0,0,Table 1,330
+2025,South Australia,0193,Other livestock,Beekeeping,130,93,30,5,3,0,Table 1,331
+2025,Western Australia,0193,Other livestock,Beekeeping,142,100,36,4,3,0,Table 1,332
+2025,Tasmania,0193,Other livestock,Beekeeping,36,22,5,9,0,0,Table 1,333
+2025,Northern Territory,0193,Other livestock,Beekeeping,3,3,0,0,0,0,Table 1,334
+2025,Australian Capital Territory,0193,Other livestock,Beekeeping,8,7,0,0,0,0,Table 1,335
+2025,Other Territories/Currently Unknown,0193,Other livestock,Beekeeping,0,0,0,0,0,0,Table 1,336
+2025,Australia (published class total),0193,Other livestock,Total Beekeeping,1228,904,257,62,5,0,Table 1,337
+2025,New South Wales,0199,Other livestock,Other Livestock Farming n.e.c.,663,546,83,31,3,0,Table 1,338
+2025,Victoria,0199,Other livestock,Other Livestock Farming n.e.c.,417,342,56,18,3,0,Table 1,339
+2025,Queensland,0199,Other livestock,Other Livestock Farming n.e.c.,437,353,68,13,3,0,Table 1,340
+2025,South Australia,0199,Other livestock,Other Livestock Farming n.e.c.,160,131,21,8,0,0,Table 1,341
+2025,Western Australia,0199,Other livestock,Other Livestock Farming n.e.c.,154,125,19,9,0,0,Table 1,342
+2025,Tasmania,0199,Other livestock,Other Livestock Farming n.e.c.,36,26,10,0,0,0,Table 1,343
+2025,Northern Territory,0199,Other livestock,Other Livestock Farming n.e.c.,21,12,7,0,0,0,Table 1,344
+2025,Australian Capital Territory,0199,Other livestock,Other Livestock Farming n.e.c.,0,0,0,0,0,0,Table 1,345
+2025,Other Territories/Currently Unknown,0199,Other livestock,Other Livestock Farming n.e.c.,0,0,0,0,0,0,Table 1,346
+2025,Australia (published class total),0199,Other livestock,Total Other Livestock Farming n.e.c.,1889,1535,265,81,8,0,Table 1,347
+2024,New South Wales,0111,Nursery and floriculture,Nursery Production (Under Cover),98,60,22,8,7,0,Table 2,8
+2024,Victoria,0111,Nursery and floriculture,Nursery Production (Under Cover),88,54,19,11,4,0,Table 2,9
+2024,Queensland,0111,Nursery and floriculture,Nursery Production (Under Cover),90,56,18,11,5,0,Table 2,10
+2024,South Australia,0111,Nursery and floriculture,Nursery Production (Under Cover),20,15,3,3,0,0,Table 2,11
+2024,Western Australia,0111,Nursery and floriculture,Nursery Production (Under Cover),36,23,5,5,3,0,Table 2,12
+2024,Tasmania,0111,Nursery and floriculture,Nursery Production (Under Cover),11,6,0,0,3,0,Table 2,13
+2024,Northern Territory,0111,Nursery and floriculture,Nursery Production (Under Cover),5,3,0,0,3,0,Table 2,14
+2024,Australian Capital Territory,0111,Nursery and floriculture,Nursery Production (Under Cover),0,0,0,0,0,0,Table 2,15
+2024,Other Territories/Currently Unknown,0111,Nursery and floriculture,Nursery Production (Under Cover),0,0,0,0,0,0,Table 2,16
+2024,Australia (published class total),0111,Nursery and floriculture,Total Nursery Production (Under Cover),348,217,69,38,23,0,Table 2,17
+2024,New South Wales,0112,Nursery and floriculture,Nursery Production (Outdoors),246,141,57,37,11,0,Table 2,18
+2024,Victoria,0112,Nursery and floriculture,Nursery Production (Outdoors),200,102,49,36,13,0,Table 2,19
+2024,Queensland,0112,Nursery and floriculture,Nursery Production (Outdoors),180,84,55,33,7,3,Table 2,20
+2024,South Australia,0112,Nursery and floriculture,Nursery Production (Outdoors),67,48,11,5,3,0,Table 2,21
+2024,Western Australia,0112,Nursery and floriculture,Nursery Production (Outdoors),83,38,19,20,6,0,Table 2,22
+2024,Tasmania,0112,Nursery and floriculture,Nursery Production (Outdoors),35,19,5,8,3,0,Table 2,23
+2024,Northern Territory,0112,Nursery and floriculture,Nursery Production (Outdoors),8,6,3,0,0,0,Table 2,24
+2024,Australian Capital Territory,0112,Nursery and floriculture,Nursery Production (Outdoors),6,3,0,3,0,0,Table 2,25
+2024,Other Territories/Currently Unknown,0112,Nursery and floriculture,Nursery Production (Outdoors),0,0,0,0,0,0,Table 2,26
+2024,Australia (published class total),0112,Nursery and floriculture,Total Nursery Production (Outdoors),825,441,199,141,43,0,Table 2,27
+2024,New South Wales,0113,Nursery and floriculture,Turf Growing,173,84,53,33,3,0,Table 2,28
+2024,Victoria,0113,Nursery and floriculture,Turf Growing,52,25,13,10,4,0,Table 2,29
+2024,Queensland,0113,Nursery and floriculture,Turf Growing,158,92,37,22,7,0,Table 2,30
+2024,South Australia,0113,Nursery and floriculture,Turf Growing,17,6,6,4,0,0,Table 2,31
+2024,Western Australia,0113,Nursery and floriculture,Turf Growing,41,19,12,7,3,0,Table 2,32
+2024,Tasmania,0113,Nursery and floriculture,Turf Growing,3,0,3,0,0,0,Table 2,33
+2024,Northern Territory,0113,Nursery and floriculture,Turf Growing,4,3,0,3,0,0,Table 2,34
+2024,Australian Capital Territory,0113,Nursery and floriculture,Turf Growing,0,0,0,0,0,0,Table 2,35
+2024,Other Territories/Currently Unknown,0113,Nursery and floriculture,Turf Growing,0,0,0,0,0,0,Table 2,36
+2024,Australia (published class total),0113,Nursery and floriculture,Total Turf Growing,449,229,122,80,18,0,Table 2,37
+2024,New South Wales,0114,Nursery and floriculture,Floriculture Production (Under Cover),33,15,12,6,0,0,Table 2,38
+2024,Victoria,0114,Nursery and floriculture,Floriculture Production (Under Cover),49,27,11,8,3,0,Table 2,39
+2024,Queensland,0114,Nursery and floriculture,Floriculture Production (Under Cover),20,15,0,3,3,0,Table 2,40
+2024,South Australia,0114,Nursery and floriculture,Floriculture Production (Under Cover),14,8,3,0,3,0,Table 2,41
+2024,Western Australia,0114,Nursery and floriculture,Floriculture Production (Under Cover),7,5,3,0,0,0,Table 2,42
+2024,Tasmania,0114,Nursery and floriculture,Floriculture Production (Under Cover),4,3,0,0,0,0,Table 2,43
+2024,Northern Territory,0114,Nursery and floriculture,Floriculture Production (Under Cover),0,0,0,0,0,0,Table 2,44
+2024,Australian Capital Territory,0114,Nursery and floriculture,Floriculture Production (Under Cover),0,0,0,0,0,0,Table 2,45
+2024,Other Territories/Currently Unknown,0114,Nursery and floriculture,Floriculture Production (Under Cover),0,0,0,0,0,0,Table 2,46
+2024,Australia (published class total),0114,Nursery and floriculture,Total Floriculture Production (Under Cover),127,72,28,20,7,0,Table 2,47
+2024,New South Wales,0115,Nursery and floriculture,Floriculture Production (Outdoors),129,80,38,7,4,0,Table 2,48
+2024,Victoria,0115,Nursery and floriculture,Floriculture Production (Outdoors),159,92,40,21,5,3,Table 2,49
+2024,Queensland,0115,Nursery and floriculture,Floriculture Production (Outdoors),113,67,25,13,8,0,Table 2,50
+2024,South Australia,0115,Nursery and floriculture,Floriculture Production (Outdoors),47,28,11,6,3,0,Table 2,51
+2024,Western Australia,0115,Nursery and floriculture,Floriculture Production (Outdoors),45,30,6,5,4,0,Table 2,52
+2024,Tasmania,0115,Nursery and floriculture,Floriculture Production (Outdoors),35,16,9,6,4,0,Table 2,53
+2024,Northern Territory,0115,Nursery and floriculture,Floriculture Production (Outdoors),3,3,0,0,0,0,Table 2,54
+2024,Australian Capital Territory,0115,Nursery and floriculture,Floriculture Production (Outdoors),3,3,0,0,0,0,Table 2,55
+2024,Other Territories/Currently Unknown,0115,Nursery and floriculture,Floriculture Production (Outdoors),0,0,0,0,0,0,Table 2,56
+2024,Australia (published class total),0115,Nursery and floriculture,Total Floriculture Production (Outdoors),534,319,129,58,27,3,Table 2,57
+2024,New South Wales,0121,Mushrooms and vegetables,Mushroom Growing,84,43,17,10,14,0,Table 2,58
+2024,Victoria,0121,Mushrooms and vegetables,Mushroom Growing,60,34,15,8,3,0,Table 2,59
+2024,Queensland,0121,Mushrooms and vegetables,Mushroom Growing,56,33,14,7,3,0,Table 2,60
+2024,South Australia,0121,Mushrooms and vegetables,Mushroom Growing,13,8,0,0,0,0,Table 2,61
+2024,Western Australia,0121,Mushrooms and vegetables,Mushroom Growing,15,8,5,0,0,0,Table 2,62
+2024,Tasmania,0121,Mushrooms and vegetables,Mushroom Growing,8,6,0,0,0,0,Table 2,63
+2024,Northern Territory,0121,Mushrooms and vegetables,Mushroom Growing,3,3,0,0,0,0,Table 2,64
+2024,Australian Capital Territory,0121,Mushrooms and vegetables,Mushroom Growing,0,0,0,0,0,0,Table 2,65
+2024,Other Territories/Currently Unknown,0121,Mushrooms and vegetables,Mushroom Growing,0,0,0,0,0,0,Table 2,66
+2024,Australia (published class total),0121,Mushrooms and vegetables,Total Mushroom Growing,239,134,55,28,20,3,Table 2,67
+2024,New South Wales,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),255,189,46,15,4,3,Table 2,68
+2024,Victoria,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),98,61,25,8,3,0,Table 2,69
+2024,Queensland,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),172,112,35,15,9,0,Table 2,70
+2024,South Australia,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),347,269,61,12,3,3,Table 2,71
+2024,Western Australia,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),58,39,9,9,0,0,Table 2,72
+2024,Tasmania,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),17,10,3,3,3,0,Table 2,73
+2024,Northern Territory,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),9,5,3,0,0,0,Table 2,74
+2024,Australian Capital Territory,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),4,3,3,0,0,0,Table 2,75
+2024,Other Territories/Currently Unknown,0122,Mushrooms and vegetables,Vegetable Growing (Under Cover),0,0,0,0,0,0,Table 2,76
+2024,Australia (published class total),0122,Mushrooms and vegetables,Total Vegetable Growing (Under Cover),960,686,185,62,22,5,Table 2,77
+2024,New South Wales,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),1119,809,245,56,9,0,Table 2,78
+2024,Victoria,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),866,522,200,105,34,5,Table 2,79
+2024,Queensland,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),990,632,185,115,54,4,Table 2,80
+2024,South Australia,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),562,419,90,42,10,3,Table 2,81
+2024,Western Australia,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),573,357,116,72,27,0,Table 2,82
+2024,Tasmania,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),321,199,62,45,15,0,Table 2,83
+2024,Northern Territory,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),96,73,17,3,5,0,Table 2,84
+2024,Australian Capital Territory,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),4,3,0,0,0,0,Table 2,85
+2024,Other Territories/Currently Unknown,0123,Mushrooms and vegetables,Vegetable Growing (Outdoors),3,0,0,0,0,0,Table 2,86
+2024,Australia (published class total),0123,Mushrooms and vegetables,Total Vegetable Growing (Outdoors),4532,3015,916,436,154,11,Table 2,87
+2024,New South Wales,0131,Fruit and tree nuts,Grape Growing,856,613,168,52,23,0,Table 2,88
+2024,Victoria,0131,Fruit and tree nuts,Grape Growing,1385,961,300,88,36,0,Table 2,89
+2024,Queensland,0131,Fruit and tree nuts,Grape Growing,122,76,26,15,5,0,Table 2,90
+2024,South Australia,0131,Fruit and tree nuts,Grape Growing,2067,1566,341,122,37,3,Table 2,91
+2024,Western Australia,0131,Fruit and tree nuts,Grape Growing,509,368,82,42,17,0,Table 2,92
+2024,Tasmania,0131,Fruit and tree nuts,Grape Growing,145,88,26,20,11,0,Table 2,93
+2024,Northern Territory,0131,Fruit and tree nuts,Grape Growing,5,3,3,0,0,0,Table 2,94
+2024,Australian Capital Territory,0131,Fruit and tree nuts,Grape Growing,15,8,4,0,3,0,Table 2,95
+2024,Other Territories/Currently Unknown,0131,Fruit and tree nuts,Grape Growing,0,0,0,0,0,0,Table 2,96
+2024,Australia (published class total),0131,Fruit and tree nuts,Total Grape Growing,5104,3683,949,340,131,0,Table 2,97
+2024,New South Wales,0132,Fruit and tree nuts,Kiwifruit Growing,7,5,0,3,0,0,Table 2,98
+2024,Victoria,0132,Fruit and tree nuts,Kiwifruit Growing,14,8,3,3,3,0,Table 2,99
+2024,Queensland,0132,Fruit and tree nuts,Kiwifruit Growing,11,9,0,0,0,0,Table 2,100
+2024,South Australia,0132,Fruit and tree nuts,Kiwifruit Growing,3,3,0,0,0,0,Table 2,101
+2024,Western Australia,0132,Fruit and tree nuts,Kiwifruit Growing,6,4,0,3,0,0,Table 2,102
+2024,Tasmania,0132,Fruit and tree nuts,Kiwifruit Growing,0,0,0,0,0,0,Table 2,103
+2024,Northern Territory,0132,Fruit and tree nuts,Kiwifruit Growing,0,0,0,0,0,0,Table 2,104
+2024,Australian Capital Territory,0132,Fruit and tree nuts,Kiwifruit Growing,0,0,0,0,0,0,Table 2,105
+2024,Other Territories/Currently Unknown,0132,Fruit and tree nuts,Kiwifruit Growing,0,0,0,0,0,0,Table 2,106
+2024,Australia (published class total),0132,Fruit and tree nuts,Total Kiwifruit Growing,40,28,4,5,3,0,Table 2,107
+2024,New South Wales,0133,Fruit and tree nuts,Berry Fruit Growing,184,94,70,15,3,3,Table 2,108
+2024,Victoria,0133,Fruit and tree nuts,Berry Fruit Growing,148,77,49,17,5,0,Table 2,109
+2024,Queensland,0133,Fruit and tree nuts,Berry Fruit Growing,122,58,25,19,18,3,Table 2,110
+2024,South Australia,0133,Fruit and tree nuts,Berry Fruit Growing,24,15,6,0,3,0,Table 2,111
+2024,Western Australia,0133,Fruit and tree nuts,Berry Fruit Growing,49,25,9,8,7,0,Table 2,112
+2024,Tasmania,0133,Fruit and tree nuts,Berry Fruit Growing,63,36,7,9,11,0,Table 2,113
+2024,Northern Territory,0133,Fruit and tree nuts,Berry Fruit Growing,0,0,0,0,0,0,Table 2,114
+2024,Australian Capital Territory,0133,Fruit and tree nuts,Berry Fruit Growing,3,0,3,0,0,0,Table 2,115
+2024,Other Territories/Currently Unknown,0133,Fruit and tree nuts,Berry Fruit Growing,0,0,0,0,0,0,Table 2,116
+2024,Australia (published class total),0133,Fruit and tree nuts,Total Berry Fruit Growing,591,305,167,69,46,4,Table 2,117
+2024,New South Wales,0134,Fruit and tree nuts,Apple and Pear Growing,95,69,13,6,7,0,Table 2,118
+2024,Victoria,0134,Fruit and tree nuts,Apple and Pear Growing,221,131,47,28,14,0,Table 2,119
+2024,Queensland,0134,Fruit and tree nuts,Apple and Pear Growing,47,34,4,6,3,0,Table 2,120
+2024,South Australia,0134,Fruit and tree nuts,Apple and Pear Growing,72,43,16,8,5,0,Table 2,121
+2024,Western Australia,0134,Fruit and tree nuts,Apple and Pear Growing,111,51,21,20,19,0,Table 2,122
+2024,Tasmania,0134,Fruit and tree nuts,Apple and Pear Growing,64,34,8,7,14,0,Table 2,123
+2024,Northern Territory,0134,Fruit and tree nuts,Apple and Pear Growing,0,0,0,0,0,0,Table 2,124
+2024,Australian Capital Territory,0134,Fruit and tree nuts,Apple and Pear Growing,3,3,3,0,0,0,Table 2,125
+2024,Other Territories/Currently Unknown,0134,Fruit and tree nuts,Apple and Pear Growing,0,0,0,0,0,0,Table 2,126
+2024,Australia (published class total),0134,Fruit and tree nuts,Total Apple and Pear Growing,613,363,111,75,62,0,Table 2,127
+2024,New South Wales,0135,Fruit and tree nuts,Stone Fruit Growing,173,119,40,11,3,0,Table 2,128
+2024,Victoria,0135,Fruit and tree nuts,Stone Fruit Growing,217,125,65,19,8,0,Table 2,129
+2024,Queensland,0135,Fruit and tree nuts,Stone Fruit Growing,102,57,17,17,11,0,Table 2,130
+2024,South Australia,0135,Fruit and tree nuts,Stone Fruit Growing,105,69,21,12,3,0,Table 2,131
+2024,Western Australia,0135,Fruit and tree nuts,Stone Fruit Growing,69,38,17,13,3,0,Table 2,132
+2024,Tasmania,0135,Fruit and tree nuts,Stone Fruit Growing,42,18,11,7,6,0,Table 2,133
+2024,Northern Territory,0135,Fruit and tree nuts,Stone Fruit Growing,3,3,0,0,0,0,Table 2,134
+2024,Australian Capital Territory,0135,Fruit and tree nuts,Stone Fruit Growing,0,0,0,0,0,0,Table 2,135
+2024,Other Territories/Currently Unknown,0135,Fruit and tree nuts,Stone Fruit Growing,0,0,0,0,0,0,Table 2,136
+2024,Australia (published class total),0135,Fruit and tree nuts,Total Stone Fruit Growing,712,430,171,79,32,0,Table 2,137
+2024,New South Wales,0136,Fruit and tree nuts,Citrus Fruit Growing,359,266,76,15,3,0,Table 2,138
+2024,Victoria,0136,Fruit and tree nuts,Citrus Fruit Growing,129,97,17,8,6,3,Table 2,139
+2024,Queensland,0136,Fruit and tree nuts,Citrus Fruit Growing,229,131,41,32,25,0,Table 2,140
+2024,South Australia,0136,Fruit and tree nuts,Citrus Fruit Growing,140,91,31,13,4,0,Table 2,141
+2024,Western Australia,0136,Fruit and tree nuts,Citrus Fruit Growing,70,51,8,9,3,0,Table 2,142
+2024,Tasmania,0136,Fruit and tree nuts,Citrus Fruit Growing,5,3,0,0,3,0,Table 2,143
+2024,Northern Territory,0136,Fruit and tree nuts,Citrus Fruit Growing,0,0,0,0,0,0,Table 2,144
+2024,Australian Capital Territory,0136,Fruit and tree nuts,Citrus Fruit Growing,0,0,0,0,0,0,Table 2,145
+2024,Other Territories/Currently Unknown,0136,Fruit and tree nuts,Citrus Fruit Growing,0,3,0,0,0,0,Table 2,146
+2024,Australia (published class total),0136,Fruit and tree nuts,Total Citrus Fruit Growing,933,639,174,78,40,3,Table 2,147
+2024,New South Wales,0137,Fruit and tree nuts,Olive Growing,92,81,11,0,0,0,Table 2,148
+2024,Victoria,0137,Fruit and tree nuts,Olive Growing,106,88,11,6,3,0,Table 2,149
+2024,Queensland,0137,Fruit and tree nuts,Olive Growing,24,19,0,4,0,0,Table 2,150
+2024,South Australia,0137,Fruit and tree nuts,Olive Growing,58,50,5,3,0,0,Table 2,151
+2024,Western Australia,0137,Fruit and tree nuts,Olive Growing,58,46,9,0,3,0,Table 2,152
+2024,Tasmania,0137,Fruit and tree nuts,Olive Growing,9,9,0,0,0,0,Table 2,153
+2024,Northern Territory,0137,Fruit and tree nuts,Olive Growing,0,0,0,0,0,0,Table 2,154
+2024,Australian Capital Territory,0137,Fruit and tree nuts,Olive Growing,0,0,0,0,0,0,Table 2,155
+2024,Other Territories/Currently Unknown,0137,Fruit and tree nuts,Olive Growing,0,0,0,0,0,0,Table 2,156
+2024,Australia (published class total),0137,Fruit and tree nuts,Total Olive Growing,349,293,39,13,4,0,Table 2,157
+2024,New South Wales,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,1165,872,223,59,11,0,Table 2,158
+2024,Victoria,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,394,282,65,34,12,3,Table 2,159
+2024,Queensland,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,1404,878,257,167,99,3,Table 2,160
+2024,South Australia,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,244,166,44,26,8,0,Table 2,161
+2024,Western Australia,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,358,241,69,43,5,0,Table 2,162
+2024,Tasmania,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,41,30,6,3,3,0,Table 2,163
+2024,Northern Territory,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,112,79,15,16,3,0,Table 2,164
+2024,Australian Capital Territory,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,4,4,0,0,0,0,Table 2,165
+2024,Other Territories/Currently Unknown,0139,Fruit and tree nuts,Other Fruit and Tree Nut Growing,0,0,0,0,0,0,Table 2,166
+2024,Australia (published class total),0139,Fruit and tree nuts,Total Other Fruit and Tree Nut Growing,3722,2552,679,347,140,4,Table 2,167
+2024,New South Wales,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),3014,2065,748,190,11,0,Table 2,168
+2024,Victoria,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),2645,1846,606,187,6,0,Table 2,169
+2024,Queensland,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),327,248,65,12,3,0,Table 2,170
+2024,South Australia,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),1029,691,241,92,5,0,Table 2,171
+2024,Western Australia,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),989,728,207,48,6,0,Table 2,172
+2024,Tasmania,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),345,222,61,56,6,0,Table 2,173
+2024,Northern Territory,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),3,3,0,0,0,0,Table 2,174
+2024,Australian Capital Territory,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),30,21,7,0,0,0,Table 2,175
+2024,Other Territories/Currently Unknown,0141,"Sheep, beef cattle and grain",Sheep Farming (Specialised),0,0,0,0,0,0,Table 2,176
+2024,Australia (published class total),0141,"Sheep, beef cattle and grain",Total Sheep Farming (Specialised),8382,5824,1935,587,36,0,Table 2,177
+2024,New South Wales,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),13769,12167,1389,199,14,0,Table 2,178
+2024,Victoria,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),7658,6904,658,84,12,0,Table 2,179
+2024,Queensland,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),16870,14451,2029,343,45,3,Table 2,180
+2024,South Australia,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),1249,1055,153,35,6,0,Table 2,181
+2024,Western Australia,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),1984,1642,243,79,20,0,Table 2,182
+2024,Tasmania,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),1038,883,124,27,4,0,Table 2,183
+2024,Northern Territory,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),261,159,47,37,17,0,Table 2,184
+2024,Australian Capital Territory,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),75,70,5,0,0,0,Table 2,185
+2024,Other Territories/Currently Unknown,0142,"Sheep, beef cattle and grain",Beef Cattle Farming (Specialised),0,0,0,0,0,0,Table 2,186
+2024,Australia (published class total),0142,"Sheep, beef cattle and grain",Total Beef Cattle Farming (Specialised),42905,37332,4648,804,118,3,Table 2,187
+2024,New South Wales,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),37,25,3,6,0,3,Table 2,188
+2024,Victoria,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),21,16,3,3,3,0,Table 2,189
+2024,Queensland,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),64,39,9,12,4,0,Table 2,190
+2024,South Australia,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),11,8,0,3,0,0,Table 2,191
+2024,Western Australia,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),16,8,3,3,3,0,Table 2,192
+2024,Tasmania,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),0,0,0,0,0,0,Table 2,193
+2024,Northern Territory,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),3,0,0,0,0,0,Table 2,194
+2024,Australian Capital Territory,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),3,0,0,0,0,0,Table 2,195
+2024,Other Territories/Currently Unknown,0143,"Sheep, beef cattle and grain",Beef Cattle Feedlots (Specialised),0,0,0,0,0,0,Table 2,196
+2024,Australia (published class total),0143,"Sheep, beef cattle and grain",Total Beef Cattle Feedlots (Specialised),153,99,17,27,9,3,Table 2,197
+2024,New South Wales,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,7144,5391,1379,364,9,3,Table 2,198
+2024,Victoria,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,3925,3069,681,167,8,0,Table 2,199
+2024,Queensland,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,1767,1440,262,59,6,0,Table 2,200
+2024,South Australia,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,1382,946,299,127,10,0,Table 2,201
+2024,Western Australia,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,902,691,158,46,7,0,Table 2,202
+2024,Tasmania,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,627,439,112,71,5,0,Table 2,203
+2024,Northern Territory,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,27,16,8,3,0,0,Table 2,204
+2024,Australian Capital Territory,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,38,31,7,0,0,0,Table 2,205
+2024,Other Territories/Currently Unknown,0144,"Sheep, beef cattle and grain",Sheep-Beef Cattle Farming,0,0,0,0,0,0,Table 2,206
+2024,Australia (published class total),0144,"Sheep, beef cattle and grain",Total Sheep-Beef Cattle Farming,15813,12024,2906,837,45,3,Table 2,207
+2024,New South Wales,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,8112,5669,1951,469,23,0,Table 2,208
+2024,Victoria,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,5064,3640,1104,311,9,0,Table 2,209
+2024,Queensland,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,3633,3017,499,102,15,0,Table 2,210
+2024,South Australia,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,3441,1995,1065,368,13,0,Table 2,211
+2024,Western Australia,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,3756,2139,1288,311,18,0,Table 2,212
+2024,Tasmania,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,478,330,90,51,7,0,Table 2,213
+2024,Northern Territory,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,41,32,3,3,3,0,Table 2,214
+2024,Australian Capital Territory,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,37,32,3,0,0,0,Table 2,215
+2024,Other Territories/Currently Unknown,0145,"Sheep, beef cattle and grain",Grain-Sheep or Grain-Beef Cattle Farming,0,0,0,0,0,0,Table 2,216
+2024,Australia (published class total),0145,"Sheep, beef cattle and grain",Total Grain-Sheep or Grain-Beef Cattle Farming,24562,16854,6003,1617,88,0,Table 2,217
+2024,New South Wales,0146,"Sheep, beef cattle and grain",Rice Growing,165,113,44,8,0,0,Table 2,218
+2024,Victoria,0146,"Sheep, beef cattle and grain",Rice Growing,11,7,3,3,0,0,Table 2,219
+2024,Queensland,0146,"Sheep, beef cattle and grain",Rice Growing,3,3,0,0,0,0,Table 2,220
+2024,South Australia,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 2,221
+2024,Western Australia,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 2,222
+2024,Tasmania,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 2,223
+2024,Northern Territory,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 2,224
+2024,Australian Capital Territory,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 2,225
+2024,Other Territories/Currently Unknown,0146,"Sheep, beef cattle and grain",Rice Growing,0,0,0,0,0,0,Table 2,226
+2024,Australia (published class total),0146,"Sheep, beef cattle and grain",Total Rice Growing,178,121,48,9,0,0,Table 2,227
+2024,New South Wales,0149,"Sheep, beef cattle and grain",Other Grain Growing,2810,1884,701,206,16,3,Table 2,228
+2024,Victoria,0149,"Sheep, beef cattle and grain",Other Grain Growing,2354,1617,589,140,7,0,Table 2,229
+2024,Queensland,0149,"Sheep, beef cattle and grain",Other Grain Growing,1401,1071,257,60,13,0,Table 2,230
+2024,South Australia,0149,"Sheep, beef cattle and grain",Other Grain Growing,1910,1172,570,167,3,0,Table 2,231
+2024,Western Australia,0149,"Sheep, beef cattle and grain",Other Grain Growing,1864,1014,632,205,13,0,Table 2,232
+2024,Tasmania,0149,"Sheep, beef cattle and grain",Other Grain Growing,39,29,7,3,3,0,Table 2,233
+2024,Northern Territory,0149,"Sheep, beef cattle and grain",Other Grain Growing,11,9,0,3,0,0,Table 2,234
+2024,Australian Capital Territory,0149,"Sheep, beef cattle and grain",Other Grain Growing,10,8,3,0,0,0,Table 2,235
+2024,Other Territories/Currently Unknown,0149,"Sheep, beef cattle and grain",Other Grain Growing,0,0,0,0,0,0,Table 2,236
+2024,Australia (published class total),0149,"Sheep, beef cattle and grain",Total Other Grain Growing,10399,6804,2757,783,51,4,Table 2,237
+2024,New South Wales,0151,Other crops,Sugar Cane Growing,345,297,45,0,0,0,Table 2,238
+2024,Victoria,0151,Other crops,Sugar Cane Growing,5,5,0,0,0,0,Table 2,239
+2024,Queensland,0151,Other crops,Sugar Cane Growing,3675,2778,720,147,30,0,Table 2,240
+2024,South Australia,0151,Other crops,Sugar Cane Growing,3,3,0,0,0,0,Table 2,241
+2024,Western Australia,0151,Other crops,Sugar Cane Growing,7,3,0,3,0,0,Table 2,242
+2024,Tasmania,0151,Other crops,Sugar Cane Growing,0,3,0,0,0,0,Table 2,243
+2024,Northern Territory,0151,Other crops,Sugar Cane Growing,0,0,0,0,0,0,Table 2,244
+2024,Australian Capital Territory,0151,Other crops,Sugar Cane Growing,0,0,0,0,0,0,Table 2,245
+2024,Other Territories/Currently Unknown,0151,Other crops,Sugar Cane Growing,0,0,0,0,0,0,Table 2,246
+2024,Australia (published class total),0151,Other crops,Total Sugar Cane Growing,4035,3086,766,151,32,0,Table 2,247
+2024,New South Wales,0152,Other crops,Cotton Growing,441,247,123,58,13,0,Table 2,248
+2024,Victoria,0152,Other crops,Cotton Growing,7,6,0,0,0,0,Table 2,249
+2024,Queensland,0152,Other crops,Cotton Growing,409,253,91,56,9,0,Table 2,250
+2024,South Australia,0152,Other crops,Cotton Growing,3,0,3,0,0,0,Table 2,251
+2024,Western Australia,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 2,252
+2024,Tasmania,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 2,253
+2024,Northern Territory,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 2,254
+2024,Australian Capital Territory,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 2,255
+2024,Other Territories/Currently Unknown,0152,Other crops,Cotton Growing,0,0,0,0,0,0,Table 2,256
+2024,Australia (published class total),0152,Other crops,Total Cotton Growing,860,507,216,115,22,0,Table 2,257
+2024,New South Wales,0159,Other crops,Other Crop Growing n.e.c.,499,407,69,22,0,0,Table 2,258
+2024,Victoria,0159,Other crops,Other Crop Growing n.e.c.,406,323,62,17,4,0,Table 2,259
+2024,Queensland,0159,Other crops,Other Crop Growing n.e.c.,767,573,119,59,16,0,Table 2,260
+2024,South Australia,0159,Other crops,Other Crop Growing n.e.c.,127,94,21,10,0,0,Table 2,261
+2024,Western Australia,0159,Other crops,Other Crop Growing n.e.c.,112,80,20,9,0,0,Table 2,262
+2024,Tasmania,0159,Other crops,Other Crop Growing n.e.c.,54,38,8,3,4,3,Table 2,263
+2024,Northern Territory,0159,Other crops,Other Crop Growing n.e.c.,14,8,5,0,0,0,Table 2,264
+2024,Australian Capital Territory,0159,Other crops,Other Crop Growing n.e.c.,0,3,0,0,0,0,Table 2,265
+2024,Other Territories/Currently Unknown,0159,Other crops,Other Crop Growing n.e.c.,0,0,0,0,0,0,Table 2,266
+2024,Australia (published class total),0159,Other crops,Total Other Crop Growing n.e.c.,1981,1525,304,121,29,0,Table 2,267
+2024,New South Wales,0160,Dairy cattle,Dairy Cattle Farming,1212,824,261,114,13,0,Table 2,268
+2024,Victoria,0160,Dairy cattle,Dairy Cattle Farming,4947,3313,1246,352,35,3,Table 2,269
+2024,Queensland,0160,Dairy cattle,Dairy Cattle Farming,850,655,135,51,9,0,Table 2,270
+2024,South Australia,0160,Dairy cattle,Dairy Cattle Farming,453,297,110,38,8,0,Table 2,271
+2024,Western Australia,0160,Dairy cattle,Dairy Cattle Farming,279,168,71,37,3,0,Table 2,272
+2024,Tasmania,0160,Dairy cattle,Dairy Cattle Farming,527,259,152,109,7,0,Table 2,273
+2024,Northern Territory,0160,Dairy cattle,Dairy Cattle Farming,0,0,0,0,0,0,Table 2,274
+2024,Australian Capital Territory,0160,Dairy cattle,Dairy Cattle Farming,5,5,0,0,0,0,Table 2,275
+2024,Other Territories/Currently Unknown,0160,Dairy cattle,Dairy Cattle Farming,3,0,0,0,0,0,Table 2,276
+2024,Australia (published class total),0160,Dairy cattle,Total Dairy Cattle Farming,8275,5523,1975,701,75,0,Table 2,277
+2024,New South Wales,0171,Poultry,Poultry Farming (Meat),328,206,95,19,8,0,Table 2,278
+2024,Victoria,0171,Poultry,Poultry Farming (Meat),219,108,86,19,5,0,Table 2,279
+2024,Queensland,0171,Poultry,Poultry Farming (Meat),163,81,50,25,7,0,Table 2,280
+2024,South Australia,0171,Poultry,Poultry Farming (Meat),91,48,21,19,3,0,Table 2,281
+2024,Western Australia,0171,Poultry,Poultry Farming (Meat),47,20,17,7,3,0,Table 2,282
+2024,Tasmania,0171,Poultry,Poultry Farming (Meat),18,5,7,4,3,0,Table 2,283
+2024,Northern Territory,0171,Poultry,Poultry Farming (Meat),3,3,0,0,0,0,Table 2,284
+2024,Australian Capital Territory,0171,Poultry,Poultry Farming (Meat),0,0,0,0,0,0,Table 2,285
+2024,Other Territories/Currently Unknown,0171,Poultry,Poultry Farming (Meat),0,0,0,0,0,0,Table 2,286
+2024,Australia (published class total),0171,Poultry,Total Poultry Farming (Meat),867,469,276,93,27,0,Table 2,287
+2024,New South Wales,0172,Poultry,Poultry Farming (Eggs),165,89,43,23,9,3,Table 2,288
+2024,Victoria,0172,Poultry,Poultry Farming (Eggs),149,84,31,26,7,0,Table 2,289
+2024,Queensland,0172,Poultry,Poultry Farming (Eggs),74,47,15,12,0,0,Table 2,290
+2024,South Australia,0172,Poultry,Poultry Farming (Eggs),56,36,10,9,3,0,Table 2,291
+2024,Western Australia,0172,Poultry,Poultry Farming (Eggs),56,28,21,4,3,0,Table 2,292
+2024,Tasmania,0172,Poultry,Poultry Farming (Eggs),18,14,0,3,0,0,Table 2,293
+2024,Northern Territory,0172,Poultry,Poultry Farming (Eggs),0,0,0,0,0,0,Table 2,294
+2024,Australian Capital Territory,0172,Poultry,Poultry Farming (Eggs),4,3,3,0,0,0,Table 2,295
+2024,Other Territories/Currently Unknown,0172,Poultry,Poultry Farming (Eggs),0,0,0,0,0,0,Table 2,296
+2024,Australia (published class total),0172,Poultry,Total Poultry Farming (Eggs),523,300,124,76,21,3,Table 2,297
+2024,New South Wales,0180,Deer,Deer Farming,20,19,3,0,0,0,Table 2,298
+2024,Victoria,0180,Deer,Deer Farming,33,31,0,0,0,0,Table 2,299
+2024,Queensland,0180,Deer,Deer Farming,17,17,0,0,0,0,Table 2,300
+2024,South Australia,0180,Deer,Deer Farming,12,8,4,0,0,0,Table 2,301
+2024,Western Australia,0180,Deer,Deer Farming,6,3,3,0,0,0,Table 2,302
+2024,Tasmania,0180,Deer,Deer Farming,3,3,0,0,0,0,Table 2,303
+2024,Northern Territory,0180,Deer,Deer Farming,0,0,0,0,0,0,Table 2,304
+2024,Australian Capital Territory,0180,Deer,Deer Farming,0,0,0,0,0,0,Table 2,305
+2024,Other Territories/Currently Unknown,0180,Deer,Deer Farming,0,0,0,0,0,0,Table 2,306
+2024,Australia (published class total),0180,Deer,Total Deer Farming,90,80,9,0,0,0,Table 2,307
+2024,New South Wales,0191,Other livestock,Horse Farming,1202,943,173,59,26,0,Table 2,308
+2024,Victoria,0191,Other livestock,Horse Farming,851,661,136,46,8,0,Table 2,309
+2024,Queensland,0191,Other livestock,Horse Farming,749,638,79,27,5,0,Table 2,310
+2024,South Australia,0191,Other livestock,Horse Farming,151,125,17,8,0,0,Table 2,311
+2024,Western Australia,0191,Other livestock,Horse Farming,269,215,35,18,3,0,Table 2,312
+2024,Tasmania,0191,Other livestock,Horse Farming,42,29,7,5,3,0,Table 2,313
+2024,Northern Territory,0191,Other livestock,Horse Farming,7,5,3,0,0,0,Table 2,314
+2024,Australian Capital Territory,0191,Other livestock,Horse Farming,13,11,0,0,0,0,Table 2,315
+2024,Other Territories/Currently Unknown,0191,Other livestock,Horse Farming,32,32,0,0,0,0,Table 2,316
+2024,Australia (published class total),0191,Other livestock,Total Horse Farming,3316,2659,451,163,42,0,Table 2,317
+2024,New South Wales,0192,Other livestock,Pig Farming,165,112,30,21,0,0,Table 2,318
+2024,Victoria,0192,Other livestock,Pig Farming,124,76,24,18,6,0,Table 2,319
+2024,Queensland,0192,Other livestock,Pig Farming,184,130,24,20,9,3,Table 2,320
+2024,South Australia,0192,Other livestock,Pig Farming,140,81,34,23,0,0,Table 2,321
+2024,Western Australia,0192,Other livestock,Pig Farming,57,38,9,7,3,0,Table 2,322
+2024,Tasmania,0192,Other livestock,Pig Farming,21,11,8,3,3,0,Table 2,323
+2024,Northern Territory,0192,Other livestock,Pig Farming,0,0,0,0,0,0,Table 2,324
+2024,Australian Capital Territory,0192,Other livestock,Pig Farming,0,0,0,0,0,0,Table 2,325
+2024,Other Territories/Currently Unknown,0192,Other livestock,Pig Farming,0,0,0,0,0,0,Table 2,326
+2024,Australia (published class total),0192,Other livestock,Total Pig Farming,691,448,129,90,22,0,Table 2,327
+2024,New South Wales,0193,Other livestock,Beekeeping,467,340,100,26,0,0,Table 2,328
+2024,Victoria,0193,Other livestock,Beekeeping,201,150,44,5,0,0,Table 2,329
+2024,Queensland,0193,Other livestock,Beekeeping,267,203,50,14,0,0,Table 2,330
+2024,South Australia,0193,Other livestock,Beekeeping,134,98,30,6,0,0,Table 2,331
+2024,Western Australia,0193,Other livestock,Beekeeping,146,104,35,5,3,0,Table 2,332
+2024,Tasmania,0193,Other livestock,Beekeeping,36,25,4,5,3,0,Table 2,333
+2024,Northern Territory,0193,Other livestock,Beekeeping,4,3,0,0,0,0,Table 2,334
+2024,Australian Capital Territory,0193,Other livestock,Beekeeping,8,6,0,0,0,0,Table 2,335
+2024,Other Territories/Currently Unknown,0193,Other livestock,Beekeeping,0,0,0,0,0,0,Table 2,336
+2024,Australia (published class total),0193,Other livestock,Total Beekeeping,1263,928,265,63,7,0,Table 2,337
+2024,New South Wales,0199,Other livestock,Other Livestock Farming n.e.c.,680,551,99,28,3,0,Table 2,338
+2024,Victoria,0199,Other livestock,Other Livestock Farming n.e.c.,449,361,68,18,3,0,Table 2,339
+2024,Queensland,0199,Other livestock,Other Livestock Farming n.e.c.,452,362,75,12,3,0,Table 2,340
+2024,South Australia,0199,Other livestock,Other Livestock Farming n.e.c.,160,125,28,7,0,0,Table 2,341
+2024,Western Australia,0199,Other livestock,Other Livestock Farming n.e.c.,150,118,24,7,0,0,Table 2,342
+2024,Tasmania,0199,Other livestock,Other Livestock Farming n.e.c.,38,24,13,3,0,0,Table 2,343
+2024,Northern Territory,0199,Other livestock,Other Livestock Farming n.e.c.,15,8,5,3,0,0,Table 2,344
+2024,Australian Capital Territory,0199,Other livestock,Other Livestock Farming n.e.c.,3,0,0,0,0,0,Table 2,345
+2024,Other Territories/Currently Unknown,0199,Other livestock,Other Livestock Farming n.e.c.,0,0,0,0,0,0,Table 2,346
+2024,Australia (published class total),0199,Other livestock,Total Other Livestock Farming n.e.c.,1946,1550,313,75,8,0,Table 2,347

@@ -1,146 +1,157 @@
-# Australian Farmers: research and presentation plan
+# Who farms Australia—and how is farming changing?
 
-Prepared for **Ang Lin Shan**, FIT3179, Malaysian campus. 15 October 2026 (Malaysia).
-Repository: `lang0016/FIT3179DV2`.
+Research-backed plan for **Ang Lin Shan**, FIT3179, Malaysian campus.
+Updated **15 October 2026 (Malaysia)** · `lang0016/FIT3179DV2`.
 
-**Status: provisional plan, not a completed data investigation.** The official
-ABS and ABARES sites returned proxy `403 Forbidden` responses during research.
-No datasets, statistics, licences, release dates, or findings have been verified.
-Read [DATA_RESEARCH.md](DATA_RESEARCH.md) for the source shortlist and access blocker.
-The uploaded brief is the planning specification; its rubric has not been
-independently checked against an official unit specification.
+**Stage: data research and planning, before the hand-drawn sketch and website.**
+Official data has now been downloaded and checked. This replaces the earlier
+blocked, provisional plan. Source details and remaining implementation checks
+are in [DATA_RESEARCH.md](DATA_RESEARCH.md). Reproducible extracts are in
+[data/research](data/research), not invented example data.
 
-## Story and audience
+## Story
 
-**Working title: Who farms Australia—and how is farming changing?**
+Australia's farming story depends on what we count: businesses, working farmers,
+all agricultural workers, or registered farms in a particular sector. This page
+will first locate agricultural businesses, then show how farming is changing,
+introduce the age profile of farmers, compare different types of agricultural
+business, and finish with the changing shape of the workforce. Dairy provides a
+well-documented example of falling registered farm numbers; it must not stand
+in for every sector. Malaysian readers need no knowledge of Australian geography
+or statistics. Explain state names, financial years, and the different counting
+units at the first use.
 
-This page will help Malaysian readers understand the people and businesses
-behind Australian agriculture. It will begin by locating agricultural work,
-then compare change over time, introduce workforce characteristics, contrast
-agricultural sectors, and explain business size. The reader should leave knowing
-which changes are national and which depend on the region or type of farming.
-The data must determine the final conclusions: fewer farms, ageing workers,
-larger businesses, and labour shortages are questions to investigate, not
-established findings.
+A useful Malaysian connection, if included: Malaysia was among the five largest
+export markets by value for Australian dairy in 2024–25, according to Dairy
+Australia's *In Focus 2025*, printed page 4. This is context, not a claim about
+Malaysia's dependence on Australian food or a reason to change the assigned topic.
 
-The audience needs no Australian geography or statistical background. Explain
-state names on the first map. Define agriculture, a farm business, a worker,
-employment size, and a financial year before using those terms. Do not assume a
-Malaysian audience requires Malaysian data; Australia remains the assigned topic.
+## Findings that can anchor the story
+
+| Finding | Verified basis and limit |
+| --- | --- |
+| Registered dairy farms fell from **6,770 in 2011–12 to 3,772 in 2024–25**, a **44.3% decrease**. | Dairy Australia, Table 2, printed p.8; latest season is provisional. Dairy-specific, not all Australian farms. |
+| Victoria accounted for **65.6%** of registered dairy farms in 2024–25. | 2,476 / 3,772, same table. A count of registered dairy farms, not milk output or land area. |
+| About **59% of Farmers and Farm Managers were aged 55 or older** in February 2026. | ABS Labour Force EQ07a, sum of 55–64 and 65+ age cells / all age/sex cells for that occupation. Survey estimate, not an exact Census count. |
+| The same occupation had an estimated **150,300 workers** in February 2026; around **29.6% were female**. | EQ07a, full-time + part-time, in thousands. “Farmer” is an occupation; this excludes many farm labourers and other agricultural jobs. |
+| Agriculture as an industry employed an estimated **245,900 people** in February 2026. | ABS Table 06, agriculture subdivision only, total persons. Different definition from the occupation above; do not subtract the two to estimate farm labourers. |
+| Sheep, beef cattle and grain accounted for about **70.4%** of agriculture-business class totals in June 2025. | Derived from 34 disjoint CABEE agriculture classes: 101,788 / 144,681. Confidentiality-adjusted counts; a business is not a physical farm. |
+| Tasmania's agriculture businesses were about **9.1% of all its actively trading businesses**, compared with about **4.9% in NSW**. | Sum of agriculture class cells by main state / official state business total, June 2025. Rates measure business composition, not employment dependence. |
+
+Use these as supported statements, with source and period immediately beside
+them. They do not establish causes such as mechanisation, migration, drought,
+or policy. Additional causal annotations require separate verified evidence.
 
 ## What / why / how
 
 | Framework | Application |
 | --- | --- |
-| What | Geographic regions; agricultural industry categories; time; worker counts and percentages; age and sex categories; business counts and size classes. |
-| Why | Locate farming; compare regions and sectors; follow change; understand workforce and business composition. |
-| How | One scrolling presentation, five sections, direct explanations, Vega/Vega-Lite charts, limited controls, consistent colour, and source notes. |
+| What | Geographic states; agricultural business classes and sector groups; dates; business and farm counts; workforce survey estimates; ordered age, employment-size, and turnover classes. |
+| Why | Locate farming businesses; distinguish concentration from local importance; follow change; compare sectors; understand who works as a farmer. |
+| How | Five scrolling sections; 12 complementary Vega/Vega-Lite charts; consistent sector colours, direct findings, small data inputs, and restrained interaction. |
 
-Two geographic levels are proposed: states/territories for national orientation
-and business comparisons, and suitable Census regions for employment rates.
-Choose the regional level only after checking data access, confidentiality,
-boundary consistency, and readable map size. Prefer SA3 if SA2 is too detailed.
+## Revised chart sequence
 
-## Proposed chart sequence
+Source abbreviations: **B2** = ABS CABEE June 2025 data cube 2; **B3** = cube 3;
+**B1** = cube 1; **DA2** = Dairy Australia Table 2; **LFA** = ABS EQ07a;
+**LFI** = ABS Table 06. Full URLs are in the research register.
 
-Every row is **conditional on obtaining appropriate verified data**. Questions
-below are not chart findings. Before building, replace each question with a
-supported finding and record its calculation. Do not add a chart solely to
-reach the rubric's count.
-
-| # / section | Reader question and proposed idiom | Data and preparation | Marks, channels, and rationale |
+| # / section | Question and idiom | Exact data / operations | Marks, channels and intended finding |
 | --- | --- | --- | --- |
-| 1 / Where | Where does agricultural work make up a larger share of local employment? **Choropleth map** (advanced). | Census agriculture employment / all employed people in the same region, year, and population; percent. Join official boundaries by geographic code. | Geographic polygons; lightness for rate; Albers equal-area projection for Australia. Rates allow fairer comparison than raw counts. Tooltip includes numerator and denominator. |
-| 2 / Where | Which states have the most agricultural workers? **Proportional-symbol map** (advanced). | Census agricultural workers by state, same year as chart 1. Exclude forestry/fishing if detailed industry codes allow. | Circles at labelled state reference points; area proportional to count; constant colour. Same Albers projection as chart 1. Distinguish concentration from local dependence. Points represent state totals, not farm locations. |
-| 3 / Change | How have farm numbers changed within a consistent statistical series? **Line chart** (basic). | ABS agricultural business/farm series with a consistent scope; use only compatible years. If no comparable farm series exists, substitute a clearly labelled agriculture-business series, not an invented splice. | Year on x, number on y, line and endpoint labels. Preserve gaps and explain scope breaks. Use actual counts; any optional index must define its base year. |
-| 4 / Change | Which states gained or lost agricultural businesses between comparable years? **Dumbbell chart** (advanced). | Same-scope agriculture business counts, two comparable dates, by state. | Two endpoints and a joining line on one common count axis; temporal direction labels. Shows start, end, and size of change together. Distinct from chart 3's national trajectory. |
-| 5 / Change | Which farm sectors moved up or down the employment ranking? **Bump chart** (advanced). | At least three comparable Census years, four or more consistently defined agriculture sectors. Use rankings of counts, not incompatible Labour Force/Census estimates. | Time on x, rank on y, sector-coloured paths and direct labels. Explain that rank hides magnitude; pair with chart 12. If rankings barely change, choose a better idiom and reassess the advanced-idiom target. |
-| 6 / People | How does the farming workforce's age profile differ between women and men? **Population pyramid** (advanced). | Census workers by age band and recorded sex, same agriculture definition. Use counts, not unmatched percentages; preserve the source's category names. | Horizontal bars, shared age bands, mirrored counts, labelled sides. Explain mirroring, and show positive axis labels. Categories reflect the source and do not describe all gender identities. |
-| 7 / People | Do some agricultural sectors have more older workers across regions? **Box plot** (advanced). | Regional share of workers aged 55+ within each sector, one Census year. Retain only regions meeting a justified denominator threshold; report exclusions. | Sector on x, regional percentages on y, median and middle-half boxes. Explain in plain language; each observation is a region, not an individual or farm. Equal weighting describes the typical region, not the national worker. Use only if sufficient meaningful observations exist. |
-| 8 / Sectors | Which agricultural sectors make up each state's workforce? **Heatmap** (advanced). | State × sector employment / total agricultural employment within each state; percent. | Rows for states, columns for sectors, sequential lightness for share. Row totals should be approximately 100% only if categories are exhaustive. State clearly that this is composition, not absolute jobs. |
-| 9 / Sectors | How do farm sectors organise family and hired labour? **Stacked bar chart** (basic). | ABARES farm survey published labour composition, if available with common units, periods, and compatible sector coverage. Keep persons, annual averages, hours, and full-time equivalents separate. | Aligned bars; segments for verified labour categories. Use 100% bars only if categories form a complete whole in the same unit. If unavailable, replace with another directly supported ABARES workforce comparison; do not manufacture a breakdown. |
-| 10 / Businesses | How are agricultural businesses distributed geographically? **Non-contiguous cartogram** (advanced, third map idiom). | ABS agriculture business counts by state/territory and official state boundaries for the same reference geography. | State silhouettes with areas proportional to business counts, labels and counts. Start from an Albers equal-area layout; shrink shapes without overlap. Explicitly explain intentional distortion and that area represents businesses. Include Tasmania and small territories. This is a different encoding from charts 1 and 2, not a recoloured map. |
-| 11 / Businesses | How many agricultural businesses fall into each employment-size class? **Treemap** (advanced). | ABS agriculture business counts by published employment-size classes, one date; retain the non-employing class. | Rectangle area for number of businesses, direct size-class labels and counts; single focus hue. This measures employment size, not hectares, revenue, productivity, or number of farms. A non-employing business does not necessarily mean nobody works there. |
-| 12 / Conclusion | Which sectors account for the largest workforce changes? **Diverging change bars** (basic). | Absolute change in Census employment by harmonised sector between two compatible years; include percentage change in text/tooltip with the base count. | Shared zero baseline, horizontal bars, sector labels. Connect rank changes in chart 5 to the number of workers affected. If all changes have the same sign, use ordinary bars. |
+| 1 / Where | Where is agriculture a larger part of the business landscape? **Choropleth map** — advanced. | B2 agriculture classes 0111–0199, June 2025, sum by main state / B1 Table 4 all businesses in that state. Join state codes to ABS boundaries. | Polygon lightness = percent; Australia Albers equal-area projection. Tasmania has a higher business share than NSW despite fewer businesses. Label this as business share, never workforce share. |
+| 2 / Where | Which states have the most agricultural businesses? **Proportional-symbol map** — advanced. | B2, same state class sums, June 2025. Include all eight states/territories; report unknown/other main-state cells separately. | Circle area = count, constant hue, labelled reference positions; same Albers projection. NSW has the largest count in the extract. Pair with chart 1 to explain why a large total and a high share are different. Circles are state totals, not farm locations. |
+| 3 / Change | How have registered dairy-farm numbers changed? **Line chart** — basic. | DA2, all 14 financial years from 2011–12 to 2024–25, Australia total. | Time x; registered farms y; direct endpoint labels. Finding: 44.3% fewer registered dairy farms, with the latest year explicitly provisional. Do not label this “all farms”. |
+| 4 / Change | How did agriculture-business counts change across states? **Dumbbell chart** — advanced. | B2 Table 1 start/end totals, or Table 2 end vs Table 1 end, June 2024 and June 2025, same agriculture class scope. | Two date-labelled endpoints and joining lines, state rows, common count scale. Show which states account for the largest absolute changes; final wording must use the extracted state deltas, with confidentiality caveats for small changes. |
+| 5 / Change | Which states contributed to the recent dairy-farm decline? **Waterfall chart** — advanced. | DA2, national count in 2021–22 plus each state's change to 2024–25, ending at the national 2024–25 count. The six state changes sum exactly to the national change. | Floating bars at cumulative positions; constant change hue plus explicit minus labels; start/end total bars. Victoria contributes the largest absolute decline. Attribute contribution only, not causation. |
+| 6 / People | What is the age and sex profile of farmers? **Population pyramid** — advanced. | LFA latest actual data month, February 2026; “Farmers and Farm Managers”, six age bands × Males/Females; full-time + part-time. | Mirrored horizontal bars, shared age bands, positive count labels in thousands. Finding: roughly 59% are 55+. This concerns the occupation, not everyone employed by agriculture. Retain the source's sex labels and explain the scope. |
+| 7 / People and business | Does the share of businesses without employees vary between states? **Box plot with state observations** — advanced. | B2 June 2025: each observation = state × sector non-employing cells / sector total. Keep denominators ≥100 businesses, then sectors with at least five eligible states. This yields eight sectors; deer is excluded. | Sector x; percentage y; boxes for median/middle half plus visible state points and sample counts. Dairy's eligible states range approximately 48–78%, versus about 51–61% for nurseries/floriculture. Equal state weighting describes variation between states, not a national worker or business distribution. |
+| 8 / Sectors | Which sectors make up each state's agriculture businesses? **Heatmap** — advanced. | B2 June 2025; sum disjoint classes to nine agriculture groups, then divide by that state's sum across the same groups. | State rows, sector columns, sequential lightness = within-state business share. Exact calculated cells determine the annotations. Directly names sectors; do not imply a sector employing many people necessarily has many businesses. |
+| 9 / Sectors | How does annual turnover differ between agricultural sectors? **100% stacked bars** — basic. | B3 June 2025; national class cells aggregated to sector × six published turnover classes. Percent of the displayed turnover-bin sum; retain published totals separately because perturbation can prevent exact additivity. | Common 0–100% x scale, sector rows, ordered size-class segments and direct labels. Compare low/high-turnover composition. Turnover means money from sales before expenses; it is not profit, hectares, or staff. Use actual bin shares to choose the final finding. |
+| 10 / Businesses | Where are registered dairy farms concentrated? **Non-contiguous cartogram** — advanced, third map idiom. | DA2 2024–25 six reported states; ABS state geometry. | State silhouette area = registered dairy farms, with count labels. Begin with Albers equal-area projected shapes, then shrink around state reference points using square-root area scaling. Explain deliberate distortion. Victoria accounts for 65.6%. NT/ACT are not reported in DA2: retain contextual outlines marked “not reported”, not invented zeroes. |
+| 11 / Businesses | How many agricultural businesses have employees? **Treemap** — advanced. | B2 national agriculture class cells by five employment-size bins, June 2025. | Rectangle area = count; direct size-class labels/counts; one focus hue. About three-quarters of the derived agriculture-business class total is non-employing. Explain that owners/family may still work in a non-employing business. If component sums differ from the published-total sum, disclose that difference rather than silently forcing equality. |
+| 12 / Conclusion | How has agriculture's workforce changed over time? **Time-series line chart** — basic. | LFI agriculture-only employed persons, original quarterly estimates, 2000 to February 2026. Use annual averages only for years with all four quarters; do not compare an incomplete year with a full-year average. | Time x; estimated workers in thousands y; mark latest observation and explain seasonal/sampling variation. The latest verified point is about 245,900. No causal story or comparison of unlike seasonal quarters. Keep the chart distinct from the dairy-farm-count line in chart 3. |
 
-The proposed plan has **12 charts and 9 distinct advanced idioms** under the
-uploaded brief's definition: choropleth, proportional-symbol map, dumbbell,
-bump, population pyramid, box plot, heatmap, cartogram, and treemap. A small
-multiple is counted once. The 3 map idioms are choropleth, proportional symbols,
-and non-contiguous cartogram. These counts are design targets, not a claim of
-completed charts or guaranteed rubric credit. Verify the cartogram's suitability
-with the tutor, especially if their interpretation of map idioms differs.
+**Count: 12 charts, nine distinct advanced idioms, three map idioms.** Advanced:
+choropleth, proportional symbols, dumbbell, waterfall, population pyramid, box
+plot, heatmap, cartogram, treemap. This follows the uploaded brief's definition;
+credit is the tutor's decision. Confirm that the cartogram meets the unit's
+third-map interpretation before drawing the final sketch.
 
-## Data comparability rules
+The important changes from the first plan are deliberate: replace unverified
+sector workforce ranks with a dairy-change waterfall; use actual farmer
+occupation data for age/sex; replace unavailable ABARES labour categories with
+verified business-turnover classes; and keep geography about businesses rather
+than relabelling forestry/fishing workers as farmers.
 
-- Agricultural businesses, operating farms, agricultural workers, and people
-  whose occupation is farmer are different populations. Labels must name the
-  actual measure. A person employed by a dairy farm is not necessarily a farmer
-  by occupation; one business can operate more than one property.
-- Start with industry-defined **agriculture**, and exclude forestry and fishing
-  when detailed codes permit. A broad industry series that includes them must
-  keep that label and cannot silently substitute for agriculture-only data.
-- Prefer a recent release for each measure, not a single year forced onto all
-  sources. Census workforce detail may be older than current business or survey
-  data; display reference periods beside each chart.
-- Check farm-survey scope, turnover/value thresholds, classification changes,
-  weighting, geography, and collection changes before drawing trend lines.
-- Never join business-size classes to farms as if they count the same units.
-- Never join an ABARES survey mean to Census regional data as though records
-  describe the same people. Compare aggregate evidence with explicit scope notes.
-- Treat confidentiality perturbation, suppressed values, missing categories,
-  and small denominators explicitly. Missing is not zero.
-- Do not attribute changes to climate, migration, policy, or mechanisation
-  without verified supporting evidence. The charts alone do not establish causes.
+## Definitions and comparability
 
-## Presentation and interaction
+- **CABEE business:** an actively trading business unit, assigned to one main
+  industry and main state. Counts are not property/farm locations, and complex
+  businesses can operate in several states while being assigned to one.
+- **Agriculture:** ANZSIC subdivision 01. The selected classes exclude aquaculture,
+  forestry, fishing, and the separately classified support-services subdivision.
+- **Farmers and Farm Managers:** the occupation used in EQ07a. It is neither all
+  agriculture workers nor a complete list of everyone who works on a farm.
+- **Registered dairy farm:** the unit used by state milk authorities and Dairy
+  Australia. Do not substitute the CABEE dairy-business count.
+- **Older farm-count survey:** ABS's 2021–22 agricultural-business estimate used
+  an estimated agricultural-operations value threshold of AUD 40,000. It cannot
+  be spliced to CABEE or current commodity model outputs as one continuous series.
+- Different charts legitimately use 2025 business/farm data and February 2026
+  workforce data. Show the period and unit on every chart; don't title the whole
+  page “2026 farm census”.
+- CABEE cells are adjusted for confidentiality. Small differences can come from
+  those adjustments; not every small change is a real change in activity.
+- Labour Force values are survey estimates, in thousands. Display sensible rounded
+  figures and use “estimated/about”; retain unrounded source values in data.
 
-Use a two-column grid on laptops. Full-width maps or major charts span both
-columns; charts within one row use equal widths. Stack on narrow screens.
-Keep all five sections visible by scrolling; no tabs swapping major sections.
-Use serif headings, sans-serif body/axes, comfortable label sizes, generous
-spacing, and short paragraphs. Test the brief's ten-words-per-rendered-line
-requirement in a browser rather than claiming a CSS width guarantees it.
+## Colour meanings, before implementation
 
-Use tooltips for exact values. A highlighted sector can connect the bump chart,
-heatmap, and change bars while keeping the entire dataset visible. A year control
-is optional only where a verified comparable series supports it; the initial
-view must communicate the story without interaction. Native controls must work
-with the keyboard. Give each chart a heading, finding, source, and accessible label.
+| Meaning | Proposed colour / rule |
+| --- | --- |
+| Agriculture overall | Deep blue `#174A67`; sequential blue lightness for quantities. Final map bins must pass contrast testing. |
+| Geographic context | Light neutral grey; no-data uses hatching and a label. |
+| Earlier / later time | Charcoal / deep blue, always date-labelled. |
+| Dairy | Violet `#6E4B87` everywhere a sector identity is encoded. |
+| Nursery/floriculture | `#795548` |
+| Mushrooms/vegetables | `#496B83` |
+| Fruit/tree nuts | `#9A651D` |
+| Sheep/beef/grain | `#174A67` (agriculture focus; avoid using this alongside an ambiguous aggregate category). |
+| Other crops | `#666A35` |
+| Poultry | `#8B4975` |
+| Deer | `#4C6271` |
+| Other livestock | `#694B3E` |
+| Employment/turnover size | Ordered single-hue lightness, explicitly labelled; do not reuse sector hues to mean size. |
 
-### Provisional colour meanings
+These are proposed semantic assignments, not a claim that a palette already
+passes all visual tests. Colour alone must never identify a sector. Nine sectors
+are difficult to distinguish by hue: use direct names, legends and sector
+highlighting rather than requiring a reader to memorise a nine-colour key.
 
-Do not finalise sector colours until source categories are known.
+## Layout, interaction, and future validation
 
-| Role | Meaning | Design rule |
-| --- | --- | --- |
-| Deep blue | Agriculture overall / focus | Used for aggregate marks; lighter blue represents lower quantities in sequential scales. |
-| Neutral grey | Geographic context | Muted boundaries and contextual marks. |
-| Grey hatching + label | Missing or suppressed | Must be distinguishable from a true low value. |
-| Dark blue / charcoal | Later / earlier date | Endpoint comparisons use explicit date labels; no red-green pairing. |
-| Distinct reserved category hues | Verified agricultural sectors | Assign once after harmonisation and reuse in every sector chart. |
+Use five scrolling sections and two equal laptop columns. Full-width charts
+span both columns. Serif titles; sans-serif body and axes; comfortable labels,
+short paragraphs, and consistent whitespace/source-note spacing. The brief's
+maximum ten words per rendered paragraph line must be checked in the browser.
 
-Audit text and mark contrast before implementation. Quantitative map/heatmap
-palettes must balance the brief's contrast rule with distinguishable lightness;
-use borders, labels, or discrete bins if necessary. Do not imply a proposed
-palette has already passed a contrast or colour-vision check.
+A sector highlight can connect charts 7–9 without hiding the data. Use tooltips
+for exact values; chart headings/findings must stand alone without hover. Provide
+keyboard-reachable chart containers, native controls, and accessible labels.
 
-## Decision gates before building
+The extract CSVs plus findings JSON total about **292 KB** before map geometry.
+Full source workbooks and the PDF stay outside the repository. Boundary download,
+simplification and geometry join checks belong to implementation; choose the
+2021 state geography deliberately for stable state comparisons, rather than
+calling it the latest geography. Keep total delivered chart data/geometry below
+2 MB and verify the actual requests later.
 
-1. Activate official-source network access and verify/download the shortlisted
-   releases, data dictionaries, methodology, and reuse terms.
-2. Record exact files, table identifiers, reference years, coverage, licence,
-   attribution, and retrieval date. Demonstrate two publishers in the actual
-   chart data: ABS and ABARES, not just two ABS tables.
-3. Check numeric consistency, missingness, cross-year classification alignment,
-   and boundary joins. Produce a small clean extract and reproducible preparation
-   notes before writing narrative claims.
-4. Confirm all 12 charts have useful distinct messages and that the 3 maps add
-   information. Replace unsupported charts, then recount advanced idioms.
-5. Share the data-backed plan for the student's hand-drawn A4 sketch and tutor
-   feedback. Preserve the agreed structure when building the final page.
+Before publication: build only after the student has drawn the agreed A4 sketch;
+render every Vega/Vega-Lite specification over HTTP; test widths 1180, 1280, 1366,
+and 1440; check overflow, requests/console, labels/annotations, contrast,
+accessibility, line lengths, data totals and source citations. These browser
+checks have **not** run because the website has not been built.
 
-The current work stops at research/planning. It does not create a website,
-publish to GitHub Pages, generate a digital sketch, or write the student's AI
-acknowledgement. The student will draw/upload the sketch and write that
-acknowledgement themselves.
+Next student milestone: follow [SKETCH_GUIDE.md](SKETCH_GUIDE.md), obtain tutor
+feedback on the map idioms and box plot, and supply any revisions. The AI
+acknowledgement remains the student's own writing; no sketch PDF has been generated.

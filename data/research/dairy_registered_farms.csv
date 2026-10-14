@@ -1,0 +1,99 @@
+financial_year,state,registered_farms,provisional,source_table,printed_page,pdf_page
+2011-12,New South Wales,778,False,Table 2,8,10
+2011-12,Victoria,4556,False,Table 2,8,10
+2011-12,Queensland,555,False,Table 2,8,10
+2011-12,South Australia,275,False,Table 2,8,10
+2011-12,Western Australia,162,False,Table 2,8,10
+2011-12,Tasmania,444,False,Table 2,8,10
+2011-12,Australia,6770,False,Table 2,8,10
+2012-13,New South Wales,731,False,Table 2,8,10
+2012-13,Victoria,4284,False,Table 2,8,10
+2012-13,Queensland,518,False,Table 2,8,10
+2012-13,South Australia,268,False,Table 2,8,10
+2012-13,Western Australia,160,False,Table 2,8,10
+2012-13,Tasmania,437,False,Table 2,8,10
+2012-13,Australia,6398,False,Table 2,8,10
+2013-14,New South Wales,710,False,Table 2,8,10
+2013-14,Victoria,4268,False,Table 2,8,10
+2013-14,Queensland,475,False,Table 2,8,10
+2013-14,South Australia,264,False,Table 2,8,10
+2013-14,Western Australia,156,False,Table 2,8,10
+2013-14,Tasmania,435,False,Table 2,8,10
+2013-14,Australia,6308,False,Table 2,8,10
+2014-15,New South Wales,704,False,Table 2,8,10
+2014-15,Victoria,4127,False,Table 2,8,10
+2014-15,Queensland,448,False,Table 2,8,10
+2014-15,South Australia,252,False,Table 2,8,10
+2014-15,Western Australia,157,False,Table 2,8,10
+2014-15,Tasmania,440,False,Table 2,8,10
+2014-15,Australia,6128,False,Table 2,8,10
+2015-16,New South Wales,690,False,Table 2,8,10
+2015-16,Victoria,4141,False,Table 2,8,10
+2015-16,Queensland,421,False,Table 2,8,10
+2015-16,South Australia,246,False,Table 2,8,10
+2015-16,Western Australia,151,False,Table 2,8,10
+2015-16,Tasmania,430,False,Table 2,8,10
+2015-16,Australia,6079,False,Table 2,8,10
+2016-17,New South Wales,661,False,Table 2,8,10
+2016-17,Victoria,3889,False,Table 2,8,10
+2016-17,Queensland,406,False,Table 2,8,10
+2016-17,South Australia,240,False,Table 2,8,10
+2016-17,Western Australia,148,False,Table 2,8,10
+2016-17,Tasmania,427,False,Table 2,8,10
+2016-17,Australia,5771,False,Table 2,8,10
+2017-18,New South Wales,626,False,Table 2,8,10
+2017-18,Victoria,3881,False,Table 2,8,10
+2017-18,Queensland,393,False,Table 2,8,10
+2017-18,South Australia,228,False,Table 2,8,10
+2017-18,Western Australia,159,False,Table 2,8,10
+2017-18,Tasmania,412,False,Table 2,8,10
+2017-18,Australia,5699,False,Table 2,8,10
+2018-19,New South Wales,575,False,Table 2,8,10
+2018-19,Victoria,3516,False,Table 2,8,10
+2018-19,Queensland,356,False,Table 2,8,10
+2018-19,South Australia,212,False,Table 2,8,10
+2018-19,Western Australia,150,False,Table 2,8,10
+2018-19,Tasmania,404,False,Table 2,8,10
+2018-19,Australia,5213,False,Table 2,8,10
+2019-20,New South Wales,534,False,Table 2,8,10
+2019-20,Victoria,3462,False,Table 2,8,10
+2019-20,Queensland,327,False,Table 2,8,10
+2019-20,South Australia,206,False,Table 2,8,10
+2019-20,Western Australia,135,False,Table 2,8,10
+2019-20,Tasmania,391,False,Table 2,8,10
+2019-20,Australia,5055,False,Table 2,8,10
+2020-21,New South Wales,523,False,Table 2,8,10
+2020-21,Victoria,3080,False,Table 2,8,10
+2020-21,Queensland,307,False,Table 2,8,10
+2020-21,South Australia,198,False,Table 2,8,10
+2020-21,Western Australia,132,False,Table 2,8,10
+2020-21,Tasmania,378,False,Table 2,8,10
+2020-21,Australia,4618,False,Table 2,8,10
+2021-22,New South Wales,494,False,Table 2,8,10
+2021-22,Victoria,2984,False,Table 2,8,10
+2021-22,Queensland,280,False,Table 2,8,10
+2021-22,South Australia,181,False,Table 2,8,10
+2021-22,Western Australia,116,False,Table 2,8,10
+2021-22,Tasmania,365,False,Table 2,8,10
+2021-22,Australia,4420,False,Table 2,8,10
+2022-23,New South Wales,466,False,Table 2,8,10
+2022-23,Victoria,2774,False,Table 2,8,10
+2022-23,Queensland,278,False,Table 2,8,10
+2022-23,South Australia,182,False,Table 2,8,10
+2022-23,Western Australia,112,False,Table 2,8,10
+2022-23,Tasmania,351,False,Table 2,8,10
+2022-23,Australia,4163,False,Table 2,8,10
+2023-24,New South Wales,452,False,Table 2,8,10
+2023-24,Victoria,2552,False,Table 2,8,10
+2023-24,Queensland,266,False,Table 2,8,10
+2023-24,South Australia,170,False,Table 2,8,10
+2023-24,Western Australia,107,False,Table 2,8,10
+2023-24,Tasmania,342,False,Table 2,8,10
+2023-24,Australia,3889,False,Table 2,8,10
+2024-25,New South Wales,443,True,Table 2,8,10
+2024-25,Victoria,2476,True,Table 2,8,10
+2024-25,Queensland,253,True,Table 2,8,10
+2024-25,South Australia,166,True,Table 2,8,10
+2024-25,Western Australia,99,True,Table 2,8,10
+2024-25,Tasmania,335,True,Table 2,8,10
+2024-25,Australia,3772,True,Table 2,8,10

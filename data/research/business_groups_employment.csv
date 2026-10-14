@@ -1,0 +1,181 @@
+year,state,sector,total,non_employing,employees_1_4,employees_5_19,employees_20_199,employees_200_plus
+2024,Australia (published class total),Dairy cattle,8275,5523,1975,701,75,0
+2024,Australia (published class total),Deer,90,80,9,0,0,0
+2024,Australia (published class total),Fruit and tree nuts,12064,8293,2294,1006,458,11
+2024,Australia (published class total),Mushrooms and vegetables,5731,3835,1156,526,196,19
+2024,Australia (published class total),Nursery and floriculture,2283,1278,547,337,118,3
+2024,Australia (published class total),Other crops,6876,5118,1286,387,83,0
+2024,Australia (published class total),Other livestock,7216,5585,1158,391,79,0
+2024,Australia (published class total),Poultry,1390,769,400,169,48,3
+2024,Australia (published class total),"Sheep, beef cattle and grain",102392,79058,18314,4664,347,13
+2024,Australian Capital Territory,Dairy cattle,5,5,0,0,0,0
+2024,Australian Capital Territory,Deer,0,0,0,0,0,0
+2024,Australian Capital Territory,Fruit and tree nuts,25,15,10,0,3,0
+2024,Australian Capital Territory,Mushrooms and vegetables,8,6,3,0,0,0
+2024,Australian Capital Territory,Nursery and floriculture,9,6,0,3,0,0
+2024,Australian Capital Territory,Other crops,0,3,0,0,0,0
+2024,Australian Capital Territory,Other livestock,24,17,0,0,0,0
+2024,Australian Capital Territory,Poultry,4,3,3,0,0,0
+2024,Australian Capital Territory,"Sheep, beef cattle and grain",193,162,25,0,0,0
+2024,New South Wales,Dairy cattle,1212,824,261,114,13,0
+2024,New South Wales,Deer,20,19,3,0,0,0
+2024,New South Wales,Fruit and tree nuts,2931,2119,601,161,50,3
+2024,New South Wales,Mushrooms and vegetables,1458,1041,308,81,27,3
+2024,New South Wales,Nursery and floriculture,679,380,182,91,25,0
+2024,New South Wales,Other crops,1285,951,237,80,13,0
+2024,New South Wales,Other livestock,2514,1946,402,134,29,0
+2024,New South Wales,Poultry,493,295,138,42,17,3
+2024,New South Wales,"Sheep, beef cattle and grain",35051,27314,6215,1442,73,9
+2024,Northern Territory,Dairy cattle,0,0,0,0,0,0
+2024,Northern Territory,Deer,0,0,0,0,0,0
+2024,Northern Territory,Fruit and tree nuts,120,85,18,16,3,0
+2024,Northern Territory,Mushrooms and vegetables,108,81,20,3,5,0
+2024,Northern Territory,Nursery and floriculture,20,15,3,3,3,0
+2024,Northern Territory,Other crops,14,8,5,0,0,0
+2024,Northern Territory,Other livestock,26,16,8,3,0,0
+2024,Northern Territory,Poultry,3,3,0,0,0,0
+2024,Northern Territory,"Sheep, beef cattle and grain",346,219,58,46,20,0
+2024,Other Territories/Currently Unknown,Dairy cattle,3,0,0,0,0,0
+2024,Other Territories/Currently Unknown,Deer,0,0,0,0,0,0
+2024,Other Territories/Currently Unknown,Fruit and tree nuts,0,3,0,0,0,0
+2024,Other Territories/Currently Unknown,Mushrooms and vegetables,3,0,0,0,0,0
+2024,Other Territories/Currently Unknown,Nursery and floriculture,0,0,0,0,0,0
+2024,Other Territories/Currently Unknown,Other crops,0,0,0,0,0,0
+2024,Other Territories/Currently Unknown,Other livestock,32,32,0,0,0,0
+2024,Other Territories/Currently Unknown,Poultry,0,0,0,0,0,0
+2024,Other Territories/Currently Unknown,"Sheep, beef cattle and grain",0,0,0,0,0,0
+2024,Queensland,Dairy cattle,850,655,135,51,9,0
+2024,Queensland,Deer,17,17,0,0,0,0
+2024,Queensland,Fruit and tree nuts,2061,1262,370,260,161,6
+2024,Queensland,Mushrooms and vegetables,1218,777,234,137,66,4
+2024,Queensland,Nursery and floriculture,561,314,135,82,30,3
+2024,Queensland,Other crops,4851,3604,930,262,55,0
+2024,Queensland,Other livestock,1652,1333,228,73,17,3
+2024,Queensland,Poultry,237,128,65,37,7,0
+2024,Queensland,"Sheep, beef cattle and grain",24065,20269,3121,588,86,3
+2024,South Australia,Dairy cattle,453,297,110,38,8,0
+2024,South Australia,Deer,12,8,4,0,0,0
+2024,South Australia,Fruit and tree nuts,2713,2003,464,184,60,3
+2024,South Australia,Mushrooms and vegetables,922,696,151,54,13,6
+2024,South Australia,Nursery and floriculture,165,105,34,18,9,0
+2024,South Australia,Other crops,133,97,24,10,0,0
+2024,South Australia,Other livestock,585,429,109,44,0,0
+2024,South Australia,Poultry,147,84,31,28,6,0
+2024,South Australia,"Sheep, beef cattle and grain",9022,5867,2328,792,37,0
+2024,Tasmania,Dairy cattle,527,259,152,109,7,0
+2024,Tasmania,Deer,3,3,0,0,0,0
+2024,Tasmania,Fruit and tree nuts,369,218,58,46,48,0
+2024,Tasmania,Mushrooms and vegetables,346,215,65,48,18,0
+2024,Tasmania,Nursery and floriculture,88,44,17,14,10,0
+2024,Tasmania,Other crops,54,41,8,3,4,3
+2024,Tasmania,Other livestock,137,89,32,16,9,0
+2024,Tasmania,Poultry,36,19,7,7,3,0
+2024,Tasmania,"Sheep, beef cattle and grain",2527,1903,394,208,25,0
+2024,Victoria,Dairy cattle,4947,3313,1246,352,35,3
+2024,Victoria,Deer,33,31,0,0,0,0
+2024,Victoria,Fruit and tree nuts,2614,1769,557,203,87,6
+2024,Victoria,Mushrooms and vegetables,1024,617,240,121,40,5
+2024,Victoria,Nursery and floriculture,548,300,132,86,29,3
+2024,Victoria,Other crops,418,334,62,17,4,0
+2024,Victoria,Other livestock,1625,1248,272,87,17,0
+2024,Victoria,Poultry,368,192,117,45,12,0
+2024,Victoria,"Sheep, beef cattle and grain",21678,17099,3644,895,45,0
+2024,Western Australia,Dairy cattle,279,168,71,37,3,0
+2024,Western Australia,Deer,6,3,3,0,0,0
+2024,Western Australia,Fruit and tree nuts,1230,824,215,138,57,0
+2024,Western Australia,Mushrooms and vegetables,646,404,130,81,27,0
+2024,Western Australia,Nursery and floriculture,212,115,45,37,16,0
+2024,Western Australia,Other crops,119,83,20,12,0,0
+2024,Western Australia,Other livestock,622,475,103,37,9,0
+2024,Western Australia,Poultry,103,48,38,11,6,0
+2024,Western Australia,"Sheep, beef cattle and grain",9511,6222,2531,692,67,0
+2025,Australia (published class total),Dairy cattle,8044,5385,1847,731,80,3
+2025,Australia (published class total),Deer,82,72,9,0,0,0
+2025,Australia (published class total),Fruit and tree nuts,11653,8064,2131,984,455,19
+2025,Australia (published class total),Mushrooms and vegetables,5643,3817,1101,497,213,15
+2025,Australia (published class total),Nursery and floriculture,2231,1246,546,332,106,0
+2025,Australia (published class total),Other crops,6761,5073,1257,357,72,0
+2025,Australia (published class total),Other livestock,7098,5558,1085,374,77,6
+2025,Australia (published class total),Poultry,1381,761,400,159,57,3
+2025,Australia (published class total),"Sheep, beef cattle and grain",101788,79425,17638,4355,359,9
+2025,Australian Capital Territory,Dairy cattle,5,5,0,0,0,0
+2025,Australian Capital Territory,Deer,0,0,0,0,0,0
+2025,Australian Capital Territory,Fruit and tree nuts,23,11,9,0,3,0
+2025,Australian Capital Territory,Mushrooms and vegetables,14,8,6,0,0,0
+2025,Australian Capital Territory,Nursery and floriculture,10,6,0,3,0,0
+2025,Australian Capital Territory,Other crops,0,3,0,0,0,0
+2025,Australian Capital Territory,Other livestock,22,18,3,0,0,0
+2025,Australian Capital Territory,Poultry,5,3,4,0,0,0
+2025,Australian Capital Territory,"Sheep, beef cattle and grain",181,152,26,3,0,0
+2025,New South Wales,Dairy cattle,1178,807,245,112,14,0
+2025,New South Wales,Deer,19,18,3,0,0,0
+2025,New South Wales,Fruit and tree nuts,2825,2067,556,151,49,0
+2025,New South Wales,Mushrooms and vegetables,1438,1042,289,71,33,3
+2025,New South Wales,Nursery and floriculture,666,376,177,94,19,0
+2025,New South Wales,Other crops,1250,941,219,80,12,0
+2025,New South Wales,Other livestock,2503,1966,370,132,31,0
+2025,New South Wales,Poultry,487,300,127,39,20,0
+2025,New South Wales,"Sheep, beef cattle and grain",34797,27410,5982,1313,85,5
+2025,Northern Territory,Dairy cattle,3,0,0,0,0,0
+2025,Northern Territory,Deer,0,0,0,0,0,0
+2025,Northern Territory,Fruit and tree nuts,116,81,20,13,3,0
+2025,Northern Territory,Mushrooms and vegetables,110,77,26,4,3,0
+2025,Northern Territory,Nursery and floriculture,18,15,0,0,0,0
+2025,Northern Territory,Other crops,12,7,5,0,0,0
+2025,Northern Territory,Other livestock,31,20,10,0,0,0
+2025,Northern Territory,Poultry,3,0,0,0,0,0
+2025,Northern Territory,"Sheep, beef cattle and grain",340,218,54,52,18,0
+2025,Other Territories/Currently Unknown,Dairy cattle,0,0,0,0,0,0
+2025,Other Territories/Currently Unknown,Deer,0,0,0,0,0,0
+2025,Other Territories/Currently Unknown,Fruit and tree nuts,0,0,0,0,0,0
+2025,Other Territories/Currently Unknown,Mushrooms and vegetables,0,0,0,0,0,0
+2025,Other Territories/Currently Unknown,Nursery and floriculture,0,0,0,0,0,0
+2025,Other Territories/Currently Unknown,Other crops,3,0,0,0,0,0
+2025,Other Territories/Currently Unknown,Other livestock,33,33,0,0,0,0
+2025,Other Territories/Currently Unknown,Poultry,0,0,0,0,0,0
+2025,Other Territories/Currently Unknown,"Sheep, beef cattle and grain",6,3,0,0,0,0
+2025,Queensland,Dairy cattle,834,646,126,52,10,0
+2025,Queensland,Deer,15,15,0,0,0,0
+2025,Queensland,Fruit and tree nuts,2032,1258,354,247,167,4
+2025,Queensland,Mushrooms and vegetables,1156,745,213,130,64,4
+2025,Queensland,Nursery and floriculture,554,317,124,84,30,0
+2025,Queensland,Other crops,4791,3584,916,243,48,0
+2025,Queensland,Other livestock,1600,1302,220,61,17,0
+2025,Queensland,Poultry,242,129,75,29,10,0
+2025,Queensland,"Sheep, beef cattle and grain",24236,20516,3048,587,86,3
+2025,South Australia,Dairy cattle,448,301,100,39,8,0
+2025,South Australia,Deer,10,6,4,0,0,0
+2025,South Australia,Fruit and tree nuts,2603,1939,438,174,53,3
+2025,South Australia,Mushrooms and vegetables,903,683,148,52,20,0
+2025,South Australia,Nursery and floriculture,158,96,38,19,12,0
+2025,South Australia,Other crops,128,96,23,7,0,0
+2025,South Australia,Other livestock,564,424,90,42,7,3
+2025,South Australia,Poultry,131,72,25,29,4,0
+2025,South Australia,"Sheep, beef cattle and grain",8886,5959,2183,708,39,0
+2025,Tasmania,Dairy cattle,514,249,140,115,10,0
+2025,Tasmania,Deer,3,0,0,0,0,0
+2025,Tasmania,Fruit and tree nuts,353,195,61,49,42,6
+2025,Tasmania,Mushrooms and vegetables,346,218,69,46,15,0
+2025,Tasmania,Nursery and floriculture,91,50,14,20,10,0
+2025,Tasmania,Other crops,49,34,7,0,5,0
+2025,Tasmania,Other livestock,139,92,31,14,3,0
+2025,Tasmania,Poultry,36,18,10,4,3,3
+2025,Tasmania,"Sheep, beef cattle and grain",2484,1877,390,193,24,0
+2025,Victoria,Dairy cattle,4795,3216,1172,373,33,3
+2025,Victoria,Deer,30,28,0,0,0,0
+2025,Victoria,Fruit and tree nuts,2511,1713,504,200,86,0
+2025,Victoria,Mushrooms and vegetables,1028,627,234,119,43,4
+2025,Victoria,Nursery and floriculture,528,285,139,75,29,0
+2025,Victoria,Other crops,409,324,64,18,3,0
+2025,Victoria,Other livestock,1590,1235,258,84,14,0
+2025,Victoria,Poultry,379,194,121,46,16,3
+2025,Victoria,"Sheep, beef cattle and grain",21484,17094,3505,835,51,0
+2025,Western Australia,Dairy cattle,268,159,64,40,5,0
+2025,Western Australia,Deer,6,3,0,0,0,0
+2025,Western Australia,Fruit and tree nuts,1187,796,195,147,56,0
+2025,Western Australia,Mushrooms and vegetables,649,417,119,76,35,0
+2025,Western Australia,Nursery and floriculture,207,106,52,38,11,0
+2025,Western Australia,Other crops,117,84,21,9,3,0
+2025,Western Australia,Other livestock,615,470,101,37,6,0
+2025,Western Australia,Poultry,100,46,38,10,6,0
+2025,Western Australia,"Sheep, beef cattle and grain",9374,6195,2454,666,60,0

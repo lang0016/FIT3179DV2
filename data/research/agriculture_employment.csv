@@ -1,0 +1,946 @@
+date,description,workers_thousands,series_id,source_row
+2000-02-01,> Agriculture ;  Employed total ;  Persons ;,384.8871667,A84602292W,72
+2000-02-01,> Agriculture ;  Employed total ;  > Males ;,256.9463597,A84601890C,72
+2000-02-01,> Agriculture ;  Employed total ;  > Females ;,127.9408071,A84602694L,72
+2000-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,292.2116748,A84602293X,72
+2000-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,224.9336203,A84601891F,72
+2000-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,67.2780545,A84602695R,72
+2000-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,92.6754919,A84602294A,72
+2000-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.0127394,A84601892J,72
+2000-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,60.6627525,A84602696T,72
+2000-05-01,> Agriculture ;  Employed total ;  Persons ;,378.0381934,A84602292W,73
+2000-05-01,> Agriculture ;  Employed total ;  > Males ;,256.9149444,A84601890C,73
+2000-05-01,> Agriculture ;  Employed total ;  > Females ;,121.123249,A84602694L,73
+2000-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,281.88241849999997,A84602293X,73
+2000-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,223.2046075,A84601891F,73
+2000-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,58.677811,A84602695R,73
+2000-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,96.1557749,A84602294A,73
+2000-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,33.7103369,A84601892J,73
+2000-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,62.445438,A84602696T,73
+2000-08-01,> Agriculture ;  Employed total ;  Persons ;,371.6817611,A84602292W,74
+2000-08-01,> Agriculture ;  Employed total ;  > Males ;,250.4180001,A84601890C,74
+2000-08-01,> Agriculture ;  Employed total ;  > Females ;,121.263761,A84602694L,74
+2000-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,281.520807,A84602293X,74
+2000-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,217.3447335,A84601891F,74
+2000-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,64.1760736,A84602695R,74
+2000-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,90.160954,A84602294A,74
+2000-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,33.0732667,A84601892J,74
+2000-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,57.0876874,A84602696T,74
+2000-11-01,> Agriculture ;  Employed total ;  Persons ;,364.3230593,A84602292W,75
+2000-11-01,> Agriculture ;  Employed total ;  > Males ;,242.8224299,A84601890C,75
+2000-11-01,> Agriculture ;  Employed total ;  > Females ;,121.5006294,A84602694L,75
+2000-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,277.4971866,A84602293X,75
+2000-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,212.1097155,A84601891F,75
+2000-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,65.3874711,A84602695R,75
+2000-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,86.8258728,A84602294A,75
+2000-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.7127144,A84601892J,75
+2000-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,56.1131584,A84602696T,75
+2001-02-01,> Agriculture ;  Employed total ;  Persons ;,357.414465,A84602292W,76
+2001-02-01,> Agriculture ;  Employed total ;  > Males ;,231.3745798,A84601890C,76
+2001-02-01,> Agriculture ;  Employed total ;  > Females ;,126.0398852,A84602694L,76
+2001-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,267.0521789,A84602293X,76
+2001-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,200.736232,A84601891F,76
+2001-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,66.3159469,A84602695R,76
+2001-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,90.362286,A84602294A,76
+2001-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.6383478,A84601892J,76
+2001-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,59.7239383,A84602696T,76
+2001-05-01,> Agriculture ;  Employed total ;  Persons ;,364.4656175,A84602292W,77
+2001-05-01,> Agriculture ;  Employed total ;  > Males ;,242.8906608,A84601890C,77
+2001-05-01,> Agriculture ;  Employed total ;  > Females ;,121.5749567,A84602694L,77
+2001-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,269.6119105,A84602293X,77
+2001-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,207.8469093,A84601891F,77
+2001-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,61.7650012,A84602695R,77
+2001-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,94.8537069,A84602294A,77
+2001-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,35.0437515,A84601892J,77
+2001-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,59.8099554,A84602696T,77
+2001-08-01,> Agriculture ;  Employed total ;  Persons ;,384.0283825,A84602292W,78
+2001-08-01,> Agriculture ;  Employed total ;  > Males ;,258.0060586,A84601890C,78
+2001-08-01,> Agriculture ;  Employed total ;  > Females ;,126.022324,A84602694L,78
+2001-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,284.5466938,A84602293X,78
+2001-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,223.4752277,A84601891F,78
+2001-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,61.0714662,A84602695R,78
+2001-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,99.4816887,A84602294A,78
+2001-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,34.5308309,A84601892J,78
+2001-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,64.9508578,A84602696T,78
+2001-11-01,> Agriculture ;  Employed total ;  Persons ;,385.7218079,A84602292W,79
+2001-11-01,> Agriculture ;  Employed total ;  > Males ;,255.9644848,A84601890C,79
+2001-11-01,> Agriculture ;  Employed total ;  > Females ;,129.7573232,A84602694L,79
+2001-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,291.3402124,A84602293X,79
+2001-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,227.3816909,A84601891F,79
+2001-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,63.9585214,A84602695R,79
+2001-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,94.3815956,A84602294A,79
+2001-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.5827939,A84601892J,79
+2001-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,65.7988017,A84602696T,79
+2002-02-01,> Agriculture ;  Employed total ;  Persons ;,377.5804878,A84602292W,80
+2002-02-01,> Agriculture ;  Employed total ;  > Males ;,250.6722938,A84601890C,80
+2002-02-01,> Agriculture ;  Employed total ;  > Females ;,126.908194,A84602694L,80
+2002-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,280.4107812,A84602293X,80
+2002-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,216.0484035,A84601891F,80
+2002-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,64.3623777,A84602695R,80
+2002-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,97.1697066,A84602294A,80
+2002-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,34.6238903,A84601892J,80
+2002-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,62.5458163,A84602696T,80
+2002-05-01,> Agriculture ;  Employed total ;  Persons ;,372.1017732,A84602292W,81
+2002-05-01,> Agriculture ;  Employed total ;  > Males ;,253.2485614,A84601890C,81
+2002-05-01,> Agriculture ;  Employed total ;  > Females ;,118.8532117,A84602694L,81
+2002-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,273.4211564,A84602293X,81
+2002-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,219.9677464,A84601891F,81
+2002-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,53.45341,A84602695R,81
+2002-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,98.6806168,A84602294A,81
+2002-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,33.2808151,A84601892J,81
+2002-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,65.3998017,A84602696T,81
+2002-08-01,> Agriculture ;  Employed total ;  Persons ;,341.2069931,A84602292W,82
+2002-08-01,> Agriculture ;  Employed total ;  > Males ;,237.1702573,A84601890C,82
+2002-08-01,> Agriculture ;  Employed total ;  > Females ;,104.0367358,A84602694L,82
+2002-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,255.0201862,A84602293X,82
+2002-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,208.263606,A84601891F,82
+2002-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,46.7565802,A84602695R,82
+2002-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,86.1868069,A84602294A,82
+2002-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.9066513,A84601892J,82
+2002-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,57.2801556,A84602696T,82
+2002-11-01,> Agriculture ;  Employed total ;  Persons ;,314.3541907,A84602292W,83
+2002-11-01,> Agriculture ;  Employed total ;  > Males ;,211.0633463,A84601890C,83
+2002-11-01,> Agriculture ;  Employed total ;  > Females ;,103.2908444,A84602694L,83
+2002-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,232.2559095,A84602293X,83
+2002-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,182.9495574,A84601891F,83
+2002-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.306352,A84602695R,83
+2002-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,82.0982813,A84602294A,83
+2002-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.1137889,A84601892J,83
+2002-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,53.9844923,A84602696T,83
+2003-02-01,> Agriculture ;  Employed total ;  Persons ;,305.6737114,A84602292W,84
+2003-02-01,> Agriculture ;  Employed total ;  > Males ;,206.7427652,A84601890C,84
+2003-02-01,> Agriculture ;  Employed total ;  > Females ;,98.9309462,A84602694L,84
+2003-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,226.179095,A84602293X,84
+2003-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,174.8037097,A84601891F,84
+2003-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,51.3753853,A84602695R,84
+2003-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,79.4946164,A84602294A,84
+2003-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.9390555,A84601892J,84
+2003-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.5555609,A84602696T,84
+2003-05-01,> Agriculture ;  Employed total ;  Persons ;,324.7046492,A84602292W,85
+2003-05-01,> Agriculture ;  Employed total ;  > Males ;,220.9454302,A84601890C,85
+2003-05-01,> Agriculture ;  Employed total ;  > Females ;,103.759219,A84602694L,85
+2003-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,235.8308553,A84602293X,85
+2003-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,188.1055922,A84601891F,85
+2003-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,47.7252632,A84602695R,85
+2003-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,88.8737938,A84602294A,85
+2003-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.839838,A84601892J,85
+2003-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,56.0339558,A84602696T,85
+2003-08-01,> Agriculture ;  Employed total ;  Persons ;,318.2681554,A84602292W,86
+2003-08-01,> Agriculture ;  Employed total ;  > Males ;,216.2692091,A84601890C,86
+2003-08-01,> Agriculture ;  Employed total ;  > Females ;,101.9989463,A84602694L,86
+2003-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,231.3591608,A84602293X,86
+2003-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,184.4297169,A84601891F,86
+2003-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,46.9294439,A84602695R,86
+2003-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,86.9089945,A84602294A,86
+2003-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.8394922,A84601892J,86
+2003-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,55.0695024,A84602696T,86
+2003-11-01,> Agriculture ;  Employed total ;  Persons ;,322.4402632,A84602292W,87
+2003-11-01,> Agriculture ;  Employed total ;  > Males ;,223.8637095,A84601890C,87
+2003-11-01,> Agriculture ;  Employed total ;  > Females ;,98.5765538,A84602694L,87
+2003-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,243.7178231,A84602293X,87
+2003-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,199.089228,A84601891F,87
+2003-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,44.6285951,A84602695R,87
+2003-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,78.7224402,A84602294A,87
+2003-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,24.7744815,A84601892J,87
+2003-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,53.9479587,A84602696T,87
+2004-02-01,> Agriculture ;  Employed total ;  Persons ;,315.5084334,A84602292W,88
+2004-02-01,> Agriculture ;  Employed total ;  > Males ;,211.3704636,A84601890C,88
+2004-02-01,> Agriculture ;  Employed total ;  > Females ;,104.1379698,A84602694L,88
+2004-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,232.8038189,A84602293X,88
+2004-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,182.3473579,A84601891F,88
+2004-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,50.456461,A84602695R,88
+2004-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,82.7046145,A84602294A,88
+2004-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.0231057,A84601892J,88
+2004-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,53.6815088,A84602696T,88
+2004-05-01,> Agriculture ;  Employed total ;  Persons ;,309.3571851,A84602292W,89
+2004-05-01,> Agriculture ;  Employed total ;  > Males ;,206.325527,A84601890C,89
+2004-05-01,> Agriculture ;  Employed total ;  > Females ;,103.0316581,A84602694L,89
+2004-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,226.5126191,A84602293X,89
+2004-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,174.1957633,A84601891F,89
+2004-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,52.3168558,A84602695R,89
+2004-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,82.844566,A84602294A,89
+2004-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.1297637,A84601892J,89
+2004-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,50.7148022,A84602696T,89
+2004-08-01,> Agriculture ;  Employed total ;  Persons ;,303.3006489,A84602292W,90
+2004-08-01,> Agriculture ;  Employed total ;  > Males ;,201.2509591,A84601890C,90
+2004-08-01,> Agriculture ;  Employed total ;  > Females ;,102.0496899,A84602694L,90
+2004-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,230.3268397,A84602293X,90
+2004-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,176.0663154,A84601891F,90
+2004-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,54.2605244,A84602695R,90
+2004-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,72.9738092,A84602294A,90
+2004-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,25.1846437,A84601892J,90
+2004-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.7891655,A84602696T,90
+2004-11-01,> Agriculture ;  Employed total ;  Persons ;,306.1197064,A84602292W,91
+2004-11-01,> Agriculture ;  Employed total ;  > Males ;,199.5693122,A84601890C,91
+2004-11-01,> Agriculture ;  Employed total ;  > Females ;,106.5503942,A84602694L,91
+2004-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,229.8330836,A84602293X,91
+2004-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,170.4249966,A84601891F,91
+2004-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,59.408087,A84602695R,91
+2004-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.2866228,A84602294A,91
+2004-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.1443155,A84601892J,91
+2004-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.1423072,A84602696T,91
+2005-02-01,> Agriculture ;  Employed total ;  Persons ;,312.1440315,A84602292W,92
+2005-02-01,> Agriculture ;  Employed total ;  > Males ;,211.3076292,A84601890C,92
+2005-02-01,> Agriculture ;  Employed total ;  > Females ;,100.8364024,A84602694L,92
+2005-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,232.2608292,A84602293X,92
+2005-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,178.7689524,A84601891F,92
+2005-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,53.4918768,A84602695R,92
+2005-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,79.8832024,A84602294A,92
+2005-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.5386767,A84601892J,92
+2005-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.3445256,A84602696T,92
+2005-05-01,> Agriculture ;  Employed total ;  Persons ;,298.960487,A84602292W,93
+2005-05-01,> Agriculture ;  Employed total ;  > Males ;,199.8622303,A84601890C,93
+2005-05-01,> Agriculture ;  Employed total ;  > Females ;,99.0982566,A84602694L,93
+2005-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,213.9906792,A84602293X,93
+2005-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,171.3944977,A84601891F,93
+2005-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.5961815,A84602695R,93
+2005-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,84.9698078,A84602294A,93
+2005-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.4677326,A84601892J,93
+2005-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,56.5020752,A84602696T,93
+2005-08-01,> Agriculture ;  Employed total ;  Persons ;,303.8461444,A84602292W,94
+2005-08-01,> Agriculture ;  Employed total ;  > Males ;,206.6358042,A84601890C,94
+2005-08-01,> Agriculture ;  Employed total ;  > Females ;,97.2103402,A84602694L,94
+2005-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,224.36008,A84602293X,94
+2005-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,180.2785837,A84601891F,94
+2005-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,44.0814962,A84602695R,94
+2005-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,79.4860644,A84602294A,94
+2005-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,26.3572204,A84601892J,94
+2005-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,53.128844,A84602696T,94
+2005-11-01,> Agriculture ;  Employed total ;  Persons ;,294.5691369,A84602292W,95
+2005-11-01,> Agriculture ;  Employed total ;  > Males ;,196.2255444,A84601890C,95
+2005-11-01,> Agriculture ;  Employed total ;  > Females ;,98.3435925,A84602694L,95
+2005-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,213.978888,A84602293X,95
+2005-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,171.9729211,A84601891F,95
+2005-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.0059669,A84602695R,95
+2005-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,80.5902489,A84602294A,95
+2005-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,24.2526233,A84601892J,95
+2005-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,56.3376256,A84602696T,95
+2006-02-01,> Agriculture ;  Employed total ;  Persons ;,306.1300646,A84602292W,96
+2006-02-01,> Agriculture ;  Employed total ;  > Males ;,204.4757008,A84601890C,96
+2006-02-01,> Agriculture ;  Employed total ;  > Females ;,101.6543638,A84602694L,96
+2006-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,214.5755934,A84602293X,96
+2006-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,171.7695058,A84601891F,96
+2006-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.8060876,A84602695R,96
+2006-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,91.5544711,A84602294A,96
+2006-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.7061949,A84601892J,96
+2006-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,58.8482762,A84602696T,96
+2006-05-01,> Agriculture ;  Employed total ;  Persons ;,287.8912601,A84602292W,97
+2006-05-01,> Agriculture ;  Employed total ;  > Males ;,192.2279531,A84601890C,97
+2006-05-01,> Agriculture ;  Employed total ;  > Females ;,95.6633071,A84602694L,97
+2006-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,208.4233583,A84602293X,97
+2006-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,164.7721684,A84601891F,97
+2006-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,43.6511899,A84602695R,97
+2006-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,79.4679018,A84602294A,97
+2006-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,27.4557847,A84601892J,97
+2006-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,52.0121171,A84602696T,97
+2006-08-01,> Agriculture ;  Employed total ;  Persons ;,302.04328,A84602292W,98
+2006-08-01,> Agriculture ;  Employed total ;  > Males ;,209.2531813,A84601890C,98
+2006-08-01,> Agriculture ;  Employed total ;  > Females ;,92.7900986,A84602694L,98
+2006-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,232.5857732,A84602293X,98
+2006-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,182.6087412,A84601891F,98
+2006-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.977032,A84602695R,98
+2006-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,69.4575068,A84602294A,98
+2006-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,26.6444401,A84601892J,98
+2006-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,42.8130667,A84602696T,98
+2006-11-01,> Agriculture ;  Employed total ;  Persons ;,300.7404453,A84602292W,99
+2006-11-01,> Agriculture ;  Employed total ;  > Males ;,200.9392082,A84601890C,99
+2006-11-01,> Agriculture ;  Employed total ;  > Females ;,99.8012372,A84602694L,99
+2006-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,234.2486225,A84602293X,99
+2006-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,176.9377421,A84601891F,99
+2006-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,57.3108804,A84602695R,99
+2006-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,66.4918229,A84602294A,99
+2006-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,24.0014661,A84601892J,99
+2006-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,42.4903568,A84602696T,99
+2007-02-01,> Agriculture ;  Employed total ;  Persons ;,304.2788039,A84602292W,100
+2007-02-01,> Agriculture ;  Employed total ;  > Males ;,201.2030855,A84601890C,100
+2007-02-01,> Agriculture ;  Employed total ;  > Females ;,103.0757184,A84602694L,100
+2007-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,220.0029846,A84602293X,100
+2007-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,170.4413729,A84601891F,100
+2007-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.5616117,A84602695R,100
+2007-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,84.2758193,A84602294A,100
+2007-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.7617126,A84601892J,100
+2007-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,53.5141067,A84602696T,100
+2007-05-01,> Agriculture ;  Employed total ;  Persons ;,293.7304849,A84602292W,101
+2007-05-01,> Agriculture ;  Employed total ;  > Males ;,196.2383817,A84601890C,101
+2007-05-01,> Agriculture ;  Employed total ;  > Females ;,97.4921032,A84602694L,101
+2007-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,215.6290258,A84602293X,101
+2007-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,170.2514246,A84601891F,101
+2007-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,45.3776012,A84602695R,101
+2007-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,78.1014591,A84602294A,101
+2007-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,25.9869571,A84601892J,101
+2007-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,52.114502,A84602696T,101
+2007-08-01,> Agriculture ;  Employed total ;  Persons ;,307.6516474,A84602292W,102
+2007-08-01,> Agriculture ;  Employed total ;  > Males ;,210.7193606,A84601890C,102
+2007-08-01,> Agriculture ;  Employed total ;  > Females ;,96.9322868,A84602694L,102
+2007-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,225.7314591,A84602293X,102
+2007-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,178.3638814,A84601891F,102
+2007-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,47.3675777,A84602695R,102
+2007-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,81.9201883,A84602294A,102
+2007-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.3554792,A84601892J,102
+2007-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,49.5647091,A84602696T,102
+2007-11-01,> Agriculture ;  Employed total ;  Persons ;,296.0694623,A84602292W,103
+2007-11-01,> Agriculture ;  Employed total ;  > Males ;,201.6351425,A84601890C,103
+2007-11-01,> Agriculture ;  Employed total ;  > Females ;,94.4343198,A84602694L,103
+2007-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,221.2373166,A84602293X,103
+2007-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,171.641674,A84601891F,103
+2007-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.5956425,A84602695R,103
+2007-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,74.8321458,A84602294A,103
+2007-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.9934685,A84601892J,103
+2007-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.8386773,A84602696T,103
+2008-02-01,> Agriculture ;  Employed total ;  Persons ;,269.4013529,A84602292W,104
+2008-02-01,> Agriculture ;  Employed total ;  > Males ;,181.2652028,A84601890C,104
+2008-02-01,> Agriculture ;  Employed total ;  > Females ;,88.1361501,A84602694L,104
+2008-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,193.45933109999999,A84602293X,104
+2008-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,149.4748148,A84601891F,104
+2008-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,43.9845163,A84602695R,104
+2008-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,75.9420218,A84602294A,104
+2008-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.790388,A84601892J,104
+2008-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.1516338,A84602696T,104
+2008-05-01,> Agriculture ;  Employed total ;  Persons ;,298.0208887,A84602292W,105
+2008-05-01,> Agriculture ;  Employed total ;  > Males ;,203.799456,A84601890C,105
+2008-05-01,> Agriculture ;  Employed total ;  > Females ;,94.2214327,A84602694L,105
+2008-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,224.0057092,A84602293X,105
+2008-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,175.7956909,A84601891F,105
+2008-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,48.2100183,A84602695R,105
+2008-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,74.0151795,A84602294A,105
+2008-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.003765,A84601892J,105
+2008-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,46.0114145,A84602696T,105
+2008-08-01,> Agriculture ;  Employed total ;  Persons ;,308.5622297,A84602292W,106
+2008-08-01,> Agriculture ;  Employed total ;  > Males ;,206.6560373,A84601890C,106
+2008-08-01,> Agriculture ;  Employed total ;  > Females ;,101.9061924,A84602694L,106
+2008-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,227.7776066,A84602293X,106
+2008-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,174.5804627,A84601891F,106
+2008-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,53.1971439,A84602695R,106
+2008-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,80.7846231,A84602294A,106
+2008-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.0755747,A84601892J,106
+2008-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,48.7090484,A84602696T,106
+2008-11-01,> Agriculture ;  Employed total ;  Persons ;,313.4674632,A84602292W,107
+2008-11-01,> Agriculture ;  Employed total ;  > Males ;,216.4223711,A84601890C,107
+2008-11-01,> Agriculture ;  Employed total ;  > Females ;,97.0450921,A84602694L,107
+2008-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,236.8086776,A84602293X,107
+2008-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,187.5615918,A84601891F,107
+2008-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.2470859,A84602695R,107
+2008-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.6587855,A84602294A,107
+2008-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.8607793,A84601892J,107
+2008-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.7980062,A84602696T,107
+2009-02-01,> Agriculture ;  Employed total ;  Persons ;,320.9010506,A84602292W,108
+2009-02-01,> Agriculture ;  Employed total ;  > Males ;,214.1559834,A84601890C,108
+2009-02-01,> Agriculture ;  Employed total ;  > Females ;,106.7450672,A84602694L,108
+2009-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,232.9246293,A84602293X,108
+2009-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,181.9294879,A84601891F,108
+2009-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,50.9951415,A84602695R,108
+2009-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,87.9764213,A84602294A,108
+2009-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.2264956,A84601892J,108
+2009-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,55.7499257,A84602696T,108
+2009-05-01,> Agriculture ;  Employed total ;  Persons ;,299.6241358,A84602292W,109
+2009-05-01,> Agriculture ;  Employed total ;  > Males ;,197.5001611,A84601890C,109
+2009-05-01,> Agriculture ;  Employed total ;  > Females ;,102.1239747,A84602694L,109
+2009-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,215.6597674,A84602293X,109
+2009-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,170.1600761,A84601891F,109
+2009-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,45.4996913,A84602695R,109
+2009-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,83.9643683,A84602294A,109
+2009-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,27.340085,A84601892J,109
+2009-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,56.6242834,A84602696T,109
+2009-08-01,> Agriculture ;  Employed total ;  Persons ;,302.9053301,A84602292W,110
+2009-08-01,> Agriculture ;  Employed total ;  > Males ;,204.411282,A84601890C,110
+2009-08-01,> Agriculture ;  Employed total ;  > Females ;,98.4940482,A84602694L,110
+2009-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,218.9858316,A84602293X,110
+2009-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,172.493399,A84601891F,110
+2009-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,46.4924326,A84602695R,110
+2009-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,83.9194986,A84602294A,110
+2009-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.917883,A84601892J,110
+2009-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,52.0016156,A84602696T,110
+2009-11-01,> Agriculture ;  Employed total ;  Persons ;,307.4795699,A84602292W,111
+2009-11-01,> Agriculture ;  Employed total ;  > Males ;,208.4619249,A84601890C,111
+2009-11-01,> Agriculture ;  Employed total ;  > Females ;,99.0176451,A84602694L,111
+2009-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,231.9177594,A84602293X,111
+2009-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,181.5867357,A84601891F,111
+2009-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,50.3310237,A84602695R,111
+2009-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,75.5618105,A84602294A,111
+2009-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,26.8751891,A84601892J,111
+2009-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,48.6866213,A84602696T,111
+2010-02-01,> Agriculture ;  Employed total ;  Persons ;,305.5499311,A84602292W,112
+2010-02-01,> Agriculture ;  Employed total ;  > Males ;,202.2578284,A84601890C,112
+2010-02-01,> Agriculture ;  Employed total ;  > Females ;,103.2921027,A84602694L,112
+2010-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,217.605257,A84602293X,112
+2010-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,171.4587138,A84601891F,112
+2010-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,46.1465433,A84602695R,112
+2010-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,87.9446741,A84602294A,112
+2010-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.7991147,A84601892J,112
+2010-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,57.1455594,A84602696T,112
+2010-05-01,> Agriculture ;  Employed total ;  Persons ;,314.839365,A84602292W,113
+2010-05-01,> Agriculture ;  Employed total ;  > Males ;,208.6514943,A84601890C,113
+2010-05-01,> Agriculture ;  Employed total ;  > Females ;,106.1878707,A84602694L,113
+2010-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,228.8616713,A84602293X,113
+2010-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,176.8854707,A84601891F,113
+2010-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,51.9762007,A84602695R,113
+2010-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,85.9776936,A84602294A,113
+2010-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.7660236,A84601892J,113
+2010-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,54.21167,A84602696T,113
+2010-08-01,> Agriculture ;  Employed total ;  Persons ;,311.9801195,A84602292W,114
+2010-08-01,> Agriculture ;  Employed total ;  > Males ;,208.9725713,A84601890C,114
+2010-08-01,> Agriculture ;  Employed total ;  > Females ;,103.0075482,A84602694L,114
+2010-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,230.5343919,A84602293X,114
+2010-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,180.2121683,A84601891F,114
+2010-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,50.3222235,A84602695R,114
+2010-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,81.4457276,A84602294A,114
+2010-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.7604029,A84601892J,114
+2010-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,52.6853247,A84602696T,114
+2010-11-01,> Agriculture ;  Employed total ;  Persons ;,309.1284885,A84602292W,115
+2010-11-01,> Agriculture ;  Employed total ;  > Males ;,204.6720944,A84601890C,115
+2010-11-01,> Agriculture ;  Employed total ;  > Females ;,104.4563941,A84602694L,115
+2010-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,220.8604729,A84602293X,115
+2010-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,172.9066243,A84601891F,115
+2010-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,47.9538485,A84602695R,115
+2010-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,88.2680156,A84602294A,115
+2010-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.76547,A84601892J,115
+2010-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,56.5025456,A84602696T,115
+2011-02-01,> Agriculture ;  Employed total ;  Persons ;,276.1369649,A84602292W,116
+2011-02-01,> Agriculture ;  Employed total ;  > Males ;,188.6087042,A84601890C,116
+2011-02-01,> Agriculture ;  Employed total ;  > Females ;,87.5282607,A84602694L,116
+2011-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,204.4167928,A84602293X,116
+2011-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,161.3509975,A84601891F,116
+2011-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,43.0657953,A84602695R,116
+2011-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,71.7201721,A84602294A,116
+2011-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,27.2577067,A84601892J,116
+2011-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.4624654,A84602696T,116
+2011-05-01,> Agriculture ;  Employed total ;  Persons ;,279.8687667,A84602292W,117
+2011-05-01,> Agriculture ;  Employed total ;  > Males ;,186.4191849,A84601890C,117
+2011-05-01,> Agriculture ;  Employed total ;  > Females ;,93.4495818,A84602694L,117
+2011-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,195.2672811,A84602293X,117
+2011-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,157.3417012,A84601891F,117
+2011-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,37.9255799,A84602695R,117
+2011-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,84.6014856,A84602294A,117
+2011-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.0774837,A84601892J,117
+2011-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,55.5240019,A84602696T,117
+2011-08-01,> Agriculture ;  Employed total ;  Persons ;,257.4733716,A84602292W,118
+2011-08-01,> Agriculture ;  Employed total ;  > Males ;,176.6278509,A84601890C,118
+2011-08-01,> Agriculture ;  Employed total ;  > Females ;,80.8455207,A84602694L,118
+2011-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,189.1766214,A84602293X,118
+2011-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,148.2478541,A84601891F,118
+2011-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,40.9287673,A84602695R,118
+2011-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,68.2967502,A84602294A,118
+2011-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.3799968,A84601892J,118
+2011-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,39.9167534,A84602696T,118
+2011-11-01,> Agriculture ;  Employed total ;  Persons ;,278.5775471,A84602292W,119
+2011-11-01,> Agriculture ;  Employed total ;  > Males ;,188.9018481,A84601890C,119
+2011-11-01,> Agriculture ;  Employed total ;  > Females ;,89.675699,A84602694L,119
+2011-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,204.9135875,A84602293X,119
+2011-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,160.163428,A84601891F,119
+2011-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,44.7501595,A84602695R,119
+2011-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,73.6639596,A84602294A,119
+2011-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,28.7384201,A84601892J,119
+2011-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.9255395,A84602696T,119
+2012-02-01,> Agriculture ;  Employed total ;  Persons ;,277.2277808,A84602292W,120
+2012-02-01,> Agriculture ;  Employed total ;  > Males ;,184.0309261,A84601890C,120
+2012-02-01,> Agriculture ;  Employed total ;  > Females ;,93.1968547,A84602694L,120
+2012-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,195.1081282,A84602293X,120
+2012-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,154.2024268,A84601891F,120
+2012-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,40.9057014,A84602695R,120
+2012-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,82.1196526,A84602294A,120
+2012-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.8284993,A84601892J,120
+2012-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,52.2911533,A84602696T,120
+2012-05-01,> Agriculture ;  Employed total ;  Persons ;,295.2743253,A84602292W,121
+2012-05-01,> Agriculture ;  Employed total ;  > Males ;,196.8071144,A84601890C,121
+2012-05-01,> Agriculture ;  Employed total ;  > Females ;,98.467211,A84602694L,121
+2012-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,211.4288006,A84602293X,121
+2012-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,165.1998081,A84601891F,121
+2012-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,46.2289925,A84602695R,121
+2012-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,83.8455248,A84602294A,121
+2012-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.6073063,A84601892J,121
+2012-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,52.2382185,A84602696T,121
+2012-08-01,> Agriculture ;  Employed total ;  Persons ;,274.229265,A84602292W,122
+2012-08-01,> Agriculture ;  Employed total ;  > Males ;,188.3467025,A84601890C,122
+2012-08-01,> Agriculture ;  Employed total ;  > Females ;,85.8825625,A84602694L,122
+2012-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,197.4945563,A84602293X,122
+2012-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,157.3047245,A84601891F,122
+2012-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,40.1898318,A84602695R,122
+2012-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.7347087,A84602294A,122
+2012-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.041978,A84601892J,122
+2012-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,45.6927307,A84602696T,122
+2012-11-01,> Agriculture ;  Employed total ;  Persons ;,258.4833501,A84602292W,123
+2012-11-01,> Agriculture ;  Employed total ;  > Males ;,173.367489,A84601890C,123
+2012-11-01,> Agriculture ;  Employed total ;  > Females ;,85.1158611,A84602694L,123
+2012-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,189.7417156,A84602293X,123
+2012-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,151.7060562,A84601891F,123
+2012-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,38.0356595,A84602695R,123
+2012-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,68.7416345,A84602294A,123
+2012-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,21.6614329,A84601892J,123
+2012-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.0802016,A84602696T,123
+2013-02-01,> Agriculture ;  Employed total ;  Persons ;,256.3010116,A84602292W,124
+2013-02-01,> Agriculture ;  Employed total ;  > Males ;,171.7127094,A84601890C,124
+2013-02-01,> Agriculture ;  Employed total ;  > Females ;,84.5883022,A84602694L,124
+2013-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,183.8730602,A84602293X,124
+2013-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,142.0454429,A84601891F,124
+2013-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,41.8276173,A84602695R,124
+2013-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,72.4279515,A84602294A,124
+2013-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.6672665,A84601892J,124
+2013-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,42.760685,A84602696T,124
+2013-05-01,> Agriculture ;  Employed total ;  Persons ;,255.061896,A84602292W,125
+2013-05-01,> Agriculture ;  Employed total ;  > Males ;,179.6697337,A84601890C,125
+2013-05-01,> Agriculture ;  Employed total ;  > Females ;,75.3921623,A84602694L,125
+2013-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,182.0946459,A84602293X,125
+2013-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,147.1166638,A84601891F,125
+2013-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,34.9779821,A84602695R,125
+2013-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,72.96725,A84602294A,125
+2013-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.5530699,A84601892J,125
+2013-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,40.4141802,A84602696T,125
+2013-08-01,> Agriculture ;  Employed total ;  Persons ;,244.0607581,A84602292W,126
+2013-08-01,> Agriculture ;  Employed total ;  > Males ;,175.9132385,A84601890C,126
+2013-08-01,> Agriculture ;  Employed total ;  > Females ;,68.1475196,A84602694L,126
+2013-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,179.9620431,A84602293X,126
+2013-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,146.366498,A84601891F,126
+2013-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,33.5955452,A84602695R,126
+2013-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,64.0987149,A84602294A,126
+2013-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.5467405,A84601892J,126
+2013-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,34.5519744,A84602696T,126
+2013-11-01,> Agriculture ;  Employed total ;  Persons ;,281.6072455,A84602292W,127
+2013-11-01,> Agriculture ;  Employed total ;  > Males ;,196.5582026,A84601890C,127
+2013-11-01,> Agriculture ;  Employed total ;  > Females ;,85.0490429,A84602694L,127
+2013-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,207.6967201,A84602293X,127
+2013-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,166.2642835,A84601891F,127
+2013-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,41.4324366,A84602695R,127
+2013-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,73.9105253,A84602294A,127
+2013-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.293919,A84601892J,127
+2013-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,43.6166063,A84602696T,127
+2014-02-01,> Agriculture ;  Employed total ;  Persons ;,273.0606217,A84602292W,128
+2014-02-01,> Agriculture ;  Employed total ;  > Males ;,188.3614055,A84601890C,128
+2014-02-01,> Agriculture ;  Employed total ;  > Females ;,84.6992162,A84602694L,128
+2014-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,199.1302536,A84602293X,128
+2014-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,156.1986081,A84601891F,128
+2014-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.9316455,A84602695R,128
+2014-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,73.9303681,A84602294A,128
+2014-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.1627974,A84601892J,128
+2014-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,41.7675707,A84602696T,128
+2014-05-01,> Agriculture ;  Employed total ;  Persons ;,282.7779301,A84602292W,129
+2014-05-01,> Agriculture ;  Employed total ;  > Males ;,198.1388451,A84601890C,129
+2014-05-01,> Agriculture ;  Employed total ;  > Females ;,84.639085,A84602694L,129
+2014-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,205.7858898,A84602293X,129
+2014-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,162.9599265,A84601891F,129
+2014-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.8259633,A84602695R,129
+2014-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.9920403,A84602294A,129
+2014-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,35.1789186,A84601892J,129
+2014-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,41.8131217,A84602696T,129
+2014-08-01,> Agriculture ;  Employed total ;  Persons ;,283.5815673,A84602292W,130
+2014-08-01,> Agriculture ;  Employed total ;  > Males ;,190.5468163,A84601890C,130
+2014-08-01,> Agriculture ;  Employed total ;  > Females ;,93.034751,A84602694L,130
+2014-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,197.5175326,A84602293X,130
+2014-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,154.6621186,A84601891F,130
+2014-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.855414,A84602695R,130
+2014-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,86.0640347,A84602294A,130
+2014-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,35.8846977,A84601892J,130
+2014-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,50.179337,A84602696T,130
+2014-11-01,> Agriculture ;  Employed total ;  Persons ;,280.382545,A84602292W,131
+2014-11-01,> Agriculture ;  Employed total ;  > Males ;,188.604678,A84601890C,131
+2014-11-01,> Agriculture ;  Employed total ;  > Females ;,91.777867,A84602694L,131
+2014-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,196.3772562,A84602293X,131
+2014-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,153.5921464,A84601891F,131
+2014-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.7851098,A84602695R,131
+2014-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,84.0052888,A84602294A,131
+2014-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,35.0125316,A84601892J,131
+2014-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,48.9927572,A84602696T,131
+2015-02-01,> Agriculture ;  Employed total ;  Persons ;,279.4940133,A84602292W,132
+2015-02-01,> Agriculture ;  Employed total ;  > Males ;,184.5909533,A84601890C,132
+2015-02-01,> Agriculture ;  Employed total ;  > Females ;,94.9030601,A84602694L,132
+2015-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,196.1358649,A84602293X,132
+2015-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,154.5436195,A84601891F,132
+2015-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,41.5922454,A84602695R,132
+2015-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,83.3581484,A84602294A,132
+2015-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.0473338,A84601892J,132
+2015-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,53.3108146,A84602696T,132
+2015-05-01,> Agriculture ;  Employed total ;  Persons ;,253.9382349,A84602292W,133
+2015-05-01,> Agriculture ;  Employed total ;  > Males ;,161.3389421,A84601890C,133
+2015-05-01,> Agriculture ;  Employed total ;  > Females ;,92.5992928,A84602694L,133
+2015-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,177.5693085,A84602293X,133
+2015-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,135.6282243,A84601891F,133
+2015-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,41.9410842,A84602695R,133
+2015-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.3689264,A84602294A,133
+2015-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,25.7107178,A84601892J,133
+2015-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,50.6582086,A84602696T,133
+2015-08-01,> Agriculture ;  Employed total ;  Persons ;,271.9717551,A84602292W,134
+2015-08-01,> Agriculture ;  Employed total ;  > Males ;,179.8885691,A84601890C,134
+2015-08-01,> Agriculture ;  Employed total ;  > Females ;,92.083186,A84602694L,134
+2015-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,194.6746742,A84602293X,134
+2015-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,150.575568,A84601891F,134
+2015-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,44.0991061,A84602695R,134
+2015-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,77.2970809,A84602294A,134
+2015-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.3130011,A84601892J,134
+2015-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.9840799,A84602696T,134
+2015-11-01,> Agriculture ;  Employed total ;  Persons ;,279.3641322,A84602292W,135
+2015-11-01,> Agriculture ;  Employed total ;  > Males ;,189.0164315,A84601890C,135
+2015-11-01,> Agriculture ;  Employed total ;  > Females ;,90.3477007,A84602694L,135
+2015-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,213.2269117,A84602293X,135
+2015-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,162.0262102,A84601891F,135
+2015-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,51.2007015,A84602695R,135
+2015-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,66.1372206,A84602294A,135
+2015-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,26.9902213,A84601892J,135
+2015-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,39.1469992,A84602696T,135
+2016-02-01,> Agriculture ;  Employed total ;  Persons ;,286.8039383,A84602292W,136
+2016-02-01,> Agriculture ;  Employed total ;  > Males ;,195.3262899,A84601890C,136
+2016-02-01,> Agriculture ;  Employed total ;  > Females ;,91.4776484,A84602694L,136
+2016-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,201.184477,A84602293X,136
+2016-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,160.2124816,A84601891F,136
+2016-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,40.9719955,A84602695R,136
+2016-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,85.6194612,A84602294A,136
+2016-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,35.1138083,A84601892J,136
+2016-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,50.5056529,A84602696T,136
+2016-05-01,> Agriculture ;  Employed total ;  Persons ;,288.6204234,A84602292W,137
+2016-05-01,> Agriculture ;  Employed total ;  > Males ;,200.0476872,A84601890C,137
+2016-05-01,> Agriculture ;  Employed total ;  > Females ;,88.5727361,A84602694L,137
+2016-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,208.1509296,A84602293X,137
+2016-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,161.3674623,A84601891F,137
+2016-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,46.7834673,A84602695R,137
+2016-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,80.4694938,A84602294A,137
+2016-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,38.6802249,A84601892J,137
+2016-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,41.7892689,A84602696T,137
+2016-08-01,> Agriculture ;  Employed total ;  Persons ;,252.8558613,A84602292W,138
+2016-08-01,> Agriculture ;  Employed total ;  > Males ;,175.3685228,A84601890C,138
+2016-08-01,> Agriculture ;  Employed total ;  > Females ;,77.4873385,A84602694L,138
+2016-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,177.949775,A84602293X,138
+2016-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,144.8764716,A84601891F,138
+2016-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,33.0733034,A84602695R,138
+2016-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,74.9060863,A84602294A,138
+2016-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.4920511,A84601892J,138
+2016-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.4140351,A84602696T,138
+2016-11-01,> Agriculture ;  Employed total ;  Persons ;,240.8278537,A84602292W,139
+2016-11-01,> Agriculture ;  Employed total ;  > Males ;,161.8828795,A84601890C,139
+2016-11-01,> Agriculture ;  Employed total ;  > Females ;,78.9449742,A84602694L,139
+2016-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,176.5810201,A84602293X,139
+2016-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,135.0883053,A84601891F,139
+2016-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,41.4927148,A84602695R,139
+2016-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,64.2468336,A84602294A,139
+2016-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,26.7945743,A84601892J,139
+2016-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,37.4522593,A84602696T,139
+2017-02-01,> Agriculture ;  Employed total ;  Persons ;,262.7057579,A84602292W,140
+2017-02-01,> Agriculture ;  Employed total ;  > Males ;,177.7861258,A84601890C,140
+2017-02-01,> Agriculture ;  Employed total ;  > Females ;,84.9196321,A84602694L,140
+2017-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,193.230751,A84602293X,140
+2017-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,147.4457784,A84601891F,140
+2017-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,45.7849726,A84602695R,140
+2017-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,69.4750069,A84602294A,140
+2017-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.3403474,A84601892J,140
+2017-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,39.1346595,A84602696T,140
+2017-05-01,> Agriculture ;  Employed total ;  Persons ;,259.0941986,A84602292W,141
+2017-05-01,> Agriculture ;  Employed total ;  > Males ;,176.8819935,A84601890C,141
+2017-05-01,> Agriculture ;  Employed total ;  > Females ;,82.2122051,A84602694L,141
+2017-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,182.3586249,A84602293X,141
+2017-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,144.6241513,A84601891F,141
+2017-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,37.7344736,A84602695R,141
+2017-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.7355737,A84602294A,141
+2017-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.2578422,A84601892J,141
+2017-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.4777315,A84602696T,141
+2017-08-01,> Agriculture ;  Employed total ;  Persons ;,277.0066431,A84602292W,142
+2017-08-01,> Agriculture ;  Employed total ;  > Males ;,188.9961424,A84601890C,142
+2017-08-01,> Agriculture ;  Employed total ;  > Females ;,88.0105007,A84602694L,142
+2017-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,204.3805635,A84602293X,142
+2017-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,159.5706261,A84601891F,142
+2017-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,44.8099374,A84602695R,142
+2017-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,72.6260796,A84602294A,142
+2017-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.4255163,A84601892J,142
+2017-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,43.2005633,A84602696T,142
+2017-11-01,> Agriculture ;  Employed total ;  Persons ;,278.7709516,A84602292W,143
+2017-11-01,> Agriculture ;  Employed total ;  > Males ;,188.4809889,A84601890C,143
+2017-11-01,> Agriculture ;  Employed total ;  > Females ;,90.2899628,A84602694L,143
+2017-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,201.3074609,A84602293X,143
+2017-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,156.805486,A84601891F,143
+2017-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,44.5019749,A84602695R,143
+2017-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,77.4634907,A84602294A,143
+2017-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.6755029,A84601892J,143
+2017-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,45.7879879,A84602696T,143
+2018-02-01,> Agriculture ;  Employed total ;  Persons ;,290.7337696,A84602292W,144
+2018-02-01,> Agriculture ;  Employed total ;  > Males ;,187.7383634,A84601890C,144
+2018-02-01,> Agriculture ;  Employed total ;  > Females ;,102.9954062,A84602694L,144
+2018-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,197.7321913,A84602293X,144
+2018-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,150.7169477,A84601891F,144
+2018-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,47.0152436,A84602695R,144
+2018-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,93.0015783,A84602294A,144
+2018-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,37.0214157,A84601892J,144
+2018-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,55.9801626,A84602696T,144
+2018-05-01,> Agriculture ;  Employed total ;  Persons ;,289.1344625,A84602292W,145
+2018-05-01,> Agriculture ;  Employed total ;  > Males ;,196.6238617,A84601890C,145
+2018-05-01,> Agriculture ;  Employed total ;  > Females ;,92.5106009,A84602694L,145
+2018-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,204.5515825,A84602293X,145
+2018-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,156.4354463,A84601891F,145
+2018-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,48.1161362,A84602695R,145
+2018-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,84.5828801,A84602294A,145
+2018-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,40.1884154,A84601892J,145
+2018-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.3944646,A84602696T,145
+2018-08-01,> Agriculture ;  Employed total ;  Persons ;,284.8124406,A84602292W,146
+2018-08-01,> Agriculture ;  Employed total ;  > Males ;,196.6999269,A84601890C,146
+2018-08-01,> Agriculture ;  Employed total ;  > Females ;,88.1125137,A84602694L,146
+2018-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,206.9951356,A84602293X,146
+2018-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,160.0935708,A84601891F,146
+2018-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,46.9015649,A84602695R,146
+2018-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,77.817305,A84602294A,146
+2018-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,36.6063561,A84601892J,146
+2018-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,41.2109489,A84602696T,146
+2018-11-01,> Agriculture ;  Employed total ;  Persons ;,289.412006,A84602292W,147
+2018-11-01,> Agriculture ;  Employed total ;  > Males ;,203.4942941,A84601890C,147
+2018-11-01,> Agriculture ;  Employed total ;  > Females ;,85.9177119,A84602694L,147
+2018-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,213.3859539,A84602293X,147
+2018-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,167.4128808,A84601891F,147
+2018-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,45.973073,A84602695R,147
+2018-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.0260521,A84602294A,147
+2018-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,36.0814133,A84601892J,147
+2018-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,39.9446388,A84602696T,147
+2019-02-01,> Agriculture ;  Employed total ;  Persons ;,301.5359173,A84602292W,148
+2019-02-01,> Agriculture ;  Employed total ;  > Males ;,204.5307909,A84601890C,148
+2019-02-01,> Agriculture ;  Employed total ;  > Females ;,97.0051264,A84602694L,148
+2019-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,212.9392846,A84602293X,148
+2019-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,165.8974464,A84601891F,148
+2019-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,47.0418382,A84602695R,148
+2019-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,88.5966328,A84602294A,148
+2019-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,38.6333446,A84601892J,148
+2019-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,49.9632882,A84602696T,148
+2019-05-01,> Agriculture ;  Employed total ;  Persons ;,279.9422099,A84602292W,149
+2019-05-01,> Agriculture ;  Employed total ;  > Males ;,187.7347351,A84601890C,149
+2019-05-01,> Agriculture ;  Employed total ;  > Females ;,92.2074748,A84602694L,149
+2019-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,197.986165,A84602293X,149
+2019-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,148.7961837,A84601891F,149
+2019-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.1899813,A84602695R,149
+2019-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,81.9560448,A84602294A,149
+2019-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,38.9385514,A84601892J,149
+2019-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,43.0174934,A84602696T,149
+2019-08-01,> Agriculture ;  Employed total ;  Persons ;,272.2995305,A84602292W,150
+2019-08-01,> Agriculture ;  Employed total ;  > Males ;,178.7243301,A84601890C,150
+2019-08-01,> Agriculture ;  Employed total ;  > Females ;,93.5752004,A84602694L,150
+2019-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,201.0278724,A84602293X,150
+2019-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,149.1541083,A84601891F,150
+2019-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,51.8737641,A84602695R,150
+2019-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,71.2716582,A84602294A,150
+2019-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.5702218,A84601892J,150
+2019-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,41.7014364,A84602696T,150
+2019-11-01,> Agriculture ;  Employed total ;  Persons ;,272.5028449,A84602292W,151
+2019-11-01,> Agriculture ;  Employed total ;  > Males ;,177.9531996,A84601890C,151
+2019-11-01,> Agriculture ;  Employed total ;  > Females ;,94.5496452,A84602694L,151
+2019-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,200.0934621,A84602293X,151
+2019-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,144.7305868,A84601891F,151
+2019-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,55.3628753,A84602695R,151
+2019-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,72.4093828,A84602294A,151
+2019-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,33.2226128,A84601892J,151
+2019-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,39.1867699,A84602696T,151
+2020-02-01,> Agriculture ;  Employed total ;  Persons ;,287.1869383,A84602292W,152
+2020-02-01,> Agriculture ;  Employed total ;  > Males ;,181.6000219,A84601890C,152
+2020-02-01,> Agriculture ;  Employed total ;  > Females ;,105.5869164,A84602694L,152
+2020-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,210.48873,A84602293X,152
+2020-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,152.3704301,A84601891F,152
+2020-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,58.1182998,A84602695R,152
+2020-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.6982084,A84602294A,152
+2020-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.2295918,A84601892J,152
+2020-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.4686166,A84602696T,152
+2020-05-01,> Agriculture ;  Employed total ;  Persons ;,308.2694004,A84602292W,153
+2020-05-01,> Agriculture ;  Employed total ;  > Males ;,200.7323725,A84601890C,153
+2020-05-01,> Agriculture ;  Employed total ;  > Females ;,107.537028,A84602694L,153
+2020-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,226.8920183,A84602293X,153
+2020-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,165.4177497,A84601891F,153
+2020-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,61.4742685,A84602695R,153
+2020-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,81.3773822,A84602294A,153
+2020-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,35.3146227,A84601892J,153
+2020-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,46.0627595,A84602696T,153
+2020-08-01,> Agriculture ;  Employed total ;  Persons ;,317.4616379,A84602292W,154
+2020-08-01,> Agriculture ;  Employed total ;  > Males ;,211.3182724,A84601890C,154
+2020-08-01,> Agriculture ;  Employed total ;  > Females ;,106.1433655,A84602694L,154
+2020-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,230.0287336,A84602293X,154
+2020-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,168.5424605,A84601891F,154
+2020-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,61.4862731,A84602695R,154
+2020-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,87.4329042,A84602294A,154
+2020-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,42.7758118,A84601892J,154
+2020-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.6570924,A84602696T,154
+2020-11-01,> Agriculture ;  Employed total ;  Persons ;,303.4411691,A84602292W,155
+2020-11-01,> Agriculture ;  Employed total ;  > Males ;,198.0254348,A84601890C,155
+2020-11-01,> Agriculture ;  Employed total ;  > Females ;,105.4157343,A84602694L,155
+2020-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,211.5737291,A84602293X,155
+2020-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,156.7064589,A84601891F,155
+2020-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,54.8672702,A84602695R,155
+2020-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,91.8674399,A84602294A,155
+2020-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,41.3189759,A84601892J,155
+2020-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,50.5484641,A84602696T,155
+2021-02-01,> Agriculture ;  Employed total ;  Persons ;,297.3560705,A84602292W,156
+2021-02-01,> Agriculture ;  Employed total ;  > Males ;,190.7077939,A84601890C,156
+2021-02-01,> Agriculture ;  Employed total ;  > Females ;,106.6482766,A84602694L,156
+2021-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,193.8599441,A84602293X,156
+2021-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,143.8629181,A84601891F,156
+2021-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.997026,A84602695R,156
+2021-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,103.4961263,A84602294A,156
+2021-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,46.8448758,A84601892J,156
+2021-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,56.6512506,A84602696T,156
+2021-05-01,> Agriculture ;  Employed total ;  Persons ;,274.1889992,A84602292W,157
+2021-05-01,> Agriculture ;  Employed total ;  > Males ;,174.6243825,A84601890C,157
+2021-05-01,> Agriculture ;  Employed total ;  > Females ;,99.5646167,A84602694L,157
+2021-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,184.832915,A84602293X,157
+2021-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,137.421522,A84601891F,157
+2021-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,47.411393,A84602695R,157
+2021-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,89.3560842,A84602294A,157
+2021-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,37.2028605,A84601892J,157
+2021-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,52.1532237,A84602696T,157
+2021-08-01,> Agriculture ;  Employed total ;  Persons ;,270.9436357,A84602292W,158
+2021-08-01,> Agriculture ;  Employed total ;  > Males ;,173.4186138,A84601890C,158
+2021-08-01,> Agriculture ;  Employed total ;  > Females ;,97.5250219,A84602694L,158
+2021-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,181.8314799,A84602293X,158
+2021-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,135.4655984,A84601891F,158
+2021-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,46.3658815,A84602695R,158
+2021-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,89.1121558,A84602294A,158
+2021-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,37.9530154,A84601892J,158
+2021-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,51.1591404,A84602696T,158
+2021-11-01,> Agriculture ;  Employed total ;  Persons ;,284.5290116,A84602292W,159
+2021-11-01,> Agriculture ;  Employed total ;  > Males ;,185.3762224,A84601890C,159
+2021-11-01,> Agriculture ;  Employed total ;  > Females ;,99.1527892,A84602694L,159
+2021-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,208.4073487,A84602293X,159
+2021-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,153.5643612,A84601891F,159
+2021-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,54.8429875,A84602695R,159
+2021-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,76.1216629,A84602294A,159
+2021-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,31.8118612,A84601892J,159
+2021-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.3098017,A84602696T,159
+2022-02-01,> Agriculture ;  Employed total ;  Persons ;,262.7602045,A84602292W,160
+2022-02-01,> Agriculture ;  Employed total ;  > Males ;,175.6199806,A84601890C,160
+2022-02-01,> Agriculture ;  Employed total ;  > Females ;,87.1402239,A84602694L,160
+2022-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,187.0644896,A84602293X,160
+2022-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,138.6789243,A84601891F,160
+2022-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,48.3855653,A84602695R,160
+2022-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,75.6957149,A84602294A,160
+2022-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,36.9410563,A84601892J,160
+2022-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,38.7546587,A84602696T,160
+2022-05-01,> Agriculture ;  Employed total ;  Persons ;,251.5635648,A84602292W,161
+2022-05-01,> Agriculture ;  Employed total ;  > Males ;,172.6376085,A84601890C,161
+2022-05-01,> Agriculture ;  Employed total ;  > Females ;,78.9259563,A84602694L,161
+2022-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,195.5438322,A84602293X,161
+2022-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,147.1453843,A84601891F,161
+2022-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,48.3984479,A84602695R,161
+2022-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,56.0197325,A84602294A,161
+2022-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,25.4922242,A84601892J,161
+2022-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,30.5275084,A84602696T,161
+2022-08-01,> Agriculture ;  Employed total ;  Persons ;,253.8557758,A84602292W,162
+2022-08-01,> Agriculture ;  Employed total ;  > Males ;,178.1166073,A84601890C,162
+2022-08-01,> Agriculture ;  Employed total ;  > Females ;,75.7391685,A84602694L,162
+2022-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,179.9904277,A84602293X,162
+2022-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,140.9946719,A84601891F,162
+2022-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,38.9957559,A84602695R,162
+2022-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,73.865348,A84602294A,162
+2022-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,37.1219355,A84601892J,162
+2022-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,36.7434126,A84602696T,162
+2022-11-01,> Agriculture ;  Employed total ;  Persons ;,255.6184036,A84602292W,163
+2022-11-01,> Agriculture ;  Employed total ;  > Males ;,179.115992,A84601890C,163
+2022-11-01,> Agriculture ;  Employed total ;  > Females ;,76.5024116,A84602694L,163
+2022-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,170.2520358,A84602293X,163
+2022-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,131.5751154,A84601891F,163
+2022-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,38.6769204,A84602695R,163
+2022-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,85.3663678,A84602294A,163
+2022-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,47.5408766,A84601892J,163
+2022-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,37.8254912,A84602696T,163
+2023-02-01,> Agriculture ;  Employed total ;  Persons ;,265.3060641,A84602292W,164
+2023-02-01,> Agriculture ;  Employed total ;  > Males ;,170.163421,A84601890C,164
+2023-02-01,> Agriculture ;  Employed total ;  > Females ;,95.1426431,A84602694L,164
+2023-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,180.0705342,A84602293X,164
+2023-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,132.6107045,A84601891F,164
+2023-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,47.4598297,A84602695R,164
+2023-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,85.2355299,A84602294A,164
+2023-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,37.5527165,A84601892J,164
+2023-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,47.6828134,A84602696T,164
+2023-05-01,> Agriculture ;  Employed total ;  Persons ;,248.2017474,A84602292W,165
+2023-05-01,> Agriculture ;  Employed total ;  > Males ;,160.7961499,A84601890C,165
+2023-05-01,> Agriculture ;  Employed total ;  > Females ;,87.4055975,A84602694L,165
+2023-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,173.9884008,A84602293X,165
+2023-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,124.4074924,A84601891F,165
+2023-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.5809084,A84602695R,165
+2023-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,74.2133466,A84602294A,165
+2023-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,36.3886575,A84601892J,165
+2023-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,37.8246891,A84602696T,165
+2023-08-01,> Agriculture ;  Employed total ;  Persons ;,254.8493327,A84602292W,166
+2023-08-01,> Agriculture ;  Employed total ;  > Males ;,165.640975,A84601890C,166
+2023-08-01,> Agriculture ;  Employed total ;  > Females ;,89.2083577,A84602694L,166
+2023-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,179.4873109,A84602293X,166
+2023-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,130.480746,A84601891F,166
+2023-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.0065649,A84602695R,166
+2023-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,75.3620218,A84602294A,166
+2023-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,35.160229,A84601892J,166
+2023-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,40.2017928,A84602696T,166
+2023-11-01,> Agriculture ;  Employed total ;  Persons ;,262.5703076,A84602292W,167
+2023-11-01,> Agriculture ;  Employed total ;  > Males ;,171.9526122,A84601890C,167
+2023-11-01,> Agriculture ;  Employed total ;  > Females ;,90.6176954,A84602694L,167
+2023-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,190.7303892,A84602293X,167
+2023-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,142.3406621,A84601891F,167
+2023-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,48.3897272,A84602695R,167
+2023-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,71.8399184,A84602294A,167
+2023-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,29.6119502,A84601892J,167
+2023-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,42.2279682,A84602696T,167
+2024-02-01,> Agriculture ;  Employed total ;  Persons ;,268.2999802,A84602292W,168
+2024-02-01,> Agriculture ;  Employed total ;  > Males ;,179.0105557,A84601890C,168
+2024-02-01,> Agriculture ;  Employed total ;  > Females ;,89.2894245,A84602694L,168
+2024-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,184.2704368,A84602293X,168
+2024-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,141.4750837,A84601891F,168
+2024-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.795353,A84602695R,168
+2024-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,84.0295435,A84602294A,168
+2024-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,37.535472,A84601892J,168
+2024-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,46.4940715,A84602696T,168
+2024-05-01,> Agriculture ;  Employed total ;  Persons ;,291.6738717,A84602292W,169
+2024-05-01,> Agriculture ;  Employed total ;  > Males ;,195.3504774,A84601890C,169
+2024-05-01,> Agriculture ;  Employed total ;  > Females ;,96.3233943,A84602694L,169
+2024-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,200.0422382,A84602293X,169
+2024-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,152.1165971,A84601891F,169
+2024-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,47.9256412,A84602695R,169
+2024-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,91.6316335,A84602294A,169
+2024-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,43.2338804,A84601892J,169
+2024-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,48.3977532,A84602696T,169
+2024-08-01,> Agriculture ;  Employed total ;  Persons ;,285.670602,A84602292W,170
+2024-08-01,> Agriculture ;  Employed total ;  > Males ;,191.1383521,A84601890C,170
+2024-08-01,> Agriculture ;  Employed total ;  > Females ;,94.5322499,A84602694L,170
+2024-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,208.4351034,A84602293X,170
+2024-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,158.6599255,A84601891F,170
+2024-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.7751779,A84602695R,170
+2024-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,77.2354986,A84602294A,170
+2024-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.4784266,A84601892J,170
+2024-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.7570719,A84602696T,170
+2024-11-01,> Agriculture ;  Employed total ;  Persons ;,255.4476647,A84602292W,171
+2024-11-01,> Agriculture ;  Employed total ;  > Males ;,166.6052277,A84601890C,171
+2024-11-01,> Agriculture ;  Employed total ;  > Females ;,88.842437,A84602694L,171
+2024-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,180.1653567,A84602293X,171
+2024-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,135.7848218,A84601891F,171
+2024-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,44.3805349,A84602695R,171
+2024-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,75.2823081,A84602294A,171
+2024-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,30.8204059,A84601892J,171
+2024-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,44.4619021,A84602696T,171
+2025-02-01,> Agriculture ;  Employed total ;  Persons ;,246.3359937,A84602292W,172
+2025-02-01,> Agriculture ;  Employed total ;  > Males ;,167.0263633,A84601890C,172
+2025-02-01,> Agriculture ;  Employed total ;  > Females ;,79.3096304,A84602694L,172
+2025-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,175.3118161,A84602293X,172
+2025-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,134.5880147,A84601891F,172
+2025-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,40.7238014,A84602695R,172
+2025-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,71.0241776,A84602294A,172
+2025-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.4383486,A84601892J,172
+2025-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,38.585829,A84602696T,172
+2025-05-01,> Agriculture ;  Employed total ;  Persons ;,259.3035191,A84602292W,173
+2025-05-01,> Agriculture ;  Employed total ;  > Males ;,174.6327028,A84601890C,173
+2025-05-01,> Agriculture ;  Employed total ;  > Females ;,84.6708163,A84602694L,173
+2025-05-01,> Agriculture ;  > Employed full-time ;  Persons ;,196.9600115,A84602293X,173
+2025-05-01,> Agriculture ;  > Employed full-time ;  > Males ;,147.3822551,A84601891F,173
+2025-05-01,> Agriculture ;  > Employed full-time ;  > Females ;,49.5777563,A84602695R,173
+2025-05-01,> Agriculture ;  > Employed part-time ;  Persons ;,62.3435076,A84602294A,173
+2025-05-01,> Agriculture ;  > Employed part-time ;  > Males ;,27.2504476,A84601892J,173
+2025-05-01,> Agriculture ;  > Employed part-time ;  > Females ;,35.09306,A84602696T,173
+2025-08-01,> Agriculture ;  Employed total ;  Persons ;,255.1076516,A84602292W,174
+2025-08-01,> Agriculture ;  Employed total ;  > Males ;,172.7661332,A84601890C,174
+2025-08-01,> Agriculture ;  Employed total ;  > Females ;,82.3415185,A84602694L,174
+2025-08-01,> Agriculture ;  > Employed full-time ;  Persons ;,179.8460812,A84602293X,174
+2025-08-01,> Agriculture ;  > Employed full-time ;  > Males ;,138.1963107,A84601891F,174
+2025-08-01,> Agriculture ;  > Employed full-time ;  > Females ;,41.6497705,A84602695R,174
+2025-08-01,> Agriculture ;  > Employed part-time ;  Persons ;,75.2615704,A84602294A,174
+2025-08-01,> Agriculture ;  > Employed part-time ;  > Males ;,34.5698225,A84601892J,174
+2025-08-01,> Agriculture ;  > Employed part-time ;  > Females ;,40.691748,A84602696T,174
+2025-11-01,> Agriculture ;  Employed total ;  Persons ;,226.2711609,A84602292W,175
+2025-11-01,> Agriculture ;  Employed total ;  > Males ;,147.2316609,A84601890C,175
+2025-11-01,> Agriculture ;  Employed total ;  > Females ;,79.0394999,A84602694L,175
+2025-11-01,> Agriculture ;  > Employed full-time ;  Persons ;,157.3397097,A84602293X,175
+2025-11-01,> Agriculture ;  > Employed full-time ;  > Males ;,115.0619043,A84601891F,175
+2025-11-01,> Agriculture ;  > Employed full-time ;  > Females ;,42.2778054,A84602695R,175
+2025-11-01,> Agriculture ;  > Employed part-time ;  Persons ;,68.9314512,A84602294A,175
+2025-11-01,> Agriculture ;  > Employed part-time ;  > Males ;,32.1697566,A84601892J,175
+2025-11-01,> Agriculture ;  > Employed part-time ;  > Females ;,36.7616946,A84602696T,175
+2026-02-01,> Agriculture ;  Employed total ;  Persons ;,245.8796288,A84602292W,176
+2026-02-01,> Agriculture ;  Employed total ;  > Males ;,156.776716,A84601890C,176
+2026-02-01,> Agriculture ;  Employed total ;  > Females ;,89.1029128,A84602694L,176
+2026-02-01,> Agriculture ;  > Employed full-time ;  Persons ;,173.4882936,A84602293X,176
+2026-02-01,> Agriculture ;  > Employed full-time ;  > Males ;,121.5360583,A84601891F,176
+2026-02-01,> Agriculture ;  > Employed full-time ;  > Females ;,51.9522353,A84602695R,176
+2026-02-01,> Agriculture ;  > Employed part-time ;  Persons ;,72.3913353,A84602294A,176
+2026-02-01,> Agriculture ;  > Employed part-time ;  > Males ;,35.2406577,A84601892J,176
+2026-02-01,> Agriculture ;  > Employed part-time ;  > Females ;,37.1506775,A84602696T,176

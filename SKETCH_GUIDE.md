@@ -1,52 +1,68 @@
 # Hand-drawn A4 sketch outline
 
-For Ang Lin Shan · Australian Farmers · Malaysian campus.
+**Ang Lin Shan · Australian Farmers · Malaysian campus**
+Updated 15 October 2026 (Malaysia), after verified-source research.
 
-**Use this provisional outline for planning, not a final submission sketch.**
-Official data is not yet accessible, so findings and chart feasibility still
-need verification. The student must draw the sketch by hand; this document is
-only a written guide. Do not substitute a generated or digitally drawn layout.
+The student must draw the final sketch **by hand on one A4 sheet**. This is a
+written outline only; no digital sketch or sketch PDF has been generated.
+Use the revised chart numbers in [PROJECT_PLAN.md](PROJECT_PLAN.md), not the
+previous provisional workforce-ranking plan.
 
 ## Page arrangement
 
-Use one portrait A4 sheet representing a long scrolling page. Draw two equal
-columns with aligned edges and five section bands. Mark full-width charts as
-spanning both columns. Use chart numbers from [PROJECT_PLAN.md](PROJECT_PLAN.md).
-Keep shapes schematic; leave room for headings, short findings, and source notes.
+Use a portrait A4 sheet representing one long scrolling page. Draw two equal
+columns and five section bands. Full-width charts span both columns. Keep
+figures schematic but label encodings, units, years, source, and the intended
+finding. Leave room for headings, narrative, and consistent whitespace.
 
-| Band | What to draw | Purpose |
+| Band | Draw | Purpose |
 | --- | --- | --- |
-| Header | Title “Who farms Australia—and how is farming changing?”, short audience-friendly introduction, author line. | Set the question, topic, and audience. No unverified headline statistics. |
-| 1. Where agricultural work happens | Chart 1, a full-width choropleth; chart 2, a labelled proportional-symbol map, with a short explanatory text block beside it. | Compare local dependence with total workers; introduce Australian states. |
-| 2. How farming is changing | Charts 3 and 4 side by side; chart 5 across both columns underneath. | National trend, differences between states, and changing sector rankings. |
-| 3. The people behind farming | Charts 6 and 7 side by side, with space above for a short explanation of the regional box plot. | Age/sex profile and regional variation, with clear definitions. |
-| 4. Different sectors, different work | Charts 8 and 9 side by side. | State-sector composition and independent ABARES labour evidence. |
-| 5. Farms as businesses | Chart 10 across both columns; charts 11 and 12 side by side below. | Explain the cartogram, employment-size classes, and sector workforce changes. |
-| Footer | Short evidence-based conclusion; sources; author/date; clearly marked place for the student's own AI acknowledgement. | Complete the narrative and attribution. |
+| Header | “Who farms Australia—and how is farming changing?”, short introduction, author name. | Introduce the question and explain that businesses, farmers, and dairy farms are different measures. |
+| 1. Where farming businesses are | Chart 1, full-width choropleth of agriculture-business share; chart 2, proportional symbols for state business totals, with explanatory text beside it. | Business concentration is different from a state's business composition. Label Australia’s states. |
+| 2. How farming is changing | Charts 3 and 4 side by side: registered dairy-farm trend and state agriculture-business dumbbell. Chart 5, full-width waterfall of state contributions to the dairy-farm decline. | Show change over time without mixing counting units or claiming causes. |
+| 3. People and business | Charts 6 and 7 side by side: farmer age/sex pyramid and state variation in non-employing business shares. | Introduce older farmers and explain why “non-employing” does not mean nobody works there. |
+| 4. Different sectors, different businesses | Charts 8 and 9 side by side: state × sector heatmap and turnover-size composition bars. | Compare sector composition and business scale. |
+| 5. The changing shape of farming | Chart 10, full-width dairy-farm cartogram; charts 11 and 12 side by side: employment-size treemap and agriculture workforce timeline. | Close with geographic concentration, business staffing, and the wider workforce. |
+| Footer | Short conclusion, full source URLs, author/date, and marked space for the student's own AI acknowledgement. | Complete attribution and submission metadata. |
 
-## Mark on the sketch
+## Findings to write on the sheet
 
-- Label each chart with its number, idiom, variables, units, and intended period.
-  Use “period to verify” until the source register is complete.
-- Write a short question above each placeholder. Replace it with a supported
-  finding only after data verification.
-- Draw legends above charts, direct labels where possible, and note shared sector
-  colours. No red/green comparisons or rainbow quantitative scales.
-- Show consistent whitespace and source lines beneath every chart.
-- Label the three map encodings explicitly: **rate → colour**, **count → circle
-  area**, and **business count → state area**.
-- Add notes for tooltips and optional sector highlighting; the story must work
-  without interaction. Do not draw tabs that hide major sections.
-- Keep annotations outside the plotted marks.
+- Chart 1: Tasmania has a higher agriculture share of businesses than NSW
+  (about 9.1% versus 4.9%, June 2025), although NSW has more agricultural businesses.
+- Chart 3: registered dairy farms decreased **44.3%**, 2011–12 to 2024–25.
+- Chart 6: about **59%** of Farmers and Farm Managers were aged **55+**,
+  February 2026. This is an occupational survey estimate.
+- Chart 10: Victoria had **65.6%** of registered dairy farms, 2024–25 provisional.
+- Chart 12: agriculture employed an estimated **245,900 people**, February 2026;
+  distinguish this from the estimated 150,300 Farmers and Farm Managers.
 
-## Ask the tutor
+Give the source/year beside each finding. Do not extrapolate the dairy decline
+to all farming sectors or add a causal explanation that has not been verified.
 
-1. Does the non-contiguous cartogram satisfy the third map-idiom requirement?
-2. Are the proposed nine distinct advanced idioms classified as expected?
-3. Is the regional-share box plot understandable for a general Malaysian audience?
-4. Does the balance of farming workforce and agriculture-business measures fit
-   the assigned topic?
+## Mark these design details
 
-After data-backed revisions and tutor feedback, draw the final A4 sketch, scan
-it to PDF, and upload it to the repository. The eventual website should follow
-that agreed sketch. The current task has not created a sketch PDF or website.
+- Three map encodings: **business share → polygon colour**; **business count →
+  circle area**; **registered dairy farms → state silhouette area**.
+- Albers equal-area projection; cartogram silhouettes are then deliberately
+  shrunk. Dairy NT/ACT are “not reported”, never invented zeroes.
+- Legends above charts, direct names where possible, and source notes below.
+- Serif headings, sans-serif body/labels, equal columns, generous spacing.
+- A consistent sector-colour key. No red/green comparisons or rainbow quantities.
+- Explanations for mirrored age bars, the box plot's middle half, turnover, and
+  non-employing businesses, written for a general Malaysian reader.
+- Labels and annotations outside data marks; tooltips as optional detail.
+- Sector highlighting as optional; no tabs hiding major sections.
+
+## Tutor feedback to obtain before implementation
+
+1. Does the non-contiguous cartogram qualify as the third map idiom?
+2. Does the nine-advanced-idiom count match the official unit rubric?
+3. Is the state-share box plot understandable and appropriate? It shows 5–8
+   states per sector with all observations visible; it does not describe
+   individual farms' distribution.
+4. Is the split between agriculture businesses, the farmer occupation, and the
+   dairy case study suitable for the assigned Australian Farmers topic?
+
+Then draw the agreed final A4 sketch, scan it to PDF, and upload it to the
+repository. The eventual website should match that sketch. Write the AI
+acknowledgement yourself and prepare to explain each design decision.
