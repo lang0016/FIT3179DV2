@@ -55,56 +55,72 @@
         "abbr": "NSW",
         "earlier": 45643,
         "later": 45163,
-        "change": -480
+        "change": -480,
+        "pct": -1.0516399009705801,
+        "baseline": 0
       },
       {
         "state": "Victoria",
         "abbr": "VIC",
         "earlier": 33255,
         "later": 32754,
-        "change": -501
+        "change": -501,
+        "pct": -1.5065403698691915,
+        "baseline": 0
       },
       {
         "state": "Queensland",
         "abbr": "QLD",
         "earlier": 35512,
         "later": 35460,
-        "change": -52
+        "change": -52,
+        "pct": -0.14642937598557948,
+        "baseline": 0
       },
       {
         "state": "South Australia",
         "abbr": "SA",
         "earlier": 14152,
         "later": 13831,
-        "change": -321
+        "change": -321,
+        "pct": -2.2682306387789675,
+        "baseline": 0
       },
       {
         "state": "Western Australia",
         "abbr": "WA",
         "earlier": 12728,
         "later": 12523,
-        "change": -205
+        "change": -205,
+        "pct": -1.6106222501571343,
+        "baseline": 0
       },
       {
         "state": "Tasmania",
         "abbr": "TAS",
         "earlier": 4087,
         "later": 4015,
-        "change": -72
+        "change": -72,
+        "pct": -1.7616833863469572,
+        "baseline": 0
       },
       {
         "state": "Northern Territory",
         "abbr": "NT",
         "earlier": 637,
         "later": 633,
-        "change": -4
+        "change": -4,
+        "pct": -0.6279434850863463,
+        "baseline": 0
       },
       {
         "state": "Australian Capital Territory",
         "abbr": "ACT",
         "earlier": 268,
         "later": 260,
-        "change": -8
+        "change": -8,
+        "pct": -2.985074626865669,
+        "baseline": 0
       }
     ]
   },
@@ -113,17 +129,18 @@
       "field": "abbr",
       "type": "nominal",
       "sort": [
-        "NSW",
-        "QLD",
-        "VIC",
+        "ACT",
         "SA",
-        "WA",
         "TAS",
+        "WA",
+        "VIC",
+        "NSW",
         "NT",
-        "ACT"
+        "QLD"
       ],
       "axis": {
-        "title": null
+        "title": null,
+        "labelPadding": 14
       }
     },
     "tooltip": [
@@ -145,6 +162,11 @@
         "field": "change",
         "type": "quantitative",
         "format": "+,.0f"
+      },
+      {
+        "field": "pct",
+        "type": "quantitative",
+        "format": "+.1f"
       }
     ]
   },
@@ -152,84 +174,96 @@
     {
       "mark": {
         "type": "rule",
-        "color": "#53656e",
-        "strokeWidth": 2
+        "color": "#174a67",
+        "strokeWidth": 2.5
       },
       "encoding": {
         "x": {
-          "field": "earlier",
+          "field": "pct",
           "type": "quantitative",
-          "axis": {
-            "title": "Agriculture businesses",
-            "format": "~s"
-          },
           "scale": {
-            "zero": true
+            "domain": [
+              -3.8,
+              0.45
+            ],
+            "nice": false
+          },
+          "axis": {
+            "title": "Change in businesses (%)",
+            "values": [
+              -3,
+              -2,
+              -1,
+              0
+            ],
+            "labelExpr": "format(datum.value, '.0f') + '%'",
+            "grid": false
           }
         },
         "x2": {
-          "field": "later"
+          "field": "baseline"
         }
       }
     },
     {
-      "transform": [
-        {
-          "fold": [
-            "earlier",
-            "later"
-          ],
-          "as": [
-            "date",
-            "count"
-          ]
-        }
-      ],
       "mark": {
         "type": "point",
         "filled": true,
-        "size": 75
+        "shape": "diamond",
+        "color": "#174a67",
+        "size": 110
       },
       "encoding": {
         "x": {
-          "field": "count",
+          "field": "pct",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "fill": "#f7f5ef",
+        "stroke": "#53656e",
+        "strokeWidth": 1.5,
+        "size": 55
+      },
+      "encoding": {
+        "x": {
+          "field": "baseline",
+          "type": "quantitative"
+        }
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "dx": -13,
+        "fontSize": 13,
+        "fontWeight": 600,
+        "color": "#174a67"
+      },
+      "encoding": {
+        "x": {
+          "field": "pct",
           "type": "quantitative"
         },
-        "shape": {
-          "field": "date",
-          "type": "nominal",
-          "scale": {
-            "domain": [
-              "earlier",
-              "later"
-            ],
-            "range": [
-              "circle",
-              "diamond"
-            ]
-          },
-          "legend": {
-            "title": null,
-            "labelExpr": "datum.label === 'earlier' ? 'June 2024' : 'June 2025'"
-          }
-        },
-        "color": {
-          "condition": {
-            "test": "datum.date === 'later'",
-            "value": "#174a67"
-          },
-          "value": "#53656e"
+        "text": {
+          "field": "pct",
+          "format": "+.1f"
         }
       }
     }
   ],
   "usermeta": {
     "chart": 4,
-    "title": "A year of business change",
-    "finding": "VIC records the largest fall: 501 fewer agriculture businesses.",
+    "title": "Every state has fewer farming businesses",
+    "finding": "South Australia fell 2.3%; Queensland was almost unchanged (\u22120.1%).",
     "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
     "period": "June 2024 \u2192 June 2025",
     "idiom": "Dumbbell chart"
   },
-  "description": "VIC records the largest fall: 501 fewer agriculture businesses. Endpoints compare the same agriculture classes. Small changes may reflect confidentiality adjustments, not real entries or exits."
+  "description": "South Australia fell 2.3%; Queensland was almost unchanged (\u22120.1%). Open circles are the June 2024 baseline (0%). Diamonds show the change to June 2025. Original counts remain in the tooltips and table. Small differences, especially in territories, may reflect confidentiality adjustments."
 }

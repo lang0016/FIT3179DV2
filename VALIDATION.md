@@ -23,7 +23,7 @@ all three chart signals and draws a visible outline, data tables expand, and
 the selector can receive keyboard focus and keyboard input. All values remain
 visible during highlighting; data marks are not faded below their contrast.
 
-Measured chart-data/specification responses: **1,249,258 bytes** (about 1.25 MB),
+Measured chart-data/specification responses: **1,254,336 bytes** (about 1.25 MB),
 including official geometry, readable specs and accessible-table metadata.
 Geometry is fetched once and reused by both ordinary maps. This excludes chart
 library JavaScript; it is a data/specification budget, not the whole page's byte
@@ -97,3 +97,16 @@ The hand-drawn sketch PDF is **not supplied**. The page deliberately retains a
 marked placeholder for the student's own AI acknowledgement. Moodle submission,
 student authorship review and the interview remain the student's tasks. See
 `submission/SUBMISSION_CHECKLIST.md`.
+
+## Readability revision
+
+Chart 04 now uses a common 0% baseline and directly labelled percentage
+changes, retaining original counts in tooltips and tables. Sector charts use
+full-width rows, numeric heatmap labels and segment percentages. Chart 12
+shows one complete-year-average line with endpoint labels and explicitly
+discloses its 200,000-worker axis baseline. The latest quarterly estimate
+remains separately identified. Source extracts were unchanged.
+
+The revised charts passed all four required laptop widths, sector interaction
+and accessible-table checks. Additional checks at 375 and 768 px confirmed
+all twelve charts loaded without overflow, errors or clipped SVG text.

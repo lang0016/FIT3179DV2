@@ -85,7 +85,7 @@ same checks on pushes. Use `SITE_URL` to run the test against the public site.
 | Deep blue `#174a67` | Overall agriculture: businesses or workforce, with units explicitly stated. |
 | Violet `#6e4b87` | Registered dairy-farm case study, consistently across its charts. |
 | Ordered blue lightness `#4c7189` → `#113650` | Increasing quantity or ordered business-size class, never separate sector identities. |
-| Slate `#53656e` | Earlier-date or quarterly context, explicitly labelled. |
+| Slate `#53656e` | Earlier-date baseline and contextual labels. |
 | Light grey `#e4e7e2` | Geographic context; unreported NT/ACT in the dairy map are labelled, not represented as zero. |
 | Ink `#233942` outline | Selected sector; other values remain fully visible and retain contrast. |
 
@@ -107,3 +107,8 @@ not redistributed. See the research register for complete URLs and methods.
 This project received generative-AI assistance with research, planning, code and
 writing. That process disclosure does not replace the student's own submission
 acknowledgement, which remains clearly marked on the page.
+
+Chart readability revisions: chart 04 compares percentage changes against a shared
+2024 baseline; section 04 uses full-width, directly labelled sector charts. The
+workforce chart shows complete-year averages with labelled endpoints, while the
+latest quarterly estimate remains separately identified in its note.

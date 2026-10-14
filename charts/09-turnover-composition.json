@@ -62,7 +62,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 30943,
-        "share": 30.399756353954828
+        "share": 30.399756353954828,
+        "midpoint": 15.199878176977414,
+        "label": "30%"
       },
       {
         "sector": "Sheep, beef cattle and grain",
@@ -70,7 +72,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 29574,
-        "share": 29.054790886851954
+        "share": 29.054790886851954,
+        "midpoint": 44.9271517973808,
+        "label": "29%"
       },
       {
         "sector": "Sheep, beef cattle and grain",
@@ -78,7 +82,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 33612,
-        "share": 33.02189867075363
+        "share": 33.02189867075363,
+        "midpoint": 75.9654965761836,
+        "label": "33%"
       },
       {
         "sector": "Sheep, beef cattle and grain",
@@ -86,7 +92,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 5441,
-        "share": 5.34547633784275
+        "share": 5.34547633784275,
+        "midpoint": 95.14918408048177,
+        "label": "5%"
       },
       {
         "sector": "Sheep, beef cattle and grain",
@@ -94,7 +102,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 1543,
-        "share": 1.5159106762160197
+        "share": 1.5159106762160197,
+        "midpoint": 98.57987758751116,
+        "label": "2%"
       },
       {
         "sector": "Sheep, beef cattle and grain",
@@ -102,7 +112,9 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 674,
-        "share": 0.6621670743808148
+        "share": 0.6621670743808148,
+        "midpoint": 99.66891646280959,
+        "label": "1%"
       },
       {
         "sector": "Fruit and tree nuts",
@@ -110,7 +122,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 4077,
-        "share": 34.98669870419634
+        "share": 34.98669870419634,
+        "midpoint": 17.49334935209817,
+        "label": "35%"
       },
       {
         "sector": "Fruit and tree nuts",
@@ -118,7 +132,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 3116,
-        "share": 26.739895305929807
+        "share": 26.739895305929807,
+        "midpoint": 48.356646357161246,
+        "label": "27%"
       },
       {
         "sector": "Fruit and tree nuts",
@@ -126,7 +142,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 3502,
-        "share": 30.052347035098258
+        "share": 30.052347035098258,
+        "midpoint": 76.75276752767527,
+        "label": "30%"
       },
       {
         "sector": "Fruit and tree nuts",
@@ -134,7 +152,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 568,
-        "share": 4.8742813009525445
+        "share": 4.8742813009525445,
+        "midpoint": 94.21608169570067,
+        "label": "5%"
       },
       {
         "sector": "Fruit and tree nuts",
@@ -142,7 +162,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 206,
-        "share": 1.7677851197116623
+        "share": 1.7677851197116623,
+        "midpoint": 97.53711490603278,
+        "label": "2%"
       },
       {
         "sector": "Fruit and tree nuts",
@@ -150,7 +172,9 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 184,
-        "share": 1.5789925341113877
+        "share": 1.5789925341113877,
+        "midpoint": 99.2105037329443,
+        "label": "2%"
       },
       {
         "sector": "Dairy cattle",
@@ -158,7 +182,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 1325,
-        "share": 16.471904525111885
+        "share": 16.471904525111885,
+        "midpoint": 8.235952262555942,
+        "label": "16%"
       },
       {
         "sector": "Dairy cattle",
@@ -166,7 +192,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 1919,
-        "share": 23.856290402784687
+        "share": 23.856290402784687,
+        "midpoint": 28.40004972650423,
+        "label": "24%"
       },
       {
         "sector": "Dairy cattle",
@@ -174,7 +202,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 3723,
-        "share": 46.282943809050224
+        "share": 46.282943809050224,
+        "midpoint": 63.46966683242169,
+        "label": "46%"
       },
       {
         "sector": "Dairy cattle",
@@ -182,7 +212,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 801,
-        "share": 9.95773247140726
+        "share": 9.95773247140726,
+        "midpoint": 91.59000497265043,
+        "label": "10%"
       },
       {
         "sector": "Dairy cattle",
@@ -190,7 +222,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 206,
-        "share": 2.560914967677772
+        "share": 2.560914967677772,
+        "midpoint": 97.84932869219294,
+        "label": "3%"
       },
       {
         "sector": "Dairy cattle",
@@ -198,7 +232,9 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 70,
-        "share": 0.870213823968175
+        "share": 0.870213823968175,
+        "midpoint": 99.56489308801592,
+        "label": "1%"
       },
       {
         "sector": "Other livestock",
@@ -206,7 +242,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 2700,
-        "share": 38.028169014084504
+        "share": 38.028169014084504,
+        "midpoint": 19.014084507042252,
+        "label": "38%"
       },
       {
         "sector": "Other livestock",
@@ -214,7 +252,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 2128,
-        "share": 29.971830985915492
+        "share": 29.971830985915492,
+        "midpoint": 53.01408450704225,
+        "label": "30%"
       },
       {
         "sector": "Other livestock",
@@ -222,7 +262,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 1884,
-        "share": 26.535211267605636
+        "share": 26.535211267605636,
+        "midpoint": 81.26760563380282,
+        "label": "27%"
       },
       {
         "sector": "Other livestock",
@@ -230,7 +272,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 226,
-        "share": 3.183098591549296
+        "share": 3.183098591549296,
+        "midpoint": 96.12676056338029,
+        "label": "3%"
       },
       {
         "sector": "Other livestock",
@@ -238,7 +282,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 83,
-        "share": 1.1690140845070423
+        "share": 1.1690140845070423,
+        "midpoint": 98.30281690140845,
+        "label": "1%"
       },
       {
         "sector": "Other livestock",
@@ -246,7 +292,9 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 79,
-        "share": 1.112676056338028
+        "share": 1.112676056338028,
+        "midpoint": 99.44366197183098,
+        "label": "1%"
       },
       {
         "sector": "Other crops",
@@ -254,7 +302,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 1475,
-        "share": 21.81629936399941
+        "share": 21.81629936399941,
+        "midpoint": 10.908149681999705,
+        "label": "22%"
       },
       {
         "sector": "Other crops",
@@ -262,7 +312,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 1691,
-        "share": 25.011093033574916
+        "share": 25.011093033574916,
+        "midpoint": 34.32184588078687,
+        "label": "25%"
       },
       {
         "sector": "Other crops",
@@ -270,7 +322,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 3027,
-        "share": 44.77148350835675
+        "share": 44.77148350835675,
+        "midpoint": 69.21313415175271,
+        "label": "45%"
       },
       {
         "sector": "Other crops",
@@ -278,7 +332,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 379,
-        "share": 5.6056796331903564
+        "share": 5.6056796331903564,
+        "midpoint": 94.40171572252626,
+        "label": "6%"
       },
       {
         "sector": "Other crops",
@@ -286,7 +342,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 110,
-        "share": 1.6269782576541931
+        "share": 1.6269782576541931,
+        "midpoint": 98.01804466794854,
+        "label": "2%"
       },
       {
         "sector": "Other crops",
@@ -294,7 +352,9 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 79,
-        "share": 1.168466203224375
+        "share": 1.168466203224375,
+        "midpoint": 99.41576689838782,
+        "label": "1%"
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -302,7 +362,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 1392,
-        "share": 24.667729930887823
+        "share": 24.667729930887823,
+        "midpoint": 12.333864965443912,
+        "label": "25%"
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -310,7 +372,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 1688,
-        "share": 29.91316675527202
+        "share": 29.91316675527202,
+        "midpoint": 39.62431330852383,
+        "label": "30%"
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -318,7 +382,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 1956,
-        "share": 34.662413609782035
+        "share": 34.662413609782035,
+        "midpoint": 71.91210349105086,
+        "label": "35%"
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -326,7 +392,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 333,
-        "share": 5.901116427432217
+        "share": 5.901116427432217,
+        "midpoint": 92.19386850965799,
+        "label": "6%"
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -334,7 +402,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 132,
-        "share": 2.3391812865497075
+        "share": 2.3391812865497075,
+        "midpoint": 96.31401736664895,
+        "label": "2%"
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -342,7 +412,9 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 142,
-        "share": 2.5163919900762006
+        "share": 2.5163919900762006,
+        "midpoint": 98.74180400496189,
+        "label": "3%"
       },
       {
         "sector": "Nursery and floriculture",
@@ -350,7 +422,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 592,
-        "share": 26.547085201793724
+        "share": 26.547085201793724,
+        "midpoint": 13.273542600896862,
+        "label": "27%"
       },
       {
         "sector": "Nursery and floriculture",
@@ -358,7 +432,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 629,
-        "share": 28.206278026905828
+        "share": 28.206278026905828,
+        "midpoint": 40.65022421524664,
+        "label": "28%"
       },
       {
         "sector": "Nursery and floriculture",
@@ -366,7 +442,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 777,
-        "share": 34.84304932735426
+        "share": 34.84304932735426,
+        "midpoint": 72.17488789237669,
+        "label": "35%"
       },
       {
         "sector": "Nursery and floriculture",
@@ -374,7 +452,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 139,
-        "share": 6.233183856502242
+        "share": 6.233183856502242,
+        "midpoint": 92.71300448430495,
+        "label": "6%"
       },
       {
         "sector": "Nursery and floriculture",
@@ -382,7 +462,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 64,
-        "share": 2.8699551569506725
+        "share": 2.8699551569506725,
+        "midpoint": 97.2645739910314,
+        "label": "3%"
       },
       {
         "sector": "Nursery and floriculture",
@@ -390,7 +472,9 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 29,
-        "share": 1.3004484304932735
+        "share": 1.3004484304932735,
+        "midpoint": 99.34977578475336,
+        "label": "1%"
       },
       {
         "sector": "Poultry",
@@ -398,7 +482,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 261,
-        "share": 18.89934829833454
+        "share": 18.89934829833454,
+        "midpoint": 9.44967414916727,
+        "label": "19%"
       },
       {
         "sector": "Poultry",
@@ -406,7 +492,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 294,
-        "share": 21.288921071687184
+        "share": 21.288921071687184,
+        "midpoint": 29.543808834178133,
+        "label": "21%"
       },
       {
         "sector": "Poultry",
@@ -414,7 +502,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 613,
-        "share": 44.3881245474294
+        "share": 44.3881245474294,
+        "midpoint": 62.38233164373643,
+        "label": "44%"
       },
       {
         "sector": "Poultry",
@@ -422,7 +512,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 111,
-        "share": 8.037653874004343
+        "share": 8.037653874004343,
+        "midpoint": 88.5952208544533,
+        "label": "8%"
       },
       {
         "sector": "Poultry",
@@ -430,7 +522,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 53,
-        "share": 3.837798696596669
+        "share": 3.837798696596669,
+        "midpoint": 94.53294713975382,
+        "label": "4%"
       },
       {
         "sector": "Poultry",
@@ -438,7 +532,9 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 49,
-        "share": 3.5481535119478638
+        "share": 3.5481535119478638,
+        "midpoint": 98.22592324402608,
+        "label": "4%"
       },
       {
         "sector": "Deer",
@@ -446,7 +542,9 @@
         "turnover": "< $50k",
         "rank": 0,
         "businesses": 37,
-        "share": 45.67901234567901
+        "share": 45.67901234567901,
+        "midpoint": 22.839506172839506,
+        "label": "46%"
       },
       {
         "sector": "Deer",
@@ -454,7 +552,9 @@
         "turnover": "$50\u2013200k",
         "rank": 1,
         "businesses": 32,
-        "share": 39.50617283950617
+        "share": 39.50617283950617,
+        "midpoint": 65.4320987654321,
+        "label": "40%"
       },
       {
         "sector": "Deer",
@@ -462,7 +562,9 @@
         "turnover": "$200k\u20132m",
         "rank": 2,
         "businesses": 12,
-        "share": 14.814814814814813
+        "share": 14.814814814814813,
+        "midpoint": 92.5925925925926,
+        "label": "15%"
       },
       {
         "sector": "Deer",
@@ -470,7 +572,9 @@
         "turnover": "$2\u20135m",
         "rank": 3,
         "businesses": 0,
-        "share": 0.0
+        "share": 0.0,
+        "midpoint": 100.0,
+        "label": "0%"
       },
       {
         "sector": "Deer",
@@ -478,7 +582,9 @@
         "turnover": "$5\u201310m",
         "rank": 4,
         "businesses": 0,
-        "share": 0.0
+        "share": 0.0,
+        "midpoint": 100.0,
+        "label": "0%"
       },
       {
         "sector": "Deer",
@@ -486,127 +592,183 @@
         "turnover": "$10m+",
         "rank": 5,
         "businesses": 0,
-        "share": 0.0
+        "share": 0.0,
+        "midpoint": 100.0,
+        "label": "0%"
       }
     ]
   },
-  "mark": {
-    "type": "bar",
-    "stroke": "#f7f5ef",
-    "strokeWidth": 1
-  },
-  "encoding": {
-    "y": {
-      "field": "short",
-      "type": "nominal",
-      "sort": [
-        "Sheep, beef & grain",
-        "Fruit & tree nuts",
-        "Dairy cattle",
-        "Other livestock",
-        "Other crops",
-        "Mushrooms & vegetables",
-        "Nurseries & flowers",
-        "Poultry",
-        "Deer"
-      ],
-      "axis": {
-        "title": null,
-        "labelLimit": 190
-      }
-    },
-    "x": {
-      "field": "share",
-      "type": "quantitative",
-      "stack": "zero",
-      "scale": {
-        "domain": [
-          0,
-          100
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "stroke": "#f7f5ef",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "y": {
+          "field": "short",
+          "type": "nominal",
+          "sort": [
+            "Sheep, beef & grain",
+            "Fruit & tree nuts",
+            "Dairy cattle",
+            "Other livestock",
+            "Other crops",
+            "Mushrooms & vegetables",
+            "Nurseries & flowers",
+            "Poultry",
+            "Deer"
+          ],
+          "axis": {
+            "title": null,
+            "labelLimit": 190
+          }
+        },
+        "x": {
+          "field": "share",
+          "type": "quantitative",
+          "stack": "zero",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": {
+            "title": "Share of businesses (%)",
+            "tickCount": 5
+          }
+        },
+        "order": {
+          "field": "rank"
+        },
+        "color": {
+          "field": "turnover",
+          "type": "ordinal",
+          "sort": [
+            "< $50k",
+            "$50\u2013200k",
+            "$200k\u20132m",
+            "$2\u20135m",
+            "$5\u201310m",
+            "$10m+"
+          ],
+          "scale": {
+            "domain": [
+              "< $50k",
+              "$50\u2013200k",
+              "$200k\u20132m",
+              "$2\u20135m",
+              "$5\u201310m",
+              "$10m+"
+            ],
+            "range": [
+              "#4c7189",
+              "#426780",
+              "#355b75",
+              "#294f6a",
+              "#1c425f",
+              "#113650"
+            ]
+          },
+          "legend": {
+            "title": "Annual turnover (AUD)",
+            "columns": 3,
+            "symbolType": "square",
+            "labelLimit": 95
+          }
+        },
+        "opacity": {
+          "value": 1
+        },
+        "stroke": {
+          "condition": {
+            "test": "sectorFocus !== 'All sectors' && datum.sector === sectorFocus",
+            "value": "#233942"
+          },
+          "value": "#f7f5ef"
+        },
+        "strokeWidth": {
+          "condition": {
+            "test": "sectorFocus !== 'All sectors' && datum.sector === sectorFocus",
+            "value": 3
+          },
+          "value": 1
+        },
+        "tooltip": [
+          {
+            "field": "sector",
+            "type": "nominal"
+          },
+          {
+            "field": "turnover",
+            "type": "nominal"
+          },
+          {
+            "field": "businesses",
+            "type": "quantitative",
+            "format": ",.0f"
+          },
+          {
+            "field": "share",
+            "type": "quantitative",
+            "format": ".1f"
+          }
         ]
-      },
-      "axis": {
-        "title": "Share of businesses (%)",
-        "tickCount": 5
       }
     },
-    "order": {
-      "field": "rank"
-    },
-    "color": {
-      "field": "turnover",
-      "type": "ordinal",
-      "sort": [
-        "< $50k",
-        "$50\u2013200k",
-        "$200k\u20132m",
-        "$2\u20135m",
-        "$5\u201310m",
-        "$10m+"
+    {
+      "transform": [
+        {
+          "filter": "datum.share >= 9"
+        }
       ],
-      "scale": {
-        "domain": [
-          "< $50k",
-          "$50\u2013200k",
-          "$200k\u20132m",
-          "$2\u20135m",
-          "$5\u201310m",
-          "$10m+"
-        ],
-        "range": [
-          "#4c7189",
-          "#426780",
-          "#355b75",
-          "#294f6a",
-          "#1c425f",
-          "#113650"
-        ]
+      "mark": {
+        "type": "text",
+        "color": "#f7f5ef",
+        "fontSize": 13,
+        "fontWeight": 600
       },
-      "legend": {
-        "title": "Annual turnover (AUD)",
-        "columns": 3,
-        "symbolType": "square",
-        "labelLimit": 95
+      "encoding": {
+        "x": {
+          "field": "midpoint",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              0,
+              100
+            ]
+          },
+          "axis": {
+            "title": "Share of businesses (%)",
+            "tickCount": 5
+          }
+        },
+        "y": {
+          "field": "short",
+          "type": "nominal",
+          "sort": [
+            "Sheep, beef & grain",
+            "Fruit & tree nuts",
+            "Dairy cattle",
+            "Other livestock",
+            "Other crops",
+            "Mushrooms & vegetables",
+            "Nurseries & flowers",
+            "Poultry",
+            "Deer"
+          ],
+          "axis": {
+            "title": null
+          }
+        },
+        "text": {
+          "field": "label"
+        }
       }
-    },
-    "opacity": {
-      "value": 1
-    },
-    "stroke": {
-      "condition": {
-        "test": "sectorFocus !== 'All sectors' && datum.sector === sectorFocus",
-        "value": "#233942"
-      },
-      "value": "#f7f5ef"
-    },
-    "strokeWidth": {
-      "condition": {
-        "test": "sectorFocus !== 'All sectors' && datum.sector === sectorFocus",
-        "value": 3
-      },
-      "value": 1
-    },
-    "tooltip": [
-      {
-        "field": "sector",
-        "type": "nominal"
-      },
-      {
-        "field": "turnover",
-        "type": "nominal"
-      },
-      {
-        "field": "businesses",
-        "type": "quantitative",
-        "format": ",.0f"
-      },
-      {
-        "field": "share",
-        "type": "quantitative",
-        "format": ".1f"
-      }
-    ]
-  },
+    }
+  ],
   "usermeta": {
     "chart": 9,
     "title": "Business size depends on the sector",

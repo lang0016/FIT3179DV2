@@ -30,7 +30,7 @@
     plot.setAttribute('role','group'); plot.setAttribute('aria-labelledby',title.id); plot.setAttribute('aria-describedby',meta.id + '-finding');
     plot.append(node('span','loading','Loading the visualisation…'));
     if (meta.n === 6) {const key=node('div','mini-key');key.append(node('span','','Males · left'),node('span','','Females · right'));header.append(key);}
-    if (meta.n === 12) {const key=node('div','mini-key');key.append(node('span','','Complete-year average'),node('span','context','Original quarter'));header.append(key);}
+    if (meta.n === 4) {const key=node('div','mini-key');key.append(node('span','','◆ June 2025 change'),node('span','context','○ June 2024 baseline'));header.append(key);}
     const caption = node('div','chart-caption');
     const finding=node('p','finding',meta.finding);finding.id=meta.id+'-finding';
     caption.append(finding,node('p','chart-note',meta.note));
@@ -45,6 +45,7 @@
     card.append(header,plot,caption,source,details);return card;
   }
   function plotHeight(meta, width) {
+    if (meta.n === 8 || meta.n === 9) return 410;
     if (meta.n === 10) return Math.max(255, width * 470 / 760);
     return 370;
   }
@@ -59,7 +60,8 @@
         replaceGeometry(spec);
       }
       const width=Math.floor(el.clientWidth);const height=plotHeight(meta,width);
-      if (meta.n === 9 && width < 480) {spec.encoding.color.legend.columns=1;spec.encoding.color.legend.title='Turnover (AUD)';}
+      if (meta.n === 8 && width < 480) spec.layer[0].encoding.color.legend.columns=2;
+      if (meta.n === 9 && width < 480) {spec.layer[0].encoding.color.legend.columns=1;spec.layer[0].encoding.color.legend.title='Turnover (AUD)';}
       if (spec.params) spec.params.forEach(p=>{if(p.name==='sectorFocus')p.value=document.getElementById('sector-focus').value;});
       el.style.height=(height+18)+'px';el.replaceChildren();
       const result=await vegaEmbed(el,spec,{renderer:'svg',actions:false,width,height,tooltip:{theme:'light'}});
@@ -83,7 +85,7 @@
     window.addEventListener('resize',()=>{clearTimeout(timer);timer=setTimeout(async()=>{
       for (const entry of views.values()) {
         const width=Math.floor(entry.el.clientWidth);if(width===entry.width) continue;
-        if(entry.meta.n === 9 && (width < 480) !== (entry.width < 480)) {await render(entry.meta);continue;}
+        if([8,9].includes(entry.meta.n) && (width < 480) !== (entry.width < 480)) {await render(entry.meta);continue;}
         const height=plotHeight(entry.meta,width);entry.el.style.height=(height+18)+'px';entry.width=width;
         await entry.view.width(width).height(height).resize().runAsync();
       }
