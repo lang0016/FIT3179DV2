@@ -1,5 +1,7 @@
 # Submission checklist — Ang Lin Shan
 
+- [ ] Activate Pages using `PUBLISHING.md`; GitHub denied the integration
+  permission to enable it. Wait until the expected site stops returning 404.
 - [ ] Open the live page in a private browser: https://lang0016.github.io/FIT3179DV2/
 - [ ] Draw the required sketch **by hand on one A4 sheet**. Use the final page and
   `SKETCH_GUIDE.md` for the section/figure structure. A generated digital sketch

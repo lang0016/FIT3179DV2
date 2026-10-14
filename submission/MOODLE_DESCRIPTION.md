@@ -3,7 +3,10 @@
 Project: **Who farms Australia?**
 Domain: **Australian Farmers** · FIT3179 DV2 · Malaysian campus
 Author: **Ang Lin Shan**
-Page: https://lang0016.github.io/FIT3179DV2/
+Expected page address: https://lang0016.github.io/FIT3179DV2/
+
+**Publication pending:** enable GitHub Pages using `PUBLISHING.md` and verify
+the public URL before submitting it.
 Repository: https://github.com/lang0016/FIT3179DV2
 
 This is a draft description of the implemented visualisation. Review it against

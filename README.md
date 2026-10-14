@@ -3,7 +3,11 @@
 An Australian Farmers data story by **Ang Lin Shan**, FIT3179 DV2,
 **Monash University · Malaysian campus**.
 
-**Website:** https://lang0016.github.io/FIT3179DV2/
+**Website address (pending Pages activation):** https://lang0016.github.io/FIT3179DV2/
+
+GitHub denied first-time Pages enablement to the repository integration. Follow
+the [one-time publishing steps](submission/PUBLISHING.md) in your account settings.
+The expected address currently returns 404; do not submit it until it works.
 
 Twelve Vega/Vega-Lite charts tell a single scrolling story about agricultural
 businesses, farmers, sector differences and change over time. The three map
@@ -14,6 +18,7 @@ source link, keyboard-reachable accessible label and expandable data table.
 ## Read and submit
 
 - [Moodle description: domain, audience, data and design rationale](submission/MOODLE_DESCRIPTION.md)
+- [One-time GitHub Pages activation](submission/PUBLISHING.md)
 - [Remaining student submission checklist](submission/SUBMISSION_CHECKLIST.md)
 - [Hand-drawn A4 sketch guide](SKETCH_GUIDE.md)
 - [Interview preparation](submission/INTERVIEW_NOTES.md)

@@ -31,7 +31,8 @@ count. Libraries are locally hosted and do not require an external chart CDN.
 
 The test saves full-page screenshots and machine-readable results to ignored
 `.browser-tests/`. The committed test is `scripts/check_site.mjs`; GitHub Actions
-runs the same checks on pushes. `SITE_URL` can target the public page.
+runs the same checks on pushes. The independent GitHub-hosted run for the site
+implementation passed: [Validate visualisation](https://github.com/lang0016/FIT3179DV2/actions/runs/38613918846). `SITE_URL` can target the public page.
 
 Additional Chromium checks at **375 px** and **768 px** confirmed all twelve
 charts loaded without page overflow, console errors, or clipped SVG labels.
@@ -86,7 +87,11 @@ restrained palette and visual review actually performed.
 
 ## Publication and remaining student work
 
-Public-site verification is recorded here after GitHub Pages deployment.
+Files were pushed to `main` in commit `a3a715b`. GitHub rejected first-time
+Pages enablement with HTTP 403, `Resource not accessible by integration`.
+The expected public site returned HTTP 404. Public browser validation has **not**
+run and publication is **not claimed**. Enable branch deployment from account
+settings using `submission/PUBLISHING.md`; then run the public-site check.
 
 The hand-drawn sketch PDF is **not supplied**. The page deliberately retains a
 marked placeholder for the student's own AI acknowledgement. Moodle submission,
