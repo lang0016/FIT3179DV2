@@ -25,7 +25,8 @@ try {
   await page.waitForFunction(()=>document.documentElement.dataset.ready==='true',{timeout:60000});
   const result=await page.evaluate(()=>{
    const paragraphViolations=[];
-   document.querySelectorAll('p').forEach(p=>{
+   // The student requested a full-width acknowledgement; story paragraphs stay narrow.
+   document.querySelectorAll('p:not(.acknowledgement p)').forEach(p=>{
     if(!p.getClientRects().length)return;
     const lines={};const walk=document.createTreeWalker(p,NodeFilter.SHOW_TEXT);let t;
     while(t=walk.nextNode()){const re=/\S+/g;let m;while(m=re.exec(t.textContent)){const range=document.createRange();range.setStart(t,m.index);range.setEnd(t,m.index+m[0].length);const r=range.getClientRects()[0];if(!r?.width)continue;(lines[Math.round(r.top)]??=[]).push(m[0]);}}

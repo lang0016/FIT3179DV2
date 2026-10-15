@@ -125,3 +125,10 @@ All four laptop checks passed again, including sector highlighting, keyboard
 input and accessible tables. Additional 375/768 px checks found no overflow,
 clipped SVG labels or page errors. New ochre/slate/blue fills all exceed 4.5:1
 contrast against the page background. Source extracts remain unchanged.
+
+## Acknowledgement layout
+
+The student requested a full-width acknowledgement paragraph. This section
+intentionally permits longer lines; the ten-word line check continues to apply
+to all other paragraphs. The acknowledgement wording is preserved, its body
+uses regular weight, and the missing closing aside tag is restored.
