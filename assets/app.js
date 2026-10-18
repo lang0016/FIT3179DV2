@@ -52,7 +52,7 @@
   async function render(meta) {
     const el=document.getElementById(meta.id);
     try {
-      const response=await fetch(meta.file);if (!response.ok) throw new Error('Specification request failed: '+response.status);
+      const response=await fetch(meta.file,{cache:'no-cache'});if (!response.ok) throw new Error('Specification request failed: '+response.status);
       const spec=await response.json();
       if(meta.n===1 || meta.n===2) {
         const features=await sharedGeometry();
@@ -74,7 +74,7 @@
     }
   }
   async function init() {
-    const response=await fetch('assets/charts.json');if (!response.ok) throw new Error('Chart register could not load');metadata=await response.json();
+    const response=await fetch('assets/charts.json',{cache:'no-cache'});if (!response.ok) throw new Error('Chart register could not load');metadata=await response.json();
     document.querySelectorAll('[data-charts]').forEach(grid=>grid.dataset.charts.split(',').forEach(n=>grid.append(makeCard(metadata.find(x=>x.n===Number(n))))));
     const select=document.getElementById('sector-focus');sectorNames.forEach(name=>select.append(new Option(name,name)));
     select.addEventListener('change',async()=>{

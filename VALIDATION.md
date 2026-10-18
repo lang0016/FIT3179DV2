@@ -151,3 +151,13 @@ zero rule. Matching side keys retain the source sex labels. The signed worker
 values and source records are unchanged. All four laptop checks passed.
 Additional desktop/mobile rendering checks verify six bars per colour and
 one central rule. Ochre contrast against paper is 4.87:1.
+
+## Chart cache refresh
+
+Published pyramid JSON was fetched over verified HTTPS and contains both the
+sex-colour encoding and central rule. The screenshot showed new metadata with
+old chart marks. Chart specifications and their register now use `no-cache`
+fetches to revalidate browser caches; the application script URL is versioned.
+All four local laptop browser checks passed after this change. Public Chromium
+verification was blocked by the execution environment's certificate trust
+(`ERR_CERT_AUTHORITY_INVALID`); certificate verification was not bypassed.
