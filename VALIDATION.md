@@ -23,7 +23,7 @@ all three chart signals and draws a visible outline, data tables expand, and
 the selector can receive keyboard focus and keyboard input. All values remain
 visible during highlighting; data marks are not faded below their contrast.
 
-Measured chart-data/specification responses: **1,260,150 bytes** (about 1.25 MB),
+Measured chart-data/specification responses: **1,261,098 bytes** (about 1.25 MB),
 including official geometry, readable specs and accessible-table metadata.
 Geometry is fetched once and reused by both ordinary maps. This excludes chart
 library JavaScript; it is a data/specification budget, not the whole page's byte
@@ -143,3 +143,11 @@ All four required laptop checks pass. Additional checks at 375 and 1280 px
 confirm the illustration and all twelve charts load, all five motifs exist and
 the page has no horizontal overflow. Desktop and mobile screenshots were
 visually reviewed. Artwork provenance is in `assets/illustrations/README.md`.
+
+## Farmer pyramid separation
+
+The farmer pyramid now uses blue males, ochre females and a dark vertical
+zero rule. Matching side keys retain the source sex labels. The signed worker
+values and source records are unchanged. All four laptop checks passed.
+Additional desktop/mobile rendering checks verify six bars per colour and
+one central rule. Ochre contrast against paper is 4.87:1.

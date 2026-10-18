@@ -16,3 +16,5 @@ body{background-color:var(--paper);background-image:radial-gradient(ellipse at 0
 .closing{background:linear-gradient(105deg,rgba(221,231,209,.6),rgba(238,228,199,.35));padding:40px 24px;border-color:#9aa98b}
 @media(max-width:700px){.farm-landscape{margin-top:24px}.farm-landscape img{height:210px}.farm-landscape figcaption{font-size:9px;letter-spacing:.4px;left:10px;bottom:10px;max-width:calc(100% - 20px);padding:5px 8px}.section-heading>div{padding-right:42px}.farm-section-icon{width:32px;height:32px;right:0}.closing{padding:28px 18px}}
 @media print{body{background:var(--paper)}.farm-landscape img{height:180px}}
+
+.mini-key .female::before{background:#926039}

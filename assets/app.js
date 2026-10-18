@@ -29,7 +29,7 @@
     const plot = node('div','chart-box'); plot.id = meta.id; plot.tabIndex = 0;
     plot.setAttribute('role','group'); plot.setAttribute('aria-labelledby',title.id); plot.setAttribute('aria-describedby',meta.id + '-finding');
     plot.append(node('span','loading','Loading the visualisation…'));
-    if (meta.n === 6) {const key=node('div','mini-key');key.append(node('span','','Males · left'),node('span','','Females · right'));header.append(key);}
+    if (meta.n === 6) {const key=node('div','mini-key');key.append(node('span','','Males · left'),node('span','female','Females · right'));header.append(key);}
     if (meta.n === 4) {const key=node('div','mini-key');key.append(node('span','','◆ June 2025 change'),node('span','context','○ June 2024 baseline'));header.append(key);}
     const caption = node('div','chart-caption');
     const finding=node('p','finding',meta.finding);finding.id=meta.id+'-finding';

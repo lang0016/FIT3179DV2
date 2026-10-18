@@ -118,3 +118,6 @@ concentration (1× = eight-state reference mix), three-band turnover composition
 ranked by the high-sales share, and state-level staffing distributions. The
 heatmap uses ochre for below-reference ratios and blue for above-reference
 ratios; exact shares, counts and ratios remain in the accessible table.
+
+The farmer age/sex pyramid uses blue for source-category males and ochre
+(`#926039`) for females, with a dark vertical zero line and matching side keys.
