@@ -132,3 +132,14 @@ The student requested a full-width acknowledgement paragraph. This section
 intentionally permits longer lines; the ten-word line check continues to apply
 to all other paragraphs. The acknowledgement wording is preserved, its body
 uses regular weight, and the missing closing aside tag is restored.
+
+## Farming visual theme
+
+Added a locally hosted conceptual farm illustration, subtle eucalyptus/ochre
+background washes and field-row lines, plus five decorative section motifs.
+Quantitative plots retain their original paper background and colour scales.
+The illustration is a 260,664-byte WebP, outside the data/specification budget.
+All four required laptop checks pass. Additional checks at 375 and 1280 px
+confirm the illustration and all twelve charts load, all five motifs exist and
+the page has no horizontal overflow. Desktop and mobile screenshots were
+visually reviewed. Artwork provenance is in `assets/illustrations/README.md`.
