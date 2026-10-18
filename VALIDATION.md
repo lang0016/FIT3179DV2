@@ -161,3 +161,11 @@ fetches to revalidate browser caches; the application script URL is versioned.
 All four local laptop browser checks passed after this change. Public Chromium
 verification was blocked by the execution environment's certificate trust
 (`ERR_CERT_AUTHORITY_INVALID`); certificate verification was not bypassed.
+
+## Sequential chart counters
+
+Visible chart counters now follow document order from 01 through 12.
+The sector heatmap, sales bars and staffing box plot display 07, 08 and 09
+respectively. Internal chart IDs and specification filenames are retained.
+The browser check asserts the complete visible counter sequence at every
+required laptop width.

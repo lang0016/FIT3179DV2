@@ -52,6 +52,7 @@ try {
   await page.screenshot({path:fileURLToPath(new URL(`site-${width}.png`,output)),fullPage:true});
   const row={width,...result,errors,warnings,failed,badResponses};results.push(row);
   assert.equal(result.charts,12);assert.equal(result.loaded,12);assert.equal(result.accessible,12);
+  assert.deepEqual(await page.locator('.chart-counter').allTextContents(),Array.from({length:12},(_,i)=>String(i+1).padStart(2,'0')+' / 12'));
   assert.equal(result.overflow,false);assert.deepEqual(result.paragraphViolations,[]);assert.deepEqual(result.textOutside,[]);assert.deepEqual(result.textOverlaps,[]);
   assert.deepEqual(errors,[]);assert.deepEqual(warnings,[]);assert.deepEqual(failed,[]);assert.deepEqual(badResponses,[]);assert.ok(result.dataBytes<2_000_000);
   if(width===1280){assert.equal(result.highlight,true);assert.equal(result.outlineHighlight,true);assert.equal(result.dataTable,true);assert.equal(result.keyboardControl,true);}

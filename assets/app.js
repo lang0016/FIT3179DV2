@@ -19,11 +19,11 @@
     if (typeof value === 'number') return new Intl.NumberFormat('en-AU', {maximumFractionDigits: 1}).format(value);
     return String(value);
   }
-  function makeCard(meta) {
+  function makeCard(meta, displayNumber) {
     const card = node('article','chart-card'); card.id = 'figure-' + meta.n;
     const header = node('header');
     const top = node('div','chart-topline');
-    top.append(node('span','chart-counter',String(meta.n).padStart(2,'0') + ' / 12'),node('span','chart-kicker',meta.kicker));
+    top.append(node('span','chart-counter',String(displayNumber).padStart(2,'0') + ' / 12'),node('span','chart-kicker',meta.kicker));
     const title = node('h3','',meta.title); title.id = meta.id + '-title';
     header.append(top,title,node('span','chart-period',meta.period));
     const plot = node('div','chart-box'); plot.id = meta.id; plot.tabIndex = 0;
@@ -75,7 +75,8 @@
   }
   async function init() {
     const response=await fetch('assets/charts.json',{cache:'no-cache'});if (!response.ok) throw new Error('Chart register could not load');metadata=await response.json();
-    document.querySelectorAll('[data-charts]').forEach(grid=>grid.dataset.charts.split(',').forEach(n=>grid.append(makeCard(metadata.find(x=>x.n===Number(n))))));
+    let displayNumber=0;
+    document.querySelectorAll('[data-charts]').forEach(grid=>grid.dataset.charts.split(',').forEach(n=>grid.append(makeCard(metadata.find(x=>x.n===Number(n)),++displayNumber))));
     const select=document.getElementById('sector-focus');sectorNames.forEach(name=>select.append(new Option(name,name)));
     select.addEventListener('change',async()=>{
       for (const n of [7,8,9]) {const entry=views.get(n);if(entry) await entry.view.signal('sectorFocus',select.value).runAsync();}
