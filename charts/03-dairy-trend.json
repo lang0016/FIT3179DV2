@@ -201,7 +201,9 @@
       ],
       "mark": {
         "type": "text",
-        "dy": -15,
+        "dy": {
+          "expr": "datum.year === 2025 ? -32 : -15"
+        },
         "dx": {
           "expr": "datum.year === 2012 ? 24 : -23"
         },
