@@ -425,8 +425,8 @@
       "type": "quantitative",
       "scale": {
         "domain": [
-          40,
-          90
+          0,
+          100
         ]
       },
       "axis": {
@@ -479,19 +479,23 @@
         "tooltip": [
           {
             "field": "state",
+            "title": "State",
             "type": "nominal"
           },
           {
             "field": "sector",
+            "title": "Sector",
             "type": "nominal"
           },
           {
             "field": "share",
+            "title": "Share (%)",
             "type": "quantitative",
             "format": ".1f"
           },
           {
             "field": "n",
+            "title": "Eligible states",
             "type": "quantitative",
             "format": ",.0f"
           }

@@ -151,10 +151,12 @@
     "tooltip": [
       {
         "field": "label",
+        "title": "Label",
         "type": "nominal"
       },
       {
         "field": "value",
+        "title": "Value",
         "type": "quantitative",
         "format": "+,.0f"
       }

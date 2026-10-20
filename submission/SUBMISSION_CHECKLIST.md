@@ -1,7 +1,7 @@
 # Submission checklist — Ang Lin Shan
 
-- [ ] Activate Pages using `PUBLISHING.md`; GitHub denied the integration
-  permission to enable it. Wait until the expected site stops returning 404.
+- [x] GitHub Pages is accessible: verified HTTP 200 on 20 October 2026.
+- [ ] Check the final deployment under Actions and review it in a private browser.
 - [ ] Open the live page in a private browser: https://lang0016.github.io/FIT3179DV2/
 - [ ] Draw the required sketch **by hand on one A4 sheet**. Use the final page and
   `SKETCH_GUIDE.md` for the section/figure structure. A generated digital sketch
@@ -11,9 +11,9 @@
 - [ ] Once uploaded, the intended PDF URL is
   `https://lang0016.github.io/FIT3179DV2/submission/sketch.pdf`.
   **This PDF does not exist yet. Do not submit that URL until it works.**
-- [ ] Replace the clearly marked AI-acknowledgement placeholder in `index.html`
-  with your own accurate wording. This task used generative AI for research,
-  planning, code and writing assistance; the acknowledgement must be yours.
+- [x] AI acknowledgement text is present in `index.html`.
+- [ ] Review that acknowledgement against what you personally did. The page
+  also identifies its AI-generated decorative landscape.
 - [ ] Read `MOODLE_DESCRIPTION.md`, check its accuracy and adapt it to your own
   voice and the official submission format.
 - [ ] Confirm the official unit requirements with your tutor, including the

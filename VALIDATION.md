@@ -23,7 +23,7 @@ all three chart signals and draws a visible outline, data tables expand, and
 the selector can receive keyboard focus and keyboard input. All values remain
 visible during highlighting; data marks are not faded below their contrast.
 
-Measured chart-data/specification responses: **1,691,488 bytes** (about 1.69 MB),
+Measured chart-data/specification responses: **1,698,445 bytes** (about 1.70 MB),
 including official geometry, readable specs and accessible-table metadata.
 Geometry is fetched once and reused by both ordinary maps. This excludes chart
 library JavaScript; it is a data/specification budget, not the whole page's byte
@@ -85,16 +85,17 @@ restrained palette and visual review actually performed.
 - Source-download reproduction and repeat preparation gave identical research
   outputs. Site chart generation uses only these extracts and geometry.
 
-## Publication and remaining student work
+## Initial publication history and remaining student work
 
-Files were pushed to `main` in commit `a3a715b`. GitHub rejected first-time
+At the initial implementation on 15 October, files were pushed to `main` in commit `a3a715b`. GitHub rejected first-time
 Pages enablement with HTTP 403, `Resource not accessible by integration`.
 The expected public site returned HTTP 404. Public browser validation has **not**
 run and publication is **not claimed**. Enable branch deployment from account
 settings using `submission/PUBLISHING.md`; then run the public-site check.
 
-The hand-drawn sketch PDF is **not supplied**. The page deliberately retains a
-marked placeholder for the student's own AI acknowledgement. Moodle submission,
+The hand-drawn sketch PDF is **not supplied**. The initial AI acknowledgement
+placeholder was subsequently replaced with the student's wording. Public
+access was subsequently confirmed with HTTP 200 on 20 October. Moodle submission,
 student authorship review and the interview remain the student's tasks. See
 `submission/SUBMISSION_CHECKLIST.md`.
 
@@ -185,3 +186,26 @@ retained, and non-overlap is asserted during generation. NT/ACT are identified
 as unreported. Browser checks verify all eight reference features, six
 reported shapes and the total of 3,772. All four laptop widths pass; additional
 375/768 px screenshots were reviewed without page overflow or missing charts.
+
+## Official rubric and general-feedback review
+
+The uploaded version 1.1 PDF was read in full, including the marking table
+on pages 5–6. `RUBRIC_REVIEW.md` maps every component to implementation
+evidence, explains applicable general feedback and lists remaining student
+deliverables without predicting a grade. Source extracts are unchanged.
+
+The treemap now has an employment-status parent with four staff-size child
+groups, a complete colour key and no orphan numeric labels. Sales bars share
+a diverging threshold with natural-language currency labels. The percentage
+box plot spans 0–100%; the workforce count line starts at zero. Proportional
+circles are smaller and only the two finding states retain count labels.
+All Vega-Lite tooltip field titles are human-readable. Headings use locally
+hosted, licensed Lora; body and quantitative type remain Arial.
+
+All required laptop checks passed after these changes. Additional 375/768/1280
+px checks confirm all charts and the local font load without page overflow.
+Screenshots were reviewed for the revised sales chart, treemap and circle map.
+The live page returned HTTP 200 over verified HTTPS on 20 October 2026;
+public Chromium remains subject to the previously recorded certificate-trust
+limitation. Font and decorative artwork bytes are not statistical data and
+are tracked separately from the data/specification download budget.

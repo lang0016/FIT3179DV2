@@ -187,14 +187,17 @@
         "tooltip": [
           {
             "field": "age",
+            "title": "Age",
             "type": "nominal"
           },
           {
             "field": "sex",
+            "title": "Sex",
             "type": "nominal"
           },
           {
             "field": "workers",
+            "title": "Estimated workers (thousands)",
             "type": "quantitative",
             "format": ".1f"
           }

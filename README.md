@@ -3,11 +3,9 @@
 An Australian Farmers data story by **Ang Lin Shan**, FIT3179 DV2,
 **Monash University · Malaysian campus**.
 
-**Website address (pending Pages activation):** https://lang0016.github.io/FIT3179DV2/
+**Website:** https://lang0016.github.io/FIT3179DV2/
 
-GitHub denied first-time Pages enablement to the repository integration. Follow
-the [one-time publishing steps](submission/PUBLISHING.md) in your account settings.
-The expected address currently returns 404; do not submit it until it works.
+The public page returned HTTP 200 on 20 October 2026. Review the final deployed version before submission.
 
 Twelve Vega/Vega-Lite charts tell a single scrolling story about agricultural
 businesses, farmers, sector differences and change over time. The three map
@@ -28,9 +26,8 @@ source link, keyboard-reachable accessible label and expandable data table.
 - [Validation report](VALIDATION.md)
 
 **Still required from the student:** draw and upload the hand-drawn sketch PDF,
-replace the AI-acknowledgement placeholder with your own wording, review the
-written description, submit on Moodle and prepare for the interview. No fake
-sketch PDF or student-authored acknowledgement is included.
+review your AI acknowledgement for accuracy, review the
+written description, submit on Moodle and prepare for the interview. The sketch PDF is not supplied; the acknowledgement text is present for student review.
 
 ## Run locally
 
@@ -126,3 +123,9 @@ Lecturer feedback revisions reduce the title and banner emphasis, darken
 paragraph text, align paired plotting rows and restrict heatmap labels to
 the key finding or selected sector. Chart 10 now pairs a complete geographic
 reference with the six reported count-scaled dairy state silhouettes.
+
+See [RUBRIC_REVIEW.md](RUBRIC_REVIEW.md) for the official-rubric audit and
+the latest chart refinements. Headings use the locally hosted Lora typeface;
+body text and quantitative labels retain Arial. The licence is bundled with
+the font. Sales bands now diverge around a shared threshold, and the treemap
+contains an explicit employment-status hierarchy with a complete category key.

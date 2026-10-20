@@ -165,15 +165,18 @@
     "tooltip": [
       {
         "field": "season",
+        "title": "Season",
         "type": "nominal"
       },
       {
         "field": "farms",
+        "title": "Registered dairy farms",
         "type": "quantitative",
         "format": ",.0f"
       },
       {
         "field": "provisional",
+        "title": "Provisional",
         "type": "nominal"
       }
     ]

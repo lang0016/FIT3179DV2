@@ -34,6 +34,7 @@
     const caption = node('div','chart-caption');
     const finding=node('p','finding',meta.finding);finding.id=meta.id+'-finding';
     caption.append(finding,node('p','chart-note',meta.note));
+    if(meta.n===11){const key=node('ul','treemap-key');const colours=['#174a67','#4c7189','#355b75','#1c425f','#113650'];meta.table.forEach((row,i)=>{const item=node('li');const swatch=node('span','treemap-swatch');swatch.style.background=colours[i];swatch.setAttribute('aria-hidden','true');item.append(swatch,document.createTextNode(row.label));key.append(item);});caption.prepend(key);}
     const source=node('div','card-source');
     const sourceLink=node('a','',meta.source.includes('dairyaustralia')?'Source: Dairy Australia ↗':'Source: ABS ↗');sourceLink.href=meta.source;sourceLink.target='_blank';sourceLink.rel='noopener';
     const spec=node('a','','Chart specification ↗');spec.href=meta.file;spec.target='_blank';spec.rel='noopener';source.append(sourceLink,spec);
@@ -61,7 +62,7 @@
       }
       const width=Math.floor(el.clientWidth);const height=plotHeight(meta,width);
       if (meta.n === 8 && width < 480) {spec.layer[0].encoding.color.legend.columns=1;spec.layer[0].encoding.color.legend.title='Relative mix (×)';}
-      if (meta.n === 9 && width < 480) {spec.layer[0].encoding.color.legend.columns=1;spec.layer[0].encoding.color.legend.title='Turnover (AUD)';}
+      if (meta.n === 9 && width < 480) {spec.layer[0].encoding.color.legend.columns=1;spec.layer[0].encoding.color.legend.title=['Annual sales','Australian dollars'];spec.layer[0].encoding.color.legend.labelExpr="datum.label === '200,000–under 2 million' ? ['200,000 to under','2 million'] : datum.label";}
       if (spec.params) spec.params.forEach(p=>{if(p.name==='sectorFocus')p.value=document.getElementById('sector-focus').value;});
       el.style.height=(height+18)+'px';el.replaceChildren();
       const result=await vegaEmbed(el,spec,{renderer:'svg',actions:false,width,height,tooltip:{theme:'light'}});

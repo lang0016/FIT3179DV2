@@ -35,3 +35,10 @@ body{background-image:radial-gradient(ellipse at 0 0,rgba(120,143,103,.055),tran
 @media(min-width:701px){.card-grid:not(.single) .chart-card{display:grid;grid-template-rows:185px auto 1fr auto auto}.card-grid:not(.single) .chart-card header{min-height:0}.card-grid:not(.single) .chart-caption{align-content:start}}
 @media(max-width:900px){.hero-copy{padding-left:12px}}
 @media(max-width:700px){.hero h1{font-size:62px}.hero-copy{padding-left:0}.farm-landscape img{height:110px}.farm-landscape figcaption{font-size:8px}.hero{padding-top:32px}}
+
+@font-face{font-family:Lora;src:url('fonts/Lora-variable.ttf') format('truetype');font-style:normal;font-weight:400 700;font-display:swap}
+:root{--serif:Lora,Georgia,'Times New Roman',serif}
+.artwork-credit{font-size:12px;line-height:1.8;color:var(--muted);max-width:34ch;margin-top:24px}
+.chart-kicker{letter-spacing:1.2px}
+.treemap-key{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 14px;list-style:none;padding:0;margin:0 0 6px;font-size:12px;line-height:1.6}
+.treemap-key li{display:flex;align-items:center;gap:7px}.treemap-swatch{display:inline-block;flex:0 0 10px;height:10px}.treemap-key li:first-child{grid-column:1/-1}

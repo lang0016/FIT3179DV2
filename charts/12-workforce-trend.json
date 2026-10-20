@@ -213,19 +213,19 @@
       "type": "quantitative",
       "scale": {
         "domain": [
-          200,
+          0,
           400
         ],
-        "zero": false,
+        "zero": true,
         "nice": false
       },
       "axis": {
         "title": "Workers (thousands)",
         "values": [
+          0,
+          100,
           200,
-          250,
           300,
-          350,
           400
         ],
         "grid": true
@@ -234,11 +234,13 @@
     "tooltip": [
       {
         "field": "year",
+        "title": "Year",
         "type": "quantitative",
         "format": "d"
       },
       {
         "field": "workers",
+        "title": "Estimated workers (thousands)",
         "type": "quantitative",
         "format": ".1f"
       }
@@ -304,5 +306,5 @@
     "period": "2000\u20132025 \u00b7 complete-year averages",
     "idiom": "Time-series line chart"
   },
-  "description": "The annual average fell from 375,000 in 2000 to 247,000 in 2025. One point per complete year; the vertical axis starts at 200,000 to reveal the trend. The latest quarter is separate: about 245,900 workers in February 2026. This counts the agriculture industry, not just the farmer occupation."
+  "description": "The annual average fell from 375,000 in 2000 to 247,000 in 2025. One point per complete year; the vertical axis starts at zero. The latest quarter is separate: about 245,900 workers in February 2026. This counts the agriculture industry, not just the farmer occupation."
 }

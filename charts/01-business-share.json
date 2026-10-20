@@ -103,7 +103,7 @@
               "lat": -37,
               "label_lon": 140,
               "label_lat": -38.8,
-              "label": "VIC \u00b7 32,754"
+              "label": "VIC"
             },
             {
               "code": "3",
@@ -117,7 +117,7 @@
               "lat": -22,
               "label_lon": 148,
               "label_lat": -18.5,
-              "label": "QLD \u00b7 35,460"
+              "label": "QLD"
             },
             {
               "code": "4",
@@ -131,7 +131,7 @@
               "lat": -30,
               "label_lon": 129,
               "label_lat": -33.8,
-              "label": "SA \u00b7 13,831"
+              "label": "SA"
             },
             {
               "code": "5",
@@ -145,7 +145,7 @@
               "lat": -25,
               "label_lon": 115,
               "label_lat": -23,
-              "label": "WA \u00b7 12,523"
+              "label": "WA"
             },
             {
               "code": "6",
@@ -173,7 +173,7 @@
               "lat": -19,
               "label_lon": 133,
               "label_lat": -15,
-              "label": "NT \u00b7 633"
+              "label": "NT"
             },
             {
               "code": "8",
@@ -187,7 +187,7 @@
               "lat": -35.5,
               "label_lon": 155,
               "label_lat": -35.5,
-              "label": "ACT \u00b7 260"
+              "label": "ACT"
             }
           ]
         },
@@ -236,20 +236,24 @@
         "tooltip": [
           {
             "field": "state",
+            "title": "State",
             "type": "nominal"
           },
           {
             "field": "share",
+            "title": "Share (%)",
             "type": "quantitative",
             "format": ".1f"
           },
           {
             "field": "businesses",
+            "title": "Agricultural businesses",
             "type": "quantitative",
             "format": ",.0f"
           },
           {
             "field": "all_businesses",
+            "title": "All businesses",
             "type": "quantitative",
             "format": ",.0f"
           }
@@ -285,7 +289,7 @@
             "lat": -37,
             "label_lon": 140,
             "label_lat": -38.8,
-            "label": "VIC \u00b7 32,754"
+            "label": "VIC"
           },
           {
             "code": "3",
@@ -299,7 +303,7 @@
             "lat": -22,
             "label_lon": 148,
             "label_lat": -18.5,
-            "label": "QLD \u00b7 35,460"
+            "label": "QLD"
           },
           {
             "code": "4",
@@ -313,7 +317,7 @@
             "lat": -30,
             "label_lon": 129,
             "label_lat": -33.8,
-            "label": "SA \u00b7 13,831"
+            "label": "SA"
           },
           {
             "code": "5",
@@ -327,7 +331,7 @@
             "lat": -25,
             "label_lon": 115,
             "label_lat": -23,
-            "label": "WA \u00b7 12,523"
+            "label": "WA"
           },
           {
             "code": "7",
@@ -341,7 +345,7 @@
             "lat": -19,
             "label_lon": 133,
             "label_lat": -15,
-            "label": "NT \u00b7 633"
+            "label": "NT"
           }
         ]
       },

@@ -1022,29 +1022,35 @@
         "tooltip": [
           {
             "field": "state",
+            "title": "State",
             "type": "nominal"
           },
           {
             "field": "sector",
+            "title": "Sector",
             "type": "nominal"
           },
           {
             "field": "businesses",
+            "title": "Agricultural businesses",
             "type": "quantitative",
             "format": ",.0f"
           },
           {
             "field": "share",
+            "title": "Share (%)",
             "type": "quantitative",
             "format": ".1f"
           },
           {
             "field": "national_share",
+            "title": "Eight-state sector share (%)",
             "type": "quantitative",
             "format": ".1f"
           },
           {
             "field": "relative",
+            "title": "Relative sector share",
             "type": "quantitative",
             "format": ".2f"
           }
@@ -1107,19 +1113,23 @@
         "tooltip": [
           {
             "field": "state",
+            "title": "State",
             "type": "nominal"
           },
           {
             "field": "sector",
+            "title": "Sector",
             "type": "nominal"
           },
           {
             "field": "businesses",
+            "title": "Agricultural businesses",
             "type": "quantitative",
             "format": ",.0f"
           },
           {
             "field": "share",
+            "title": "Share (%)",
             "type": "quantitative",
             "format": ".1f"
           }

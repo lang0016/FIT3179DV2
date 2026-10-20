@@ -146,25 +146,30 @@
     "tooltip": [
       {
         "field": "state",
+        "title": "State",
         "type": "nominal"
       },
       {
         "field": "earlier",
+        "title": "June 2024 businesses",
         "type": "quantitative",
         "format": ",.0f"
       },
       {
         "field": "later",
+        "title": "June 2025 businesses",
         "type": "quantitative",
         "format": ",.0f"
       },
       {
         "field": "change",
+        "title": "Change in businesses",
         "type": "quantitative",
         "format": "+,.0f"
       },
       {
         "field": "pct",
+        "title": "Change (%)",
         "type": "quantitative",
         "format": "+.1f"
       }
