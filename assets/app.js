@@ -34,7 +34,7 @@
     const caption = node('div','chart-caption');
     const finding=node('p','finding',meta.finding);finding.id=meta.id+'-finding';
     caption.append(finding,node('p','chart-note',meta.note));
-    if(meta.n===11){const key=node('ul','treemap-key');const colours=['#174a67','#4c7189','#355b75','#1c425f','#113650'];meta.table.forEach((row,i)=>{const item=node('li');const swatch=node('span','treemap-swatch');swatch.style.background=colours[i];swatch.setAttribute('aria-hidden','true');item.append(swatch,document.createTextNode(row.label));key.append(item);});caption.prepend(key);}
+
     const source=node('div','card-source');
     const sourceLink=node('a','',meta.source.includes('dairyaustralia')?'Source: Dairy Australia ↗':'Source: ABS ↗');sourceLink.href=meta.source;sourceLink.target='_blank';sourceLink.rel='noopener';
     const spec=node('a','','Chart specification ↗');spec.href=meta.file;spec.target='_blank';spec.rel='noopener';source.append(sourceLink,spec);
@@ -47,6 +47,7 @@
   }
   function plotHeight(meta, width) {
     if (meta.n === 8 || meta.n === 9) return 410;
+    if (meta.n === 11) return 400;
     if (meta.n === 10) return width * 560 / 1000;
     return 370;
   }

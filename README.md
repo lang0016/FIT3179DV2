@@ -128,4 +128,9 @@ See [RUBRIC_REVIEW.md](RUBRIC_REVIEW.md) for the official-rubric audit and
 the latest chart refinements. Headings use the locally hosted Lora typeface;
 body text and quantitative labels retain Arial. The licence is bundled with
 the font. Sales bands use aligned 0–100% bars with directly labelled high-sales shares, and the treemap
-contains an explicit employment-status hierarchy with a complete category key.
+contains an explicit employment-status hierarchy with direct labels for all staff-size groups.
+
+The employee treemap now occupies its own row, using high-contrast blue and
+light gold for employment status. A strong outline groups employing businesses;
+four leader-line callouts show every staff-size category and exact business
+count without enlarging tiny rectangles. The workforce trend follows beneath.

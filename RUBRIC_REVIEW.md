@@ -47,7 +47,7 @@ the chosen idioms.
 | 08 | 100% stacked bars | Compare three annual-sales bands on a shared 0–100% scale. Rows rank the 2-million-or-more share. Smaller high-sales segments are directly labelled, outside the bar when necessary. This remains a basic stacked-bar idiom. |
 | 09 | Box plot with observations | Compare state variation in non-employing shares. All sectors share a 0–100% axis; the middle half/median and scope restrictions are explained. |
 | 10 | Non-contiguous cartogram | A complete Australia reference supplies context; six reported state shapes use a common count-to-area factor. Missing territory counts are explicitly unreported. |
-| 11 | Hierarchical treemap | Employment status is the first split; employing businesses are then divided by staff count. A complete colour key names even tiny groups; no unlabelled standalone numbers are shown. |
+| 11 | Hierarchical treemap | Employment status is the first split; employing businesses are then divided by staff count. Contrasting blue/gold status groups, a strong parent outline and four external leader-line labels name even tiny groups and their exact counts. |
 | 12 | Annual-average workforce line | Show long-term industry employment on a zero baseline, with explicit worker units. The latest quarter is reported separately. Basic idiom. |
 
 There are nine candidate advanced idioms: choropleth, proportional-symbol map,

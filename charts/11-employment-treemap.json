@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "width": 500,
-  "height": 310,
+  "width": 1000,
+  "height": 400,
   "padding": 0,
   "background": "#f7f5ef",
   "autosize": {
@@ -69,18 +69,18 @@
             "field": "value",
             "order": "descending"
           },
-          "method": "squarify",
+          "method": "slicedice",
           "size": [
             {
-              "signal": "width"
+              "signal": "width * 0.53"
             },
             {
-              "signal": "height"
+              "signal": "height - 12"
             }
           ],
-          "paddingInner": 3,
-          "paddingTop": 30,
-          "round": true
+          "paddingInner": 0,
+          "paddingTop": 28,
+          "round": false
         }
       ]
     },
@@ -101,6 +101,41 @@
         {
           "type": "filter",
           "expr": "!datum.children"
+        }
+      ]
+    },
+    {
+      "name": "employing",
+      "source": "leaves",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.parent === 'with-employees'"
+        },
+        {
+          "type": "formula",
+          "expr": "(datum.y0+datum.y1)/2",
+          "as": "source_y"
+        },
+        {
+          "type": "formula",
+          "expr": "width * 0.62",
+          "as": "label_x"
+        },
+        {
+          "type": "formula",
+          "expr": "70 + (toNumber(datum.id)-1)*(height-120)/3",
+          "as": "label_y"
+        },
+        {
+          "type": "linkpath",
+          "shape": "diagonal",
+          "orient": "horizontal",
+          "sourceX": "x1",
+          "sourceY": "source_y",
+          "targetX": "label_x",
+          "targetY": "label_y",
+          "as": "leader"
         }
       ]
     }
@@ -126,69 +161,7 @@
             "field": "y1"
           },
           "fill": {
-            "value": "#e4e7e2"
-          },
-          "stroke": {
-            "value": "#233942"
-          },
-          "strokeWidth": {
-            "value": 1
-          }
-        }
-      }
-    },
-    {
-      "type": "text",
-      "encode": {
-        "update": {
-          "x": {
-            "value": 6
-          },
-          "y": {
-            "value": 16
-          },
-          "text": {
-            "value": "Agricultural businesses"
-          },
-          "fill": {
-            "value": "#233942"
-          },
-          "fontSize": {
-            "value": 13
-          }
-        }
-      }
-    },
-    {
-      "type": "text",
-      "from": {
-        "data": "groups"
-      },
-      "encode": {
-        "update": {
-          "x": {
-            "signal": "datum.x0+5"
-          },
-          "y": {
-            "signal": "datum.y0+12"
-          },
-          "text": {
-            "value": [
-              "With",
-              "employees"
-            ]
-          },
-          "lineHeight": {
-            "value": 12
-          },
-          "fill": {
-            "value": "#233942"
-          },
-          "fontSize": {
-            "value": 12
-          },
-          "limit": {
-            "signal": "datum.x1-datum.x0-10"
+            "value": "#ece0cc"
           }
         }
       }
@@ -213,7 +186,13 @@
             "field": "y1"
           },
           "fill": {
-            "signal": "datum.id === '0' ? '#174a67' : datum.id === '1' ? '#4c7189' : datum.id === '2' ? '#355b75' : datum.id === '3' ? '#1c425f' : '#113650'"
+            "signal": "datum.id === '0' ? '#174a67' : '#d6b47b'"
+          },
+          "stroke": {
+            "signal": "datum.id === '0' ? '#f7f5ef' : '#233942'"
+          },
+          "strokeWidth": {
+            "signal": "datum.id === '0' ? 1.5 : datum.y1-datum.y0 > 3 ? 1 : 0"
           },
           "tooltip": {
             "signal": "datum.label + ': ' + format(datum.value, ',') + ' businesses'"
@@ -222,9 +201,62 @@
       }
     },
     {
+      "type": "rect",
+      "from": {
+        "data": "groups"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "datum.x0-1.5"
+          },
+          "y": {
+            "signal": "datum.y0-1.5"
+          },
+          "x2": {
+            "signal": "datum.x1+1.5"
+          },
+          "y2": {
+            "signal": "datum.y1+1.5"
+          },
+          "fillOpacity": {
+            "value": 0
+          },
+          "stroke": {
+            "value": "#233942"
+          },
+          "strokeWidth": {
+            "value": 2
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "update": {
+          "x": {
+            "value": 5
+          },
+          "y": {
+            "value": 17
+          },
+          "text": {
+            "value": "Agricultural businesses"
+          },
+          "fill": {
+            "value": "#233942"
+          },
+          "fontSize": {
+            "signal": "width < 600 ? 11 : 13"
+          }
+        }
+      }
+    },
+    {
       "type": "text",
       "from": {
-        "data": "leaves"
+        "data": "groups"
       },
       "encode": {
         "update": {
@@ -232,19 +264,22 @@
             "signal": "(datum.x0+datum.x1)/2"
           },
           "y": {
-            "signal": "(datum.y0+datum.y1)/2 - 9"
+            "signal": "datum.y0+11"
           },
           "text": {
-            "signal": "datum.x1-datum.x0 > 115 && datum.y1-datum.y0 > 55 ? datum.label : ''"
+            "signal": "width >= 600 ? ['With','employees'] : ''"
+          },
+          "lineHeight": {
+            "value": 12
           },
           "align": {
             "value": "center"
           },
           "fill": {
-            "value": "#f7f5ef"
+            "value": "#233942"
           },
           "fontSize": {
-            "value": 14
+            "value": 12
           }
         }
       }
@@ -260,10 +295,10 @@
             "signal": "(datum.x0+datum.x1)/2"
           },
           "y": {
-            "signal": "(datum.y0+datum.y1)/2 + 15"
+            "signal": "(datum.y0+datum.y1)/2 - 8"
           },
           "text": {
-            "signal": "datum.x1-datum.x0 > 115 && datum.y1-datum.y0 > 55 ? format(datum.value, ',') : ''"
+            "signal": "datum.id === '0' ? 'No employees' : ''"
           },
           "align": {
             "value": "center"
@@ -272,7 +307,160 @@
             "value": "#f7f5ef"
           },
           "fontSize": {
-            "value": 16
+            "signal": "width < 600 ? 12 : 16"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "(datum.x0+datum.x1)/2"
+          },
+          "y": {
+            "signal": "(datum.y0+datum.y1)/2 + 17"
+          },
+          "text": {
+            "signal": "datum.id === '0' ? format(datum.value, ',') : ''"
+          },
+          "align": {
+            "value": "center"
+          },
+          "fill": {
+            "value": "#f7f5ef"
+          },
+          "fontSize": {
+            "value": 18
+          },
+          "fontWeight": {
+            "value": 600
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "width*0.62"
+          },
+          "y": {
+            "value": 28
+          },
+          "text": {
+            "value": "With employees"
+          },
+          "fill": {
+            "value": "#233942"
+          },
+          "fontSize": {
+            "signal": "width < 600 ? 12 : 15"
+          },
+          "fontWeight": {
+            "value": 600
+          }
+        }
+      }
+    },
+    {
+      "type": "path",
+      "from": {
+        "data": "employing"
+      },
+      "encode": {
+        "update": {
+          "path": {
+            "field": "leader"
+          },
+          "stroke": {
+            "value": "#53656e"
+          },
+          "strokeWidth": {
+            "value": 1
+          },
+          "fillOpacity": {
+            "value": 0
+          }
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {
+        "data": "employing"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "field": "x1"
+          },
+          "y": {
+            "field": "source_y"
+          },
+          "size": {
+            "value": 15
+          },
+          "fill": {
+            "value": "#233942"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "employing"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "datum.label_x+7"
+          },
+          "y": {
+            "signal": "datum.label_y-5"
+          },
+          "text": {
+            "signal": "width < 600 && datum.id === '4' ? ['200 or more','employees'] : datum.label"
+          },
+          "lineHeight": {
+            "value": 14
+          },
+          "fill": {
+            "value": "#233942"
+          },
+          "fontSize": {
+            "signal": "width < 600 ? 12 : 14"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "employing"
+      },
+      "encode": {
+        "update": {
+          "x": {
+            "signal": "datum.label_x+7"
+          },
+          "y": {
+            "signal": "datum.label_y + (width < 600 && datum.id === '4' ? 38 : 16)"
+          },
+          "text": {
+            "signal": "format(datum.value, ',') + ' businesses'"
+          },
+          "fill": {
+            "value": "#233942"
+          },
+          "fontSize": {
+            "signal": "width < 600 ? 12 : 15"
           },
           "fontWeight": {
             "value": 600
@@ -289,5 +477,5 @@
     "period": "June 2025",
     "idiom": "Treemap"
   },
-  "description": "About 75.6% of the derived agriculture-business total is non-employing. First split: businesses without and with employees. Employing businesses contain four staff-size groups. Area counts businesses, not workers. Owners and family may still work without employees. All groups are named in the key and table. Bin sum 144,678, versus published-class total sum 144,681: the difference reflects confidentiality adjustments."
+  "description": "About 75.6% of the derived agriculture-business total is non-employing. The outlined group contains businesses with employees, divided by staff count. Area counts businesses, not workers. Owners and family may still work without employees. Blue shows businesses without employees; gold shows businesses with employees. Leader lines name all four staff-size groups, including the smallest. Bin sum 144,678, versus published-class total sum 144,681: the difference reflects confidentiality adjustments."
 }

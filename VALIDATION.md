@@ -23,7 +23,7 @@ all three chart signals and draws a visible outline, data tables expand, and
 the selector can receive keyboard focus and keyboard input. All values remain
 visible during highlighting; data marks are not faded below their contrast.
 
-Measured chart-data/specification responses: **1,699,246 bytes** (about 1.70 MB),
+Measured chart-data/specification responses: **1,703,344 bytes** (about 1.70 MB),
 including official geometry, readable specs and accessible-table metadata.
 Geometry is fetched once and reused by both ordinary maps. This excludes chart
 library JavaScript; it is a data/specification budget, not the whole page's byte
@@ -219,3 +219,19 @@ computed proportions. Narrow screens place these four labels outside the
 bars with short leader lines. All four laptop checks pass; 375/768/1280 px
 screenshots were reviewed. All three sales bands and source counts are
 unchanged; exact proportions remain in tooltips and the table.
+
+## Employee treemap clarity
+
+The hierarchical treemap is retained in a full-width row. Deep blue separates
+businesses without employees from a light-gold outlined employing group.
+The blue/gold luminance contrast is 4.83:1. Dark text against gold is 6.15:1;
+external callouts use dark text against paper. Four non-crossing leader-line
+callouts identify 1–4 (26,014), 5–19 (7,789), 20–199 (1,419) and 200-or-more
+(55) employee groups. Slice-and-dice partitioning aligns staff-group right
+edges for the callouts. Small rectangles are not artificially enlarged.
+
+The source counts, five leaves and four staff-size children are unchanged;
+the existing semantic hierarchy assertions pass. All four laptop checks pass,
+including no SVG text collisions/clipping, chart numbering and interactions.
+375/768/1280 px screenshots were reviewed; all twelve charts load without
+page overflow. The workforce chart follows in its own row.

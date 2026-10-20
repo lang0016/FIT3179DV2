@@ -2358,7 +2358,7 @@
     "title": "Most businesses have no employees",
     "kicker": "SMALL TEAMS, MANY OWNERS",
     "finding": "About 75.6% of the derived agriculture-business total is non-employing.",
-    "note": "First split: businesses without and with employees. Employing businesses contain four staff-size groups. Area counts businesses, not workers. Owners and family may still work without employees. All groups are named in the key and table. Bin sum 144,678, versus published-class total sum 144,681: the difference reflects confidentiality adjustments.",
+    "note": "The outlined group contains businesses with employees, divided by staff count. Area counts businesses, not workers. Owners and family may still work without employees. Blue shows businesses without employees; gold shows businesses with employees. Leader lines name all four staff-size groups, including the smallest. Bin sum 144,678, versus published-class total sum 144,681: the difference reflects confidentiality adjustments.",
     "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
     "period": "June 2025",
     "idiom": "Treemap",
