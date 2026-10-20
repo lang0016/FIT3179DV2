@@ -1973,7 +1973,7 @@
     "title": "Business size depends on the sector",
     "kicker": "SALES BEFORE EXPENSES",
     "finding": "About 60% of poultry businesses report annual turnover of at least AUD 200,000.",
-    "note": "Left: annual sales under 200,000 Australian dollars. Right: 200,000 or more. Rows rank the right-side share. Sales are not profit. Labels show poultry and deer, or your selected sector. Three bands combine six published bins; percentages use their sum because confidentiality adjustments affect totals.",
+    "note": "Each bar totals 100%. Rows rank the share with annual sales of at least 2 million Australian dollars. Sales are not profit. Labels include the smaller high-sales shares; narrow segments use outside labels. Three bands combine six published bins; confidentiality adjustments can affect totals.",
     "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
     "period": "June 2025",
     "idiom": "100% stacked bars",
@@ -1985,9 +1985,9 @@
         "rank": 0,
         "businesses": 60517,
         "share": 59.45454724080678,
-        "signed_share": -59.45454724080678,
-        "midpoint": -29.72727362040339,
-        "label": "59%"
+        "midpoint": 29.72727362040339,
+        "label": "59%",
+        "requested_label": false
       },
       {
         "sector": "Sheep, beef cattle and grain",
@@ -1996,9 +1996,9 @@
         "rank": 1,
         "businesses": 33612,
         "share": 33.02189867075363,
-        "signed_share": 33.02189867075363,
-        "midpoint": 16.510949335376814,
-        "label": "33%"
+        "midpoint": 75.9654965761836,
+        "label": "33%",
+        "requested_label": false
       },
       {
         "sector": "Sheep, beef cattle and grain",
@@ -2007,9 +2007,9 @@
         "rank": 2,
         "businesses": 7658,
         "share": 7.523554088439584,
-        "signed_share": 7.523554088439584,
-        "midpoint": 36.78367571497342,
-        "label": "8%"
+        "midpoint": 96.2382229557802,
+        "label": "8%",
+        "requested_label": true
       },
       {
         "sector": "Fruit and tree nuts",
@@ -2018,9 +2018,9 @@
         "rank": 0,
         "businesses": 7193,
         "share": 61.72659401012615,
-        "signed_share": -61.72659401012615,
-        "midpoint": -30.863297005063075,
-        "label": "62%"
+        "midpoint": 30.863297005063075,
+        "label": "62%",
+        "requested_label": false
       },
       {
         "sector": "Fruit and tree nuts",
@@ -2029,9 +2029,9 @@
         "rank": 1,
         "businesses": 3502,
         "share": 30.052347035098258,
-        "signed_share": 30.052347035098258,
-        "midpoint": 15.026173517549129,
-        "label": "30%"
+        "midpoint": 76.75276752767527,
+        "label": "30%",
+        "requested_label": false
       },
       {
         "sector": "Fruit and tree nuts",
@@ -2040,9 +2040,9 @@
         "rank": 2,
         "businesses": 958,
         "share": 8.221058954775595,
-        "signed_share": 8.221058954775595,
-        "midpoint": 34.16287651248606,
-        "label": "8%"
+        "midpoint": 95.8894705226122,
+        "label": "8%",
+        "requested_label": true
       },
       {
         "sector": "Dairy cattle",
@@ -2051,9 +2051,9 @@
         "rank": 0,
         "businesses": 3244,
         "share": 40.328194927896575,
-        "signed_share": -40.328194927896575,
-        "midpoint": -20.164097463948288,
-        "label": "40%"
+        "midpoint": 20.164097463948288,
+        "label": "40%",
+        "requested_label": false
       },
       {
         "sector": "Dairy cattle",
@@ -2062,9 +2062,9 @@
         "rank": 1,
         "businesses": 3723,
         "share": 46.282943809050224,
-        "signed_share": 46.282943809050224,
-        "midpoint": 23.141471904525112,
-        "label": "46%"
+        "midpoint": 63.46966683242169,
+        "label": "46%",
+        "requested_label": false
       },
       {
         "sector": "Dairy cattle",
@@ -2073,9 +2073,9 @@
         "rank": 2,
         "businesses": 1077,
         "share": 13.388861263053206,
-        "signed_share": 13.388861263053206,
-        "midpoint": 52.977374440576824,
-        "label": "13%"
+        "midpoint": 93.3055693684734,
+        "label": "13%",
+        "requested_label": false
       },
       {
         "sector": "Other livestock",
@@ -2084,9 +2084,9 @@
         "rank": 0,
         "businesses": 4828,
         "share": 68.0,
-        "signed_share": -68.0,
-        "midpoint": -34.0,
-        "label": "68%"
+        "midpoint": 34.0,
+        "label": "68%",
+        "requested_label": false
       },
       {
         "sector": "Other livestock",
@@ -2095,9 +2095,9 @@
         "rank": 1,
         "businesses": 1884,
         "share": 26.535211267605636,
-        "signed_share": 26.535211267605636,
-        "midpoint": 13.267605633802818,
-        "label": "27%"
+        "midpoint": 81.26760563380282,
+        "label": "27%",
+        "requested_label": false
       },
       {
         "sector": "Other livestock",
@@ -2106,9 +2106,9 @@
         "rank": 2,
         "businesses": 388,
         "share": 5.464788732394366,
-        "signed_share": 5.464788732394366,
-        "midpoint": 29.26760563380282,
-        "label": "5%"
+        "midpoint": 97.26760563380282,
+        "label": "5%",
+        "requested_label": true
       },
       {
         "sector": "Other crops",
@@ -2117,9 +2117,9 @@
         "rank": 0,
         "businesses": 3166,
         "share": 46.82739239757433,
-        "signed_share": -46.82739239757433,
-        "midpoint": -23.413696198787164,
-        "label": "47%"
+        "midpoint": 23.413696198787164,
+        "label": "47%",
+        "requested_label": false
       },
       {
         "sector": "Other crops",
@@ -2128,9 +2128,9 @@
         "rank": 1,
         "businesses": 3027,
         "share": 44.77148350835675,
-        "signed_share": 44.77148350835675,
-        "midpoint": 22.385741754178376,
-        "label": "45%"
+        "midpoint": 69.21313415175271,
+        "label": "45%",
+        "requested_label": false
       },
       {
         "sector": "Other crops",
@@ -2139,9 +2139,9 @@
         "rank": 2,
         "businesses": 568,
         "share": 8.401124094068924,
-        "signed_share": 8.401124094068924,
-        "midpoint": 48.97204555539121,
-        "label": "8%"
+        "midpoint": 95.79943795296555,
+        "label": "8%",
+        "requested_label": true
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -2150,9 +2150,9 @@
         "rank": 0,
         "businesses": 3080,
         "share": 54.580896686159846,
-        "signed_share": -54.580896686159846,
-        "midpoint": -27.290448343079923,
-        "label": "55%"
+        "midpoint": 27.290448343079923,
+        "label": "55%",
+        "requested_label": false
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -2161,9 +2161,9 @@
         "rank": 1,
         "businesses": 1956,
         "share": 34.662413609782035,
-        "signed_share": 34.662413609782035,
-        "midpoint": 17.331206804891018,
-        "label": "35%"
+        "midpoint": 71.91210349105086,
+        "label": "35%",
+        "requested_label": false
       },
       {
         "sector": "Mushrooms and vegetables",
@@ -2172,9 +2172,9 @@
         "rank": 2,
         "businesses": 607,
         "share": 10.756689704058125,
-        "signed_share": 10.756689704058125,
-        "midpoint": 40.040758461811095,
-        "label": "11%"
+        "midpoint": 94.62165514797094,
+        "label": "11%",
+        "requested_label": false
       },
       {
         "sector": "Nursery and floriculture",
@@ -2183,9 +2183,9 @@
         "rank": 0,
         "businesses": 1221,
         "share": 54.753363228699556,
-        "signed_share": -54.753363228699556,
-        "midpoint": -27.376681614349778,
-        "label": "55%"
+        "midpoint": 27.376681614349778,
+        "label": "55%",
+        "requested_label": false
       },
       {
         "sector": "Nursery and floriculture",
@@ -2194,9 +2194,9 @@
         "rank": 1,
         "businesses": 777,
         "share": 34.84304932735426,
-        "signed_share": 34.84304932735426,
-        "midpoint": 17.42152466367713,
-        "label": "35%"
+        "midpoint": 72.17488789237669,
+        "label": "35%",
+        "requested_label": false
       },
       {
         "sector": "Nursery and floriculture",
@@ -2205,9 +2205,9 @@
         "rank": 2,
         "businesses": 232,
         "share": 10.403587443946188,
-        "signed_share": 10.403587443946188,
-        "midpoint": 40.044843049327355,
-        "label": "10%"
+        "midpoint": 94.79820627802691,
+        "label": "10%",
+        "requested_label": false
       },
       {
         "sector": "Poultry",
@@ -2216,9 +2216,9 @@
         "rank": 0,
         "businesses": 555,
         "share": 40.18826937002173,
-        "signed_share": -40.18826937002173,
-        "midpoint": -20.094134685010864,
-        "label": "40%"
+        "midpoint": 20.094134685010864,
+        "label": "40%",
+        "requested_label": false
       },
       {
         "sector": "Poultry",
@@ -2227,9 +2227,9 @@
         "rank": 1,
         "businesses": 613,
         "share": 44.3881245474294,
-        "signed_share": 44.3881245474294,
-        "midpoint": 22.1940622737147,
-        "label": "44%"
+        "midpoint": 62.38233164373643,
+        "label": "44%",
+        "requested_label": false
       },
       {
         "sector": "Poultry",
@@ -2238,9 +2238,9 @@
         "rank": 2,
         "businesses": 213,
         "share": 15.423606082548876,
-        "signed_share": 15.423606082548876,
-        "midpoint": 52.099927588703835,
-        "label": "15%"
+        "midpoint": 92.28819695872556,
+        "label": "15%",
+        "requested_label": false
       },
       {
         "sector": "Deer",
@@ -2249,9 +2249,9 @@
         "rank": 0,
         "businesses": 69,
         "share": 85.18518518518519,
-        "signed_share": -85.18518518518519,
-        "midpoint": -42.592592592592595,
-        "label": "85%"
+        "midpoint": 42.592592592592595,
+        "label": "85%",
+        "requested_label": false
       },
       {
         "sector": "Deer",
@@ -2260,9 +2260,9 @@
         "rank": 1,
         "businesses": 12,
         "share": 14.814814814814813,
-        "signed_share": 14.814814814814813,
-        "midpoint": 7.4074074074074066,
-        "label": "15%"
+        "midpoint": 92.5925925925926,
+        "label": "15%",
+        "requested_label": false
       },
       {
         "sector": "Deer",
@@ -2271,9 +2271,9 @@
         "rank": 2,
         "businesses": 0,
         "share": 0.0,
-        "signed_share": 0.0,
-        "midpoint": 14.814814814814813,
-        "label": "0%"
+        "midpoint": 100.0,
+        "label": "0%",
+        "requested_label": false
       }
     ],
     "columns": [

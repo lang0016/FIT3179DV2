@@ -23,7 +23,7 @@ all three chart signals and draws a visible outline, data tables expand, and
 the selector can receive keyboard focus and keyboard input. All values remain
 visible during highlighting; data marks are not faded below their contrast.
 
-Measured chart-data/specification responses: **1,698,445 bytes** (about 1.70 MB),
+Measured chart-data/specification responses: **1,699,246 bytes** (about 1.70 MB),
 including official geometry, readable specs and accessible-table metadata.
 Geometry is fetched once and reused by both ordinary maps. This excludes chart
 library JavaScript; it is a data/specification budget, not the whole page's byte
@@ -209,3 +209,13 @@ The live page returned HTTP 200 over verified HTTPS on 20 October 2026;
 public Chromium remains subject to the previously recorded certificate-trust
 limitation. Font and decorative artwork bytes are not statistical data and
 are tracked separately from the data/specification download budget.
+
+## Sales composition labels
+
+The sales chart uses aligned 0–100% bars, ranked by the 2-million-or-more
+share. Direct labels retain Other crops (8%), Fruit and tree nuts (8%),
+Sheep/beef/grain (8%) and Other livestock (5%), rounded from the original
+computed proportions. Narrow screens place these four labels outside the
+bars with short leader lines. All four laptop checks pass; 375/768/1280 px
+screenshots were reviewed. All three sales bands and source counts are
+unchanged; exact proportions remain in tooltips and the table.

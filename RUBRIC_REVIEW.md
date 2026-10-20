@@ -44,7 +44,7 @@ the chosen idioms.
 | 05 | Waterfall | Account for each state's contribution to a national dairy-farm decline; does not claim causes. |
 | 06 | Population pyramid | Compare age distributions by source sex category. Symmetric signed scale, separate colours, clear zero rule. |
 | 07 | Heatmap | Reveal relative sector concentration, with a defined 1× reference. Labels highlight the finding or selected sector rather than all 72 cells. |
-| 08 | Diverging 100% stacked bars | Compare sales below/above 200,000 Australian dollars at a common threshold. The higher-sales side contains two bands. Rows rank the higher-sales share. This remains a basic stacked-bar idiom. |
+| 08 | 100% stacked bars | Compare three annual-sales bands on a shared 0–100% scale. Rows rank the 2-million-or-more share. Smaller high-sales segments are directly labelled, outside the bar when necessary. This remains a basic stacked-bar idiom. |
 | 09 | Box plot with observations | Compare state variation in non-employing shares. All sectors share a 0–100% axis; the middle half/median and scope restrictions are explained. |
 | 10 | Non-contiguous cartogram | A complete Australia reference supplies context; six reported state shapes use a common count-to-area factor. Missing territory counts are explicitly unreported. |
 | 11 | Hierarchical treemap | Employment status is the first split; employing businesses are then divided by staff count. A complete colour key names even tiny groups; no unlabelled standalone numbers are shown. |
@@ -63,14 +63,14 @@ decides how the chart-count rule applies.
 | Suggestion | Decision for this project |
 | --- | --- |
 | Typography and whitespace | Added a licensed topic-appropriate editorial serif for headings; kept body/axes consistent. Retained restrained banner treatment and aligned chart rows. |
-| Do not annotate every point | Heatmap already labels only the selected finding/sector. Circle-map numeric labels are now selective. Sales bars label contrasting examples or the selected sector. Endpoints and accounting contributions retain useful labels. |
+| Do not annotate every point | Heatmap already labels only the selected finding/sector. Circle-map numeric labels are now selective. Sales bars retain segment labels where they fit and four focal high-sales shares; narrow segments use outside labels. Endpoints and accounting contributions retain useful labels. |
 | Crowded proportional circles; consider classes | Reduced the circle-area range while preserving continuous proportions. There are eight state points, not hundreds of regional points. Binning would lose exact count relationships and would require a different legend/description; it is unnecessary here. |
 | Treemap hierarchy | Changed a flat set of size bins into an explicit employment-status → employing staff-size hierarchy, without inventing data categories or changing totals. |
 | Consistent y-axes | Worker-count time series now start at zero; percentage distributions share 0–100%. The pyramid uses symmetric negative/positive positions. Counts, percentages, ratios and workforce estimates are different units, so forcing every chart to the same numeric range would be wrong. |
 | No overlap | Existing browser checks cover clipping, text collisions and page overflow at four laptop widths. Small-screen screenshots are reviewed separately; these checks do not establish perfect placement at every possible width. |
 | Double-encoding scatterplot | Not applicable: there is no scatterplot. Adding one merely to satisfy a general suggestion would weaken the story. |
 | Avoid abbreviations and underscores | Tooltip field titles are human-readable. Currency is expanded in the sales legend; the title spells out New South Wales. Geographic state codes are retained where space is limited and explicitly defined in the adjacent state key and full-name tooltips. Source table identifiers remain in provenance, not presented as analytic concepts. |
-| Improve a stacked bar | Added a shared sales threshold, meaningful row ranking and selective labels. The caption explains left/right sides, the currency and why sales are not profit. |
+| Improve a stacked bar | Use a common 0–100% scale, meaningful row ranking and readable segment labels. The caption explains the currency and why sales are not profit. Smaller high-sales segments retain labels without forcing text into insufficient space. |
 | Regional place annotations | Both ordinary maps retain place labels and an eight-state/territory name key. Chart 10 includes a complete geographic reference with state labels at laptop widths. |
 
 ## Source freshness and integrity
