@@ -121,3 +121,8 @@ ratios; exact shares, counts and ratios remain in the accessible table.
 
 The farmer age/sex pyramid uses blue for source-category males and ochre
 (`#926039`) for females, with a dark vertical zero line and matching side keys.
+
+Lecturer feedback revisions reduce the title and banner emphasis, darken
+paragraph text, align paired plotting rows and restrict heatmap labels to
+the key finding or selected sector. Chart 10 now pairs a complete geographic
+reference with the six reported count-scaled dairy state silhouettes.

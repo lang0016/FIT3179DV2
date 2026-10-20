@@ -46,7 +46,7 @@
   }
   function plotHeight(meta, width) {
     if (meta.n === 8 || meta.n === 9) return 410;
-    if (meta.n === 10) return Math.max(255, width * 470 / 760);
+    if (meta.n === 10) return width * 560 / 1000;
     return 370;
   }
   async function render(meta) {

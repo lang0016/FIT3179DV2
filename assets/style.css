@@ -18,3 +18,20 @@ body{background-color:var(--paper);background-image:radial-gradient(ellipse at 0
 @media print{body{background:var(--paper)}.farm-landscape img{height:180px}}
 
 .mini-key .female::before{background:#926039}
+
+/* Lecturer review: keep the visual emphasis on the evidence. */
+:root{--muted:#3e515b}
+body{background-image:radial-gradient(ellipse at 0 0,rgba(120,143,103,.055),transparent 30%)}
+.hero{padding-top:42px}
+.hero h1{font-size:clamp(54px,6vw,76px);letter-spacing:-3px}
+.hero-copy{padding-left:32px}
+.farm-landscape{margin-top:24px;border-color:var(--line)}
+.farm-landscape img{height:150px;filter:saturate(.5) contrast(.85);opacity:.72}
+.farm-landscape figcaption{font-size:10px}
+.chart-caption .chart-note,.section-intro p,.hero-copy p,.source-grid p,.attribution p{color:var(--ink)}
+.chart-topline{color:var(--muted)}
+.hero-stats{background:transparent}
+.closing{background:transparent}
+@media(min-width:701px){.card-grid:not(.single) .chart-card{display:grid;grid-template-rows:185px auto 1fr auto auto}.card-grid:not(.single) .chart-card header{min-height:0}.card-grid:not(.single) .chart-caption{align-content:start}}
+@media(max-width:900px){.hero-copy{padding-left:12px}}
+@media(max-width:700px){.hero h1{font-size:62px}.hero-copy{padding-left:0}.farm-landscape img{height:110px}.farm-landscape figcaption{font-size:8px}.hero{padding-top:32px}}

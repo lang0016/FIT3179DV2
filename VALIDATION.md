@@ -23,7 +23,7 @@ all three chart signals and draws a visible outline, data tables expand, and
 the selector can receive keyboard focus and keyboard input. All values remain
 visible during highlighting; data marks are not faded below their contrast.
 
-Measured chart-data/specification responses: **1,261,098 bytes** (about 1.25 MB),
+Measured chart-data/specification responses: **1,691,488 bytes** (about 1.69 MB),
 including official geometry, readable specs and accessible-table metadata.
 Geometry is fetched once and reused by both ordinary maps. This excludes chart
 library JavaScript; it is a data/specification budget, not the whole page's byte
@@ -169,3 +169,19 @@ The sector heatmap, sales bars and staffing box plot display 07, 08 and 09
 respectively. Internal chart IDs and specification filenames are retained.
 The browser check asserts the complete visible counter sequence at every
 required laptop width.
+
+## Lecturer feedback revisions
+
+The banner image height is reduced from 290 to 150 px on desktop (210 to
+110 px on small screens), with reduced saturation and contrast. The title
+size is reduced, background decoration is quieter and paragraph notes use
+ink #233942 (11.10:1 against paper). Paired charts use a common header row
+so their plots align. Heatmap labels are restricted to the two dairy findings
+or the selected sector; all exact values remain in tooltips and tables.
+
+Chart 10 pairs an eight-state/territory geographic reference with the six
+reported farm-scaled shapes in aligned rows. One area-per-farm factor is
+retained, and non-overlap is asserted during generation. NT/ACT are identified
+as unreported. Browser checks verify all eight reference features, six
+reported shapes and the total of 3,772. All four laptop widths pass; additional
+375/768 px screenshots were reviewed without page overflow or missing charts.

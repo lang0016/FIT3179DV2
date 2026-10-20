@@ -42,6 +42,8 @@ try {
   });
   result.dataBytes=(await Promise.all(dataRequests)).reduce((a,b)=>a+b,0);
   if(width===1280){
+   const mapData=await page.evaluate(()=>{const view=window.__farmers.views.get(10).view;return {reference:view.data('reference').map(r=>r.abbr).sort(),reported:view.data('states').length,total:view.data('states').reduce((sum,r)=>sum+r.farms,0)};});
+   assert.deepEqual(mapData.reference,['ACT','NSW','NT','QLD','SA','TAS','VIC','WA']);assert.equal(mapData.reported,6);assert.equal(mapData.total,3772);
    await page.selectOption('#sector-focus','Dairy cattle');
    await page.waitForFunction(()=>[7,8,9].every(n=>window.__farmers.views.get(n).view.signal('sectorFocus')==='Dairy cattle'));
    result.outlineHighlight=await page.locator('#chart-8 [stroke="#233942"][stroke-width="3"]').count()>0;
