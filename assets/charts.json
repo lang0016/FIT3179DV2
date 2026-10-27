@@ -694,7 +694,7 @@
     "title": "Business staffing differs between states",
     "kicker": "EACH DOT IS A STATE",
     "finding": "Dairy\u2019s non-employing share spans about 48\u201378% across eligible states.",
-    "note": "Pale boxes hold the middle half of state shares; the dark line is the median. Larger dots show individual states, offset vertically for visibility; only horizontal position represents percentage. Each state counts equally. Include \u2265100 businesses and \u22655 eligible states per sector. Owners and family may still work.",
+    "note": "Pale blue boxes hold the middle half of state shares; the dark line is the median. Each state counts equally. Include \u2265100 businesses and \u22655 eligible states per sector. Owners and family may still work.",
     "source": "https://www.abs.gov.au/statistics/economy/business-indicators/counts-australian-businesses-including-entries-and-exits/jul2021-jun2025",
     "period": "June 2025",
     "idiom": "Box plot",

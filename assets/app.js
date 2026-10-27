@@ -46,7 +46,6 @@
     card.append(header,plot,caption,source,details);return card;
   }
   function plotHeight(meta, width) {
-    if (meta.n === 7) return width < 480 ? 520 : 410;
     if (meta.n === 8 || meta.n === 9) return 410;
     if (meta.n === 11) return 400;
     if (meta.n === 10) return width * 560 / 1000;

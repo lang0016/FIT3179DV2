@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": "container",
-  "height": 410,
+  "height": 340,
   "background": "#f7f5ef",
   "padding": {
     "left": 5,
@@ -462,13 +462,10 @@
       "mark": {
         "type": "point",
         "filled": true,
-        "size": 80,
+        "size": 48,
         "color": "#174a67",
-        "stroke": "#ffffff",
-        "strokeWidth": 1.5,
-        "yOffset": {
-          "expr": "datum.pointOffset"
-        }
+        "stroke": "#f7f5ef",
+        "strokeWidth": 0.5
       },
       "encoding": {
         "opacity": {
@@ -479,14 +476,14 @@
             "test": "sectorFocus !== 'All sectors' && datum.sector === sectorFocus",
             "value": "#233942"
           },
-          "value": "#ffffff"
+          "value": "#f7f5ef"
         },
         "strokeWidth": {
           "condition": {
             "test": "sectorFocus !== 'All sectors' && datum.sector === sectorFocus",
-            "value": 2.5
+            "value": 3
           },
-          "value": 1.5
+          "value": 1
         },
         "tooltip": [
           {
@@ -512,34 +509,7 @@
             "format": ",.0f"
           }
         ]
-      },
-      "transform": [
-        {
-          "window": [
-            {
-              "op": "row_number",
-              "as": "pointRank"
-            }
-          ],
-          "groupby": [
-            "sector"
-          ],
-          "sort": [
-            {
-              "field": "share",
-              "order": "ascending"
-            },
-            {
-              "field": "state",
-              "order": "ascending"
-            }
-          ]
-        },
-        {
-          "calculate": "((datum.pointRank - 1) % (width < 300 ? 5 : 3) - (width < 300 ? 2 : 1)) * 11",
-          "as": "pointOffset"
-        }
-      ]
+      }
     }
   ],
   "usermeta": {
@@ -550,5 +520,5 @@
     "period": "June 2025",
     "idiom": "Box plot"
   },
-  "description": "Dairy\u2019s non-employing share spans about 48\u201378% across eligible states. Pale boxes hold the middle half of state shares; the dark line is the median. Larger dots show individual states, offset vertically for visibility; only horizontal position represents percentage. Each state counts equally. Include \u2265100 businesses and \u22655 eligible states per sector. Owners and family may still work."
+  "description": "Dairy\u2019s non-employing share spans about 48\u201378% across eligible states. Pale blue boxes hold the middle half of state shares; the dark line is the median. Each state counts equally. Include \u2265100 businesses and \u22655 eligible states per sector. Owners and family may still work."
 }
