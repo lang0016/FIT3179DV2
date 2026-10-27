@@ -926,8 +926,7 @@
     {
       "mark": {
         "type": "rect",
-        "stroke": "#f7f5ef",
-        "strokeWidth": 2
+        "strokeWidth": 0
       },
       "encoding": {
         "x": {
@@ -987,10 +986,10 @@
               "2\u00d7 or more"
             ],
             "range": [
-              "#82512e",
-              "#926039",
-              "#53656e",
-              "#356c82",
+              "#e3edf3",
+              "#b4cddd",
+              "#7da7c2",
+              "#417491",
               "#174a67"
             ]
           },
@@ -1003,20 +1002,6 @@
           }
         },
         "opacity": {
-          "value": 1
-        },
-        "stroke": {
-          "condition": {
-            "test": "sectorFocus !== 'All sectors' && datum.sector === sectorFocus",
-            "value": "#233942"
-          },
-          "value": "#f7f5ef"
-        },
-        "strokeWidth": {
-          "condition": {
-            "test": "sectorFocus !== 'All sectors' && datum.sector === sectorFocus",
-            "value": 3
-          },
           "value": 1
         },
         "tooltip": [
@@ -1133,7 +1118,14 @@
             "type": "quantitative",
             "format": ".1f"
           }
-        ]
+        ],
+        "color": {
+          "condition": {
+            "test": "datum.relative >= 1.25",
+            "value": "#f7f5ef"
+          },
+          "value": "#233942"
+        }
       }
     }
   ],
@@ -1145,5 +1137,5 @@
     "period": "June 2025",
     "idiom": "Heatmap"
   },
-  "description": "Dairy makes up a larger business share in Victoria and Tasmania than across the eight states combined. Each cell divides a sector\u2019s share within that state by its share across all eight states. Blue means over-represented; ochre means under-represented. This compares business mix, not productivity or absolute counts. Labels highlight dairy in Victoria and Tasmania; choose a sector for its labels. Exact values are in tooltips and the table. Small territory counts can produce volatile ratios."
+  "description": "Dairy makes up a larger business share in Victoria and Tasmania than across the eight states combined. Each cell divides a sector\u2019s share within that state by its share across all eight states. Darker blue means greater concentration. Below 1\u00d7 is under-represented; above 1\u00d7 is over-represented. This compares business mix, not productivity or absolute counts. Labels highlight dairy in Victoria and Tasmania; choose a sector for its labels. Exact values are in tooltips and the table. Small territory counts can produce volatile ratios."
 }

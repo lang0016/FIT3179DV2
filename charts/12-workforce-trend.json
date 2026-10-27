@@ -250,7 +250,7 @@
     {
       "mark": {
         "type": "line",
-        "color": "#174a67",
+        "color": "#216b60",
         "strokeWidth": 3.5,
         "strokeCap": "round"
       }
@@ -264,7 +264,7 @@
       "mark": {
         "type": "point",
         "filled": true,
-        "color": "#174a67",
+        "color": "#216b60",
         "size": 75,
         "stroke": "#f7f5ef",
         "strokeWidth": 2
@@ -280,7 +280,7 @@
         "type": "text",
         "fontSize": 14,
         "fontWeight": 600,
-        "color": "#174a67",
+        "color": "#216b60",
         "align": {
           "expr": "datum.year === 2000 ? 'left' : 'right'"
         },

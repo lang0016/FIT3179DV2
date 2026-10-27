@@ -48,7 +48,7 @@ try {
    assert.equal(hierarchy.employingGroups,4);assert.equal(hierarchy.leaves,5);assert.equal(hierarchy.total,144678);
    await page.selectOption('#sector-focus','Dairy cattle');
    await page.waitForFunction(()=>[7,8,9].every(n=>window.__farmers.views.get(n).view.signal('sectorFocus')==='Dairy cattle'));
-   result.outlineHighlight=await page.locator('#chart-8 [stroke="#233942"][stroke-width="3"]').count()>0;
+   result.labelHighlight=await page.locator('#chart-8 .mark-text text').count() >= 8;
    result.highlight=await page.evaluate(()=>[7,8,9].every(n=>window.__farmers.views.get(n).view.signal('sectorFocus')==='Dairy cattle'));
    await page.locator('#figure-6 summary').click();result.dataTable=await page.locator('#figure-6 tbody').isVisible();
    await page.locator('#sector-focus').focus();await page.keyboard.press('Home');result.keyboardControl=await page.locator('#sector-focus').evaluate(el=>document.activeElement===el);
@@ -59,7 +59,7 @@ try {
   assert.deepEqual(await page.locator('.chart-counter').allTextContents(),Array.from({length:12},(_,i)=>String(i+1).padStart(2,'0')+' / 12'));
   assert.equal(result.overflow,false);assert.deepEqual(result.paragraphViolations,[]);assert.deepEqual(result.textOutside,[]);assert.deepEqual(result.textOverlaps,[]);
   assert.deepEqual(errors,[]);assert.deepEqual(warnings,[]);assert.deepEqual(failed,[]);assert.deepEqual(badResponses,[]);assert.ok(result.dataBytes<2_000_000);
-  if(width===1280){assert.equal(result.highlight,true);assert.equal(result.outlineHighlight,true);assert.equal(result.dataTable,true);assert.equal(result.keyboardControl,true);}
+  if(width===1280){assert.equal(result.highlight,true);assert.equal(result.labelHighlight,true);assert.equal(result.dataTable,true);assert.equal(result.keyboardControl,true);}
   await page.close();
  }
  console.log(JSON.stringify(results,null,2));
