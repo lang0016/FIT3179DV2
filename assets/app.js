@@ -75,6 +75,29 @@
       console.error('Chart '+meta.n,error);el.replaceChildren(node('p','plot-error','This chart could not load. The data table and source link below are still available.'));el.dataset.error='true';
     }
   }
+  // Measure actual wrapping so short words cannot exceed nine per line.
+  function fitReadingWidths() {
+    document.querySelectorAll('p').forEach(p => {
+      p.style.maxWidth = '';
+      if (!p.getClientRects().length) return;
+      let limit = parseFloat(getComputedStyle(p).maxWidth);
+      if (!Number.isFinite(limit)) return;
+      const wordCount = () => {
+        const lines = new Map(), walk = document.createTreeWalker(p, NodeFilter.SHOW_TEXT);
+        let text;
+        while ((text = walk.nextNode())) {
+          for (const match of text.textContent.matchAll(/\S+/g)) {
+            const range = document.createRange();
+            range.setStart(text, match.index); range.setEnd(text, match.index + match[0].length);
+            const rect = range.getClientRects()[0];
+            if (rect?.width) {const y = Math.round(rect.top); lines.set(y, (lines.get(y) || 0) + 1);}
+          }
+        }
+        return Math.max(0, ...lines.values());
+      };
+      while (wordCount() > 9 && limit > 40) {limit -= 2; p.style.maxWidth = limit + 'px';}
+    });
+  }
   async function init() {
     const response=await fetch('assets/charts.json',{cache:'no-cache'});if (!response.ok) throw new Error('Chart register could not load');metadata=await response.json();
     let displayNumber=0;
@@ -84,8 +107,11 @@
       for (const n of [7,8,9]) {const entry=views.get(n);if(entry) await entry.view.signal('sectorFocus',select.value).runAsync();}
     });
     await Promise.all(metadata.map(render));
+    await document.fonts.ready;
+    fitReadingWidths();
     let timer;
     window.addEventListener('resize',()=>{clearTimeout(timer);timer=setTimeout(async()=>{
+      fitReadingWidths();
       for (const entry of views.values()) {
         const width=Math.floor(entry.el.clientWidth);if(width===entry.width) continue;
         if([8,9].includes(entry.meta.n) && (width < 480) !== (entry.width < 480)) {await render(entry.meta);continue;}

@@ -25,12 +25,12 @@ try {
   await page.waitForFunction(()=>document.documentElement.dataset.ready==='true',{timeout:60000});
   const result=await page.evaluate(()=>{
    const paragraphViolations=[];
-   // The student requested a full-width acknowledgement; story paragraphs stay narrow.
-   document.querySelectorAll('p:not(.acknowledgement p)').forEach(p=>{
+   // Every paragraph, including the acknowledgement, stays below ten words per line.
+   document.querySelectorAll('p').forEach(p=>{
     if(!p.getClientRects().length)return;
     const lines={};const walk=document.createTreeWalker(p,NodeFilter.SHOW_TEXT);let t;
     while(t=walk.nextNode()){const re=/\S+/g;let m;while(m=re.exec(t.textContent)){const range=document.createRange();range.setStart(t,m.index);range.setEnd(t,m.index+m[0].length);const r=range.getClientRects()[0];if(!r?.width)continue;(lines[Math.round(r.top)]??=[]).push(m[0]);}}
-    for(const words of Object.values(lines))if(words.length>10)paragraphViolations.push(words.join(' '));
+    for(const words of Object.values(lines))if(words.length>9)paragraphViolations.push(words.join(' '));
    });
    const plots=[...document.querySelectorAll('.chart-box')];const textOutside=[],textOverlaps=[];
    for(const svg of document.querySelectorAll('.chart-box svg')){
