@@ -968,22 +968,13 @@
           }
         },
         "color": {
-          "field": "share_band",
-          "type": "ordinal",
-          "sort": [
-            "< 0.5\u00d7",
-            "0.5\u2013<0.8\u00d7",
-            "0.8\u2013<1.25\u00d7",
-            "1.25\u2013<2\u00d7",
-            "2\u00d7 or more"
-          ],
+          "field": "relative",
+          "type": "quantitative",
           "scale": {
+            "type": "linear",
             "domain": [
-              "< 0.5\u00d7",
-              "0.5\u2013<0.8\u00d7",
-              "0.8\u2013<1.25\u00d7",
-              "1.25\u2013<2\u00d7",
-              "2\u00d7 or more"
+              0,
+              5
             ],
             "range": [
               "#e3edf3",
@@ -991,14 +982,30 @@
               "#7da7c2",
               "#417491",
               "#174a67"
-            ]
+            ],
+            "clamp": true,
+            "nice": false
           },
           "legend": {
             "title": "Relative concentration (\u00d7)",
-            "type": "symbol",
-            "columns": 3,
-            "symbolType": "square",
-            "labelFontSize": 12
+            "type": "gradient",
+            "orient": "bottom",
+            "direction": "horizontal",
+            "gradientLength": {
+              "expr": "max(80, width - 10)"
+            },
+            "gradientThickness": 14,
+            "values": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "labelExpr": "format(datum.value, '.0f') + '\u00d7'",
+            "labelFontSize": 12,
+            "offset": 16
           }
         },
         "opacity": {
@@ -1121,10 +1128,10 @@
         ],
         "color": {
           "condition": {
-            "test": "datum.relative >= 1.25",
-            "value": "#f7f5ef"
+            "test": "luminance(scale('color', datum.relative)) < 0.179",
+            "value": "#ffffff"
           },
-          "value": "#233942"
+          "value": "#000000"
         }
       }
     }
@@ -1137,5 +1144,5 @@
     "period": "June 2025",
     "idiom": "Heatmap"
   },
-  "description": "Dairy makes up a larger business share in Victoria and Tasmania than across the eight states combined. Each cell divides a sector\u2019s share within that state by its share across all eight states. Darker blue means greater concentration. Below 1\u00d7 is under-represented; above 1\u00d7 is over-represented. This compares business mix, not productivity or absolute counts. Labels highlight dairy in Victoria and Tasmania; choose a sector for its labels. Exact values are in tooltips and the table. Small territory counts can produce volatile ratios."
+  "description": "Dairy makes up a larger business share in Victoria and Tasmania than across the eight states combined. Each cell divides a sector\u2019s share within that state by its share across all eight states. The continuous blue gradient shows the actual ratio: darker blue means greater concentration. Below 1\u00d7 is under-represented; above 1\u00d7 is over-represented. This compares business mix, not productivity or absolute counts. Labels highlight dairy in Victoria and Tasmania; choose a sector for its labels. Exact values are in tooltips and the table. Small territory counts can produce volatile ratios."
 }
